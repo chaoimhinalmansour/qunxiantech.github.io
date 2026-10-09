@@ -1,0 +1,336 @@
+{
+  "date": "2026-10-10",
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "status": "本地全量核对通过；GitHub 入库单独记录",
+  "checks": [
+    {
+      "item": "完整课件",
+      "count": 32,
+      "result": "Book 2–3，U1–8，每册 LS/RW 各 8 份"
+    },
+    {
+      "item": "标准画布",
+      "count": "1920 × 1080",
+      "result": "按当前可用屏幕等比缩放，保持 16:9"
+    },
+    {
+      "item": "全部屏幕",
+      "count": 6667,
+      "result": "主流程 6067 屏；参考 600 屏"
+    },
+    {
+      "item": "原题选用",
+      "count": 243,
+      "result": "与已批准的逐题选用记录一致；未改题、未合并题目"
+    },
+    {
+      "item": "逐屏排版与图像加载",
+      "count": 6667,
+      "result": "所有初始题面、答案层和参考层检查；未发现溢出、丢图、答案提前显示或无法恢复"
+    },
+    {
+      "item": "答案、解析、恢复按钮实测",
+      "count": 6524,
+      "result": "实际执行 DOM 点击，全部通过"
+    },
+    {
+      "item": "内部跳转实测",
+      "count": 1909,
+      "result": "原内部目标页与返回操作核对通过"
+    },
+    {
+      "item": "原逐句精听播放器",
+      "count": 224,
+      "result": "保留单句、单句循环、连续播放、变速、音高保持、进度拖动、原文显示/隐藏、停止"
+    },
+    {
+      "item": "共享音视频",
+      "count": 319,
+      "result": "浏览器逐文件解码、播放进度、尾部定位全部通过"
+    },
+    {
+      "item": "原页音源对应",
+      "count": 1716,
+      "result": "音源 SHA256 与原 PPT 相同，原播放起点相同"
+    },
+    {
+      "item": "HTML 播放入口",
+      "count": 1851,
+      "result": "含参考层；全部音源、起点与时长边界核对，72 个不同起点实际播放通过"
+    },
+    {
+      "item": "网页图片",
+      "count": 1448,
+      "result": "原尺寸全部保留；文字/图形使用无损，部分照片质量 95；两张质量偏低图片已改回无损"
+    },
+    {
+      "item": "原生图表",
+      "count": 59,
+      "result": "从原课件图表导出并检查，保留原数据内容"
+    },
+    {
+      "item": "原 PPT 备注",
+      "count": 4339,
+      "result": "备注与来源另附索引，供教师查阅"
+    },
+    {
+      "item": "原文件保护",
+      "count": 32,
+      "result": "全部原 PPT 哈希仍与转换前一致"
+    }
+  ],
+  "keyboard_and_screen": {
+    "focusProtected": true,
+    "next": 2,
+    "prev": 1,
+    "fullscreen": true,
+    "sizes": [
+      {
+        "w": 1920,
+        "h": 1080,
+        "ratio": 1.7777777361723544,
+        "inside": true
+      },
+      {
+        "w": 1280,
+        "h": 720,
+        "ratio": 1.7777779094609627,
+        "inside": true
+      },
+      {
+        "w": 1024,
+        "h": 768,
+        "ratio": 1.7777777777777777,
+        "inside": true
+      }
+    ]
+  },
+  "intentional_original_overlaps": [
+    {
+      "deck": "B2_LS_U01",
+      "page": 154,
+      "a": "8",
+      "b": "9",
+      "nameA": "矩形 7",
+      "nameB": "矩形 8",
+      "textA": "talk about",
+      "textB": "⌣",
+      "w": 29,
+      "h": 19
+    },
+    {
+      "deck": "B2_LS_U01",
+      "page": 155,
+      "a": "8",
+      "b": "9",
+      "nameA": "矩形 7",
+      "nameB": "矩形 8",
+      "textA": "First of all, let’s look at some of the positives.",
+      "textB": "⌣",
+      "w": 29,
+      "h": 19
+    }
+  ],
+  "limitations": [
+    "浏览器实测环境为 Windows Microsoft Edge。音视频逐文件检查为播放引擎与定位检查，未声称人工逐秒听完全部录音。",
+    "网页保留已批准精简 PPT 的屏幕序列，没有进行新一轮内容删减。",
+    "两处连读发音标记与正文交叠是原课件有意标注，保留。"
+  ],
+  "lessons": [
+    {
+      "id": "B2_LS_U01",
+      "pages": 179,
+      "main_pages": 176,
+      "source_sha256": "274d912d68c8dc1e44f42b36a1ae2175c60d66e56aa3c3017cefe0ace4842de0"
+    },
+    {
+      "id": "B2_LS_U02",
+      "pages": 163,
+      "main_pages": 161,
+      "source_sha256": "8dd5ccff309ed2bae1595f0b736d318e0edd9907cbcf882359349e998067fa68"
+    },
+    {
+      "id": "B2_LS_U03",
+      "pages": 173,
+      "main_pages": 171,
+      "source_sha256": "23fe2c476f648d4fd3b13f2a2b50ada9fb1567ec4bb1eb01373778eaae5f8265"
+    },
+    {
+      "id": "B2_LS_U04",
+      "pages": 185,
+      "main_pages": 184,
+      "source_sha256": "ae54ebaf32e10d058c87820166dc75938ae3f3f978428773086b7fde25a79b82"
+    },
+    {
+      "id": "B2_LS_U05",
+      "pages": 162,
+      "main_pages": 161,
+      "source_sha256": "538129b08b4997a071f8b7636d7c7249ac76ebdc6f6d096a9e5875feac1036bd"
+    },
+    {
+      "id": "B2_LS_U06",
+      "pages": 181,
+      "main_pages": 180,
+      "source_sha256": "42a5812df32d2eedee0e3e291519a9793f491cc40426f042987358a81e7d34a5"
+    },
+    {
+      "id": "B2_LS_U07",
+      "pages": 180,
+      "main_pages": 178,
+      "source_sha256": "c22859a131c16967ebab20217e333d4ffc0989aa7d8f3e55b29b0aa8cdbef43e"
+    },
+    {
+      "id": "B2_LS_U08",
+      "pages": 196,
+      "main_pages": 192,
+      "source_sha256": "03679e4e127cc18a3995fe78b6d1244103a758c13b7da3d7e7de07b7bfabafc1"
+    },
+    {
+      "id": "B2_RW_U01",
+      "pages": 150,
+      "main_pages": 143,
+      "source_sha256": "3d5161c5772fb780c886be1430a1640df377d33bda513fdf271bac9c8c6b0b8a"
+    },
+    {
+      "id": "B2_RW_U02",
+      "pages": 166,
+      "main_pages": 154,
+      "source_sha256": "66bc09ce06addf6bba6abb7a448600e558b3a7ad7b40b43b045928f4b086dea4"
+    },
+    {
+      "id": "B2_RW_U03",
+      "pages": 216,
+      "main_pages": 208,
+      "source_sha256": "603c8570ec650da6650d8bc88da4aa49dfa1d864a1e9489812cb0ab982270866"
+    },
+    {
+      "id": "B2_RW_U04",
+      "pages": 230,
+      "main_pages": 223,
+      "source_sha256": "43be34a0d36e965934f32c56b63ee6972c2cb6d88b2219d1a5a61e47a3e34800"
+    },
+    {
+      "id": "B2_RW_U05",
+      "pages": 203,
+      "main_pages": 195,
+      "source_sha256": "6ba6ad88aec8012d945aff04dbc3020c223ba20915eb50ad79cdf5bd375527e2"
+    },
+    {
+      "id": "B2_RW_U06",
+      "pages": 276,
+      "main_pages": 269,
+      "source_sha256": "59b7490d16e96cde65dbe6f5d41ea55f6fa400abe178769bfcc52b06231d613c"
+    },
+    {
+      "id": "B2_RW_U07",
+      "pages": 227,
+      "main_pages": 218,
+      "source_sha256": "173a7609ecd758a7a20b21ede9ebff3cab5d741abe8cd80482491d64507a014f"
+    },
+    {
+      "id": "B2_RW_U08",
+      "pages": 303,
+      "main_pages": 295,
+      "source_sha256": "ac77c30c922b63c08d417273034d55ef226b8dfcdfe71443aadc3339e9ac616f"
+    },
+    {
+      "id": "B3_LS_U01",
+      "pages": 170,
+      "main_pages": 143,
+      "source_sha256": "c5cac439eb0840ba62397da24ef80e2a0e2da2cd9667e5b338a09db3571a8877"
+    },
+    {
+      "id": "B3_LS_U02",
+      "pages": 186,
+      "main_pages": 157,
+      "source_sha256": "adb9620ea8fde25162a1251eb2e926d6de42212bee1dd49607e9bf0ccfd21f55"
+    },
+    {
+      "id": "B3_LS_U03",
+      "pages": 234,
+      "main_pages": 160,
+      "source_sha256": "4c56b27755baf8f1fa756f2b2ff4c8bb5e7ee30339876b490ed4633cdebec2dc"
+    },
+    {
+      "id": "B3_LS_U04",
+      "pages": 221,
+      "main_pages": 143,
+      "source_sha256": "1d97a21b910354026496844029a77831e94f620a001ceb2357b170d495a6ceb1"
+    },
+    {
+      "id": "B3_LS_U05",
+      "pages": 197,
+      "main_pages": 154,
+      "source_sha256": "8daac452def61d5511831115162fcf834a604941d4fdb077ce611d9779f5e10f"
+    },
+    {
+      "id": "B3_LS_U06",
+      "pages": 201,
+      "main_pages": 153,
+      "source_sha256": "de97c347a545a0493fb6fb3c78a3344eceaec170c3e2ebd9c5fef02e725dcae1"
+    },
+    {
+      "id": "B3_LS_U07",
+      "pages": 253,
+      "main_pages": 154,
+      "source_sha256": "fdde1796947226a8a2814c4e7246cfb149a0496aa8bcb3729b83cf793d665566"
+    },
+    {
+      "id": "B3_LS_U08",
+      "pages": 191,
+      "main_pages": 144,
+      "source_sha256": "6b894f0929bf0de06786d97042a4154191acd3d1369a7b6876533c257e5839cf"
+    },
+    {
+      "id": "B3_RW_U01",
+      "pages": 219,
+      "main_pages": 211,
+      "source_sha256": "9a3efa4932c21d8e33b0d0891c726940b29ba28107c480f06a0a487967c60ae2"
+    },
+    {
+      "id": "B3_RW_U02",
+      "pages": 256,
+      "main_pages": 246,
+      "source_sha256": "fc7697df0199198ba13a95bc4e60e2231b01e47bf44dbb57ae2bc54e6c8509d7"
+    },
+    {
+      "id": "B3_RW_U03",
+      "pages": 194,
+      "main_pages": 185,
+      "source_sha256": "0cb526190a9b3de6207fe29059a9b8fff44c56c79f5e73fef77e0e8a6f416860"
+    },
+    {
+      "id": "B3_RW_U04",
+      "pages": 291,
+      "main_pages": 282,
+      "source_sha256": "81b6e51ec608393f574ac83899d8336326419d9a057ab959baf73b360e953724"
+    },
+    {
+      "id": "B3_RW_U05",
+      "pages": 228,
+      "main_pages": 219,
+      "source_sha256": "3410b29db4d9dc045033997d8b2eb7a3742a5f0ed0656a754095714f066ce30e"
+    },
+    {
+      "id": "B3_RW_U06",
+      "pages": 247,
+      "main_pages": 239,
+      "source_sha256": "6f3aa414c01d844eaae39d4b24d9a957845b28e1d315e2fc229d563d47139e56"
+    },
+    {
+      "id": "B3_RW_U07",
+      "pages": 187,
+      "main_pages": 180,
+      "source_sha256": "1c26fb7a8a1569171280b161acf48ae05eb3d3f9a75d4bc783cca3ab3ca71dc9"
+    },
+    {
+      "id": "B3_RW_U08",
+      "pages": 202,
+      "main_pages": 189,
+      "source_sha256": "22d6e0a03670826df88cb03e0b5ff877f471bf43d6be9f34caf327cfdc239748"
+    }
+  ]
+}

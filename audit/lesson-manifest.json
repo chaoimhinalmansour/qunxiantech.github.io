@@ -1,0 +1,2110 @@
+[
+  {
+    "deck": "B2_LS_U01",
+    "source_sha256": "274d912d68c8dc1e44f42b36a1ae2175c60d66e56aa3c3017cefe0ace4842de0",
+    "pages": 179,
+    "normal": 176,
+    "layers": 230,
+    "controls": 284,
+    "selected_originals": [
+      {
+        "module": "Language development",
+        "question": 2,
+        "pages": [
+          96
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 3,
+        "pages": [
+          97
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 7,
+        "pages": [
+          100,
+          101,
+          102,
+          103
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 1,
+        "pages": [
+          137,
+          138,
+          139
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 2,
+        "pages": [
+          140
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 3,
+        "pages": [
+          141
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 4,
+        "pages": [
+          142
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 5,
+        "pages": [
+          143
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 6,
+        "pages": [
+          144
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 7,
+        "pages": [
+          145
+        ]
+      }
+    ]
+  },
+  {
+    "deck": "B2_LS_U02",
+    "source_sha256": "8dd5ccff309ed2bae1595f0b736d318e0edd9907cbcf882359349e998067fa68",
+    "pages": 163,
+    "normal": 161,
+    "layers": 136,
+    "controls": 207,
+    "selected_originals": [
+      {
+        "module": "Language development",
+        "question": 6,
+        "pages": [
+          87
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 7,
+        "pages": [
+          89
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 8,
+        "pages": [
+          90
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 1,
+        "pages": [
+          121
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 2,
+        "pages": [
+          121
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 3,
+        "pages": [
+          127
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 4,
+        "pages": [
+          128
+        ]
+      }
+    ]
+  },
+  {
+    "deck": "B2_LS_U03",
+    "source_sha256": "23fe2c476f648d4fd3b13f2a2b50ada9fb1567ec4bb1eb01373778eaae5f8265",
+    "pages": 173,
+    "normal": 171,
+    "layers": 144,
+    "controls": 227,
+    "selected_originals": [
+      {
+        "module": "Language development",
+        "question": 5,
+        "pages": [
+          92
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 8,
+        "pages": [
+          105,
+          106
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 9,
+        "pages": [
+          107
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 3,
+        "pages": [
+          140
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 5,
+        "pages": [
+          142
+        ]
+      }
+    ]
+  },
+  {
+    "deck": "B2_LS_U04",
+    "source_sha256": "ae54ebaf32e10d058c87820166dc75938ae3f3f978428773086b7fde25a79b82",
+    "pages": 185,
+    "normal": 184,
+    "layers": 123,
+    "controls": 200,
+    "selected_originals": [
+      {
+        "module": "Language development",
+        "question": 1,
+        "pages": [
+          115
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 2,
+        "pages": [
+          116
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 3,
+        "pages": [
+          148
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 5,
+        "pages": [
+          151,
+          170
+        ]
+      }
+    ]
+  },
+  {
+    "deck": "B2_LS_U05",
+    "source_sha256": "538129b08b4997a071f8b7636d7c7249ac76ebdc6f6d096a9e5875feac1036bd",
+    "pages": 162,
+    "normal": 161,
+    "layers": 172,
+    "controls": 247,
+    "selected_originals": [
+      {
+        "module": "Language development",
+        "question": 3,
+        "pages": [
+          84
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 5,
+        "pages": [
+          86,
+          88
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 6,
+        "pages": [
+          87
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 2,
+        "pages": [
+          119,
+          120
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 4,
+        "pages": [
+          121
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 5,
+        "pages": [
+          126
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 6,
+        "pages": [
+          128
+        ]
+      }
+    ]
+  },
+  {
+    "deck": "B2_LS_U06",
+    "source_sha256": "42a5812df32d2eedee0e3e291519a9793f491cc40426f042987358a81e7d34a5",
+    "pages": 181,
+    "normal": 180,
+    "layers": 186,
+    "controls": 255,
+    "selected_originals": [
+      {
+        "module": "Language development",
+        "question": 4,
+        "pages": [
+          97
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 7,
+        "pages": [
+          104
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 8,
+        "pages": [
+          105
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 3,
+        "pages": [
+          137
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 4,
+        "pages": [
+          141
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 5,
+        "pages": [
+          144
+        ]
+      }
+    ]
+  },
+  {
+    "deck": "B2_LS_U07",
+    "source_sha256": "c22859a131c16967ebab20217e333d4ffc0989aa7d8f3e55b29b0aa8cdbef43e",
+    "pages": 180,
+    "normal": 178,
+    "layers": 180,
+    "controls": 255,
+    "selected_originals": [
+      {
+        "module": "Language development",
+        "question": 2,
+        "pages": [
+          91
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 4,
+        "pages": [
+          93
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 9,
+        "pages": [
+          102
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 1,
+        "pages": [
+          136
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 2,
+        "pages": [
+          139
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 3,
+        "pages": [
+          141
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 4,
+        "pages": [
+          142
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 5,
+        "pages": [
+          143
+        ]
+      }
+    ]
+  },
+  {
+    "deck": "B2_LS_U08",
+    "source_sha256": "03679e4e127cc18a3995fe78b6d1244103a758c13b7da3d7e7de07b7bfabafc1",
+    "pages": 196,
+    "normal": 192,
+    "layers": 171,
+    "controls": 241,
+    "selected_originals": [
+      {
+        "module": "Language development",
+        "question": 1,
+        "pages": [
+          92
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 2,
+        "pages": [
+          94,
+          96
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 4,
+        "pages": [
+          95
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 1,
+        "pages": [
+          126
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 2,
+        "pages": [
+          150
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 3,
+        "pages": [
+          151
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 4,
+        "pages": [
+          152
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 5,
+        "pages": [
+          154
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 6,
+        "pages": [
+          155
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 7,
+        "pages": [
+          157
+        ]
+      }
+    ]
+  },
+  {
+    "deck": "B2_RW_U01",
+    "source_sha256": "3d5161c5772fb780c886be1430a1640df377d33bda513fdf271bac9c8c6b0b8a",
+    "pages": 150,
+    "normal": 143,
+    "layers": 160,
+    "controls": 211,
+    "selected_originals": [
+      {
+        "module": "Language development",
+        "question": 2,
+        "pages": [
+          87
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 7,
+        "pages": [
+          90
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 8,
+        "pages": [
+          91
+        ]
+      },
+      {
+        "module": "Grammar for writing",
+        "question": 3,
+        "pages": [
+          133
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 2,
+        "pages": [
+          124
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 3,
+        "pages": [
+          125,
+          127
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 7,
+        "pages": [
+          131
+        ]
+      }
+    ]
+  },
+  {
+    "deck": "B2_RW_U02",
+    "source_sha256": "66bc09ce06addf6bba6abb7a448600e558b3a7ad7b40b43b045928f4b086dea4",
+    "pages": 166,
+    "normal": 154,
+    "layers": 138,
+    "controls": 211,
+    "selected_originals": [
+      {
+        "module": "Language development",
+        "question": 2,
+        "pages": [
+          85
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 4,
+        "pages": [
+          93
+        ]
+      },
+      {
+        "module": "Grammar for writing",
+        "question": 3,
+        "pages": [
+          138
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 2,
+        "pages": [
+          133
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 3,
+        "pages": [
+          134
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 4,
+        "pages": [
+          136
+        ]
+      }
+    ]
+  },
+  {
+    "deck": "B2_RW_U03",
+    "source_sha256": "603c8570ec650da6650d8bc88da4aa49dfa1d864a1e9489812cb0ab982270866",
+    "pages": 216,
+    "normal": 208,
+    "layers": 153,
+    "controls": 231,
+    "selected_originals": [
+      {
+        "module": "Language development",
+        "question": 1,
+        "pages": [
+          133
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 3,
+        "pages": [
+          134
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 5,
+        "pages": [
+          136,
+          138
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 6,
+        "pages": [
+          137
+        ]
+      },
+      {
+        "module": "Grammar for writing",
+        "question": 3,
+        "pages": [
+          185
+        ]
+      },
+      {
+        "module": "Grammar for writing",
+        "question": 6,
+        "pages": [
+          188
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 1,
+        "pages": [
+          171
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 2,
+        "pages": [
+          172
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 4,
+        "pages": [
+          179
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 5,
+        "pages": [
+          181
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 6,
+        "pages": [
+          182
+        ]
+      }
+    ]
+  },
+  {
+    "deck": "B2_RW_U04",
+    "source_sha256": "43be34a0d36e965934f32c56b63ee6972c2cb6d88b2219d1a5a61e47a3e34800",
+    "pages": 230,
+    "normal": 223,
+    "layers": 163,
+    "controls": 217,
+    "selected_originals": [
+      {
+        "module": "Language development",
+        "question": 1,
+        "pages": [
+          131
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 2,
+        "pages": [
+          139,
+          140
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 4,
+        "pages": [
+          141
+        ]
+      },
+      {
+        "module": "Grammar for writing",
+        "question": 3,
+        "pages": [
+          202
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 2,
+        "pages": [
+          180
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 4,
+        "pages": [
+          185,
+          190,
+          191,
+          194
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 5,
+        "pages": [
+          195
+        ]
+      }
+    ]
+  },
+  {
+    "deck": "B2_RW_U05",
+    "source_sha256": "6ba6ad88aec8012d945aff04dbc3020c223ba20915eb50ad79cdf5bd375527e2",
+    "pages": 203,
+    "normal": 195,
+    "layers": 151,
+    "controls": 222,
+    "selected_originals": [
+      {
+        "module": "Language development",
+        "question": 1,
+        "pages": [
+          130,
+          131,
+          132,
+          133,
+          134,
+          135,
+          136
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 2,
+        "pages": [
+          137
+        ]
+      },
+      {
+        "module": "Grammar for writing",
+        "question": 2,
+        "pages": [
+          177
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 1,
+        "pages": [
+          169
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 2,
+        "pages": [
+          171
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 3,
+        "pages": [
+          173
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 4,
+        "pages": [
+          174
+        ]
+      }
+    ]
+  },
+  {
+    "deck": "B2_RW_U06",
+    "source_sha256": "59b7490d16e96cde65dbe6f5d41ea55f6fa400abe178769bfcc52b06231d613c",
+    "pages": 276,
+    "normal": 269,
+    "layers": 157,
+    "controls": 244,
+    "selected_originals": [
+      {
+        "module": "Language development",
+        "question": 3,
+        "pages": [
+          180
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 5,
+        "pages": [
+          183,
+          184
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 6,
+        "pages": [
+          185
+        ]
+      },
+      {
+        "module": "Grammar for writing",
+        "question": 6,
+        "pages": [
+          251
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 1,
+        "pages": [
+          219
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 2,
+        "pages": [
+          220
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 3,
+        "pages": [
+          231
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 4,
+        "pages": [
+          241
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 5,
+        "pages": [
+          243
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 6,
+        "pages": [
+          244
+        ]
+      }
+    ]
+  },
+  {
+    "deck": "B2_RW_U07",
+    "source_sha256": "173a7609ecd758a7a20b21ede9ebff3cab5d741abe8cd80482491d64507a014f",
+    "pages": 227,
+    "normal": 218,
+    "layers": 146,
+    "controls": 226,
+    "selected_originals": [
+      {
+        "module": "Language development",
+        "question": 4,
+        "pages": [
+          143
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 5,
+        "pages": [
+          148
+        ]
+      },
+      {
+        "module": "Grammar for writing",
+        "question": 1,
+        "pages": [
+          197
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 3,
+        "pages": [
+          190
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 4,
+        "pages": [
+          191
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 6,
+        "pages": [
+          193
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 7,
+        "pages": [
+          195
+        ]
+      }
+    ]
+  },
+  {
+    "deck": "B2_RW_U08",
+    "source_sha256": "ac77c30c922b63c08d417273034d55ef226b8dfcdfe71443aadc3339e9ac616f",
+    "pages": 303,
+    "normal": 295,
+    "layers": 155,
+    "controls": 243,
+    "selected_originals": [
+      {
+        "module": "Language development",
+        "question": 2,
+        "pages": [
+          202
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 3,
+        "pages": [
+          203
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 4,
+        "pages": [
+          204,
+          205
+        ]
+      },
+      {
+        "module": "Grammar for writing",
+        "question": 2,
+        "pages": [
+          269,
+          270
+        ]
+      },
+      {
+        "module": "Grammar for writing",
+        "question": 6,
+        "pages": [
+          272
+        ]
+      },
+      {
+        "module": "Grammar for writing",
+        "question": 7,
+        "pages": [
+          274,
+          275
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 3,
+        "pages": [
+          244
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 4,
+        "pages": [
+          255
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 5,
+        "pages": [
+          257
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 6,
+        "pages": [
+          259
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 7,
+        "pages": [
+          260
+        ]
+      }
+    ]
+  },
+  {
+    "deck": "B3_LS_U01",
+    "source_sha256": "c5cac439eb0840ba62397da24ef80e2a0e2da2cd9667e5b338a09db3571a8877",
+    "pages": 170,
+    "normal": 143,
+    "layers": 122,
+    "controls": 169,
+    "selected_originals": [
+      {
+        "module": "Language development",
+        "question": 3,
+        "pages": [
+          82
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 4,
+        "pages": [
+          86,
+          87
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 6,
+        "pages": [
+          88
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 1,
+        "pages": [
+          110,
+          111,
+          112
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 3,
+        "pages": [
+          113
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 4,
+        "pages": [
+          116
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 5,
+        "pages": [
+          118
+        ]
+      }
+    ]
+  },
+  {
+    "deck": "B3_LS_U02",
+    "source_sha256": "adb9620ea8fde25162a1251eb2e926d6de42212bee1dd49607e9bf0ccfd21f55",
+    "pages": 186,
+    "normal": 157,
+    "layers": 135,
+    "controls": 168,
+    "selected_originals": [
+      {
+        "module": "Language development",
+        "question": 2,
+        "pages": [
+          87,
+          88
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 3,
+        "pages": [
+          90,
+          91
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 3,
+        "pages": [
+          120
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 4,
+        "pages": [
+          122
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 5,
+        "pages": [
+          124
+        ]
+      }
+    ]
+  },
+  {
+    "deck": "B3_LS_U03",
+    "source_sha256": "4c56b27755baf8f1fa756f2b2ff4c8bb5e7ee30339876b490ed4633cdebec2dc",
+    "pages": 234,
+    "normal": 160,
+    "layers": 145,
+    "controls": 185,
+    "selected_originals": [
+      {
+        "module": "Language development",
+        "question": 2,
+        "pages": [
+          93,
+          94
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 3,
+        "pages": [
+          95,
+          96
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 9,
+        "pages": [
+          101,
+          102,
+          105,
+          106
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 10,
+        "pages": [
+          103
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 11,
+        "pages": [
+          104
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 12,
+        "pages": [
+          107
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 13,
+        "pages": [
+          108
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 3,
+        "pages": [
+          134
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 4,
+        "pages": [
+          135
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 5,
+        "pages": [
+          137
+        ]
+      }
+    ]
+  },
+  {
+    "deck": "B3_LS_U04",
+    "source_sha256": "1d97a21b910354026496844029a77831e94f620a001ceb2357b170d495a6ceb1",
+    "pages": 221,
+    "normal": 143,
+    "layers": 124,
+    "controls": 172,
+    "selected_originals": [
+      {
+        "module": "Language development",
+        "question": 3,
+        "pages": [
+          82
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 8,
+        "pages": [
+          89
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 2,
+        "pages": [
+          113
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 3,
+        "pages": [
+          114,
+          131
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 4,
+        "pages": [
+          115
+        ]
+      }
+    ]
+  },
+  {
+    "deck": "B3_LS_U05",
+    "source_sha256": "8daac452def61d5511831115162fcf834a604941d4fdb077ce611d9779f5e10f",
+    "pages": 197,
+    "normal": 154,
+    "layers": 143,
+    "controls": 185,
+    "selected_originals": [
+      {
+        "module": "Language development",
+        "question": 2,
+        "pages": [
+          87,
+          88
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 3,
+        "pages": [
+          89,
+          90,
+          91
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 6,
+        "pages": [
+          94,
+          95,
+          143
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 2,
+        "pages": [
+          120
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 3,
+        "pages": [
+          121
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 4,
+        "pages": [
+          122,
+          139
+        ]
+      }
+    ]
+  },
+  {
+    "deck": "B3_LS_U06",
+    "source_sha256": "de97c347a545a0493fb6fb3c78a3344eceaec170c3e2ebd9c5fef02e725dcae1",
+    "pages": 201,
+    "normal": 153,
+    "layers": 140,
+    "controls": 177,
+    "selected_originals": [
+      {
+        "module": "Language development",
+        "question": 2,
+        "pages": [
+          97,
+          100,
+          102
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 3,
+        "pages": [
+          98,
+          99,
+          101
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 9,
+        "pages": [
+          104,
+          105
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 3,
+        "pages": [
+          130
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 4,
+        "pages": [
+          132,
+          147
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 5,
+        "pages": [
+          133
+        ]
+      }
+    ]
+  },
+  {
+    "deck": "B3_LS_U07",
+    "source_sha256": "fdde1796947226a8a2814c4e7246cfb149a0496aa8bcb3729b83cf793d665566",
+    "pages": 253,
+    "normal": 154,
+    "layers": 134,
+    "controls": 169,
+    "selected_originals": [
+      {
+        "module": "Language development",
+        "question": 3,
+        "pages": [
+          84
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 4,
+        "pages": [
+          85,
+          86
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 1,
+        "pages": [
+          108
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 2,
+        "pages": [
+          110
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 3,
+        "pages": [
+          114,
+          120,
+          137
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 4,
+        "pages": [
+          116,
+          117
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 5,
+        "pages": [
+          118,
+          119,
+          122
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 6,
+        "pages": [
+          121,
+          140
+        ]
+      }
+    ]
+  },
+  {
+    "deck": "B3_LS_U08",
+    "source_sha256": "6b894f0929bf0de06786d97042a4154191acd3d1369a7b6876533c257e5839cf",
+    "pages": 191,
+    "normal": 144,
+    "layers": 132,
+    "controls": 159,
+    "selected_originals": [
+      {
+        "module": "Language development",
+        "question": 1,
+        "pages": [
+          111,
+          112,
+          113,
+          114
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 3,
+        "pages": [
+          116,
+          117
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 6,
+        "pages": [
+          118
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 2,
+        "pages": [
+          145
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 3,
+        "pages": [
+          146,
+          147,
+          148
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 5,
+        "pages": [
+          149,
+          161
+        ]
+      }
+    ]
+  },
+  {
+    "deck": "B3_RW_U01",
+    "source_sha256": "9a3efa4932c21d8e33b0d0891c726940b29ba28107c480f06a0a487967c60ae2",
+    "pages": 219,
+    "normal": 211,
+    "layers": 121,
+    "controls": 167,
+    "selected_originals": [
+      {
+        "module": "Language development",
+        "question": 1,
+        "pages": [
+          127,
+          128
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 3,
+        "pages": [
+          130
+        ]
+      },
+      {
+        "module": "Grammar for writing",
+        "question": 3,
+        "pages": [
+          177
+        ]
+      },
+      {
+        "module": "Grammar for writing",
+        "question": 4,
+        "pages": [
+          179
+        ]
+      },
+      {
+        "module": "Grammar for writing",
+        "question": 5,
+        "pages": [
+          184
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 3,
+        "pages": [
+          162
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 4,
+        "pages": [
+          166
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 5,
+        "pages": [
+          169
+        ]
+      }
+    ]
+  },
+  {
+    "deck": "B3_RW_U02",
+    "source_sha256": "fc7697df0199198ba13a95bc4e60e2231b01e47bf44dbb57ae2bc54e6c8509d7",
+    "pages": 256,
+    "normal": 246,
+    "layers": 130,
+    "controls": 169,
+    "selected_originals": [
+      {
+        "module": "Language development",
+        "question": 1,
+        "pages": [
+          161,
+          162
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 2,
+        "pages": [
+          163
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 3,
+        "pages": [
+          164,
+          165
+        ]
+      },
+      {
+        "module": "Grammar for writing",
+        "question": 2,
+        "pages": [
+          229
+        ]
+      },
+      {
+        "module": "Grammar for writing",
+        "question": 4,
+        "pages": [
+          231
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 2,
+        "pages": [
+          199
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 3,
+        "pages": [
+          206
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 4,
+        "pages": [
+          226
+        ]
+      }
+    ]
+  },
+  {
+    "deck": "B3_RW_U03",
+    "source_sha256": "0cb526190a9b3de6207fe29059a9b8fff44c56c79f5e73fef77e0e8a6f416860",
+    "pages": 194,
+    "normal": 185,
+    "layers": 125,
+    "controls": 172,
+    "selected_originals": [
+      {
+        "module": "Language development",
+        "question": 1,
+        "pages": [
+          116
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 2,
+        "pages": [
+          117
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 4,
+        "pages": [
+          120,
+          121
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 7,
+        "pages": [
+          123
+        ]
+      },
+      {
+        "module": "Grammar for writing",
+        "question": 1,
+        "pages": [
+          172,
+          173
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 2,
+        "pages": [
+          152
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 3,
+        "pages": [
+          155
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 4,
+        "pages": [
+          160
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 5,
+        "pages": [
+          166
+        ]
+      }
+    ]
+  },
+  {
+    "deck": "B3_RW_U04",
+    "source_sha256": "81b6e51ec608393f574ac83899d8336326419d9a057ab959baf73b360e953724",
+    "pages": 291,
+    "normal": 282,
+    "layers": 140,
+    "controls": 214,
+    "selected_originals": [
+      {
+        "module": "Language development",
+        "question": 1,
+        "pages": [
+          173
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 3,
+        "pages": [
+          175
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 4,
+        "pages": [
+          178
+        ]
+      },
+      {
+        "module": "Grammar for writing",
+        "question": 1,
+        "pages": [
+          233
+        ]
+      },
+      {
+        "module": "Grammar for writing",
+        "question": 2,
+        "pages": [
+          238,
+          239,
+          240,
+          242,
+          243,
+          244
+        ]
+      },
+      {
+        "module": "Grammar for writing",
+        "question": 3,
+        "pages": [
+          241
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 1,
+        "pages": [
+          199
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 2,
+        "pages": [
+          216
+        ]
+      }
+    ]
+  },
+  {
+    "deck": "B3_RW_U05",
+    "source_sha256": "3410b29db4d9dc045033997d8b2eb7a3742a5f0ed0656a754095714f066ce30e",
+    "pages": 228,
+    "normal": 219,
+    "layers": 130,
+    "controls": 172,
+    "selected_originals": [
+      {
+        "module": "Language development",
+        "question": 1,
+        "pages": [
+          151
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 3,
+        "pages": [
+          155
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 4,
+        "pages": [
+          156
+        ]
+      },
+      {
+        "module": "Grammar for writing",
+        "question": 1,
+        "pages": [
+          195
+        ]
+      },
+      {
+        "module": "Grammar for writing",
+        "question": 4,
+        "pages": [
+          197
+        ]
+      },
+      {
+        "module": "Grammar for writing",
+        "question": 6,
+        "pages": [
+          199
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 2,
+        "pages": [
+          184
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 4,
+        "pages": [
+          186
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 5,
+        "pages": [
+          190
+        ]
+      }
+    ]
+  },
+  {
+    "deck": "B3_RW_U06",
+    "source_sha256": "6f3aa414c01d844eaae39d4b24d9a957845b28e1d315e2fc229d563d47139e56",
+    "pages": 247,
+    "normal": 239,
+    "layers": 108,
+    "controls": 159,
+    "selected_originals": [
+      {
+        "module": "Language development",
+        "question": 3,
+        "pages": [
+          150
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 5,
+        "pages": [
+          154,
+          155
+        ]
+      },
+      {
+        "module": "Grammar for writing",
+        "question": 2,
+        "pages": [
+          189
+        ]
+      },
+      {
+        "module": "Grammar for writing",
+        "question": 5,
+        "pages": [
+          191,
+          192,
+          194,
+          195,
+          197,
+          198
+        ]
+      },
+      {
+        "module": "Grammar for writing",
+        "question": 7,
+        "pages": [
+          196
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 1,
+        "pages": [
+          178
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 2,
+        "pages": [
+          181
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 3,
+        "pages": [
+          185
+        ]
+      }
+    ]
+  },
+  {
+    "deck": "B3_RW_U07",
+    "source_sha256": "1c26fb7a8a1569171280b161acf48ae05eb3d3f9a75d4bc783cca3ab3ca71dc9",
+    "pages": 187,
+    "normal": 180,
+    "layers": 129,
+    "controls": 170,
+    "selected_originals": [
+      {
+        "module": "Language development",
+        "question": 1,
+        "pages": [
+          118,
+          119
+        ]
+      },
+      {
+        "module": "Grammar for writing",
+        "question": 2,
+        "pages": [
+          159
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 1,
+        "pages": [
+          141
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 2,
+        "pages": [
+          146
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 4,
+        "pages": [
+          150,
+          151,
+          154,
+          155,
+          171,
+          172
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 5,
+        "pages": [
+          153
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 6,
+        "pages": [
+          156
+        ]
+      }
+    ]
+  },
+  {
+    "deck": "B3_RW_U08",
+    "source_sha256": "22d6e0a03670826df88cb03e0b5ff877f471bf43d6be9f34caf327cfdc239748",
+    "pages": 202,
+    "normal": 189,
+    "layers": 160,
+    "controls": 196,
+    "selected_originals": [
+      {
+        "module": "Language development",
+        "question": 2,
+        "pages": [
+          126,
+          127
+        ]
+      },
+      {
+        "module": "Language development",
+        "question": 3,
+        "pages": [
+          130,
+          131
+        ]
+      },
+      {
+        "module": "Grammar for writing",
+        "question": 1,
+        "pages": [
+          167
+        ]
+      },
+      {
+        "module": "Grammar for writing",
+        "question": 3,
+        "pages": [
+          169
+        ]
+      },
+      {
+        "module": "Grammar for writing",
+        "question": 4,
+        "pages": [
+          170
+        ]
+      },
+      {
+        "module": "Grammar for writing",
+        "question": 5,
+        "pages": [
+          172
+        ]
+      },
+      {
+        "module": "Grammar for writing",
+        "question": 6,
+        "pages": [
+          173
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 3,
+        "pages": [
+          160
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 4,
+        "pages": [
+          162
+        ]
+      },
+      {
+        "module": "Critical thinking",
+        "question": 5,
+        "pages": [
+          164
+        ]
+      }
+    ]
+  }
+]
