@@ -20,3 +20,13 @@ Book 2–3，Units 1–8，LS 与 RW，共 32 个单元。标准画布 **1920 ×
 - `audit/核对记录.html`：全量核对记录
 
 本地完整库与制作、验收记录位于 D 盘项目目录。原教材和原 PPT 保留。
+
+## 其他 Windows 电脑安装媒体
+
+在下载后的课件库目录打开 PowerShell，运行：
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\安装共享音视频.ps1
+```
+
+此命令仅对本次脚本进程允许运行，不改变系统设置。脚本会校验已有媒体并补齐缺少的媒体；完整 D 盘版本已经安装，无需再次下载。

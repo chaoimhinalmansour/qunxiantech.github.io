@@ -1,4 +1,4 @@
-param([string]$Destination=(Join-Path $PSScriptRoot 'assets\media'))
+﻿param([string]$Destination=(Join-Path $PSScriptRoot 'assets\media'))
 $ErrorActionPreference='Stop'
 $root=[System.IO.Path]::GetFullPath($PSScriptRoot)
 $target=[System.IO.Path]::GetFullPath($Destination)

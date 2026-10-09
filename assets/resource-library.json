@@ -1628,5 +1628,9 @@
     "width": 1920,
     "height": 1080
   },
-  "repository": "https://github.com/chaoimhinalmansour/qunxiantech.github.io"
+  "repository": "https://github.com/chaoimhinalmansour/qunxiantech.github.io",
+  "manifests": {
+    "media": "https://github.com/chaoimhinalmansour/qunxiantech.github.io/releases/download/unlock-html-standard-20261010/media-manifest.json",
+    "original_image_archives": "https://github.com/chaoimhinalmansour/qunxiantech.github.io/releases/download/unlock-html-standard-20261010/original-image-archives.json"
+  }
 }

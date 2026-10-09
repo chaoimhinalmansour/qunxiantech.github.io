@@ -505,10 +505,10 @@
   },
   {
     "file": "assets/resource-library.json",
-    "bytes": 68347,
-    "sha256": "74b144a20cc116b5ba83defbf512bf4e4d58a540462bc3cbdc3ba98694a9c73c",
-    "repository_bytes": 66716,
-    "repository_sha256": "ad9add3b415a1dc3f38bb53517624607e75757bb64f285dd1b54cbbc9a060d2e"
+    "bytes": 68687,
+    "sha256": "1089a9b9c03289d771a423a77cdd0febf35a4bec938a16b7cfee56fa45304c0d",
+    "repository_bytes": 67052,
+    "repository_sha256": "fac5ab614ec639410152323c8ae74cdc35f4507dfb271802333f449ebd14cab4"
   },
   {
     "file": "assets/webp/00041a70e574a19cf7169469c83046cf575469a3839c68ce31324c07cffbc2e2.webp",
@@ -13812,17 +13812,17 @@
   },
   {
     "file": "audit/核对记录.html",
-    "bytes": 7179,
-    "sha256": "c2fc7d4df83e9fea6f541a69a730125291e198a76d1aa1cd41398fafd5345172",
-    "repository_bytes": 7179,
-    "repository_sha256": "c2fc7d4df83e9fea6f541a69a730125291e198a76d1aa1cd41398fafd5345172"
+    "bytes": 7584,
+    "sha256": "f7001f5b5174d446c8f6898dfc28e1091eafbdeedf466d00c201a8d8e2afc328",
+    "repository_bytes": 7584,
+    "repository_sha256": "f7001f5b5174d446c8f6898dfc28e1091eafbdeedf466d00c201a8d8e2afc328"
   },
   {
     "file": "audit/核对记录.json",
-    "bytes": 9724,
-    "sha256": "56c14f919548a256a4b2add8f8a4714d978a755820964370df63f55026c9bc6f",
-    "repository_bytes": 9389,
-    "repository_sha256": "3f7cc559957cbccb6564cfc730e0e0272bb66d5435e2f6a2429e81aa2ccdc60d"
+    "bytes": 10563,
+    "sha256": "cd6f15c8d11ff880abfdd2840bad7bfb3a69b8c2ce22e598234dfe5c12698a1e",
+    "repository_bytes": 10206,
+    "repository_sha256": "038c0471c2b518ffacc3312992e5edec9bd7ed470533d23c3943d3cbb178c869"
   },
   {
     "file": "guide.html",
@@ -14288,23 +14288,23 @@
   },
   {
     "file": "README.md",
-    "bytes": 1259,
-    "sha256": "30d8c806cd23d02c4525a5ac06434b8696af92439272eb66488fff18efafd3a1",
-    "repository_bytes": 1237,
-    "repository_sha256": "806f62fc4fd63d892cb86f0de868b8fb7ffad2767731b11392100221bfd9bf41"
+    "bytes": 1649,
+    "sha256": "bc08f59b9b9cf14953ce4cb7ecb23b2ab1d8ade4e7ad346b412f4ec746da9b2b",
+    "repository_bytes": 1617,
+    "repository_sha256": "85d95f1cd84c82481b895677d60866f960f7dbd0bd377495fce5c59641f6efea"
   },
   {
     "file": "resources.html",
-    "bytes": 123418,
-    "sha256": "4d0d819d8e337a9de9dcb0589786fd3a5b2f3e0c78062aecceb7f48e5a783781",
-    "repository_bytes": 123418,
-    "repository_sha256": "4d0d819d8e337a9de9dcb0589786fd3a5b2f3e0c78062aecceb7f48e5a783781"
+    "bytes": 123764,
+    "sha256": "bf4ce2078c9fbbb53cc0e2e7b5f69c6f7c44a248ce2ffbdef5bc982915ec6241",
+    "repository_bytes": 123764,
+    "repository_sha256": "bf4ce2078c9fbbb53cc0e2e7b5f69c6f7c44a248ce2ffbdef5bc982915ec6241"
   },
   {
     "file": "安装共享音视频.ps1",
-    "bytes": 1727,
-    "sha256": "3a3ba98563702f545d9f214af34657ac736141f8deaf8e13d2b33af45e145a1a",
-    "repository_bytes": 1727,
-    "repository_sha256": "3a3ba98563702f545d9f214af34657ac736141f8deaf8e13d2b33af45e145a1a"
+    "bytes": 1730,
+    "sha256": "55051727b58be9f2b361682127cc8452ba89c16511b0e855e6706b01cb3f8196",
+    "repository_bytes": 1730,
+    "repository_sha256": "55051727b58be9f2b361682127cc8452ba89c16511b0e855e6706b01cb3f8196"
   }
 ]

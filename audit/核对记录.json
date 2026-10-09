@@ -4,7 +4,14 @@
     "width": 1920,
     "height": 1080
   },
-  "status": "本地全量核对通过；GitHub 入库单独记录",
+  "status": "本地全量核对及 GitHub 资源入库核对通过",
+  "github": {
+    "repository": "https://github.com/chaoimhinalmansour/qunxiantech.github.io",
+    "release": "https://github.com/chaoimhinalmansour/qunxiantech.github.io/releases/tag/unlock-html-standard-20261010",
+    "resource_assets": 325,
+    "resource_bytes": 5104091032,
+    "sha256_digests_verified": 325
+  },
   "checks": [
     {
       "item": "完整课件",
@@ -80,6 +87,21 @@
       "item": "原文件保护",
       "count": 32,
       "result": "全部原 PPT 哈希仍与转换前一致"
+    },
+    {
+      "item": "GitHub 共享资源",
+      "count": 325,
+      "result": "319 个音视频、四卷原图、两份索引；远端大小与 SHA256 核对通过"
+    },
+    {
+      "item": "线上媒体引用",
+      "count": 3,
+      "result": "MP3、WAV、MP4 缺少本地文件时的自动引用与实际播放通过"
+    },
+    {
+      "item": "离线资源安装",
+      "count": 319,
+      "result": "脚本实际识别并校验全部本地媒体；已有正确文件直接跳过"
     }
   ],
   "keyboard_and_screen": {
