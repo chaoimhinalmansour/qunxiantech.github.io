@@ -1,0 +1,120 @@
+{
+  "version": "20261011-screen-v12",
+  "units": 32,
+  "exercises": 1111,
+  "routes": 5306,
+  "answerViews": 892,
+  "explanationViews": 319,
+  "overflow": 0,
+  "geometryDrift": 0,
+  "headerOverlap": 0,
+  "runtimeErrors": [],
+  "viewportChecks": [
+    {
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 1080
+      },
+      "fit": true,
+      "sidebarStable": true,
+      "answerStable": true,
+      "blocked": true,
+      "returned": true,
+      "masked": true,
+      "revealed": true
+    },
+    {
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 1280,
+        "h": 720
+      },
+      "fit": true,
+      "sidebarStable": true,
+      "answerStable": true,
+      "blocked": true,
+      "returned": true,
+      "masked": true,
+      "revealed": true
+    },
+    {
+      "viewport": {
+        "width": 1920,
+        "height": 1200
+      },
+      "frame": {
+        "x": 0,
+        "y": 60,
+        "w": 1920,
+        "h": 1080
+      },
+      "fit": true,
+      "sidebarStable": true,
+      "answerStable": true,
+      "blocked": true,
+      "returned": true,
+      "masked": true,
+      "revealed": true
+    },
+    {
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "frame": {
+        "x": 0,
+        "y": 96,
+        "w": 1024,
+        "h": 576
+      },
+      "fit": true,
+      "sidebarStable": true,
+      "answerStable": true,
+      "blocked": true,
+      "returned": true,
+      "masked": true,
+      "revealed": true
+    }
+  ],
+  "audioChecks": {
+    "selectedSentences": [
+      1,
+      3
+    ],
+    "advance": true,
+    "loop": true,
+    "singleSentence": true,
+    "stop": true,
+    "parallelSidebarStable": true
+  },
+  "images": {
+    "count": 1262,
+    "originalBytes": 860522798,
+    "displayBytes": 150020798,
+    "reductionPercent": 82.6
+  },
+  "correctionEntries": 106,
+  "sources": "original classroom PPT, student books and teacher books",
+  "preservation": "Original PPT, textbooks, source images and previous global data maps preserved.",
+  "exceptions": [
+    {
+      "exercise": "B2_LS_U01_P160_E1",
+      "reason": "Review or compare students own notes; no standard answer required."
+    },
+    {
+      "exercise": "B2_RW_U04_G4_E5",
+      "reason": "Review or compare students own notes; no standard answer required."
+    }
+  ]
+}
