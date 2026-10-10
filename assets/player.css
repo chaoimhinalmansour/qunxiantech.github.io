@@ -34,3 +34,9 @@
 .photos-pane .original-photo-gallery[data-count="5"],.photos-pane .original-photo-gallery[data-count="6"],.photos-pane .original-photo-gallery[data-count="7"],.photos-pane .original-photo-gallery[data-count="8"]{height:auto;grid-auto-rows:320px}
 
 #app:has(.precision-pane:not([hidden])) .media-bar{display:none}
+
+/* One original exercise, complete question and separate feedback view. */
+.source-measure{position:absolute;left:-20000px;top:0;width:1920px;height:1080px;pointer-events:none;visibility:hidden}
+.viewport.question-scroll{overflow-y:auto;overflow-x:hidden}.viewport.question-scroll:after{content:'';display:block;height:var(--scroll-height,1080px);width:1px;pointer-events:none}
+.review-open #page-select,.review-open #source-toggle,.review-open .taskbar,.review-open #prev,.review-open #next,.review-open #back,.review-open #part-select,.review-open #review-mode,.review-open #feedback-controls,.review-open #relations-open{display:none!important}
+.review-open .topbar a{pointer-events:none}.review-open .stage [data-action]{pointer-events:none}

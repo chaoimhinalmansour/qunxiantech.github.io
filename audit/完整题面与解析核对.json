@@ -1,0 +1,246 @@
+{
+  "version": "20261010-question-v3",
+  "lessons": 32,
+  "question_use_records": 1124,
+  "complete_multi_frame_questions": 166,
+  "question_feedback_views": 906,
+  "source_control_checks": 6524,
+  "duplicate_navigation_entries_unified": 25,
+  "route_entries": 5347,
+  "local_content_errors": [],
+  "records": [
+    {
+      "lesson": "B2_LS_U01",
+      "questions": 50,
+      "multi": 8,
+      "reviews": 43,
+      "controls": 284
+    },
+    {
+      "lesson": "B2_LS_U02",
+      "questions": 45,
+      "multi": 3,
+      "reviews": 32,
+      "controls": 207
+    },
+    {
+      "lesson": "B2_LS_U03",
+      "questions": 39,
+      "multi": 5,
+      "reviews": 28,
+      "controls": 227
+    },
+    {
+      "lesson": "B2_LS_U04",
+      "questions": 39,
+      "multi": 1,
+      "reviews": 27,
+      "controls": 200
+    },
+    {
+      "lesson": "B2_LS_U05",
+      "questions": 38,
+      "multi": 4,
+      "reviews": 27,
+      "controls": 247
+    },
+    {
+      "lesson": "B2_LS_U06",
+      "questions": 40,
+      "multi": 1,
+      "reviews": 30,
+      "controls": 255
+    },
+    {
+      "lesson": "B2_LS_U07",
+      "questions": 38,
+      "multi": 3,
+      "reviews": 27,
+      "controls": 255
+    },
+    {
+      "lesson": "B2_LS_U08",
+      "questions": 40,
+      "multi": 1,
+      "reviews": 31,
+      "controls": 241
+    },
+    {
+      "lesson": "B2_RW_U01",
+      "questions": 28,
+      "multi": 5,
+      "reviews": 24,
+      "controls": 211
+    },
+    {
+      "lesson": "B2_RW_U02",
+      "questions": 27,
+      "multi": 3,
+      "reviews": 21,
+      "controls": 211
+    },
+    {
+      "lesson": "B2_RW_U03",
+      "questions": 36,
+      "multi": 3,
+      "reviews": 33,
+      "controls": 231
+    },
+    {
+      "lesson": "B2_RW_U04",
+      "questions": 32,
+      "multi": 5,
+      "reviews": 30,
+      "controls": 217
+    },
+    {
+      "lesson": "B2_RW_U05",
+      "questions": 30,
+      "multi": 4,
+      "reviews": 27,
+      "controls": 222
+    },
+    {
+      "lesson": "B2_RW_U06",
+      "questions": 38,
+      "multi": 5,
+      "reviews": 31,
+      "controls": 244
+    },
+    {
+      "lesson": "B2_RW_U07",
+      "questions": 33,
+      "multi": 3,
+      "reviews": 31,
+      "controls": 226
+    },
+    {
+      "lesson": "B2_RW_U08",
+      "questions": 31,
+      "multi": 10,
+      "reviews": 30,
+      "controls": 243
+    },
+    {
+      "lesson": "B3_LS_U01",
+      "questions": 40,
+      "multi": 7,
+      "reviews": 27,
+      "controls": 169
+    },
+    {
+      "lesson": "B3_LS_U02",
+      "questions": 38,
+      "multi": 5,
+      "reviews": 26,
+      "controls": 168
+    },
+    {
+      "lesson": "B3_LS_U03",
+      "questions": 37,
+      "multi": 12,
+      "reviews": 32,
+      "controls": 185
+    },
+    {
+      "lesson": "B3_LS_U04",
+      "questions": 40,
+      "multi": 5,
+      "reviews": 37,
+      "controls": 172
+    },
+    {
+      "lesson": "B3_LS_U05",
+      "questions": 39,
+      "multi": 8,
+      "reviews": 29,
+      "controls": 185
+    },
+    {
+      "lesson": "B3_LS_U06",
+      "questions": 44,
+      "multi": 6,
+      "reviews": 31,
+      "controls": 177
+    },
+    {
+      "lesson": "B3_LS_U07",
+      "questions": 45,
+      "multi": 9,
+      "reviews": 29,
+      "controls": 169
+    },
+    {
+      "lesson": "B3_LS_U08",
+      "questions": 38,
+      "multi": 10,
+      "reviews": 30,
+      "controls": 159
+    },
+    {
+      "lesson": "B3_RW_U01",
+      "questions": 26,
+      "multi": 5,
+      "reviews": 23,
+      "controls": 167
+    },
+    {
+      "lesson": "B3_RW_U02",
+      "questions": 25,
+      "multi": 4,
+      "reviews": 24,
+      "controls": 169
+    },
+    {
+      "lesson": "B3_RW_U03",
+      "questions": 25,
+      "multi": 7,
+      "reviews": 22,
+      "controls": 172
+    },
+    {
+      "lesson": "B3_RW_U04",
+      "questions": 29,
+      "multi": 4,
+      "reviews": 22,
+      "controls": 214
+    },
+    {
+      "lesson": "B3_RW_U05",
+      "questions": 27,
+      "multi": 3,
+      "reviews": 23,
+      "controls": 172
+    },
+    {
+      "lesson": "B3_RW_U06",
+      "questions": 23,
+      "multi": 4,
+      "reviews": 21,
+      "controls": 159
+    },
+    {
+      "lesson": "B3_RW_U07",
+      "questions": 34,
+      "multi": 7,
+      "reviews": 31,
+      "controls": 170
+    },
+    {
+      "lesson": "B3_RW_U08",
+      "questions": 30,
+      "multi": 6,
+      "reviews": 27,
+      "controls": 196
+    }
+  ],
+  "public_verified": false,
+  "additional_explanation_feedback_views": 980,
+  "navigation_errors": [],
+  "media_return_checked": [
+    "selected sentence listening",
+    "video",
+    "four original photos"
+  ],
+  "question_scroll_restored": true
+}
