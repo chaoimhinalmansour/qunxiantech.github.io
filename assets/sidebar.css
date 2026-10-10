@@ -1,0 +1,25 @@
+/* One overlay operation drawer. Classroom geometry is independent of drawer state. */
+#app.sidebar-layout{position:relative;display:block;width:100%;height:100%;overflow:hidden}
+.sidebar-layout>.workspace{position:absolute;inset:0;width:100%;height:100%}
+.teacher-sidebar{position:absolute;inset:0 auto 0 0;width:min(320px,86vw);z-index:100;background:#fff;border-right:1px solid #cbd5e1;overflow-y:auto;overscroll-behavior:contain;padding:14px;color:#192b3b;box-shadow:4px 0 16px #192b3b18;font-size:15px}
+.sidebar-heading{display:flex;align-items:center;justify-content:space-between;gap:10px;position:sticky;top:-14px;background:white;padding:12px 0;z-index:2;border-bottom:1px solid #d8dee8}
+.sidebar-heading strong{font-size:20px}.teacher-sidebar section{padding:13px 0;border-bottom:1px solid #e3e8ef}.teacher-sidebar h2{font-size:14px;font-weight:700;color:#64748b;margin:0 0 10px}
+.teacher-sidebar button,.teacher-sidebar select{font:inherit;padding:9px 11px;border:1px solid #cbd5e1;border-radius:5px;background:#fff;color:#193c78;cursor:pointer;max-width:100%;line-height:1.4}.teacher-sidebar button:hover{background:#eef4fc}.teacher-sidebar button:focus-visible,.teacher-sidebar summary:focus-visible,.sidebar-handle:focus-visible{outline:3px solid #1e73be;outline-offset:2px}
+.teacher-sidebar .topbar{height:auto;min-height:0;max-height:none;display:flex;flex-direction:column;align-items:flex-start;overflow:visible;padding:0;border:0;gap:10px}
+.teacher-sidebar .topbar a{font-size:15px;display:block}.teacher-sidebar .topbar .counter{margin:0;font-size:14px;display:block;color:#64748b}
+.teacher-sidebar #feedback-view-label{font-size:18px}.teacher-sidebar #page-select,.teacher-sidebar #back,.teacher-sidebar #part-select{display:none!important}
+.teacher-sidebar .taskbar,.teacher-sidebar .taskbar[hidden],.sidebar-layout.review-open .teacher-sidebar .taskbar{height:auto;min-height:0;max-height:none;display:block!important;padding:10px 0 0;background:transparent;border:0;overflow:visible}
+.teacher-sidebar .taskbar[hidden]{display:none!important}.teacher-sidebar #exercise-tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px}.teacher-sidebar .taskbar button{padding:8px 4px;font-size:15px;white-space:normal}
+.teacher-sidebar button.active{background:#193c78;color:#fff}.teacher-sidebar .nav-buttons{display:flex;margin-top:10px;gap:8px}.teacher-sidebar .nav-buttons button{flex:1}
+.teacher-sidebar .toolbar{height:auto;min-height:0;max-height:none;display:block;padding:0;border:0;overflow:visible;background:transparent}
+.teacher-sidebar .function-buttons{height:auto;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;overflow:visible}.teacher-sidebar .function-buttons>button{white-space:normal;width:100%;padding:10px 6px}
+.teacher-sidebar #question-return{grid-column:1/-1}.teacher-sidebar #feedback-controls{grid-column:1/-1}.teacher-sidebar .media-bar{grid-column:1/-1;max-width:100%;overflow:auto}.teacher-sidebar .audio-slot{flex-wrap:wrap}
+.teacher-sidebar .reference-tools{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));padding:0;border:0;gap:8px}.teacher-sidebar .reference-tools select{grid-column:1/-1;width:100%;max-width:100%}.teacher-sidebar .reference-tools #close-material{margin:0;grid-column:1/-1}.teacher-sidebar .reference-tools #read-full,.teacher-sidebar .reference-tools #split-view{grid-column:1/-1}.teacher-sidebar .pane-width-label{display:none!important}.sidebar-redundant{display:none!important}
+.teacher-sidebar details>summary{cursor:pointer;line-height:1.45;padding:8px 2px;color:#193c78}.teacher-sidebar .sidebar-source{margin-top:8px}.teacher-sidebar .sidebar-source button{margin-top:8px;width:100%}
+.sidebar-chapter{margin-top:4px}.sidebar-chapter>summary{font-size:14px;overflow-wrap:anywhere}.sidebar-chapter.current-chapter>summary{font-weight:700}.sidebar-route{display:block;width:100%;text-align:left;margin:6px 0;font-size:14px!important;overflow-wrap:anywhere}
+.sidebar-display button{width:100%}.sidebar-handle{position:absolute;left:0;top:calc(50% - 32px);z-index:90;width:28px;min-height:64px;padding:8px 5px;background:#fff;color:#193c78;border:1px solid #cbd5e1;border-left:0;border-radius:0 6px 6px 0;writing-mode:vertical-rl;font-size:14px;cursor:pointer}
+.sidebar-layout .reference-pane{border-left:0}.sidebar-layout .workspace.split .viewport{flex:0 0 calc(var(--question-share,55%) - 4px);width:calc(var(--question-share,55%) - 4px)}
+#split-divider{position:relative;flex:0 0 8px;align-self:stretch;cursor:col-resize;background:#e4e9f0;touch-action:none;z-index:25}
+#split-divider:after{content:'';position:absolute;left:2px;top:calc(50% - 22px);width:4px;height:44px;border-radius:2px;background:#8b9ab0}#split-divider:hover,#split-divider:focus-visible{background:#b9c9df;outline:none}
+.sidebar-layout.review-open .sidebar-navigation,.sidebar-layout.review-open .sidebar-source,.sidebar-layout.review-open .topbar a{display:none!important}
+@media(max-width:600px){.teacher-sidebar{width:min(300px,88vw);padding:12px}.sidebar-heading{top:-12px}.sidebar-handle{width:25px;font-size:13px}}
