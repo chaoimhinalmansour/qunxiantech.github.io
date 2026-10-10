@@ -1,0 +1,377 @@
+{
+  "online": false,
+  "records": [
+    {
+      "lesson": "B2_LS_U01",
+      "reviews": 83,
+      "objects": 631,
+      "slots": 51,
+      "placements": {
+        "original": 83,
+        "overlay": 37,
+        "explanation": 256
+      }
+    },
+    {
+      "lesson": "B2_LS_U02",
+      "reviews": 67,
+      "objects": 436,
+      "slots": 14,
+      "placements": {
+        "original": 38,
+        "overlay": 31,
+        "explanation": 198
+      }
+    },
+    {
+      "lesson": "B2_LS_U03",
+      "reviews": 65,
+      "objects": 452,
+      "slots": 15,
+      "placements": {
+        "original": 41,
+        "overlay": 32,
+        "explanation": 162
+      }
+    },
+    {
+      "lesson": "B2_LS_U04",
+      "reviews": 53,
+      "objects": 410,
+      "slots": 7,
+      "placements": {
+        "original": 47,
+        "overlay": 32,
+        "explanation": 133
+      }
+    },
+    {
+      "lesson": "B2_LS_U05",
+      "reviews": 68,
+      "objects": 462,
+      "slots": 12,
+      "placements": {
+        "original": 53,
+        "overlay": 32,
+        "explanation": 255
+      }
+    },
+    {
+      "lesson": "B2_LS_U06",
+      "reviews": 69,
+      "objects": 507,
+      "slots": 26,
+      "placements": {
+        "original": 56,
+        "overlay": 32,
+        "explanation": 309
+      }
+    },
+    {
+      "lesson": "B2_LS_U07",
+      "reviews": 75,
+      "objects": 574,
+      "slots": 8,
+      "placements": {
+        "original": 50,
+        "overlay": 32,
+        "explanation": 267
+      }
+    },
+    {
+      "lesson": "B2_LS_U08",
+      "reviews": 68,
+      "objects": 474,
+      "slots": 19,
+      "placements": {
+        "original": 65,
+        "overlay": 32,
+        "explanation": 246
+      }
+    },
+    {
+      "lesson": "B2_RW_U01",
+      "reviews": 55,
+      "objects": 402,
+      "slots": 22,
+      "placements": {
+        "original": 56,
+        "overlay": 39,
+        "explanation": 140
+      }
+    },
+    {
+      "lesson": "B2_RW_U02",
+      "reviews": 55,
+      "objects": 381,
+      "slots": 15,
+      "placements": {
+        "original": 18,
+        "overlay": 32,
+        "explanation": 191
+      }
+    },
+    {
+      "lesson": "B2_RW_U03",
+      "reviews": 67,
+      "objects": 507,
+      "slots": 13,
+      "placements": {
+        "original": 27,
+        "overlay": 32,
+        "explanation": 228
+      }
+    },
+    {
+      "lesson": "B2_RW_U04",
+      "reviews": 59,
+      "objects": 434,
+      "slots": 35,
+      "placements": {
+        "original": 55,
+        "overlay": 32,
+        "explanation": 188
+      }
+    },
+    {
+      "lesson": "B2_RW_U05",
+      "reviews": 60,
+      "objects": 432,
+      "slots": 30,
+      "placements": {
+        "original": 50,
+        "overlay": 32,
+        "explanation": 128
+      }
+    },
+    {
+      "lesson": "B2_RW_U06",
+      "reviews": 70,
+      "objects": 493,
+      "slots": 7,
+      "placements": {
+        "original": 38,
+        "overlay": 32,
+        "explanation": 157
+      }
+    },
+    {
+      "lesson": "B2_RW_U07",
+      "reviews": 64,
+      "objects": 479,
+      "slots": 21,
+      "placements": {
+        "original": 60,
+        "overlay": 32,
+        "explanation": 189
+      }
+    },
+    {
+      "lesson": "B2_RW_U08",
+      "reviews": 71,
+      "objects": 529,
+      "slots": 13,
+      "placements": {
+        "original": 33,
+        "overlay": 32,
+        "explanation": 175
+      }
+    },
+    {
+      "lesson": "B3_LS_U01",
+      "reviews": 47,
+      "objects": 361,
+      "slots": 6,
+      "placements": {
+        "original": 46,
+        "overlay": 16,
+        "explanation": 164
+      }
+    },
+    {
+      "lesson": "B3_LS_U02",
+      "reviews": 57,
+      "objects": 405,
+      "slots": 17,
+      "placements": {
+        "original": 61,
+        "overlay": 16,
+        "explanation": 143
+      }
+    },
+    {
+      "lesson": "B3_LS_U03",
+      "reviews": 55,
+      "objects": 409,
+      "slots": 15,
+      "placements": {
+        "original": 50,
+        "overlay": 16,
+        "explanation": 197
+      }
+    },
+    {
+      "lesson": "B3_LS_U04",
+      "reviews": 52,
+      "objects": 352,
+      "slots": 14,
+      "placements": {
+        "original": 51,
+        "overlay": 16,
+        "explanation": 144
+      }
+    },
+    {
+      "lesson": "B3_LS_U05",
+      "reviews": 46,
+      "objects": 415,
+      "slots": 19,
+      "placements": {
+        "original": 49,
+        "overlay": 16,
+        "explanation": 205
+      }
+    },
+    {
+      "lesson": "B3_LS_U06",
+      "reviews": 53,
+      "objects": 409,
+      "slots": 18,
+      "placements": {
+        "original": 58,
+        "overlay": 18,
+        "explanation": 170
+      }
+    },
+    {
+      "lesson": "B3_LS_U07",
+      "reviews": 46,
+      "objects": 413,
+      "slots": 10,
+      "placements": {
+        "original": 71,
+        "overlay": 16,
+        "explanation": 130
+      }
+    },
+    {
+      "lesson": "B3_LS_U08",
+      "reviews": 48,
+      "objects": 416,
+      "slots": 12,
+      "placements": {
+        "original": 75,
+        "overlay": 16,
+        "explanation": 136
+      }
+    },
+    {
+      "lesson": "B3_RW_U01",
+      "reviews": 52,
+      "objects": 375,
+      "slots": 15,
+      "placements": {
+        "original": 43,
+        "overlay": 17,
+        "explanation": 193
+      }
+    },
+    {
+      "lesson": "B3_RW_U02",
+      "reviews": 48,
+      "objects": 357,
+      "slots": 10,
+      "placements": {
+        "original": 43,
+        "overlay": 16,
+        "explanation": 265
+      }
+    },
+    {
+      "lesson": "B3_RW_U03",
+      "reviews": 50,
+      "objects": 347,
+      "slots": 8,
+      "placements": {
+        "original": 33,
+        "overlay": 16,
+        "explanation": 231
+      }
+    },
+    {
+      "lesson": "B3_RW_U04",
+      "reviews": 77,
+      "objects": 485,
+      "slots": 15,
+      "placements": {
+        "original": 64,
+        "overlay": 16,
+        "explanation": 136
+      }
+    },
+    {
+      "lesson": "B3_RW_U05",
+      "reviews": 55,
+      "objects": 391,
+      "slots": 15,
+      "placements": {
+        "original": 61,
+        "overlay": 16,
+        "explanation": 162
+      }
+    },
+    {
+      "lesson": "B3_RW_U06",
+      "reviews": 49,
+      "objects": 334,
+      "slots": 10,
+      "placements": {
+        "original": 37,
+        "overlay": 16,
+        "explanation": 197
+      }
+    },
+    {
+      "lesson": "B3_RW_U07",
+      "reviews": 52,
+      "objects": 381,
+      "slots": 23,
+      "placements": {
+        "original": 62,
+        "overlay": 16,
+        "explanation": 174
+      }
+    },
+    {
+      "lesson": "B3_RW_U08",
+      "reviews": 50,
+      "objects": 436,
+      "slots": 13,
+      "placements": {
+        "original": 60,
+        "overlay": 18,
+        "explanation": 297
+      }
+    }
+  ],
+  "errors": [],
+  "version": "20261010-position-v8",
+  "totals": {
+    "reviews": 1886,
+    "objects": 13889,
+    "slots": 528
+  },
+  "content_regression": {
+    "questions": 1124,
+    "multi": 166,
+    "reviews": 906,
+    "controls": 6524
+  },
+  "rules": [
+    "保留当前题面对象的原有坐标、尺寸、字号与图片",
+    "短填空保留空格宽度，不推动后面的原文字",
+    "原题框中容不下的长说明追加到题面之后，不覆盖或挪动原题",
+    "保留滚动位置及已打开的材料栏",
+    "解析只可回到题面，返回恢复原题 HTML 和阅读位置"
+  ]
+}
