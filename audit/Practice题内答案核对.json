@@ -1,0 +1,605 @@
+{
+  "version": "20261010-practice-v7",
+  "online": false,
+  "records": [
+    {
+      "lesson": "B2_LS_U01",
+      "page": 10,
+      "exercise": null,
+      "replacements": 5,
+      "panel": false,
+      "height": 1080,
+      "sourceSentences": [
+        "1  The king lives in a large palace.",
+        "2  A canal is a river made by people.",
+        "3  A house can stand on stilts above the water.",
+        "4  A gondola carries visitors along canals in Venice.",
+        "5  Something made by people is man-made."
+      ],
+      "blankLines": 0
+    },
+    {
+      "lesson": "B2_LS_U01",
+      "page": 52,
+      "exercise": null,
+      "replacements": 3,
+      "panel": false,
+      "height": 1080,
+      "sourceSentences": [
+        "1  Flowers grow in the soil.",
+        "2  Be careful near the edge of the cliff.",
+        "3  We put our bags on the ground."
+      ],
+      "blankLines": 0
+    },
+    {
+      "lesson": "B2_LS_U01",
+      "page": 72,
+      "exercise": null,
+      "replacements": 6,
+      "panel": false,
+      "height": 1091.6400000000003,
+      "sourceSentences": [
+        "1  Our village is located near the sea.",
+        "2  The bus is slow because there is a lot of traffic.",
+        "3  This area of the city has many shops.",
+        "4  Trees grow close together in the woods.",
+        "5  We swam in the lake.",
+        "6  The open, grassy field is a good place for a picnic."
+      ],
+      "blankLines": 0
+    },
+    {
+      "lesson": "B2_LS_U02",
+      "page": 9,
+      "exercise": null,
+      "replacements": 6,
+      "panel": false,
+      "height": 1091.6400000000003,
+      "sourceSentences": [
+        "1  The artist made an ice sculpture of a horse.",
+        "2  The shops advertise the festival on posters.",
+        "3  Ice will melt when the weather gets warmer.",
+        "4  The museum has a display of pictures.",
+        "5  Tourism helps the city’s economy.",
+        "6  The ice figure looks like a person."
+      ],
+      "blankLines": 0
+    },
+    {
+      "lesson": "B2_LS_U05",
+      "page": 13,
+      "exercise": null,
+      "replacements": 5,
+      "panel": false,
+      "height": 1080,
+      "sourceSentences": [
+        "1  Deep Blue was built by IBM.",
+        "2  A person with exceptional chess ability can be called a genius.",
+        "3  Moving a piece to a new position is a move.",
+        "4  A player may try to trick an opponent into making a mistake.",
+        "5  Kasparov could not escape from the difficult position."
+      ],
+      "blankLines": 0
+    },
+    {
+      "lesson": "B2_LS_U06",
+      "page": 13,
+      "exercise": null,
+      "replacements": 6,
+      "panel": false,
+      "height": 1091.6400000000003,
+      "sourceSentences": [
+        "1  Schools provide education for young people.",
+        "2  Practising a task can help you develop your abilities.",
+        "3  The travel industry includes many kinds of business.",
+        "4  A skill helps you do an activity well.",
+        "5  Workers can learn new abilities through re-training.",
+        "6  Some types of work may not exist in the future."
+      ],
+      "blankLines": 0
+    },
+    {
+      "lesson": "B2_LS_U07",
+      "page": 12,
+      "exercise": null,
+      "replacements": 5,
+      "panel": false,
+      "height": 1080,
+      "sourceSentences": [
+        "1  Old bottles and bags are kinds of trash.",
+        "2  The village is far from other places. It is isolated.",
+        "3  Objects can wash up when waves carry them to the beach.",
+        "4  People often wear flip-flops at the beach.",
+        "5  The artists sell ornaments to decorate homes."
+      ],
+      "blankLines": 0
+    },
+    {
+      "lesson": "B2_LS_U08",
+      "page": 12,
+      "exercise": null,
+      "replacements": 5,
+      "panel": false,
+      "height": 1080,
+      "sourceSentences": [
+        "1  Scientists do research to discover new information.",
+        "2  A telescope is an instrument for looking at distant things.",
+        "3  We can use GPS to find our location.",
+        "4  Scientists send robots to explore other planets.",
+        "5  A satellite is an object in space."
+      ],
+      "blankLines": 0
+    },
+    {
+      "lesson": "B2_RW_U01",
+      "page": 9,
+      "exercise": null,
+      "replacements": 3,
+      "panel": false,
+      "height": 1080,
+      "sourceSentences": [
+        "1  Ships are safe from the storm in the harbour.",
+        "2  The final destination on our trip is a small island.",
+        "3  This monument helps people remember an important event."
+      ],
+      "blankLines": 0
+    },
+    {
+      "lesson": "B2_RW_U01",
+      "page": 10,
+      "exercise": null,
+      "replacements": 3,
+      "panel": false,
+      "height": 1080,
+      "sourceSentences": [
+        "4  We saw bright fireworks in the sky during the celebration.",
+        "5  The tower is the tallest part of the building.",
+        "6  The ships carry goods that shops can sell."
+      ],
+      "blankLines": 0
+    },
+    {
+      "lesson": "B2_RW_U01",
+      "page": 39,
+      "exercise": null,
+      "replacements": 2,
+      "panel": false,
+      "height": 1080,
+      "sourceSentences": [
+        "1  Our city needs more housing for its growing population.",
+        "2  The new park gives people in this urban area a quiet place to relax."
+      ],
+      "blankLines": 0
+    },
+    {
+      "lesson": "B2_RW_U02",
+      "page": 8,
+      "exercise": null,
+      "replacements": 5,
+      "panel": false,
+      "height": 1080,
+      "sourceSentences": [
+        "1  The newspaper provided media coverage of the event.",
+        "2  People walked through the streets in a procession.",
+        "3  He carried a burning torch.",
+        "4  I regret not going to the celebration.",
+        "5  This festival is unique; there is nothing else like it."
+      ],
+      "blankLines": 0
+    },
+    {
+      "lesson": "B2_RW_U02",
+      "page": 40,
+      "exercise": null,
+      "replacements": 3,
+      "panel": false,
+      "height": 1080,
+      "sourceSentences": [
+        "1  The bell chimes at midnight.",
+        "2  Young adults take on new responsibilities.",
+        "3  People attend a formal ceremony."
+      ],
+      "blankLines": 0
+    },
+    {
+      "lesson": "B2_RW_U05",
+      "page": 13,
+      "exercise": null,
+      "replacements": 6,
+      "panel": false,
+      "height": 1080,
+      "sourceSentences": [
+        "1 The noise was so loud that it was deafening.",
+        "2 A difficult task can be called a challenge.",
+        "3 A person with a broken arm is injured.",
+        "4 Strong wind can make the rope shake.",
+        "5 A sudden pull can jerk your body.",
+        "6 Something that changes how you feel is an experience."
+      ],
+      "blankLines": 0
+    },
+    {
+      "lesson": "B2_RW_U05",
+      "page": 45,
+      "exercise": null,
+      "replacements": 2,
+      "panel": false,
+      "height": 1080,
+      "sourceSentences": [
+        "1 Wrestling is a sport in which two people try to push each other to the ground.",
+        "2 A person with bare feet is not wearing shoes."
+      ],
+      "blankLines": 0
+    },
+    {
+      "lesson": "B2_RW_U06",
+      "page": 14,
+      "exercise": null,
+      "replacements": 6,
+      "panel": false,
+      "height": 1080,
+      "sourceSentences": [
+        "1  Please mend this broken bag.",
+        "2  We can reuse the bottle instead of using it only once.",
+        "3  Factories can recycle plastic into new objects.",
+        "4  Do not throw away things that are still useful.",
+        "5  Wood and stone are building materials.",
+        "6  This shop makes money from waste."
+      ],
+      "blankLines": 0
+    },
+    {
+      "lesson": "B2_RW_U07",
+      "page": 12,
+      "exercise": "B2_RW_U07_P12_E2",
+      "replacements": 5,
+      "panel": false,
+      "height": 1080,
+      "sourceSentences": [
+        "1  A prospector looks for gold or oil.",
+        "2  Use a shovel to move the stones.",
+        "3  This water is pure: nothing is mixed with it.",
+        "4  She sold £20 worth of gold.",
+        "5  My dream job is the job I want more than any other."
+      ],
+      "blankLines": 0
+    },
+    {
+      "lesson": "B2_RW_U08",
+      "page": 16,
+      "exercise": null,
+      "replacements": 6,
+      "panel": false,
+      "height": 1080,
+      "sourceSentences": [
+        "1  An astronaut travels to and works in space.",
+        "2  A rocket is a vehicle for travelling in space.",
+        "3  The team’s main place to live and work is its base.",
+        "4  The fourth planet from the sun is Mars.",
+        "5  A difficult success is an achievement.",
+        "6  An important job that someone is sent to do is a mission."
+      ],
+      "blankLines": 0
+    },
+    {
+      "lesson": "B3_LS_U01",
+      "page": 11,
+      "exercise": null,
+      "replacements": 4,
+      "panel": false,
+      "height": 1080,
+      "sourceSentences": [
+        "1  A maze has paths that lead from an entrance to an exit.",
+        "2  Animals living in the wild are not kept in zoos.",
+        "3  Planning is a mental skill.",
+        "4  We can reflect upon an experience to understand it better."
+      ],
+      "blankLines": 0
+    },
+    {
+      "lesson": "B3_LS_U01",
+      "page": 69,
+      "exercise": null,
+      "replacements": 3,
+      "panel": false,
+      "height": 1080,
+      "sourceSentences": [
+        "1  The elephant’s long, pointed teeth are its tusks.",
+        "2  A fence can stand around a field.",
+        "3  To ban an activity is to refuse to allow it by law."
+      ],
+      "blankLines": 0
+    },
+    {
+      "lesson": "B3_LS_U02",
+      "page": 11,
+      "exercise": null,
+      "replacements": 4,
+      "panel": false,
+      "height": 1080,
+      "sourceSentences": [
+        "1  A wind turbine produces electricity.",
+        "2  Workers assemble the machine by joining its parts.",
+        "3  Sunlight and wind are sources of alternative energy.",
+        "4  We must save supplies so that they do not run out."
+      ],
+      "blankLines": 0
+    },
+    {
+      "lesson": "B3_LS_U05",
+      "page": 13,
+      "exercise": null,
+      "replacements": 6,
+      "panel": false,
+      "height": 1088.6400000000003,
+      "sourceSentences": [
+        "1  A neuron carries information in the brain.",
+        "2  Eggs contain protein.",
+        "3  Can you interpret the meaning of this message?",
+        "4  She stayed focused on one task.",
+        "5  The device sends a signal.",
+        "6  The team worked effectively and finished on time."
+      ],
+      "blankLines": 0
+    },
+    {
+      "lesson": "B3_LS_U06",
+      "page": 13,
+      "exercise": null,
+      "replacements": 6,
+      "panel": false,
+      "height": 1088.6400000000003,
+      "sourceSentences": [
+        "1  Testing ideas is fundamental to science.",
+        "2  The body’s immune system protects it against infection.",
+        "3  A cataract affects the eye and makes it hard to see.",
+        "4  The team developed a vaccine to prevent a disease.",
+        "5  A pandemic infects many people at the same time.",
+        "6  The doctor explained the treatment for the illness."
+      ],
+      "blankLines": 0
+    },
+    {
+      "lesson": "B3_LS_U07",
+      "page": 12,
+      "exercise": null,
+      "replacements": 5,
+      "panel": false,
+      "height": 1080,
+      "sourceSentences": [
+        "1  A garment is a piece of clothing.",
+        "2  A fabric is cloth or material used for making clothes.",
+        "3  The company keeps its production local, from making the product to selling it.",
+        "4  A parachute helps a person drop safely from an aircraft.",
+        "5  The word military relates to the army."
+      ],
+      "blankLines": 0
+    },
+    {
+      "lesson": "B3_LS_U07",
+      "page": 42,
+      "exercise": null,
+      "replacements": 6,
+      "panel": false,
+      "height": 1088.6400000000003,
+      "sourceSentences": [
+        "1  Using an artist's work without permission can be copyright infringement.",
+        "2  If an online post becomes very popular very quickly, it can go viral.",
+        "3  An organization may need money, time and legal resources to take action.",
+        "4  To lift somebody's design is to use it without permission.",
+        "5  A protected person's work is their intellectual property.",
+        "6  To use another person's work and say it is yours is to plagiarize it."
+      ],
+      "blankLines": 0
+    },
+    {
+      "lesson": "B3_RW_U01",
+      "page": 13,
+      "exercise": null,
+      "replacements": 6,
+      "panel": false,
+      "height": 1080,
+      "sourceSentences": [
+        "1  An egret is a white bird with long legs.",
+        "2  A marsh is an area of soft, wet land.",
+        "3  The dolphin rises to the surface of the water.",
+        "4  The bird stands on a mud bank beside the river.",
+        "5  The fish are pushed onto the shore.",
+        "6  Some birds depend on dolphins for food."
+      ],
+      "blankLines": 0
+    },
+    {
+      "lesson": "B3_RW_U02",
+      "page": 12,
+      "exercise": null,
+      "replacements": 5,
+      "panel": false,
+      "height": 1080,
+      "sourceSentences": [
+        "1  The river runs between the steep sides of a canyon.",
+        "2  A cavern is a very large cave.",
+        "3  Water and wind can form different shapes in rock.",
+        "4  The view from the mountain was spectacular.",
+        "5  A glacier is a slow-moving mass of ice."
+      ],
+      "blankLines": 0
+    },
+    {
+      "lesson": "B3_RW_U03",
+      "page": 12,
+      "exercise": null,
+      "replacements": 5,
+      "panel": false,
+      "height": 1080,
+      "sourceSentences": [
+        "1  We waited on the platform before boarding the train.",
+        "2  The old tracks needed repairs before trains could run.",
+        "3  More investment will help improve transport.",
+        "4  The government plans to restore the old railway.",
+        "5  The rail network connects towns across the country."
+      ],
+      "blankLines": 0
+    },
+    {
+      "lesson": "B3_RW_U03",
+      "page": 83,
+      "exercise": null,
+      "replacements": 3,
+      "panel": false,
+      "height": 1080,
+      "sourceSentences": [
+        "1  The smoke from a car is called exhaust.",
+        "2  People who work late shifts may need buses at night.",
+        "3  Violence by angry drivers in traffic is called road rage."
+      ],
+      "blankLines": 0
+    },
+    {
+      "lesson": "B3_RW_U04",
+      "page": 12,
+      "exercise": null,
+      "replacements": 5,
+      "panel": false,
+      "height": 1080,
+      "sourceSentences": [
+        "1  The ceremony includes a special clothing ritual.",
+        "2  Adults have legal rights as well as duties.",
+        "3  Looking after the family is an important responsibility.",
+        "4  The traditions date back over 1,000 years.",
+        "5  They wear formal clothes on important occasions."
+      ],
+      "blankLines": 0
+    },
+    {
+      "lesson": "B3_RW_U04",
+      "page": 58,
+      "exercise": null,
+      "replacements": 4,
+      "panel": true,
+      "height": 1080,
+      "sourceSentences": [
+        "1  Arriving on time means being punctual.",
+        "2  A system of different levels of importance is a hierarchy.",
+        "3  A very unusual gift may seem suspicious.",
+        "4  A small thank-you gift can be a token of your appreciation."
+      ],
+      "blankLines": 0
+    },
+    {
+      "lesson": "B3_RW_U04",
+      "page": 132,
+      "exercise": null,
+      "replacements": 2,
+      "panel": false,
+      "height": 1080,
+      "sourceSentences": [
+        "1  Traditional songs are intangible: they exist, but we cannot touch them.",
+        "2  Traditions from the past that remain important are part of our heritage."
+      ],
+      "blankLines": 0
+    },
+    {
+      "lesson": "B3_RW_U05",
+      "page": 13,
+      "exercise": null,
+      "replacements": 6,
+      "panel": false,
+      "height": 1088.6400000000003,
+      "sourceSentences": [
+        "1  The article reports research into dementia.",
+        "2  A molecule is a very small unit of a substance.",
+        "3  Removing solid pieces produces a filtered liquid.",
+        "4  Safety equipment can reduce the risk of injury.",
+        "5  The organisers limit the number of participants.",
+        "6  People with an active interest in their health are health conscious."
+      ],
+      "blankLines": 0
+    },
+    {
+      "lesson": "B3_RW_U05",
+      "page": 41,
+      "exercise": null,
+      "replacements": 4,
+      "panel": false,
+      "height": 1080,
+      "sourceSentences": [
+        "1  A condition lasting a long time is a chronic disease.",
+        "2  The expected number of years a person may live is called life expectancy.",
+        "3  The illness affecting the body's use of sugar is diabetes.",
+        "4  Brain damage caused when blood cannot reach the brain is a stroke."
+      ],
+      "blankLines": 0
+    },
+    {
+      "lesson": "B3_RW_U05",
+      "page": 105,
+      "exercise": null,
+      "replacements": 6,
+      "panel": false,
+      "height": 1088.6400000000003,
+      "sourceSentences": [
+        "1  Food labels give nutritional information.",
+        "2  A balanced diet contains different kinds of food in a healthy mixture.",
+        "3  The amount served to one person is a portion.",
+        "4  The school launched a campaign to encourage walking.",
+        "5  The report is about the problem of obesity.",
+        "6  Quick and easy but unhealthy food is called junk food."
+      ],
+      "blankLines": 0
+    },
+    {
+      "lesson": "B3_RW_U06",
+      "page": 13,
+      "exercise": null,
+      "replacements": 6,
+      "panel": false,
+      "height": 1088.6400000000003,
+      "sourceSentences": [
+        "1  A factory producing electricity is a power station.",
+        "2  An important discovery is a breakthrough.",
+        "3  To make something happen again is to recreate it.",
+        "4  A chemical change is a reaction.",
+        "5  Force applied against something is pressure.",
+        "6  An amount without a limit is unlimited."
+      ],
+      "blankLines": 0
+    },
+    {
+      "lesson": "B3_RW_U06",
+      "page": 45,
+      "exercise": null,
+      "replacements": 1,
+      "panel": false,
+      "height": 1080,
+      "sourceSentences": [
+        "An adhesive is a material that can make things stick together."
+      ],
+      "blankLines": 0
+    },
+    {
+      "lesson": "B3_RW_U07",
+      "page": 12,
+      "exercise": null,
+      "replacements": 5,
+      "panel": false,
+      "height": 1080,
+      "sourceSentences": [
+        "1  A person whose job is to make or mend clothes, especially men's clothes, is a tailor.",
+        "2  The head tailor of a company who teaches less experienced tailors is a master tailor.",
+        "3  An important job is a prominent position.",
+        "4  A person learning a job by working with someone experienced is an apprentice.",
+        "5  Ideas about what is right and wrong and important in life are your values/principles."
+      ],
+      "blankLines": 0
+    }
+  ],
+  "errors": [],
+  "full_content_totals": {
+    "questions": 1124,
+    "multi": 166,
+    "reviews": 906,
+    "controls": 6524
+  }
+}
