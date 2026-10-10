@@ -13973,17 +13973,17 @@
   },
   {
     "file": "audit/词汇释义与解析排版核对.html",
-    "bytes": 3005,
-    "sha256": "8850e9142ab2d575239b137554784086ca5ffb5f22c467a645e4734d78a0f99b",
-    "repository_bytes": 3005,
-    "repository_sha256": "8850e9142ab2d575239b137554784086ca5ffb5f22c467a645e4734d78a0f99b"
+    "bytes": 3159,
+    "sha256": "6d22da664a5fe21e045782c5a8102c8a8ba0424033c3da057b26af0e73c141e8",
+    "repository_bytes": 3159,
+    "repository_sha256": "6d22da664a5fe21e045782c5a8102c8a8ba0424033c3da057b26af0e73c141e8"
   },
   {
     "file": "audit/词汇释义与解析排版核对.json",
-    "bytes": 8780,
-    "sha256": "75492b24dea79c7d98d4bee95bfee0783239687ef3aab4ae78fb229e6d1c2b2a",
-    "repository_bytes": 8370,
-    "repository_sha256": "61642f93b5d9b6aee47848d9ff88224529655ff849ed9cb3d6dd4ad546baf33a"
+    "bytes": 16626,
+    "sha256": "23d62d4191ec4729d1c4bc2ec8c6850b502ab0d0214ced0ca0c9a7f616392ba7",
+    "repository_bytes": 15827,
+    "repository_sha256": "0802f4352ca61bddecdc0a1be7e9cf87aba523275d224e713d2229b597bde037"
   },
   {
     "file": "audit/题目素材关联图.html",

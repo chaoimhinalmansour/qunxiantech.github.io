@@ -399,7 +399,229 @@
     "errors": [],
     "overlaps": []
   },
-  "public_verification": "待发布后匿名复查",
+  "public_verification": {
+    "version": "20261010-mask-v4",
+    "records": [
+      {
+        "lesson": "B2_LS_U01",
+        "errors": [],
+        "masks": 24
+      },
+      {
+        "lesson": "B2_LS_U02",
+        "errors": [],
+        "masks": 19
+      },
+      {
+        "lesson": "B2_LS_U03",
+        "errors": [],
+        "masks": 35
+      },
+      {
+        "lesson": "B2_LS_U04",
+        "errors": [],
+        "masks": 32
+      },
+      {
+        "lesson": "B2_LS_U05",
+        "errors": [],
+        "masks": 19
+      },
+      {
+        "lesson": "B2_LS_U06",
+        "errors": [],
+        "masks": 23
+      },
+      {
+        "lesson": "B2_LS_U07",
+        "errors": [],
+        "masks": 20
+      },
+      {
+        "lesson": "B2_LS_U08",
+        "errors": [],
+        "masks": 23
+      },
+      {
+        "lesson": "B2_RW_U01",
+        "errors": [],
+        "masks": 23
+      },
+      {
+        "lesson": "B2_RW_U02",
+        "errors": [],
+        "masks": 20
+      },
+      {
+        "lesson": "B2_RW_U03",
+        "errors": [],
+        "masks": 36
+      },
+      {
+        "lesson": "B2_RW_U04",
+        "errors": [],
+        "masks": 30
+      },
+      {
+        "lesson": "B2_RW_U05",
+        "errors": [],
+        "masks": 21
+      },
+      {
+        "lesson": "B2_RW_U06",
+        "errors": [],
+        "masks": 31
+      },
+      {
+        "lesson": "B2_RW_U07",
+        "errors": [],
+        "masks": 23
+      },
+      {
+        "lesson": "B2_RW_U08",
+        "errors": [],
+        "masks": 29
+      },
+      {
+        "lesson": "B3_LS_U01",
+        "errors": [],
+        "masks": 24
+      },
+      {
+        "lesson": "B3_LS_U02",
+        "errors": [],
+        "masks": 21
+      },
+      {
+        "lesson": "B3_LS_U03",
+        "errors": [],
+        "masks": 28
+      },
+      {
+        "lesson": "B3_LS_U04",
+        "errors": [],
+        "masks": 33
+      },
+      {
+        "lesson": "B3_LS_U05",
+        "errors": [],
+        "masks": 32
+      },
+      {
+        "lesson": "B3_LS_U06",
+        "errors": [],
+        "masks": 24
+      },
+      {
+        "lesson": "B3_LS_U07",
+        "errors": [],
+        "masks": 27
+      },
+      {
+        "lesson": "B3_LS_U08",
+        "errors": [],
+        "masks": 27
+      },
+      {
+        "lesson": "B3_RW_U01",
+        "errors": [],
+        "masks": 24
+      },
+      {
+        "lesson": "B3_RW_U02",
+        "errors": [],
+        "masks": 28
+      },
+      {
+        "lesson": "B3_RW_U03",
+        "errors": [],
+        "masks": 24
+      },
+      {
+        "lesson": "B3_RW_U04",
+        "errors": [],
+        "masks": 27
+      },
+      {
+        "lesson": "B3_RW_U05",
+        "errors": [],
+        "masks": 25
+      },
+      {
+        "lesson": "B3_RW_U06",
+        "errors": [],
+        "masks": 22
+      },
+      {
+        "lesson": "B3_RW_U07",
+        "errors": [],
+        "masks": 21
+      },
+      {
+        "lesson": "B3_RW_U08",
+        "errors": [],
+        "masks": 25
+      }
+    ],
+    "masks": 820,
+    "layoutCases": [
+      {
+        "lesson": "B2_LS_U01",
+        "page": 38,
+        "overlaps": []
+      },
+      {
+        "lesson": "B3_LS_U05",
+        "page": 36,
+        "overlaps": []
+      },
+      {
+        "lesson": "B3_RW_U04",
+        "page": 34,
+        "overlaps": []
+      }
+    ],
+    "complete": {
+      "current": 15,
+      "partsHidden": true,
+      "statements": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    "feedback": {
+      "review": true,
+      "all": true,
+      "onlyReturn": [
+        "回到题面"
+      ]
+    },
+    "listening": {
+      "playing": true,
+      "shown": true,
+      "selected": [
+        1,
+        3
+      ],
+      "queue": [
+        1,
+        3
+      ],
+      "rate": 1,
+      "preservesPitch": true,
+      "media": "../assets/media/871ce69611556a6430fcfe65b2ba57b291bd173da19d2dbbed18a5f4c9e8ffd5.mp3",
+      "cues": 82,
+      "position": 3.02,
+      "track": "Book 2 · Unit 1 · LS · LISTENING 1"
+    },
+    "photos": 4,
+    "errors": []
+  },
   "original_source_files_unchanged": 256,
   "changes": [
     "独立词汇学习页中文初始隐藏，统一 SVG 马赛克素材，点击显示、再次点击隐藏，新进入页面重新隐藏。",
@@ -407,5 +629,172 @@
     "原填空行在解析中由对应原完整答案行替换，不再叠加。",
     "纠正答案表格容器及完整题目指令实际高度，避免表格、词框与文字覆盖。",
     "解析仍只允许回到题面，保留原题阅读位置并停止音视频。"
-  ]
+  ],
+  "navigation_checks": {
+    "records": [
+      {
+        "lesson": "B2_LS_U01",
+        "additionalReviews": 40,
+        "errors": []
+      },
+      {
+        "lesson": "B2_LS_U02",
+        "additionalReviews": 35,
+        "errors": []
+      },
+      {
+        "lesson": "B2_LS_U03",
+        "additionalReviews": 37,
+        "errors": []
+      },
+      {
+        "lesson": "B2_LS_U04",
+        "additionalReviews": 26,
+        "errors": []
+      },
+      {
+        "lesson": "B2_LS_U05",
+        "additionalReviews": 41,
+        "errors": []
+      },
+      {
+        "lesson": "B2_LS_U06",
+        "additionalReviews": 39,
+        "errors": []
+      },
+      {
+        "lesson": "B2_LS_U07",
+        "additionalReviews": 48,
+        "errors": []
+      },
+      {
+        "lesson": "B2_LS_U08",
+        "additionalReviews": 37,
+        "errors": []
+      },
+      {
+        "lesson": "B2_RW_U01",
+        "additionalReviews": 31,
+        "errors": []
+      },
+      {
+        "lesson": "B2_RW_U02",
+        "additionalReviews": 34,
+        "errors": []
+      },
+      {
+        "lesson": "B2_RW_U03",
+        "additionalReviews": 34,
+        "errors": []
+      },
+      {
+        "lesson": "B2_RW_U04",
+        "additionalReviews": 29,
+        "errors": []
+      },
+      {
+        "lesson": "B2_RW_U05",
+        "additionalReviews": 33,
+        "errors": []
+      },
+      {
+        "lesson": "B2_RW_U06",
+        "additionalReviews": 39,
+        "errors": []
+      },
+      {
+        "lesson": "B2_RW_U07",
+        "additionalReviews": 33,
+        "errors": []
+      },
+      {
+        "lesson": "B2_RW_U08",
+        "additionalReviews": 41,
+        "errors": []
+      },
+      {
+        "lesson": "B3_LS_U01",
+        "additionalReviews": 20,
+        "errors": []
+      },
+      {
+        "lesson": "B3_LS_U02",
+        "additionalReviews": 31,
+        "errors": []
+      },
+      {
+        "lesson": "B3_LS_U03",
+        "additionalReviews": 23,
+        "errors": []
+      },
+      {
+        "lesson": "B3_LS_U04",
+        "additionalReviews": 15,
+        "errors": []
+      },
+      {
+        "lesson": "B3_LS_U05",
+        "additionalReviews": 17,
+        "errors": []
+      },
+      {
+        "lesson": "B3_LS_U06",
+        "additionalReviews": 22,
+        "errors": []
+      },
+      {
+        "lesson": "B3_LS_U07",
+        "additionalReviews": 17,
+        "errors": []
+      },
+      {
+        "lesson": "B3_LS_U08",
+        "additionalReviews": 18,
+        "errors": []
+      },
+      {
+        "lesson": "B3_RW_U01",
+        "additionalReviews": 29,
+        "errors": []
+      },
+      {
+        "lesson": "B3_RW_U02",
+        "additionalReviews": 24,
+        "errors": []
+      },
+      {
+        "lesson": "B3_RW_U03",
+        "additionalReviews": 28,
+        "errors": []
+      },
+      {
+        "lesson": "B3_RW_U04",
+        "additionalReviews": 55,
+        "errors": []
+      },
+      {
+        "lesson": "B3_RW_U05",
+        "additionalReviews": 32,
+        "errors": []
+      },
+      {
+        "lesson": "B3_RW_U06",
+        "additionalReviews": 28,
+        "errors": []
+      },
+      {
+        "lesson": "B3_RW_U07",
+        "additionalReviews": 21,
+        "errors": []
+      },
+      {
+        "lesson": "B3_RW_U08",
+        "additionalReviews": 23,
+        "errors": []
+      }
+    ],
+    "errors": []
+  },
+  "verified_at": "2026-10-10T08:07:10.978130+00:00",
+  "public_code_commit": "e1019e92b295f33a90ffab6075599ffdd2715e1b"
 }
