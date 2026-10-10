@@ -13798,17 +13798,17 @@
   },
   {
     "file": "audit/HTML操作改版核对.html",
-    "bytes": 2974,
-    "sha256": "ea9d82e3c8d9d73ec18f4180f644bf10cee31a9cef06dcd64e3c05d5b46c7de3",
-    "repository_bytes": 2974,
-    "repository_sha256": "ea9d82e3c8d9d73ec18f4180f644bf10cee31a9cef06dcd64e3c05d5b46c7de3"
+    "bytes": 2995,
+    "sha256": "bb5c60a23559462102b247812b1e651a4c5cb940707a5ab44b4be0aecd3fe719",
+    "repository_bytes": 2995,
+    "repository_sha256": "bb5c60a23559462102b247812b1e651a4c5cb940707a5ab44b4be0aecd3fe719"
   },
   {
     "file": "audit/HTML操作改版核对.json",
-    "bytes": 7588,
-    "sha256": "387dfad21e046abe9f97d5c635c90987d9bd4a1724f6c9f529ced968411eb292",
-    "repository_bytes": 7356,
-    "repository_sha256": "21848a6356a00dbd76e098ece7d479f0bf8f7e043488c0478a8ff7f36e7a3354"
+    "bytes": 7990,
+    "sha256": "a8dad4e4c9fcd7fe41c1e079b6d32a760bbe1b3d0b124af993efdef51350821a",
+    "repository_bytes": 7737,
+    "repository_sha256": "cbe6d3609de66b46e328b6e379126e1708047b12b0c9eff2d7c232406f597e23"
   },
   {
     "file": "audit/lesson-manifest.json",
@@ -13854,10 +13854,10 @@
   },
   {
     "file": "audit/核对记录.json",
-    "bytes": 20496,
-    "sha256": "7df3eb73d60e845b55bbfd32c4e5be7394b9570d4bd55394aed7311184a88fff",
-    "repository_bytes": 19852,
-    "repository_sha256": "6726277f254aa39afcc749e7fe02ac80fa10cf5d376a430f0e3da41dc2e27b02"
+    "bytes": 20940,
+    "sha256": "d24c9b4f431f86ba095fa2684d5d5fecbd58aae4a54ef9ea62be00cf814132c9",
+    "repository_bytes": 20275,
+    "repository_sha256": "b74ffaa148ccaf7610da4a5bb9305a20ee647e7ff1aacbe5c4d551ea8044dff4"
   },
   {
     "file": "guide.html",

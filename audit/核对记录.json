@@ -412,7 +412,7 @@
   "html_operation_update": {
     "date": "2026-10-10",
     "title": "校本课件 HTML 操作改版核对",
-    "status": "本地全量核对通过",
+    "status": "本地全量核对与公开网站复核通过",
     "publication_url": "https://chaoimhinalmansour.github.io/qunxiantech.github.io/",
     "content_boundary": [
       "保留词汇例句、既有额外练习、答案和讲评解析。",
@@ -640,6 +640,27 @@
       }
     ],
     "local_errors": [],
-    "public_update_verification": "更新后继续从公开网址实测"
+    "public_update_verification": {
+      "lessons": 32,
+      "anonymous_public_access": true,
+      "sentence_same_page": true,
+      "sentence_stopped_on_close": true,
+      "original_media_start": 59.5,
+      "screen_sizes": [
+        {
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "width": 1024,
+          "height": 768
+        }
+      ],
+      "errors": []
+    }
   }
 }
