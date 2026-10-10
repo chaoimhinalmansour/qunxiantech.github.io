@@ -596,10 +596,10 @@
   },
   {
     "file": "assets/player.js",
-    "bytes": 28052,
-    "sha256": "0777aefed166402b688d49c55aa5cbff7786044a435dd2e05d50fdac3d26c532",
-    "repository_bytes": 27970,
-    "repository_sha256": "4279e4f4d880003ae7f73cf66cb9c16d217827cf2bd33816dd9df385f7fbab91"
+    "bytes": 28095,
+    "sha256": "9a882350a3d5159acf7db5abfc20005a03b38346b31f15e0d9f4b968b048661e",
+    "repository_bytes": 28013,
+    "repository_sha256": "e7011b1680883dd278d95f763bb72e256b6756ad650371c3f80804e613460f71"
   },
   {
     "file": "assets/resource-library.json",
@@ -13959,10 +13959,10 @@
   },
   {
     "file": "audit/题目素材关联图.html",
-    "bytes": 4615,
-    "sha256": "092a116a6e5048af0d3a2c783108a444f2607b3a5d0743d371fb8d398f826c08",
-    "repository_bytes": 4608,
-    "repository_sha256": "60539bce0980528aed099f2ddc4887a8b54aeff75d81debb5a51eb80c1f6645e"
+    "bytes": 4619,
+    "sha256": "1291f21f1fc9f90e5982babb2c4436fe0976d310d7ce79b09bed259eadac3d2c",
+    "repository_bytes": 4612,
+    "repository_sha256": "c456bb43ec48e93e463f8c641c25bc8e741a2f0edf35655d40e3bec4b716b0a6"
   },
   {
     "file": "audit/题目素材功能核对.html",
@@ -13987,17 +13987,17 @@
   },
   {
     "file": "index.html",
-    "bytes": 6562,
-    "sha256": "3143a368d7282699de1d95a57f75bd9dbdd60ec514feeb23e390e2a047bd3405",
-    "repository_bytes": 6562,
-    "repository_sha256": "3143a368d7282699de1d95a57f75bd9dbdd60ec514feeb23e390e2a047bd3405"
+    "bytes": 6626,
+    "sha256": "44865025487886b7e26ef68ec28d566afc79fc855a2ae310a17db7e8135b8561",
+    "repository_bytes": 6626,
+    "repository_sha256": "44865025487886b7e26ef68ec28d566afc79fc855a2ae310a17db7e8135b8561"
   },
   {
     "file": "lessons/B2_LS_U01.html",
-    "bytes": 818,
-    "sha256": "9f28355d1631141442bdbfcb03f9c10ebe933c15738892bb5e88322358f84707",
-    "repository_bytes": 818,
-    "repository_sha256": "9f28355d1631141442bdbfcb03f9c10ebe933c15738892bb5e88322358f84707"
+    "bytes": 832,
+    "sha256": "1fe8394a8030ea53a5787cedc45a90051f29f182cc14593163a28f441fc16cc7",
+    "repository_bytes": 832,
+    "repository_sha256": "1fe8394a8030ea53a5787cedc45a90051f29f182cc14593163a28f441fc16cc7"
   },
   {
     "file": "lessons/B2_LS_U01.js",
@@ -14008,10 +14008,10 @@
   },
   {
     "file": "lessons/B2_LS_U02.html",
-    "bytes": 818,
-    "sha256": "19384739c9f012cc152908b23d592121ad0a76f887171095db585fcccc8b2b90",
-    "repository_bytes": 818,
-    "repository_sha256": "19384739c9f012cc152908b23d592121ad0a76f887171095db585fcccc8b2b90"
+    "bytes": 832,
+    "sha256": "919170b322e052bf642c081d2980263d00250400cb5df3574a444ee055a2ed10",
+    "repository_bytes": 832,
+    "repository_sha256": "919170b322e052bf642c081d2980263d00250400cb5df3574a444ee055a2ed10"
   },
   {
     "file": "lessons/B2_LS_U02.js",
@@ -14022,10 +14022,10 @@
   },
   {
     "file": "lessons/B2_LS_U03.html",
-    "bytes": 818,
-    "sha256": "a280f50a14e1af36e72c3521f2733f2ff428417aa86f058d5314121e6c55d3e6",
-    "repository_bytes": 818,
-    "repository_sha256": "a280f50a14e1af36e72c3521f2733f2ff428417aa86f058d5314121e6c55d3e6"
+    "bytes": 832,
+    "sha256": "8ffa908c1de4f3a961c601f6c32c6f7d1ba43c940533c3e0944f9791e2de70b4",
+    "repository_bytes": 832,
+    "repository_sha256": "8ffa908c1de4f3a961c601f6c32c6f7d1ba43c940533c3e0944f9791e2de70b4"
   },
   {
     "file": "lessons/B2_LS_U03.js",
@@ -14036,10 +14036,10 @@
   },
   {
     "file": "lessons/B2_LS_U04.html",
-    "bytes": 818,
-    "sha256": "09dbe51d7432d632a7b2bb5d62369b17b2631d9748c3f09b691332536ffacb2a",
-    "repository_bytes": 818,
-    "repository_sha256": "09dbe51d7432d632a7b2bb5d62369b17b2631d9748c3f09b691332536ffacb2a"
+    "bytes": 832,
+    "sha256": "faaae2df0dc20656047adb1e883808cdfd0af9bb01bb08093c1cefec6c0418df",
+    "repository_bytes": 832,
+    "repository_sha256": "faaae2df0dc20656047adb1e883808cdfd0af9bb01bb08093c1cefec6c0418df"
   },
   {
     "file": "lessons/B2_LS_U04.js",
@@ -14050,10 +14050,10 @@
   },
   {
     "file": "lessons/B2_LS_U05.html",
-    "bytes": 818,
-    "sha256": "175cd2c72daeb16cdcb85d66875ad08c93735e87df8512d62245cb144e63ee88",
-    "repository_bytes": 818,
-    "repository_sha256": "175cd2c72daeb16cdcb85d66875ad08c93735e87df8512d62245cb144e63ee88"
+    "bytes": 832,
+    "sha256": "b230060e89c51c78c436af661823fa388c4a3b9bf20614e3f60dea6313d56e45",
+    "repository_bytes": 832,
+    "repository_sha256": "b230060e89c51c78c436af661823fa388c4a3b9bf20614e3f60dea6313d56e45"
   },
   {
     "file": "lessons/B2_LS_U05.js",
@@ -14064,10 +14064,10 @@
   },
   {
     "file": "lessons/B2_LS_U06.html",
-    "bytes": 818,
-    "sha256": "34d56d4c5ae420f6a6c46dfaa12732d8bb52d11e1aec1c29498436e0a7eb4a48",
-    "repository_bytes": 818,
-    "repository_sha256": "34d56d4c5ae420f6a6c46dfaa12732d8bb52d11e1aec1c29498436e0a7eb4a48"
+    "bytes": 832,
+    "sha256": "c9fe3ba5326fc0b0d8ebb4eb6a0f96970815cbfb63228ce3abc5592b7e23e9a2",
+    "repository_bytes": 832,
+    "repository_sha256": "c9fe3ba5326fc0b0d8ebb4eb6a0f96970815cbfb63228ce3abc5592b7e23e9a2"
   },
   {
     "file": "lessons/B2_LS_U06.js",
@@ -14078,10 +14078,10 @@
   },
   {
     "file": "lessons/B2_LS_U07.html",
-    "bytes": 818,
-    "sha256": "aa517e92c9bcccd6ba106fc46753e2339b6575fda913da1174e43f35e246ed24",
-    "repository_bytes": 818,
-    "repository_sha256": "aa517e92c9bcccd6ba106fc46753e2339b6575fda913da1174e43f35e246ed24"
+    "bytes": 832,
+    "sha256": "b17f1c0b83b37ecb0c48418bc84f301be4152dcfe5d0de63dad24d25488c76d8",
+    "repository_bytes": 832,
+    "repository_sha256": "b17f1c0b83b37ecb0c48418bc84f301be4152dcfe5d0de63dad24d25488c76d8"
   },
   {
     "file": "lessons/B2_LS_U07.js",
@@ -14092,10 +14092,10 @@
   },
   {
     "file": "lessons/B2_LS_U08.html",
-    "bytes": 818,
-    "sha256": "a37c64e9c610e161368201a42e7ba9578438cd0c217a20c461d1e6598987f13d",
-    "repository_bytes": 818,
-    "repository_sha256": "a37c64e9c610e161368201a42e7ba9578438cd0c217a20c461d1e6598987f13d"
+    "bytes": 832,
+    "sha256": "c0520e815a4c54ab5bb101f817530c1b849f6d7ba6b76db4c28634baa5e14254",
+    "repository_bytes": 832,
+    "repository_sha256": "c0520e815a4c54ab5bb101f817530c1b849f6d7ba6b76db4c28634baa5e14254"
   },
   {
     "file": "lessons/B2_LS_U08.js",
@@ -14106,10 +14106,10 @@
   },
   {
     "file": "lessons/B2_RW_U01.html",
-    "bytes": 818,
-    "sha256": "29222a97a1fa6afa0a56ba31c898e81bf362c4dfe9d45a5b68555919d17c8b6e",
-    "repository_bytes": 818,
-    "repository_sha256": "29222a97a1fa6afa0a56ba31c898e81bf362c4dfe9d45a5b68555919d17c8b6e"
+    "bytes": 832,
+    "sha256": "650264340613224e7d5c2698ee23d54d8c2eace99bad146e07de059791e09958",
+    "repository_bytes": 832,
+    "repository_sha256": "650264340613224e7d5c2698ee23d54d8c2eace99bad146e07de059791e09958"
   },
   {
     "file": "lessons/B2_RW_U01.js",
@@ -14120,10 +14120,10 @@
   },
   {
     "file": "lessons/B2_RW_U02.html",
-    "bytes": 818,
-    "sha256": "a0882470a2d376d3a027eafaf9ab4d32b71ed30573e2b53ba5a5036816d62639",
-    "repository_bytes": 818,
-    "repository_sha256": "a0882470a2d376d3a027eafaf9ab4d32b71ed30573e2b53ba5a5036816d62639"
+    "bytes": 832,
+    "sha256": "1b495c29323f1bd794150f16810bde5cb653e91dc7248fdf6e173cd108ee8be7",
+    "repository_bytes": 832,
+    "repository_sha256": "1b495c29323f1bd794150f16810bde5cb653e91dc7248fdf6e173cd108ee8be7"
   },
   {
     "file": "lessons/B2_RW_U02.js",
@@ -14134,10 +14134,10 @@
   },
   {
     "file": "lessons/B2_RW_U03.html",
-    "bytes": 818,
-    "sha256": "acc798e162d87dc71807d51538b8fbc7ca17f75ee147a58580250f17b5a98f4d",
-    "repository_bytes": 818,
-    "repository_sha256": "acc798e162d87dc71807d51538b8fbc7ca17f75ee147a58580250f17b5a98f4d"
+    "bytes": 832,
+    "sha256": "10207ceb7bf92679b505e677588c15514777c4c9a1d254945bd90cf5b59438a4",
+    "repository_bytes": 832,
+    "repository_sha256": "10207ceb7bf92679b505e677588c15514777c4c9a1d254945bd90cf5b59438a4"
   },
   {
     "file": "lessons/B2_RW_U03.js",
@@ -14148,10 +14148,10 @@
   },
   {
     "file": "lessons/B2_RW_U04.html",
-    "bytes": 818,
-    "sha256": "6d24de7f3318a116b7539ecff89810ec6548b4d7fd5a790cd491bcc166471105",
-    "repository_bytes": 818,
-    "repository_sha256": "6d24de7f3318a116b7539ecff89810ec6548b4d7fd5a790cd491bcc166471105"
+    "bytes": 832,
+    "sha256": "45578e6a0b2a5859295f6762d45c0aac4de6a7766bb74e551a9a0a57d79e7015",
+    "repository_bytes": 832,
+    "repository_sha256": "45578e6a0b2a5859295f6762d45c0aac4de6a7766bb74e551a9a0a57d79e7015"
   },
   {
     "file": "lessons/B2_RW_U04.js",
@@ -14162,10 +14162,10 @@
   },
   {
     "file": "lessons/B2_RW_U05.html",
-    "bytes": 818,
-    "sha256": "e3f66206f1ff45a2d0b1f99ea07997c69b7990a09cd99dbc7be281a535f7afac",
-    "repository_bytes": 818,
-    "repository_sha256": "e3f66206f1ff45a2d0b1f99ea07997c69b7990a09cd99dbc7be281a535f7afac"
+    "bytes": 832,
+    "sha256": "31ef875da3f9df605095ad244ebdc88151a89b60f7dfbbb5ba6f600643a38742",
+    "repository_bytes": 832,
+    "repository_sha256": "31ef875da3f9df605095ad244ebdc88151a89b60f7dfbbb5ba6f600643a38742"
   },
   {
     "file": "lessons/B2_RW_U05.js",
@@ -14176,10 +14176,10 @@
   },
   {
     "file": "lessons/B2_RW_U06.html",
-    "bytes": 818,
-    "sha256": "a81670706d6f44d3bd3c60fa3280dde476cd92d79279a54af1bf23a0a408450b",
-    "repository_bytes": 818,
-    "repository_sha256": "a81670706d6f44d3bd3c60fa3280dde476cd92d79279a54af1bf23a0a408450b"
+    "bytes": 832,
+    "sha256": "cc72f9758898d85f175e9d123ac2bc6c3bb0049ac259098a55c4bac0193495e9",
+    "repository_bytes": 832,
+    "repository_sha256": "cc72f9758898d85f175e9d123ac2bc6c3bb0049ac259098a55c4bac0193495e9"
   },
   {
     "file": "lessons/B2_RW_U06.js",
@@ -14190,10 +14190,10 @@
   },
   {
     "file": "lessons/B2_RW_U07.html",
-    "bytes": 818,
-    "sha256": "b630f00db9330b42283c31aa7fbdc71ea35bdf8c79f3ebdd57e1424dd56531a4",
-    "repository_bytes": 818,
-    "repository_sha256": "b630f00db9330b42283c31aa7fbdc71ea35bdf8c79f3ebdd57e1424dd56531a4"
+    "bytes": 832,
+    "sha256": "2ab2dfbe236e7b18aa251deb2698da453b8199d5617cc1803ae184e678935851",
+    "repository_bytes": 832,
+    "repository_sha256": "2ab2dfbe236e7b18aa251deb2698da453b8199d5617cc1803ae184e678935851"
   },
   {
     "file": "lessons/B2_RW_U07.js",
@@ -14204,10 +14204,10 @@
   },
   {
     "file": "lessons/B2_RW_U08.html",
-    "bytes": 818,
-    "sha256": "6569ea2495df15eeb63c4872e8fd97ce3a4e2d12e1d1629da6ec2b36fe6cdf31",
-    "repository_bytes": 818,
-    "repository_sha256": "6569ea2495df15eeb63c4872e8fd97ce3a4e2d12e1d1629da6ec2b36fe6cdf31"
+    "bytes": 832,
+    "sha256": "76280377d0a9ad29fadf0b668eab9a96a64d1b7f552e853fd3cf0a2c1d045f28",
+    "repository_bytes": 832,
+    "repository_sha256": "76280377d0a9ad29fadf0b668eab9a96a64d1b7f552e853fd3cf0a2c1d045f28"
   },
   {
     "file": "lessons/B2_RW_U08.js",
@@ -14218,10 +14218,10 @@
   },
   {
     "file": "lessons/B3_LS_U01.html",
-    "bytes": 818,
-    "sha256": "62b37ddac6359fb6f9efc2e7eaa5bb04e03818b96c1c4e013be6f8adadea2e90",
-    "repository_bytes": 818,
-    "repository_sha256": "62b37ddac6359fb6f9efc2e7eaa5bb04e03818b96c1c4e013be6f8adadea2e90"
+    "bytes": 832,
+    "sha256": "5926d189b4aa48738ff35420c31969f5916699765aa0c0a721400503b87875a6",
+    "repository_bytes": 832,
+    "repository_sha256": "5926d189b4aa48738ff35420c31969f5916699765aa0c0a721400503b87875a6"
   },
   {
     "file": "lessons/B3_LS_U01.js",
@@ -14232,10 +14232,10 @@
   },
   {
     "file": "lessons/B3_LS_U02.html",
-    "bytes": 818,
-    "sha256": "a09afeafa79a38b1a0e947b085d87bb11d24ea1628f50a51db51c4927ffbc4cc",
-    "repository_bytes": 818,
-    "repository_sha256": "a09afeafa79a38b1a0e947b085d87bb11d24ea1628f50a51db51c4927ffbc4cc"
+    "bytes": 832,
+    "sha256": "08b55c10eb953624e27ff46832fc0dd3bc9950b411280d3883d72e343a2a89b5",
+    "repository_bytes": 832,
+    "repository_sha256": "08b55c10eb953624e27ff46832fc0dd3bc9950b411280d3883d72e343a2a89b5"
   },
   {
     "file": "lessons/B3_LS_U02.js",
@@ -14246,10 +14246,10 @@
   },
   {
     "file": "lessons/B3_LS_U03.html",
-    "bytes": 818,
-    "sha256": "3bddd9e6888df6c898e69370c74340ba87f11fa4d86ff3ae48b98f501ec21a7c",
-    "repository_bytes": 818,
-    "repository_sha256": "3bddd9e6888df6c898e69370c74340ba87f11fa4d86ff3ae48b98f501ec21a7c"
+    "bytes": 832,
+    "sha256": "4b0e48031cefff6822d0b2d27976eb9e6215e28435b2687a16b12d2ee5f9875a",
+    "repository_bytes": 832,
+    "repository_sha256": "4b0e48031cefff6822d0b2d27976eb9e6215e28435b2687a16b12d2ee5f9875a"
   },
   {
     "file": "lessons/B3_LS_U03.js",
@@ -14260,10 +14260,10 @@
   },
   {
     "file": "lessons/B3_LS_U04.html",
-    "bytes": 818,
-    "sha256": "8ca91717da7f7f66691847ddf494b52cf60c25edba075dec690981c420b760f1",
-    "repository_bytes": 818,
-    "repository_sha256": "8ca91717da7f7f66691847ddf494b52cf60c25edba075dec690981c420b760f1"
+    "bytes": 832,
+    "sha256": "f62fd3563dbb8ccb5d04945b19a61b18c708317b0ccec345c04d705f8cecff15",
+    "repository_bytes": 832,
+    "repository_sha256": "f62fd3563dbb8ccb5d04945b19a61b18c708317b0ccec345c04d705f8cecff15"
   },
   {
     "file": "lessons/B3_LS_U04.js",
@@ -14274,10 +14274,10 @@
   },
   {
     "file": "lessons/B3_LS_U05.html",
-    "bytes": 818,
-    "sha256": "6796e34456227fec840eeea9f85c55b24ce997534ab5f332bf81eb57c766fc78",
-    "repository_bytes": 818,
-    "repository_sha256": "6796e34456227fec840eeea9f85c55b24ce997534ab5f332bf81eb57c766fc78"
+    "bytes": 832,
+    "sha256": "337994fb1ccb01478029e3e96a2e8356a95fec39160b1fb701d1e716b672e91c",
+    "repository_bytes": 832,
+    "repository_sha256": "337994fb1ccb01478029e3e96a2e8356a95fec39160b1fb701d1e716b672e91c"
   },
   {
     "file": "lessons/B3_LS_U05.js",
@@ -14288,10 +14288,10 @@
   },
   {
     "file": "lessons/B3_LS_U06.html",
-    "bytes": 818,
-    "sha256": "41e9ad6006c355489a2b3a90770a895ba7cf5e21a4e2c072b8a00c64659314c1",
-    "repository_bytes": 818,
-    "repository_sha256": "41e9ad6006c355489a2b3a90770a895ba7cf5e21a4e2c072b8a00c64659314c1"
+    "bytes": 832,
+    "sha256": "8ea133cd3b3a437560c15f43e2198e9c1132150a8864fcacebaa2ec2196519d8",
+    "repository_bytes": 832,
+    "repository_sha256": "8ea133cd3b3a437560c15f43e2198e9c1132150a8864fcacebaa2ec2196519d8"
   },
   {
     "file": "lessons/B3_LS_U06.js",
@@ -14302,10 +14302,10 @@
   },
   {
     "file": "lessons/B3_LS_U07.html",
-    "bytes": 818,
-    "sha256": "bb1d46552e9d2b9d9a13939e17481de7b82e1c1dc0a56ea7ebf533e870ece636",
-    "repository_bytes": 818,
-    "repository_sha256": "bb1d46552e9d2b9d9a13939e17481de7b82e1c1dc0a56ea7ebf533e870ece636"
+    "bytes": 832,
+    "sha256": "e92512cbf665617b25cc531d93f3f0086266c62cf50c6c8f88d4bb3a7ba18ce3",
+    "repository_bytes": 832,
+    "repository_sha256": "e92512cbf665617b25cc531d93f3f0086266c62cf50c6c8f88d4bb3a7ba18ce3"
   },
   {
     "file": "lessons/B3_LS_U07.js",
@@ -14316,10 +14316,10 @@
   },
   {
     "file": "lessons/B3_LS_U08.html",
-    "bytes": 818,
-    "sha256": "5ec4d3813abef7f9d8044f2e53cad6983a9931e98d1a3c3e2075b40d896fff50",
-    "repository_bytes": 818,
-    "repository_sha256": "5ec4d3813abef7f9d8044f2e53cad6983a9931e98d1a3c3e2075b40d896fff50"
+    "bytes": 832,
+    "sha256": "c1cbb9085afaf4bb9fea5af9ebcffb3d5e684082300b22da4f66d2b367bde848",
+    "repository_bytes": 832,
+    "repository_sha256": "c1cbb9085afaf4bb9fea5af9ebcffb3d5e684082300b22da4f66d2b367bde848"
   },
   {
     "file": "lessons/B3_LS_U08.js",
@@ -14330,10 +14330,10 @@
   },
   {
     "file": "lessons/B3_RW_U01.html",
-    "bytes": 818,
-    "sha256": "9ccdc383438acbced66b6a792a3ff0d34fa2cc80613f89a3b8ec0695e8c86bc6",
-    "repository_bytes": 818,
-    "repository_sha256": "9ccdc383438acbced66b6a792a3ff0d34fa2cc80613f89a3b8ec0695e8c86bc6"
+    "bytes": 832,
+    "sha256": "f544bbcf7876b0ad571cf0585bc0e8d3b086ae74e6871c625d7e6fa4e7e9a38e",
+    "repository_bytes": 832,
+    "repository_sha256": "f544bbcf7876b0ad571cf0585bc0e8d3b086ae74e6871c625d7e6fa4e7e9a38e"
   },
   {
     "file": "lessons/B3_RW_U01.js",
@@ -14344,10 +14344,10 @@
   },
   {
     "file": "lessons/B3_RW_U02.html",
-    "bytes": 818,
-    "sha256": "b9effc0ae1974c10da1c9ba09ec24bc2c3bfd9036f5ab3cb75837a181c72d082",
-    "repository_bytes": 818,
-    "repository_sha256": "b9effc0ae1974c10da1c9ba09ec24bc2c3bfd9036f5ab3cb75837a181c72d082"
+    "bytes": 832,
+    "sha256": "0e9b7afa6f766e7a11ad6dd3984bea5ddf5d805c8888df058ef41ee27c0f9ba5",
+    "repository_bytes": 832,
+    "repository_sha256": "0e9b7afa6f766e7a11ad6dd3984bea5ddf5d805c8888df058ef41ee27c0f9ba5"
   },
   {
     "file": "lessons/B3_RW_U02.js",
@@ -14358,10 +14358,10 @@
   },
   {
     "file": "lessons/B3_RW_U03.html",
-    "bytes": 818,
-    "sha256": "a51f0ba1ede5dd034b920e7909d7d240cead41aa9a2a9c0283d930c2bb9f27ee",
-    "repository_bytes": 818,
-    "repository_sha256": "a51f0ba1ede5dd034b920e7909d7d240cead41aa9a2a9c0283d930c2bb9f27ee"
+    "bytes": 832,
+    "sha256": "273d09792e741143d1af006aa24003b0659da5abc950546cdbbc5a39a156ac97",
+    "repository_bytes": 832,
+    "repository_sha256": "273d09792e741143d1af006aa24003b0659da5abc950546cdbbc5a39a156ac97"
   },
   {
     "file": "lessons/B3_RW_U03.js",
@@ -14372,10 +14372,10 @@
   },
   {
     "file": "lessons/B3_RW_U04.html",
-    "bytes": 818,
-    "sha256": "1cb45ba9a6af9d07c60ba60367dee2426d839fd5fc4f1ed41f065addb209b52c",
-    "repository_bytes": 818,
-    "repository_sha256": "1cb45ba9a6af9d07c60ba60367dee2426d839fd5fc4f1ed41f065addb209b52c"
+    "bytes": 832,
+    "sha256": "476acf83c5153993a193215a63547677aee8cf641771cac0ab3f37dbe0348990",
+    "repository_bytes": 832,
+    "repository_sha256": "476acf83c5153993a193215a63547677aee8cf641771cac0ab3f37dbe0348990"
   },
   {
     "file": "lessons/B3_RW_U04.js",
@@ -14386,10 +14386,10 @@
   },
   {
     "file": "lessons/B3_RW_U05.html",
-    "bytes": 818,
-    "sha256": "91bc0f75332230fe44f8932cf158cb1b898730ee0a9ee3883f7d8aa36a6ec145",
-    "repository_bytes": 818,
-    "repository_sha256": "91bc0f75332230fe44f8932cf158cb1b898730ee0a9ee3883f7d8aa36a6ec145"
+    "bytes": 832,
+    "sha256": "2b8c89e911e51fef14a378892422fa0b4c1b4831ef8fbbbd449aac380f3ae8e4",
+    "repository_bytes": 832,
+    "repository_sha256": "2b8c89e911e51fef14a378892422fa0b4c1b4831ef8fbbbd449aac380f3ae8e4"
   },
   {
     "file": "lessons/B3_RW_U05.js",
@@ -14400,10 +14400,10 @@
   },
   {
     "file": "lessons/B3_RW_U06.html",
-    "bytes": 818,
-    "sha256": "d83deead58118b997cf73a7077cd3747c1d647d79d797b640dc3960c4af5ab56",
-    "repository_bytes": 818,
-    "repository_sha256": "d83deead58118b997cf73a7077cd3747c1d647d79d797b640dc3960c4af5ab56"
+    "bytes": 832,
+    "sha256": "a72394906b6a9928c93cc0c3593539fda56c6503fead8e13671fcb0d208c1da1",
+    "repository_bytes": 832,
+    "repository_sha256": "a72394906b6a9928c93cc0c3593539fda56c6503fead8e13671fcb0d208c1da1"
   },
   {
     "file": "lessons/B3_RW_U06.js",
@@ -14414,10 +14414,10 @@
   },
   {
     "file": "lessons/B3_RW_U07.html",
-    "bytes": 818,
-    "sha256": "64fa015579302249bb7fc799c8ef71d6d6cdfa7dc6886a2dd958b3ef5f430cd5",
-    "repository_bytes": 818,
-    "repository_sha256": "64fa015579302249bb7fc799c8ef71d6d6cdfa7dc6886a2dd958b3ef5f430cd5"
+    "bytes": 832,
+    "sha256": "7368b1a741ad26b71a869abfe9d81bd4230c8cfa6780408de23fd0fcc6f6114d",
+    "repository_bytes": 832,
+    "repository_sha256": "7368b1a741ad26b71a869abfe9d81bd4230c8cfa6780408de23fd0fcc6f6114d"
   },
   {
     "file": "lessons/B3_RW_U07.js",
@@ -14428,10 +14428,10 @@
   },
   {
     "file": "lessons/B3_RW_U08.html",
-    "bytes": 818,
-    "sha256": "a58f84ce2f136f6111fdbc460e7e4dffec1abb49519ab5211048dbc7d2df7ae0",
-    "repository_bytes": 818,
-    "repository_sha256": "a58f84ce2f136f6111fdbc460e7e4dffec1abb49519ab5211048dbc7d2df7ae0"
+    "bytes": 832,
+    "sha256": "0a00da60adc5c01f4f34f37c81d46111e45be37c9f8d0695d2c4749ad50edce6",
+    "repository_bytes": 832,
+    "repository_sha256": "0a00da60adc5c01f4f34f37c81d46111e45be37c9f8d0695d2c4749ad50edce6"
   },
   {
     "file": "lessons/B3_RW_U08.js",
