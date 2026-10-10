@@ -1,0 +1,233 @@
+{
+  "date": "2026-10-10",
+  "title": "校本课件 HTML 操作改版核对",
+  "status": "本地全量核对通过",
+  "publication_url": "https://chaoimhinalmansour.github.io/qunxiantech.github.io/",
+  "content_boundary": [
+    "保留词汇例句、既有额外练习、答案和讲评解析。",
+    "Language Development、Grammar／Grammar for Writing、Critical Thinking 的已确认原讲解和原题选用方案保留。",
+    "沿用教材原有标题、概念、定义和题目指令，未增加教学要求。",
+    "选中的原题独立保留，未改写、未合并。"
+  ],
+  "checks": [
+    {
+      "item": "原题内容文件",
+      "count": 32,
+      "result": "与改版前逐字节一致，SHA256 完全一致"
+    },
+    {
+      "item": "独立讲评目录",
+      "count": 198,
+      "result": "课堂导航以原题选择与当前题内讲评承接，原画面保留供核对"
+    },
+    {
+      "item": "答案、解析和恢复按钮",
+      "count": 6524,
+      "result": "全部实测通过，练习时初始隐藏，讲评时教师显示"
+    },
+    {
+      "item": "课堂内容入口",
+      "count": 5572,
+      "result": "按原栏目、标题和题号定位，同题多画面在题内切换"
+    },
+    {
+      "item": "阅读原文全文",
+      "count": 32,
+      "result": "原文文字与原图保留，同文重复显示去重，图片加载与布局通过"
+    },
+    {
+      "item": "阅读位置和材料切题",
+      "count": 61,
+      "result": "组内切题保留全文阅读位置，文字逐段与来源一致"
+    },
+    {
+      "item": "完整写作任务",
+      "count": 16,
+      "result": "原步骤和修改清单同页查看，原任务要求保留"
+    },
+    {
+      "item": "原写作参考材料",
+      "count": 109,
+      "result": "全部核对，同页翻阅与返回通过"
+    },
+    {
+      "item": "同页逐句精听",
+      "count": 224,
+      "result": "全部加载通过，字幕初始隐藏，循环、变速、音高保持及关闭停止通过"
+    },
+    {
+      "item": "音频起点与位置",
+      "count": "59.5 秒起点案例",
+      "result": "第一点击播放及同组返回时保留播放位置通过"
+    },
+    {
+      "item": "同画面不同原题",
+      "count": "扫描原文与填写笔记案例",
+      "result": "独立题号、指令、内容、导航、返回和链接定位均通过"
+    }
+  ],
+  "content_hashes": [
+    {
+      "lesson": "B2_LS_U01",
+      "sha256": "dc13346659dd1817fe9d52882f31c44bbb03fd8d6a6a047be9c6393c52e7e196",
+      "unchanged": true
+    },
+    {
+      "lesson": "B2_LS_U02",
+      "sha256": "f0958440339b47719c445e70ded4ef3fd11ff4e4e6e2883291fc0cedfa82144d",
+      "unchanged": true
+    },
+    {
+      "lesson": "B2_LS_U03",
+      "sha256": "7ddba79cde80a91323f2281e8206da5ae2d15f8dc37a35ea1c72ebcaba819335",
+      "unchanged": true
+    },
+    {
+      "lesson": "B2_LS_U04",
+      "sha256": "11fe831401790b097526728a840d3fdbd7178574dcad465a0e4934066137e060",
+      "unchanged": true
+    },
+    {
+      "lesson": "B2_LS_U05",
+      "sha256": "df6ba22b2bb3b99b29a00e34613f1c8f40a5b1ec8e02c00df9772714e82b3116",
+      "unchanged": true
+    },
+    {
+      "lesson": "B2_LS_U06",
+      "sha256": "9bd636b698241232f87439753f92dbd26d77d2cdf504ed34d4153d960a67ba75",
+      "unchanged": true
+    },
+    {
+      "lesson": "B2_LS_U07",
+      "sha256": "a36fb0de2826227c77ace7348bfe1d729baf98311431b08a9512588e4ef8c0f0",
+      "unchanged": true
+    },
+    {
+      "lesson": "B2_LS_U08",
+      "sha256": "46d23e86fe29efc49b55f6fe3018ea4459884b8a387b3e85a62b695bd6b05d58",
+      "unchanged": true
+    },
+    {
+      "lesson": "B2_RW_U01",
+      "sha256": "f8d3493b1ef142cee3d29f754942d17091eb1ccda60ca127e5385cb5d6a6a5ec",
+      "unchanged": true
+    },
+    {
+      "lesson": "B2_RW_U02",
+      "sha256": "f5a39165f1f6cc1eab9f61853991d09b8032710e99a453d0208a857658cf9f81",
+      "unchanged": true
+    },
+    {
+      "lesson": "B2_RW_U03",
+      "sha256": "f360a6af7fb33fbb072dc162f5cc988f74daa13e9b8aaa3ddd0c5e0c52f22bbb",
+      "unchanged": true
+    },
+    {
+      "lesson": "B2_RW_U04",
+      "sha256": "fc74095580ab4e733212aceb76553d89447209badfb2fac1ba68f6f713969634",
+      "unchanged": true
+    },
+    {
+      "lesson": "B2_RW_U05",
+      "sha256": "8f757422ca37fb29256c0dce1df75cf50a70faec9de8cefaf1614db7cb14c7e4",
+      "unchanged": true
+    },
+    {
+      "lesson": "B2_RW_U06",
+      "sha256": "f2f5fb0f2beb106d735482a86825aa35bd5359ded8ecfb76b49f0a5de2ed1006",
+      "unchanged": true
+    },
+    {
+      "lesson": "B2_RW_U07",
+      "sha256": "81c75fa8898a46be8e779cbd9c34d2a4f329674c7f9d3f2ad3cc0352b1944c3d",
+      "unchanged": true
+    },
+    {
+      "lesson": "B2_RW_U08",
+      "sha256": "85d0846acbb02875d85dca2a735aff05de881b738e780f9c823cc8fd5b31f3e9",
+      "unchanged": true
+    },
+    {
+      "lesson": "B3_LS_U01",
+      "sha256": "4a02c5dd95aa944f238cdc9677c80d067689a827284870aeb8a143342721b1cf",
+      "unchanged": true
+    },
+    {
+      "lesson": "B3_LS_U02",
+      "sha256": "8fdabb97510194154321398b74d89cc432b03dd35ebcb640d6f5372d8dd75cf6",
+      "unchanged": true
+    },
+    {
+      "lesson": "B3_LS_U03",
+      "sha256": "79a4668ee8a96f079e9eab1bec713699669c8f5288676e2575175666f7ad514d",
+      "unchanged": true
+    },
+    {
+      "lesson": "B3_LS_U04",
+      "sha256": "f9542c14a819ebe5567c82146f505e8ac166a200a47b75836f519d9c4bd4adca",
+      "unchanged": true
+    },
+    {
+      "lesson": "B3_LS_U05",
+      "sha256": "7a47521e317db25bc57c68f5937da945ae60cfa2b9f7e9ba96e5584b94e52d68",
+      "unchanged": true
+    },
+    {
+      "lesson": "B3_LS_U06",
+      "sha256": "a42a7d410964a773e928b7d448255229e26ac9891e4842de265a60ca922bb8ec",
+      "unchanged": true
+    },
+    {
+      "lesson": "B3_LS_U07",
+      "sha256": "1df3b622c8c7bdd63abde1564fb385f5230c3b1509867a610c137d94dacfd8d8",
+      "unchanged": true
+    },
+    {
+      "lesson": "B3_LS_U08",
+      "sha256": "43a31302825187875ebaa2c6c237d3d05d0893dc6d564f87daf42caba288d9c4",
+      "unchanged": true
+    },
+    {
+      "lesson": "B3_RW_U01",
+      "sha256": "3bb0203df1f642fdd7846c45523076265ff7f862383e8a232386bc06ca3d0156",
+      "unchanged": true
+    },
+    {
+      "lesson": "B3_RW_U02",
+      "sha256": "6a83e6269fd51461d389126c3534d88fd6f1fbafea6d93b966d5ada061b2c76c",
+      "unchanged": true
+    },
+    {
+      "lesson": "B3_RW_U03",
+      "sha256": "faec651710293b05db5caf814284f9cb9b81f7a5839e20e030a5fbcf3e0ae68b",
+      "unchanged": true
+    },
+    {
+      "lesson": "B3_RW_U04",
+      "sha256": "4392d748861556d76a3e80fbe533a6a711d17e606b4ae4c0fd4dab29b2c47a72",
+      "unchanged": true
+    },
+    {
+      "lesson": "B3_RW_U05",
+      "sha256": "ab2937b03fc384146c1cb7503170c35c0fd863cbf55c4ac873e86eb360e4aaf4",
+      "unchanged": true
+    },
+    {
+      "lesson": "B3_RW_U06",
+      "sha256": "015827e212958d2a3401a091fd5edb23d01592ca9b6819efe8deb143a2269e4c",
+      "unchanged": true
+    },
+    {
+      "lesson": "B3_RW_U07",
+      "sha256": "e3ba111bdc2d662e5a58b838bdd0abb479b4985c07d5126bb3eb37a8c9ca195e",
+      "unchanged": true
+    },
+    {
+      "lesson": "B3_RW_U08",
+      "sha256": "19200caf5a834b1e8a7e8698a6fe1aaab326c22a107b36b9bda853a387645b19",
+      "unchanged": true
+    }
+  ],
+  "local_errors": [],
+  "public_update_verification": "更新后继续从公开网址实测"
+}
