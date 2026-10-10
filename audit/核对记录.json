@@ -4,7 +4,51 @@
     "width": 1920,
     "height": 1080
   },
-  "status": "本地全量核对及 GitHub 资源入库核对通过",
+  "status": "公开网站、离线成品及资源入库核对通过",
+  "publication": {
+    "url": "https://chaoimhinalmansour.github.io/qunxiantech.github.io/",
+    "display_name": "校本课件",
+    "anonymous_public_access": true,
+    "lessons_verified": 32,
+    "media_first_click_and_original_start": {
+      "source": "https://github.com/chaoimhinalmansour/qunxiantech.github.io/releases/download/unlock-html-standard-20261010/bbb37b93b139cebfff3986e9fa4417b076a094a0cf930685781b9d582408c564.mp3",
+      "position": 59.5,
+      "start": 59.5,
+      "duration": 178.695034,
+      "playing": true
+    },
+    "sentence_player": {
+      "title": "校本课件 · 逐句精听",
+      "track": "PPT_bbb37b93b139cebf",
+      "playing": true,
+      "visible": true,
+      "rate": 1.25,
+      "preservesPitch": true,
+      "cues": 50,
+      "position": 4.5e-05,
+      "loop": true
+    },
+    "screen_sizes": [
+      {
+        "width": 1920,
+        "height": 1080,
+        "ratio": 1.7777777361723544,
+        "inside": true
+      },
+      {
+        "width": 1280,
+        "height": 720,
+        "ratio": 1.7777779094609627,
+        "inside": true
+      },
+      {
+        "width": 1024,
+        "height": 768,
+        "ratio": 1.7777777777777777,
+        "inside": true
+      }
+    ]
+  },
   "github": {
     "repository": "https://github.com/chaoimhinalmansour/qunxiantech.github.io",
     "release": "https://github.com/chaoimhinalmansour/qunxiantech.github.io/releases/tag/unlock-html-standard-20261010",
@@ -87,6 +131,11 @@
       "item": "原文件保护",
       "count": 32,
       "result": "全部原 PPT 哈希仍与转换前一致"
+    },
+    {
+      "item": "公开网站实测",
+      "count": 32,
+      "result": "匿名访问、答案显示与恢复、内部跳转通过；首次音频播放、原指定起点、逐句精听和三种屏幕适配通过"
     },
     {
       "item": "公开课件名称",
