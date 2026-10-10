@@ -2,6 +2,7 @@
 window.createSchoolClassroom=function(ctx){
  const {app,stage,pages,lesson,structure}=ctx,G=window.SCHOOL_RELATIONS[lesson.id],library=window.SCHOOL_LISTENING,byId=new Map(G.exercises.map(e=>[e.id,e]));
  const pane=app.querySelector('.reference-pane'),select=app.querySelector('#material-select');
+ const resourceSelect=document.createElement('select');resourceSelect.id='resource-select';resourceSelect.setAttribute('aria-label','当前题目原材料');resourceSelect.hidden=true;select.before(resourceSelect);
  const native=document.createElement('div');native.className='native-material';native.hidden=true;pane.append(native);
  const graphButton=document.createElement('button');graphButton.id='relations-open';graphButton.textContent='题目与材料';app.querySelector('.toolbar').insertBefore(graphButton,app.querySelector('.nav-buttons'));
  const dialog=document.createElement('dialog');dialog.id='relations-dialog';dialog.innerHTML='<div class="relation-dialog-header"><h2>题目与材料</h2><button class="relation-close">关闭</button></div><div class="relation-body"></div>';app.append(dialog);dialog.querySelector('.relation-close').onclick=()=>dialog.close();
@@ -38,7 +39,7 @@ window.createSchoolClassroom=function(ctx){
  }
  function setupNative(type){app.querySelectorAll('audio,video').forEach(m=>m.pause());ctx.showPane(type);app.querySelector('.reference-viewport').hidden=true;app.querySelector('.reader-document').hidden=true;app.querySelector('.reference-media-bar').hidden=true;app.querySelector('#sentence-frame').hidden=true;app.querySelector('.sentence-loading').hidden=true;native.hidden=false;native.replaceChildren();app.querySelector('#read-full').hidden=true;app.querySelector('#material-prev').hidden=true;app.querySelector('#material-next').hidden=true;app.querySelector('#split-view').hidden=false;ctx.split(true)}
  function openResource(r,list=[r]){if(!r)return;if(r.kind==='audio'){openPrecision(list.filter(r=>r.kind==='audio'));return}ctx.closePanel();currentResource=r;
-  if(['article','reference','exercise'].includes(r.kind)){ctx.openOriginalMaterial(r.parts);currentResource=r;ctx.decorateMaterial();app.querySelector('#read-full').hidden=r.kind!=='article';if(r.kind==='article'){ctx.toggleReader()}ctx.split(true);return}
+  if(['article','reference','exercise'].includes(r.kind)){ctx.openOriginalMaterial(r.parts);currentResource=r;ctx.decorateMaterial();resourceSelect.replaceChildren();resourceSelect.hidden=list.length<2;list.forEach(x=>resourceSelect.append(new Option(x.label,x.id)));resourceSelect.value=r.id;resourceSelect.onchange=()=>openResource(list.find(x=>x.id===resourceSelect.value),list);app.querySelector('#read-full').hidden=r.kind!=='article';if(r.kind==='article'){ctx.toggleReader()}ctx.split(true);return}
   setupNative(r.kind);currentResource=r;select.replaceChildren();list.forEach((x,i)=>select.append(new Option(x.label+(list.length>1?' · '+(i+1)+' / '+list.length:''),x.id)));select.value=r.id;select.onchange=()=>openResource(list.find(x=>x.id===select.value),list);
   if(r.kind==='photos'){native.classList.add('photos-pane');native.append(gallery(r))}
   if(r.kind==='book'){native.classList.remove('photos-pane');native.classList.add('book-pane');r.bookImages.forEach(p=>{const img=document.createElement('img');img.src=p.src;img.alt='Book p. '+p.book_page;native.append(img)})}
@@ -61,6 +62,6 @@ window.createSchoolClassroom=function(ctx){
   a.addEventListener('timeupdate',()=>{if(r.end!==null&&a.currentTime>=r.end){stop();a.currentTime=r.end}});a.addEventListener('pause',()=>{playing=false});a.addEventListener('play',()=>{playing=true});
   stopNative=stop;precisionState=()=>({playing:!a.paused,shown,selected:[...selected],queue:[...queue],rate:a.playbackRate,preservesPitch:a.preservesPitch,media:r.media,cues:t.cues.length,position:a.currentTime,track:t.title});renderCues()
  }
- function close(){if(stopNative)stopNative();stopNative=null;precisionAudio=null;precisionState=null;native.hidden=true;native.replaceChildren();native.className='native-material';currentResource=null}
+ function close(){resourceSelect.hidden=true;if(stopNative)stopNative();stopNative=null;precisionAudio=null;precisionState=null;native.hidden=true;native.replaceChildren();native.className='native-material';currentResource=null}
  return {graph:G,exercise,render,normalize,bindTools,openResource,openPrecision,openLegacy,close,resource:()=>currentResource,state:()=>precisionState?precisionState():null};
 };
