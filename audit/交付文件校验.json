@@ -13945,17 +13945,17 @@
   },
   {
     "file": "audit/题目素材功能核对.html",
-    "bytes": 12318,
-    "sha256": "28ec3617295f3eb2951021199122ee6aabdbb6ffd365cb491cddc374387bb07e",
-    "repository_bytes": 12318,
-    "repository_sha256": "28ec3617295f3eb2951021199122ee6aabdbb6ffd365cb491cddc374387bb07e"
+    "bytes": 12598,
+    "sha256": "87a3cb58f9d6e637c096b121cb0221be06631622b5a4da024f57a46b9432b248",
+    "repository_bytes": 12598,
+    "repository_sha256": "87a3cb58f9d6e637c096b121cb0221be06631622b5a4da024f57a46b9432b248"
   },
   {
     "file": "audit/题目素材功能核对.json",
-    "bytes": 308314,
-    "sha256": "005f0759476d1b2b293d64fd0051f504342b8e012f5f5b251bbf743dbf57341e",
-    "repository_bytes": 297935,
-    "repository_sha256": "ac73ba3290196562c7aa7d3008686507f65a988332c9e0f1db1823ea21de1c4e"
+    "bytes": 320441,
+    "sha256": "54c7dca003fcc4ada9eaad732f8334dda681fc91117892b899b247edd0f082d1",
+    "repository_bytes": 309651,
+    "repository_sha256": "f9cebeef202b5aa33c049610a72c72816e4fe16dda8d40cafd1341e47511e840"
   },
   {
     "file": "guide.html",

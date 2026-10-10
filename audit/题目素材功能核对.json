@@ -2,7 +2,7 @@
   "date": "2026-10-10",
   "version": "20261010-relations-v2",
   "title": "题目、素材与课堂功能核对",
-  "status": "本地全量检查通过；公开发布后另附在线实测结果",
+  "status": "本地全量检查与公开网站实测通过",
   "counts": {
     "lessons": 32,
     "exercise_records": 1124,
@@ -8361,7 +8361,7 @@
         "precisionClosed": true,
         "video": {
           "playing": true,
-          "time": 0.214901,
+          "time": 0.220543,
           "duration": 123.739002
         },
         "videoClosed": true,
@@ -8370,10 +8370,421 @@
           "../assets/book-reference/B3_RW_p173_gold.webp",
           "../assets/book-reference/B3_RW_p173_cars.webp"
         ],
+        "referenceMenu": "../assets/book-reference/B3_RW_p85.webp",
         "cards": 32
       },
       "errors": []
-    }
+    },
+    "public_site": {
+      "date": "2026-10-10",
+      "version": "20261010-relations-v2",
+      "results": {
+        "lessons": [
+          {
+            "lesson": "B2_LS_U01",
+            "records": 50,
+            "relations": 39,
+            "answerVisible": true,
+            "answerHidden": true,
+            "assignmentRoutes": 0,
+            "footer": 0
+          },
+          {
+            "lesson": "B2_LS_U02",
+            "records": 45,
+            "relations": 40,
+            "answerVisible": true,
+            "answerHidden": true,
+            "assignmentRoutes": 0,
+            "footer": 0
+          },
+          {
+            "lesson": "B2_LS_U03",
+            "records": 39,
+            "relations": 30,
+            "answerVisible": true,
+            "answerHidden": true,
+            "assignmentRoutes": 0,
+            "footer": 0
+          },
+          {
+            "lesson": "B2_LS_U04",
+            "records": 39,
+            "relations": 28,
+            "answerVisible": true,
+            "answerHidden": true,
+            "assignmentRoutes": 0,
+            "footer": 0
+          },
+          {
+            "lesson": "B2_LS_U05",
+            "records": 38,
+            "relations": 23,
+            "answerVisible": true,
+            "answerHidden": true,
+            "assignmentRoutes": 0,
+            "footer": 0
+          },
+          {
+            "lesson": "B2_LS_U06",
+            "records": 40,
+            "relations": 29,
+            "answerVisible": true,
+            "answerHidden": true,
+            "assignmentRoutes": 0,
+            "footer": 0
+          },
+          {
+            "lesson": "B2_LS_U07",
+            "records": 38,
+            "relations": 15,
+            "answerVisible": true,
+            "answerHidden": true,
+            "assignmentRoutes": 0,
+            "footer": 0
+          },
+          {
+            "lesson": "B2_LS_U08",
+            "records": 40,
+            "relations": 34,
+            "answerVisible": true,
+            "answerHidden": true,
+            "assignmentRoutes": 0,
+            "footer": 0
+          },
+          {
+            "lesson": "B2_RW_U01",
+            "records": 28,
+            "relations": 26,
+            "answerVisible": true,
+            "answerHidden": true,
+            "assignmentRoutes": 0,
+            "footer": 0
+          },
+          {
+            "lesson": "B2_RW_U02",
+            "records": 27,
+            "relations": 19,
+            "answerVisible": true,
+            "answerHidden": true,
+            "assignmentRoutes": 0,
+            "footer": 0
+          },
+          {
+            "lesson": "B2_RW_U03",
+            "records": 36,
+            "relations": 26,
+            "answerVisible": true,
+            "answerHidden": true,
+            "assignmentRoutes": 0,
+            "footer": 0
+          },
+          {
+            "lesson": "B2_RW_U04",
+            "records": 32,
+            "relations": 21,
+            "answerVisible": true,
+            "answerHidden": true,
+            "assignmentRoutes": 0,
+            "footer": 0
+          },
+          {
+            "lesson": "B2_RW_U05",
+            "records": 30,
+            "relations": 25,
+            "answerVisible": true,
+            "answerHidden": true,
+            "assignmentRoutes": 0,
+            "footer": 0
+          },
+          {
+            "lesson": "B2_RW_U06",
+            "records": 38,
+            "relations": 33,
+            "answerVisible": true,
+            "answerHidden": true,
+            "assignmentRoutes": 0,
+            "footer": 0
+          },
+          {
+            "lesson": "B2_RW_U07",
+            "records": 33,
+            "relations": 24,
+            "answerVisible": true,
+            "answerHidden": true,
+            "assignmentRoutes": 0,
+            "footer": 0
+          },
+          {
+            "lesson": "B2_RW_U08",
+            "records": 31,
+            "relations": 21,
+            "answerVisible": true,
+            "answerHidden": true,
+            "assignmentRoutes": 0,
+            "footer": 0
+          },
+          {
+            "lesson": "B3_LS_U01",
+            "records": 40,
+            "relations": 33,
+            "answerVisible": true,
+            "answerHidden": true,
+            "assignmentRoutes": 0,
+            "footer": 0
+          },
+          {
+            "lesson": "B3_LS_U02",
+            "records": 38,
+            "relations": 23,
+            "answerVisible": true,
+            "answerHidden": true,
+            "assignmentRoutes": 0,
+            "footer": 0
+          },
+          {
+            "lesson": "B3_LS_U03",
+            "records": 37,
+            "relations": 43,
+            "answerVisible": true,
+            "answerHidden": true,
+            "assignmentRoutes": 0,
+            "footer": 0
+          },
+          {
+            "lesson": "B3_LS_U04",
+            "records": 40,
+            "relations": 23,
+            "answerVisible": true,
+            "answerHidden": true,
+            "assignmentRoutes": 0,
+            "footer": 0
+          },
+          {
+            "lesson": "B3_LS_U05",
+            "records": 39,
+            "relations": 23,
+            "answerVisible": true,
+            "answerHidden": true,
+            "assignmentRoutes": 0,
+            "footer": 0
+          },
+          {
+            "lesson": "B3_LS_U06",
+            "records": 44,
+            "relations": 30,
+            "answerVisible": true,
+            "answerHidden": true,
+            "assignmentRoutes": 0,
+            "footer": 0
+          },
+          {
+            "lesson": "B3_LS_U07",
+            "records": 45,
+            "relations": 25,
+            "answerVisible": true,
+            "answerHidden": true,
+            "assignmentRoutes": 0,
+            "footer": 0
+          },
+          {
+            "lesson": "B3_LS_U08",
+            "records": 38,
+            "relations": 29,
+            "answerVisible": true,
+            "answerHidden": true,
+            "assignmentRoutes": 0,
+            "footer": 0
+          },
+          {
+            "lesson": "B3_RW_U01",
+            "records": 26,
+            "relations": 25,
+            "answerVisible": true,
+            "answerHidden": true,
+            "assignmentRoutes": 0,
+            "footer": 0
+          },
+          {
+            "lesson": "B3_RW_U02",
+            "records": 25,
+            "relations": 19,
+            "answerVisible": true,
+            "answerHidden": true,
+            "assignmentRoutes": 0,
+            "footer": 0
+          },
+          {
+            "lesson": "B3_RW_U03",
+            "records": 25,
+            "relations": 18,
+            "answerVisible": true,
+            "answerHidden": true,
+            "assignmentRoutes": 0,
+            "footer": 0
+          },
+          {
+            "lesson": "B3_RW_U04",
+            "records": 29,
+            "relations": 25,
+            "answerVisible": true,
+            "answerHidden": true,
+            "assignmentRoutes": 0,
+            "footer": 0
+          },
+          {
+            "lesson": "B3_RW_U05",
+            "records": 27,
+            "relations": 21,
+            "answerVisible": true,
+            "answerHidden": true,
+            "assignmentRoutes": 0,
+            "footer": 0
+          },
+          {
+            "lesson": "B3_RW_U06",
+            "records": 23,
+            "relations": 18,
+            "answerVisible": true,
+            "answerHidden": true,
+            "assignmentRoutes": 0,
+            "footer": 0
+          },
+          {
+            "lesson": "B3_RW_U07",
+            "records": 34,
+            "relations": 26,
+            "answerVisible": true,
+            "answerHidden": true,
+            "assignmentRoutes": 0,
+            "footer": 0
+          },
+          {
+            "lesson": "B3_RW_U08",
+            "records": 30,
+            "relations": 18,
+            "answerVisible": true,
+            "answerHidden": true,
+            "assignmentRoutes": 0,
+            "footer": 0
+          }
+        ],
+        "materials": [],
+        "photos": 4,
+        "originalHidden": true,
+        "precision": {
+          "state": {
+            "playing": true,
+            "shown": true,
+            "selected": [
+              1,
+              3
+            ],
+            "queue": [
+              1,
+              3
+            ],
+            "rate": 1.25,
+            "preservesPitch": true,
+            "media": "../assets/media/871ce69611556a6430fcfe65b2ba57b291bd173da19d2dbbed18a5f4c9e8ffd5.mp3",
+            "cues": 82,
+            "position": 3.02,
+            "track": "Book 2 · Unit 1 · LS · LISTENING 1"
+          },
+          "src": "https://github.com/chaoimhinalmansour/qunxiantech.github.io/releases/download/unlock-html-standard-20261010/871ce69611556a6430fcfe65b2ba57b291bd173da19d2dbbed18a5f4c9e8ffd5.mp3"
+        },
+        "selectedAdvance": true,
+        "audioClosed": true,
+        "video": {
+          "playing": true,
+          "time": 0.266034,
+          "src": "https://github.com/chaoimhinalmansour/qunxiantech.github.io/releases/download/unlock-html-standard-20261010/1450a160a08a7f57bda147a8b098b90769b5bf3d16670053d60259f0de51b1f7.mp4"
+        },
+        "videoClosed": true,
+        "originalGraphs": [
+          "../assets/book-reference/B3_RW_p173_gold.webp",
+          "../assets/book-reference/B3_RW_p173_cars.webp"
+        ],
+        "bookReference": [
+          "../assets/book-reference/B3_RW_p85.webp"
+        ],
+        "sharedLinks": 1,
+        "deepLink": {
+          "kind": "photos",
+          "photos": 4
+        }
+      },
+      "errors": [],
+      "checked_commit": "1583f205e5e798fbd96cbfd3382cc69e50299ad2"
+    },
+    "original_book_pages": [
+      {
+        "page": 191,
+        "file_page": 189,
+        "sha256": "2b8163c7bc9df13d30533dcc6e9a9dbda4a63522158b6032292dd87b183e09b7",
+        "verified_from_supplied_pdf": true,
+        "mean_rgb_difference_due_to_webp": [
+          0.3324475463662533,
+          0.2705605892522719,
+          0.411505379943736
+        ]
+      },
+      {
+        "page": 219,
+        "file_page": 217,
+        "sha256": "b8b3d003e9e84c199d7c4232a2000bd9343e8938d228fd0eded90507b6b3f2d4",
+        "verified_from_supplied_pdf": true,
+        "mean_rgb_difference_due_to_webp": [
+          0.4081211504148615,
+          0.37052638140632344,
+          0.42046560379926423
+        ]
+      },
+      {
+        "page": 220,
+        "file_page": 218,
+        "sha256": "b3aea7f56bf29c2ed2312b864a390581b8169eed790b0efdf5aacf1cba757893",
+        "verified_from_supplied_pdf": true,
+        "mean_rgb_difference_due_to_webp": [
+          0.41003201838989173,
+          0.3577094056954332,
+          0.42663648372587704
+        ]
+      },
+      {
+        "page": 222,
+        "file_page": 220,
+        "sha256": "d42bd327c9b393eba2e16298f6d6d3ba41f09a8c8094566b832ca8c52264dc47",
+        "verified_from_supplied_pdf": true,
+        "mean_rgb_difference_due_to_webp": [
+          0.47688536503774,
+          0.39303454083339423,
+          0.4541786987299524
+        ]
+      },
+      {
+        "page": 85,
+        "file_page": 83,
+        "sha256": "6d6997a50d69415544b644e08db91a47bed90e3c6916327e773d4e28f1f120f5",
+        "verified_from_supplied_pdf": true,
+        "mean_rgb_difference_due_to_webp": [
+          0.6959618965383891,
+          0.4296082181944953,
+          0.7153595537049714
+        ]
+      },
+      {
+        "page": 173,
+        "file_page": 171,
+        "sha256": "8666254e69541187cde3fe7830a122e3caf53f65797987906241c4c0ed11169f",
+        "verified_from_supplied_pdf": true,
+        "mean_rgb_difference_due_to_webp": [
+          1.282146621215252,
+          0.9475688764781234,
+          1.4767288526057414
+        ]
+      }
+    ]
   },
   "instruction_restorations": [
     {
