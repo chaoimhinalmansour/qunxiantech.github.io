@@ -1,0 +1,411 @@
+{
+  "version": "20261010-mask-v4",
+  "scope": "32 个校本课件的词汇释义遮罩与解析排版",
+  "vocabulary_meanings": 820,
+  "analysis_views": 1886,
+  "rendered_text_overlap_views": 0,
+  "source_content_checks": {
+    "records": [
+      {
+        "lesson": "B2_LS_U01",
+        "questions": 50,
+        "multi": 8,
+        "reviews": 43,
+        "controls": 284
+      },
+      {
+        "lesson": "B2_LS_U02",
+        "questions": 45,
+        "multi": 3,
+        "reviews": 32,
+        "controls": 207
+      },
+      {
+        "lesson": "B2_LS_U03",
+        "questions": 39,
+        "multi": 5,
+        "reviews": 28,
+        "controls": 227
+      },
+      {
+        "lesson": "B2_LS_U04",
+        "questions": 39,
+        "multi": 1,
+        "reviews": 27,
+        "controls": 200
+      },
+      {
+        "lesson": "B2_LS_U05",
+        "questions": 38,
+        "multi": 4,
+        "reviews": 27,
+        "controls": 247
+      },
+      {
+        "lesson": "B2_LS_U06",
+        "questions": 40,
+        "multi": 1,
+        "reviews": 30,
+        "controls": 255
+      },
+      {
+        "lesson": "B2_LS_U07",
+        "questions": 38,
+        "multi": 3,
+        "reviews": 27,
+        "controls": 255
+      },
+      {
+        "lesson": "B2_LS_U08",
+        "questions": 40,
+        "multi": 1,
+        "reviews": 31,
+        "controls": 241
+      },
+      {
+        "lesson": "B2_RW_U01",
+        "questions": 28,
+        "multi": 5,
+        "reviews": 24,
+        "controls": 211
+      },
+      {
+        "lesson": "B2_RW_U02",
+        "questions": 27,
+        "multi": 3,
+        "reviews": 21,
+        "controls": 211
+      },
+      {
+        "lesson": "B2_RW_U03",
+        "questions": 36,
+        "multi": 3,
+        "reviews": 33,
+        "controls": 231
+      },
+      {
+        "lesson": "B2_RW_U04",
+        "questions": 32,
+        "multi": 5,
+        "reviews": 30,
+        "controls": 217
+      },
+      {
+        "lesson": "B2_RW_U05",
+        "questions": 30,
+        "multi": 4,
+        "reviews": 27,
+        "controls": 222
+      },
+      {
+        "lesson": "B2_RW_U06",
+        "questions": 38,
+        "multi": 5,
+        "reviews": 31,
+        "controls": 244
+      },
+      {
+        "lesson": "B2_RW_U07",
+        "questions": 33,
+        "multi": 3,
+        "reviews": 31,
+        "controls": 226
+      },
+      {
+        "lesson": "B2_RW_U08",
+        "questions": 31,
+        "multi": 10,
+        "reviews": 30,
+        "controls": 243
+      },
+      {
+        "lesson": "B3_LS_U01",
+        "questions": 40,
+        "multi": 7,
+        "reviews": 27,
+        "controls": 169
+      },
+      {
+        "lesson": "B3_LS_U02",
+        "questions": 38,
+        "multi": 5,
+        "reviews": 26,
+        "controls": 168
+      },
+      {
+        "lesson": "B3_LS_U03",
+        "questions": 37,
+        "multi": 12,
+        "reviews": 32,
+        "controls": 185
+      },
+      {
+        "lesson": "B3_LS_U04",
+        "questions": 40,
+        "multi": 5,
+        "reviews": 37,
+        "controls": 172
+      },
+      {
+        "lesson": "B3_LS_U05",
+        "questions": 39,
+        "multi": 8,
+        "reviews": 29,
+        "controls": 185
+      },
+      {
+        "lesson": "B3_LS_U06",
+        "questions": 44,
+        "multi": 6,
+        "reviews": 31,
+        "controls": 177
+      },
+      {
+        "lesson": "B3_LS_U07",
+        "questions": 45,
+        "multi": 9,
+        "reviews": 29,
+        "controls": 169
+      },
+      {
+        "lesson": "B3_LS_U08",
+        "questions": 38,
+        "multi": 10,
+        "reviews": 30,
+        "controls": 159
+      },
+      {
+        "lesson": "B3_RW_U01",
+        "questions": 26,
+        "multi": 5,
+        "reviews": 23,
+        "controls": 167
+      },
+      {
+        "lesson": "B3_RW_U02",
+        "questions": 25,
+        "multi": 4,
+        "reviews": 24,
+        "controls": 169
+      },
+      {
+        "lesson": "B3_RW_U03",
+        "questions": 25,
+        "multi": 7,
+        "reviews": 22,
+        "controls": 172
+      },
+      {
+        "lesson": "B3_RW_U04",
+        "questions": 29,
+        "multi": 4,
+        "reviews": 22,
+        "controls": 214
+      },
+      {
+        "lesson": "B3_RW_U05",
+        "questions": 27,
+        "multi": 3,
+        "reviews": 23,
+        "controls": 172
+      },
+      {
+        "lesson": "B3_RW_U06",
+        "questions": 23,
+        "multi": 4,
+        "reviews": 21,
+        "controls": 159
+      },
+      {
+        "lesson": "B3_RW_U07",
+        "questions": 34,
+        "multi": 7,
+        "reviews": 31,
+        "controls": 170
+      },
+      {
+        "lesson": "B3_RW_U08",
+        "questions": 30,
+        "multi": 6,
+        "reviews": 27,
+        "controls": 196
+      }
+    ],
+    "errors": []
+  },
+  "vocabulary_checks": {
+    "records": [
+      {
+        "lesson": "B2_LS_U01",
+        "cards": 24,
+        "reviews": 83
+      },
+      {
+        "lesson": "B2_LS_U02",
+        "cards": 19,
+        "reviews": 67
+      },
+      {
+        "lesson": "B2_LS_U03",
+        "cards": 35,
+        "reviews": 65
+      },
+      {
+        "lesson": "B2_LS_U04",
+        "cards": 32,
+        "reviews": 53
+      },
+      {
+        "lesson": "B2_LS_U05",
+        "cards": 19,
+        "reviews": 68
+      },
+      {
+        "lesson": "B2_LS_U06",
+        "cards": 23,
+        "reviews": 69
+      },
+      {
+        "lesson": "B2_LS_U07",
+        "cards": 20,
+        "reviews": 75
+      },
+      {
+        "lesson": "B2_LS_U08",
+        "cards": 23,
+        "reviews": 68
+      },
+      {
+        "lesson": "B2_RW_U01",
+        "cards": 23,
+        "reviews": 55
+      },
+      {
+        "lesson": "B2_RW_U02",
+        "cards": 20,
+        "reviews": 55
+      },
+      {
+        "lesson": "B2_RW_U03",
+        "cards": 36,
+        "reviews": 67
+      },
+      {
+        "lesson": "B2_RW_U04",
+        "cards": 30,
+        "reviews": 59
+      },
+      {
+        "lesson": "B2_RW_U05",
+        "cards": 21,
+        "reviews": 60
+      },
+      {
+        "lesson": "B2_RW_U06",
+        "cards": 31,
+        "reviews": 70
+      },
+      {
+        "lesson": "B2_RW_U07",
+        "cards": 23,
+        "reviews": 64
+      },
+      {
+        "lesson": "B2_RW_U08",
+        "cards": 29,
+        "reviews": 71
+      },
+      {
+        "lesson": "B3_LS_U01",
+        "cards": 24,
+        "reviews": 47
+      },
+      {
+        "lesson": "B3_LS_U02",
+        "cards": 21,
+        "reviews": 57
+      },
+      {
+        "lesson": "B3_LS_U03",
+        "cards": 28,
+        "reviews": 55
+      },
+      {
+        "lesson": "B3_LS_U04",
+        "cards": 33,
+        "reviews": 52
+      },
+      {
+        "lesson": "B3_LS_U05",
+        "cards": 32,
+        "reviews": 46
+      },
+      {
+        "lesson": "B3_LS_U06",
+        "cards": 24,
+        "reviews": 53
+      },
+      {
+        "lesson": "B3_LS_U07",
+        "cards": 27,
+        "reviews": 46
+      },
+      {
+        "lesson": "B3_LS_U08",
+        "cards": 27,
+        "reviews": 48
+      },
+      {
+        "lesson": "B3_RW_U01",
+        "cards": 24,
+        "reviews": 52
+      },
+      {
+        "lesson": "B3_RW_U02",
+        "cards": 28,
+        "reviews": 48
+      },
+      {
+        "lesson": "B3_RW_U03",
+        "cards": 24,
+        "reviews": 50
+      },
+      {
+        "lesson": "B3_RW_U04",
+        "cards": 27,
+        "reviews": 77
+      },
+      {
+        "lesson": "B3_RW_U05",
+        "cards": 25,
+        "reviews": 55
+      },
+      {
+        "lesson": "B3_RW_U06",
+        "cards": 22,
+        "reviews": 49
+      },
+      {
+        "lesson": "B3_RW_U07",
+        "cards": 21,
+        "reviews": 52
+      },
+      {
+        "lesson": "B3_RW_U08",
+        "cards": 25,
+        "reviews": 50
+      }
+    ],
+    "errors": [],
+    "overlaps": []
+  },
+  "public_verification": "待发布后匿名复查",
+  "original_source_files_unchanged": 256,
+  "changes": [
+    "独立词汇学习页中文初始隐藏，统一 SVG 马赛克素材，点击显示、再次点击隐藏，新进入页面重新隐藏。",
+    "英文定义、词汇例句、原图片、原中文释义保持不变。",
+    "原填空行在解析中由对应原完整答案行替换，不再叠加。",
+    "纠正答案表格容器及完整题目指令实际高度，避免表格、词框与文字覆盖。",
+    "解析仍只允许回到题面，保留原题阅读位置并停止音视频。"
+  ]
+}

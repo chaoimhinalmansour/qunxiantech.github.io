@@ -40,3 +40,6 @@
 .viewport.question-scroll{overflow-y:auto;overflow-x:hidden}.viewport.question-scroll:after{content:'';display:block;height:var(--scroll-height,1080px);width:1px;pointer-events:none}
 .review-open #page-select,.review-open #source-toggle,.review-open .taskbar,.review-open #prev,.review-open #next,.review-open #back,.review-open #part-select,.review-open #review-mode,.review-open #feedback-controls,.review-open #relations-open{display:none!important}
 .review-open .topbar a{pointer-events:none}.review-open .stage [data-action]{pointer-events:none}
+
+/* One shared opaque mosaic texture, independent of the concealed meaning. */
+.vocabulary-meaning:not(.meaning-revealed)>.text{visibility:hidden}.vocabulary-mosaic{position:absolute;inset:0;width:100%;height:100%;border:1px solid #c8d1df;border-radius:4px;background:#cbd2df url("vocabulary-mosaic.svg") repeat;background-size:320px 80px;cursor:pointer;padding:0;z-index:2}.vocabulary-mosaic:focus-visible{outline:4px solid #193c78;outline-offset:3px}.meaning-revealed>.vocabulary-mosaic{background:transparent;border-color:transparent}
