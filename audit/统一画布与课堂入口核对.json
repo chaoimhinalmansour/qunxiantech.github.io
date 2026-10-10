@@ -1,0 +1,865 @@
+{
+  "records": [
+    {
+      "lesson": "B2_LS_U01",
+      "routes": 141,
+      "reviews": 83,
+      "base": {
+        "scale": 0.851852,
+        "x": 134.72222900390625,
+        "y": 100,
+        "shell": [
+          50,
+          50,
+          60
+        ],
+        "viewport": [
+          1905,
+          920
+        ]
+      },
+      "errors": []
+    },
+    {
+      "lesson": "B2_LS_U02",
+      "routes": 148,
+      "reviews": 67,
+      "base": {
+        "scale": 0.851852,
+        "x": 134.72222900390625,
+        "y": 100,
+        "shell": [
+          50,
+          50,
+          60
+        ],
+        "viewport": [
+          1905,
+          920
+        ]
+      },
+      "errors": []
+    },
+    {
+      "lesson": "B2_LS_U03",
+      "routes": 146,
+      "reviews": 65,
+      "base": {
+        "scale": 0.851852,
+        "x": 134.72222900390625,
+        "y": 100,
+        "shell": [
+          50,
+          50,
+          60
+        ],
+        "viewport": [
+          1905,
+          920
+        ]
+      },
+      "errors": []
+    },
+    {
+      "lesson": "B2_LS_U04",
+      "routes": 166,
+      "reviews": 53,
+      "base": {
+        "scale": 0.851852,
+        "x": 134.72222900390625,
+        "y": 100,
+        "shell": [
+          50,
+          50,
+          60
+        ],
+        "viewport": [
+          1905,
+          920
+        ]
+      },
+      "errors": []
+    },
+    {
+      "lesson": "B2_LS_U05",
+      "routes": 138,
+      "reviews": 68,
+      "base": {
+        "scale": 0.851852,
+        "x": 134.72222900390625,
+        "y": 100,
+        "shell": [
+          50,
+          50,
+          60
+        ],
+        "viewport": [
+          1905,
+          920
+        ]
+      },
+      "errors": []
+    },
+    {
+      "lesson": "B2_LS_U06",
+      "routes": 163,
+      "reviews": 69,
+      "base": {
+        "scale": 0.851852,
+        "x": 134.72222900390625,
+        "y": 100,
+        "shell": [
+          50,
+          50,
+          60
+        ],
+        "viewport": [
+          1905,
+          920
+        ]
+      },
+      "errors": []
+    },
+    {
+      "lesson": "B2_LS_U07",
+      "routes": 155,
+      "reviews": 75,
+      "base": {
+        "scale": 0.851852,
+        "x": 134.72222900390625,
+        "y": 100,
+        "shell": [
+          50,
+          50,
+          60
+        ],
+        "viewport": [
+          1905,
+          920
+        ]
+      },
+      "errors": []
+    },
+    {
+      "lesson": "B2_LS_U08",
+      "routes": 176,
+      "reviews": 68,
+      "base": {
+        "scale": 0.851852,
+        "x": 134.72222900390625,
+        "y": 100,
+        "shell": [
+          50,
+          50,
+          60
+        ],
+        "viewport": [
+          1905,
+          920
+        ]
+      },
+      "errors": []
+    },
+    {
+      "lesson": "B2_RW_U01",
+      "routes": 123,
+      "reviews": 55,
+      "base": {
+        "scale": 0.851852,
+        "x": 134.72222900390625,
+        "y": 100,
+        "shell": [
+          50,
+          50,
+          60
+        ],
+        "viewport": [
+          1905,
+          920
+        ]
+      },
+      "errors": []
+    },
+    {
+      "lesson": "B2_RW_U02",
+      "routes": 138,
+      "reviews": 55,
+      "base": {
+        "scale": 0.851852,
+        "x": 134.72222900390625,
+        "y": 100,
+        "shell": [
+          50,
+          50,
+          60
+        ],
+        "viewport": [
+          1905,
+          920
+        ]
+      },
+      "errors": []
+    },
+    {
+      "lesson": "B2_RW_U03",
+      "routes": 188,
+      "reviews": 67,
+      "base": {
+        "scale": 0.851852,
+        "x": 134.72222900390625,
+        "y": 100,
+        "shell": [
+          50,
+          50,
+          60
+        ],
+        "viewport": [
+          1905,
+          920
+        ]
+      },
+      "errors": []
+    },
+    {
+      "lesson": "B2_RW_U04",
+      "routes": 204,
+      "reviews": 59,
+      "base": {
+        "scale": 0.851852,
+        "x": 134.72222900390625,
+        "y": 100,
+        "shell": [
+          50,
+          50,
+          60
+        ],
+        "viewport": [
+          1905,
+          920
+        ]
+      },
+      "errors": []
+    },
+    {
+      "lesson": "B2_RW_U05",
+      "routes": 167,
+      "reviews": 60,
+      "base": {
+        "scale": 0.851852,
+        "x": 134.72222900390625,
+        "y": 100,
+        "shell": [
+          50,
+          50,
+          60
+        ],
+        "viewport": [
+          1905,
+          920
+        ]
+      },
+      "errors": []
+    },
+    {
+      "lesson": "B2_RW_U06",
+      "routes": 241,
+      "reviews": 70,
+      "base": {
+        "scale": 0.851852,
+        "x": 134.72222900390625,
+        "y": 100,
+        "shell": [
+          50,
+          50,
+          60
+        ],
+        "viewport": [
+          1905,
+          920
+        ]
+      },
+      "errors": []
+    },
+    {
+      "lesson": "B2_RW_U07",
+      "routes": 198,
+      "reviews": 64,
+      "base": {
+        "scale": 0.851852,
+        "x": 134.72222900390625,
+        "y": 100,
+        "shell": [
+          50,
+          50,
+          60
+        ],
+        "viewport": [
+          1905,
+          920
+        ]
+      },
+      "errors": []
+    },
+    {
+      "lesson": "B2_RW_U08",
+      "routes": 259,
+      "reviews": 71,
+      "base": {
+        "scale": 0.851852,
+        "x": 134.72222900390625,
+        "y": 100,
+        "shell": [
+          50,
+          50,
+          60
+        ],
+        "viewport": [
+          1905,
+          920
+        ]
+      },
+      "errors": []
+    },
+    {
+      "lesson": "B3_LS_U01",
+      "routes": 116,
+      "reviews": 47,
+      "base": {
+        "scale": 0.851852,
+        "x": 134.72222900390625,
+        "y": 100,
+        "shell": [
+          50,
+          50,
+          60
+        ],
+        "viewport": [
+          1905,
+          920
+        ]
+      },
+      "errors": []
+    },
+    {
+      "lesson": "B3_LS_U02",
+      "routes": 138,
+      "reviews": 57,
+      "base": {
+        "scale": 0.851852,
+        "x": 134.72222900390625,
+        "y": 100,
+        "shell": [
+          50,
+          50,
+          60
+        ],
+        "viewport": [
+          1905,
+          920
+        ]
+      },
+      "errors": []
+    },
+    {
+      "lesson": "B3_LS_U03",
+      "routes": 126,
+      "reviews": 55,
+      "base": {
+        "scale": 0.851852,
+        "x": 134.72222900390625,
+        "y": 100,
+        "shell": [
+          50,
+          50,
+          60
+        ],
+        "viewport": [
+          1905,
+          920
+        ]
+      },
+      "errors": []
+    },
+    {
+      "lesson": "B3_LS_U04",
+      "routes": 127,
+      "reviews": 52,
+      "base": {
+        "scale": 0.851852,
+        "x": 134.72222900390625,
+        "y": 100,
+        "shell": [
+          50,
+          50,
+          60
+        ],
+        "viewport": [
+          1905,
+          920
+        ]
+      },
+      "errors": []
+    },
+    {
+      "lesson": "B3_LS_U05",
+      "routes": 124,
+      "reviews": 46,
+      "base": {
+        "scale": 0.851852,
+        "x": 134.72222900390625,
+        "y": 100,
+        "shell": [
+          50,
+          50,
+          60
+        ],
+        "viewport": [
+          1905,
+          920
+        ]
+      },
+      "errors": []
+    },
+    {
+      "lesson": "B3_LS_U06",
+      "routes": 129,
+      "reviews": 53,
+      "base": {
+        "scale": 0.851852,
+        "x": 134.72222900390625,
+        "y": 100,
+        "shell": [
+          50,
+          50,
+          60
+        ],
+        "viewport": [
+          1905,
+          920
+        ]
+      },
+      "errors": []
+    },
+    {
+      "lesson": "B3_LS_U07",
+      "routes": 127,
+      "reviews": 46,
+      "base": {
+        "scale": 0.851852,
+        "x": 134.72222900390625,
+        "y": 100,
+        "shell": [
+          50,
+          50,
+          60
+        ],
+        "viewport": [
+          1905,
+          920
+        ]
+      },
+      "errors": []
+    },
+    {
+      "lesson": "B3_LS_U08",
+      "routes": 115,
+      "reviews": 48,
+      "base": {
+        "scale": 0.851852,
+        "x": 134.72222900390625,
+        "y": 100,
+        "shell": [
+          50,
+          50,
+          60
+        ],
+        "viewport": [
+          1905,
+          920
+        ]
+      },
+      "errors": []
+    },
+    {
+      "lesson": "B3_RW_U01",
+      "routes": 191,
+      "reviews": 52,
+      "base": {
+        "scale": 0.851852,
+        "x": 134.72222900390625,
+        "y": 100,
+        "shell": [
+          50,
+          50,
+          60
+        ],
+        "viewport": [
+          1905,
+          920
+        ]
+      },
+      "errors": []
+    },
+    {
+      "lesson": "B3_RW_U02",
+      "routes": 231,
+      "reviews": 48,
+      "base": {
+        "scale": 0.851852,
+        "x": 134.72222900390625,
+        "y": 100,
+        "shell": [
+          50,
+          50,
+          60
+        ],
+        "viewport": [
+          1905,
+          920
+        ]
+      },
+      "errors": []
+    },
+    {
+      "lesson": "B3_RW_U03",
+      "routes": 164,
+      "reviews": 50,
+      "base": {
+        "scale": 0.851852,
+        "x": 134.72222900390625,
+        "y": 100,
+        "shell": [
+          50,
+          50,
+          60
+        ],
+        "viewport": [
+          1905,
+          920
+        ]
+      },
+      "errors": []
+    },
+    {
+      "lesson": "B3_RW_U04",
+      "routes": 258,
+      "reviews": 77,
+      "base": {
+        "scale": 0.851852,
+        "x": 134.72222900390625,
+        "y": 100,
+        "shell": [
+          50,
+          50,
+          60
+        ],
+        "viewport": [
+          1905,
+          920
+        ]
+      },
+      "errors": []
+    },
+    {
+      "lesson": "B3_RW_U05",
+      "routes": 199,
+      "reviews": 55,
+      "base": {
+        "scale": 0.851852,
+        "x": 134.72222900390625,
+        "y": 100,
+        "shell": [
+          50,
+          50,
+          60
+        ],
+        "viewport": [
+          1905,
+          920
+        ]
+      },
+      "errors": []
+    },
+    {
+      "lesson": "B3_RW_U06",
+      "routes": 216,
+      "reviews": 49,
+      "base": {
+        "scale": 0.851852,
+        "x": 134.72222900390625,
+        "y": 100,
+        "shell": [
+          50,
+          50,
+          60
+        ],
+        "viewport": [
+          1905,
+          920
+        ]
+      },
+      "errors": []
+    },
+    {
+      "lesson": "B3_RW_U07",
+      "routes": 163,
+      "reviews": 52,
+      "base": {
+        "scale": 0.851852,
+        "x": 134.72222900390625,
+        "y": 100,
+        "shell": [
+          50,
+          50,
+          60
+        ],
+        "viewport": [
+          1905,
+          920
+        ]
+      },
+      "errors": []
+    },
+    {
+      "lesson": "B3_RW_U08",
+      "routes": 172,
+      "reviews": 50,
+      "base": {
+        "scale": 0.851852,
+        "x": 134.72222900390625,
+        "y": 100,
+        "shell": [
+          50,
+          50,
+          60
+        ],
+        "viewport": [
+          1905,
+          920
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "sizes": [
+    {
+      "width": 1920,
+      "height": 1080,
+      "results": [
+        {
+          "page": 2,
+          "scale": 0.851852,
+          "x": 134.72222900390625,
+          "y": 100,
+          "expected": 0.8518518518518519,
+          "vpwidth": 1905,
+          "vpheight": 920,
+          "scroll": 920,
+          "canvasHeight": 1080
+        },
+        {
+          "page": 4,
+          "scale": 0.851852,
+          "x": 134.72222900390625,
+          "y": 100,
+          "expected": 0.8518518518518519,
+          "vpwidth": 1905,
+          "vpheight": 920,
+          "scroll": 920,
+          "canvasHeight": 1080
+        },
+        {
+          "page": 15,
+          "scale": 0.851852,
+          "x": 134.72222900390625,
+          "y": 100,
+          "expected": 0.8518518518518519,
+          "vpwidth": 1905,
+          "vpheight": 920,
+          "scroll": 920,
+          "canvasHeight": 1080
+        },
+        {
+          "page": 26,
+          "scale": 0.851852,
+          "x": 134.72222900390625,
+          "y": 100,
+          "expected": 0.8518518518518519,
+          "vpwidth": 1905,
+          "vpheight": 920,
+          "scroll": 920,
+          "canvasHeight": 1080
+        },
+        {
+          "page": 35,
+          "scale": 0.851852,
+          "x": 134.72222900390625,
+          "y": 100,
+          "expected": 0.8518518518518519,
+          "vpwidth": 1905,
+          "vpheight": 920,
+          "scroll": 1789,
+          "canvasHeight": 2100.52
+        },
+        {
+          "page": 96,
+          "scale": 0.851852,
+          "x": 134.72222900390625,
+          "y": 100,
+          "expected": 0.8518518518518519,
+          "vpwidth": 1905,
+          "vpheight": 920,
+          "scroll": 920,
+          "canvasHeight": 1080
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "results": [
+        {
+          "page": 2,
+          "scale": 0.518519,
+          "x": 134.72222900390625,
+          "y": 100,
+          "expected": 0.5185185185185185,
+          "vpwidth": 1265,
+          "vpheight": 560,
+          "scroll": 560,
+          "canvasHeight": 1080
+        },
+        {
+          "page": 4,
+          "scale": 0.518519,
+          "x": 134.72222900390625,
+          "y": 100,
+          "expected": 0.5185185185185185,
+          "vpwidth": 1265,
+          "vpheight": 560,
+          "scroll": 560,
+          "canvasHeight": 1080
+        },
+        {
+          "page": 15,
+          "scale": 0.518519,
+          "x": 134.72222900390625,
+          "y": 100,
+          "expected": 0.5185185185185185,
+          "vpwidth": 1265,
+          "vpheight": 560,
+          "scroll": 560,
+          "canvasHeight": 1080
+        },
+        {
+          "page": 26,
+          "scale": 0.518519,
+          "x": 134.72222900390625,
+          "y": 100,
+          "expected": 0.5185185185185185,
+          "vpwidth": 1265,
+          "vpheight": 560,
+          "scroll": 560,
+          "canvasHeight": 1080
+        },
+        {
+          "page": 35,
+          "scale": 0.518519,
+          "x": 134.72222900390625,
+          "y": 100,
+          "expected": 0.5185185185185185,
+          "vpwidth": 1265,
+          "vpheight": 560,
+          "scroll": 1089,
+          "canvasHeight": 2100.52
+        },
+        {
+          "page": 96,
+          "scale": 0.518519,
+          "x": 134.72222900390625,
+          "y": 100,
+          "expected": 0.5185185185185185,
+          "vpwidth": 1265,
+          "vpheight": 560,
+          "scroll": 560,
+          "canvasHeight": 1080
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "results": [
+        {
+          "page": 2,
+          "scale": 0.525521,
+          "x": 0,
+          "y": 120.21875,
+          "expected": 0.5255208333333333,
+          "vpwidth": 1009,
+          "vpheight": 608,
+          "scroll": 608,
+          "canvasHeight": 1080
+        },
+        {
+          "page": 4,
+          "scale": 0.525521,
+          "x": 0,
+          "y": 120.21875,
+          "expected": 0.5255208333333333,
+          "vpwidth": 1009,
+          "vpheight": 608,
+          "scroll": 608,
+          "canvasHeight": 1080
+        },
+        {
+          "page": 15,
+          "scale": 0.525521,
+          "x": 0,
+          "y": 120.21875,
+          "expected": 0.5255208333333333,
+          "vpwidth": 1009,
+          "vpheight": 608,
+          "scroll": 608,
+          "canvasHeight": 1080
+        },
+        {
+          "page": 26,
+          "scale": 0.525521,
+          "x": 0,
+          "y": 120.21875,
+          "expected": 0.5255208333333333,
+          "vpwidth": 1009,
+          "vpheight": 608,
+          "scroll": 608,
+          "canvasHeight": 1080
+        },
+        {
+          "page": 35,
+          "scale": 0.525521,
+          "x": 0,
+          "y": 120.21875,
+          "expected": 0.5255208333333333,
+          "vpwidth": 1009,
+          "vpheight": 608,
+          "scroll": 1124,
+          "canvasHeight": 2100.52
+        },
+        {
+          "page": 96,
+          "scale": 0.525521,
+          "x": 0,
+          "y": 120.21875,
+          "expected": 0.5255208333333333,
+          "vpwidth": 1009,
+          "vpheight": 608,
+          "scroll": 608,
+          "canvasHeight": 1080
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "version": "20261010-canvas-v5",
+  "public_verification": "待公开发布后复查"
+}
