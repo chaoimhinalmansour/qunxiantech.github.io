@@ -54,3 +54,7 @@
 .function-buttons>button,.function-buttons>#feedback-controls,.function-buttons>.media-bar{flex-shrink:0;white-space:nowrap}
 .media-bar{flex-wrap:nowrap}.nav-buttons{flex-shrink:0;margin-left:0}
 .viewport{overflow-y:auto;scrollbar-gutter:stable}
+
+/* Answers and explanations are separate return-only views. */
+.review-open #answer-mode{display:none!important}
+#feedback-view-label{color:#193c78;font-size:16px;font-weight:700}

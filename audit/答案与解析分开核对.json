@@ -1,0 +1,592 @@
+{
+  "version": "20261010-answer-explanation-v9",
+  "scope": "Book 2–3 Units 1–8 LS/RW 共32份校本课件",
+  "rules": [
+    "答案入口只显示原答案或原参考答案，排除原讲评说明和依据。",
+    "可在原题内显示的填空、判断和选项答案保留原题位置、尺寸和字号。",
+    "判错并改正是原题要求，更正内容保留在答案页。",
+    "解析入口保留原答案、依据与讲评；仅有答案时不新增空解析页。",
+    "答案和解析均仅可回到题面，恢复原题内容和进入前的阅读位置。",
+    "原教材题目及数据未改写，256份原课件与原音频数据文件逐字节保持不变。"
+  ],
+  "interface": {
+    "online": false,
+    "records": [
+      {
+        "lesson": "B2_LS_U01",
+        "answers": 80,
+        "explanations": 66,
+        "objects": 1064,
+        "slots": 76,
+        "judgements": 7,
+        "answerSources": 310,
+        "explanationSources": 193
+      },
+      {
+        "lesson": "B2_LS_U02",
+        "answers": 65,
+        "explanations": 51,
+        "objects": 740,
+        "slots": 19,
+        "judgements": 0,
+        "answerSources": 259,
+        "explanationSources": 105
+      },
+      {
+        "lesson": "B2_LS_U03",
+        "answers": 65,
+        "explanations": 44,
+        "objects": 753,
+        "slots": 28,
+        "judgements": 0,
+        "answerSources": 254,
+        "explanationSources": 78
+      },
+      {
+        "lesson": "B2_LS_U04",
+        "answers": 52,
+        "explanations": 25,
+        "objects": 562,
+        "slots": 17,
+        "judgements": 0,
+        "answerSources": 209,
+        "explanationSources": 43
+      },
+      {
+        "lesson": "B2_LS_U05",
+        "answers": 66,
+        "explanations": 54,
+        "objects": 821,
+        "slots": 28,
+        "judgements": 0,
+        "answerSources": 330,
+        "explanationSources": 159
+      },
+      {
+        "lesson": "B2_LS_U06",
+        "answers": 66,
+        "explanations": 55,
+        "objects": 873,
+        "slots": 47,
+        "judgements": 8,
+        "answerSources": 339,
+        "explanationSources": 197
+      },
+      {
+        "lesson": "B2_LS_U07",
+        "answers": 73,
+        "explanations": 51,
+        "objects": 973,
+        "slots": 17,
+        "judgements": 0,
+        "answerSources": 324,
+        "explanationSources": 145
+      },
+      {
+        "lesson": "B2_LS_U08",
+        "answers": 65,
+        "explanations": 49,
+        "objects": 768,
+        "slots": 24,
+        "judgements": 0,
+        "answerSources": 319,
+        "explanationSources": 135
+      },
+      {
+        "lesson": "B2_RW_U01",
+        "answers": 52,
+        "explanations": 32,
+        "objects": 580,
+        "slots": 33,
+        "judgements": 0,
+        "answerSources": 183,
+        "explanationSources": 102
+      },
+      {
+        "lesson": "B2_RW_U02",
+        "answers": 52,
+        "explanations": 33,
+        "objects": 571,
+        "slots": 23,
+        "judgements": 0,
+        "answerSources": 232,
+        "explanationSources": 79
+      },
+      {
+        "lesson": "B2_RW_U03",
+        "answers": 65,
+        "explanations": 58,
+        "objects": 883,
+        "slots": 18,
+        "judgements": 0,
+        "answerSources": 265,
+        "explanationSources": 142
+      },
+      {
+        "lesson": "B2_RW_U04",
+        "answers": 57,
+        "explanations": 43,
+        "objects": 711,
+        "slots": 43,
+        "judgements": 0,
+        "answerSources": 235,
+        "explanationSources": 123
+      },
+      {
+        "lesson": "B2_RW_U05",
+        "answers": 59,
+        "explanations": 23,
+        "objects": 564,
+        "slots": 45,
+        "judgements": 0,
+        "answerSources": 196,
+        "explanationSources": 46
+      },
+      {
+        "lesson": "B2_RW_U06",
+        "answers": 67,
+        "explanations": 29,
+        "objects": 641,
+        "slots": 11,
+        "judgements": 0,
+        "answerSources": 184,
+        "explanationSources": 75
+      },
+      {
+        "lesson": "B2_RW_U07",
+        "answers": 59,
+        "explanations": 29,
+        "objects": 623,
+        "slots": 35,
+        "judgements": 0,
+        "answerSources": 192,
+        "explanationSources": 121
+      },
+      {
+        "lesson": "B2_RW_U08",
+        "answers": 67,
+        "explanations": 26,
+        "objects": 661,
+        "slots": 21,
+        "judgements": 0,
+        "answerSources": 182,
+        "explanationSources": 90
+      },
+      {
+        "lesson": "B3_LS_U01",
+        "answers": 46,
+        "explanations": 16,
+        "objects": 465,
+        "slots": 8,
+        "judgements": 0,
+        "answerSources": 206,
+        "explanationSources": 51
+      },
+      {
+        "lesson": "B3_LS_U02",
+        "answers": 56,
+        "explanations": 18,
+        "objects": 493,
+        "slots": 22,
+        "judgements": 0,
+        "answerSources": 207,
+        "explanationSources": 43
+      },
+      {
+        "lesson": "B3_LS_U03",
+        "answers": 52,
+        "explanations": 18,
+        "objects": 487,
+        "slots": 17,
+        "judgements": 0,
+        "answerSources": 205,
+        "explanationSources": 76
+      },
+      {
+        "lesson": "B3_LS_U04",
+        "answers": 50,
+        "explanations": 14,
+        "objects": 416,
+        "slots": 27,
+        "judgements": 0,
+        "answerSources": 184,
+        "explanationSources": 43
+      },
+      {
+        "lesson": "B3_LS_U05",
+        "answers": 43,
+        "explanations": 16,
+        "objects": 488,
+        "slots": 21,
+        "judgements": 0,
+        "answerSources": 230,
+        "explanationSources": 68
+      },
+      {
+        "lesson": "B3_LS_U06",
+        "answers": 50,
+        "explanations": 16,
+        "objects": 479,
+        "slots": 26,
+        "judgements": 0,
+        "answerSources": 192,
+        "explanationSources": 72
+      },
+      {
+        "lesson": "B3_LS_U07",
+        "answers": 45,
+        "explanations": 13,
+        "objects": 482,
+        "slots": 15,
+        "judgements": 0,
+        "answerSources": 209,
+        "explanationSources": 33
+      },
+      {
+        "lesson": "B3_LS_U08",
+        "answers": 44,
+        "explanations": 17,
+        "objects": 484,
+        "slots": 18,
+        "judgements": 0,
+        "answerSources": 167,
+        "explanationSources": 76
+      },
+      {
+        "lesson": "B3_RW_U01",
+        "answers": 47,
+        "explanations": 32,
+        "objects": 558,
+        "slots": 23,
+        "judgements": 0,
+        "answerSources": 213,
+        "explanationSources": 102
+      },
+      {
+        "lesson": "B3_RW_U02",
+        "answers": 44,
+        "explanations": 34,
+        "objects": 574,
+        "slots": 17,
+        "judgements": 0,
+        "answerSources": 270,
+        "explanationSources": 148
+      },
+      {
+        "lesson": "B3_RW_U03",
+        "answers": 47,
+        "explanations": 33,
+        "objects": 543,
+        "slots": 15,
+        "judgements": 0,
+        "answerSources": 232,
+        "explanationSources": 135
+      },
+      {
+        "lesson": "B3_RW_U04",
+        "answers": 73,
+        "explanations": 14,
+        "objects": 541,
+        "slots": 23,
+        "judgements": 0,
+        "answerSources": 166,
+        "explanationSources": 66
+      },
+      {
+        "lesson": "B3_RW_U05",
+        "answers": 50,
+        "explanations": 18,
+        "objects": 459,
+        "slots": 23,
+        "judgements": 0,
+        "answerSources": 167,
+        "explanationSources": 89
+      },
+      {
+        "lesson": "B3_RW_U06",
+        "answers": 45,
+        "explanations": 40,
+        "objects": 565,
+        "slots": 18,
+        "judgements": 0,
+        "answerSources": 207,
+        "explanationSources": 135
+      },
+      {
+        "lesson": "B3_RW_U07",
+        "answers": 50,
+        "explanations": 31,
+        "objects": 569,
+        "slots": 31,
+        "judgements": 0,
+        "answerSources": 208,
+        "explanationSources": 117
+      },
+      {
+        "lesson": "B3_RW_U08",
+        "answers": 43,
+        "explanations": 43,
+        "objects": 714,
+        "slots": 21,
+        "judgements": 0,
+        "answerSources": 270,
+        "explanationSources": 224
+      }
+    ],
+    "errors": []
+  },
+  "source_content": {
+    "records": [
+      {
+        "lesson": "B2_LS_U01",
+        "questions": 50,
+        "multi": 8,
+        "reviews": 43,
+        "controls": 284
+      },
+      {
+        "lesson": "B2_LS_U02",
+        "questions": 45,
+        "multi": 3,
+        "reviews": 32,
+        "controls": 207
+      },
+      {
+        "lesson": "B2_LS_U03",
+        "questions": 39,
+        "multi": 5,
+        "reviews": 28,
+        "controls": 227
+      },
+      {
+        "lesson": "B2_LS_U04",
+        "questions": 39,
+        "multi": 1,
+        "reviews": 27,
+        "controls": 200
+      },
+      {
+        "lesson": "B2_LS_U05",
+        "questions": 38,
+        "multi": 4,
+        "reviews": 27,
+        "controls": 247
+      },
+      {
+        "lesson": "B2_LS_U06",
+        "questions": 40,
+        "multi": 1,
+        "reviews": 30,
+        "controls": 255
+      },
+      {
+        "lesson": "B2_LS_U07",
+        "questions": 38,
+        "multi": 3,
+        "reviews": 27,
+        "controls": 255
+      },
+      {
+        "lesson": "B2_LS_U08",
+        "questions": 40,
+        "multi": 1,
+        "reviews": 31,
+        "controls": 241
+      },
+      {
+        "lesson": "B2_RW_U01",
+        "questions": 28,
+        "multi": 5,
+        "reviews": 24,
+        "controls": 211
+      },
+      {
+        "lesson": "B2_RW_U02",
+        "questions": 27,
+        "multi": 3,
+        "reviews": 21,
+        "controls": 211
+      },
+      {
+        "lesson": "B2_RW_U03",
+        "questions": 36,
+        "multi": 3,
+        "reviews": 33,
+        "controls": 231
+      },
+      {
+        "lesson": "B2_RW_U04",
+        "questions": 32,
+        "multi": 5,
+        "reviews": 30,
+        "controls": 217
+      },
+      {
+        "lesson": "B2_RW_U05",
+        "questions": 30,
+        "multi": 4,
+        "reviews": 27,
+        "controls": 222
+      },
+      {
+        "lesson": "B2_RW_U06",
+        "questions": 38,
+        "multi": 5,
+        "reviews": 31,
+        "controls": 244
+      },
+      {
+        "lesson": "B2_RW_U07",
+        "questions": 33,
+        "multi": 3,
+        "reviews": 31,
+        "controls": 226
+      },
+      {
+        "lesson": "B2_RW_U08",
+        "questions": 31,
+        "multi": 10,
+        "reviews": 30,
+        "controls": 243
+      },
+      {
+        "lesson": "B3_LS_U01",
+        "questions": 40,
+        "multi": 7,
+        "reviews": 27,
+        "controls": 169
+      },
+      {
+        "lesson": "B3_LS_U02",
+        "questions": 38,
+        "multi": 5,
+        "reviews": 26,
+        "controls": 168
+      },
+      {
+        "lesson": "B3_LS_U03",
+        "questions": 37,
+        "multi": 12,
+        "reviews": 32,
+        "controls": 185
+      },
+      {
+        "lesson": "B3_LS_U04",
+        "questions": 40,
+        "multi": 5,
+        "reviews": 37,
+        "controls": 172
+      },
+      {
+        "lesson": "B3_LS_U05",
+        "questions": 39,
+        "multi": 8,
+        "reviews": 29,
+        "controls": 185
+      },
+      {
+        "lesson": "B3_LS_U06",
+        "questions": 44,
+        "multi": 6,
+        "reviews": 31,
+        "controls": 177
+      },
+      {
+        "lesson": "B3_LS_U07",
+        "questions": 45,
+        "multi": 9,
+        "reviews": 29,
+        "controls": 169
+      },
+      {
+        "lesson": "B3_LS_U08",
+        "questions": 38,
+        "multi": 10,
+        "reviews": 30,
+        "controls": 159
+      },
+      {
+        "lesson": "B3_RW_U01",
+        "questions": 26,
+        "multi": 5,
+        "reviews": 23,
+        "controls": 167
+      },
+      {
+        "lesson": "B3_RW_U02",
+        "questions": 25,
+        "multi": 4,
+        "reviews": 24,
+        "controls": 169
+      },
+      {
+        "lesson": "B3_RW_U03",
+        "questions": 25,
+        "multi": 7,
+        "reviews": 22,
+        "controls": 172
+      },
+      {
+        "lesson": "B3_RW_U04",
+        "questions": 29,
+        "multi": 4,
+        "reviews": 22,
+        "controls": 214
+      },
+      {
+        "lesson": "B3_RW_U05",
+        "questions": 27,
+        "multi": 3,
+        "reviews": 23,
+        "controls": 172
+      },
+      {
+        "lesson": "B3_RW_U06",
+        "questions": 23,
+        "multi": 4,
+        "reviews": 21,
+        "controls": 159
+      },
+      {
+        "lesson": "B3_RW_U07",
+        "questions": 34,
+        "multi": 7,
+        "reviews": 31,
+        "controls": 170
+      },
+      {
+        "lesson": "B3_RW_U08",
+        "questions": 30,
+        "multi": 6,
+        "reviews": 27,
+        "controls": 196
+      }
+    ],
+    "errors": []
+  },
+  "totals": {
+    "answers": 1795,
+    "explanations": 1041,
+    "objects": 20105,
+    "slots": 810,
+    "judgements": 15
+  },
+  "content_totals": {
+    "questions": 1124,
+    "multi": 166,
+    "reviews": 906,
+    "controls": 6524
+  },
+  "screens": [
+    "1920×1080",
+    "1280×720",
+    "1024×768"
+  ],
+  "source_duplicate_note_exception": {
+    "lesson": "B3_RW_U07",
+    "page": 118,
+    "answer": "a A supplier sells a product or service.",
+    "note": "A supplier sells a product or service.",
+    "reason": "说明逐字重复了原题所需定义答案。答案内容保留，说明对象在纯答案页排除。"
+  }
+}
