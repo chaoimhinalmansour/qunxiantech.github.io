@@ -1,0 +1,638 @@
+{
+  "version": "20261010-photos-v6",
+  "scope": "Book 2 LS Unit 1 Preparing to listen Ex. 2 与 Ex. 3",
+  "local": {
+    "version": "20261010-photos-v6",
+    "online": false,
+    "records": [
+      {
+        "width": 1920,
+        "height": 1080,
+        "pair": [
+          {
+            "exercise": 2,
+            "prompt": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "gallery": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "images": [
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "labels": [
+              "a",
+              "b",
+              "c",
+              "d"
+            ],
+            "wordbox": null,
+            "errors": []
+          },
+          {
+            "exercise": 3,
+            "prompt": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "gallery": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "images": [
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "labels": [
+              "a",
+              "b",
+              "c",
+              "d"
+            ],
+            "wordbox": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "errors": []
+          }
+        ]
+      },
+      {
+        "width": 1280,
+        "height": 720,
+        "pair": [
+          {
+            "exercise": 2,
+            "prompt": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "gallery": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "images": [
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "labels": [
+              "a",
+              "b",
+              "c",
+              "d"
+            ],
+            "wordbox": null,
+            "errors": []
+          },
+          {
+            "exercise": 3,
+            "prompt": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "gallery": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "images": [
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "labels": [
+              "a",
+              "b",
+              "c",
+              "d"
+            ],
+            "wordbox": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "errors": []
+          }
+        ]
+      },
+      {
+        "width": 1024,
+        "height": 768,
+        "pair": [
+          {
+            "exercise": 2,
+            "prompt": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "gallery": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "images": [
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "labels": [
+              "a",
+              "b",
+              "c",
+              "d"
+            ],
+            "wordbox": null,
+            "errors": []
+          },
+          {
+            "exercise": 3,
+            "prompt": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "gallery": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "images": [
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ],
+            "labels": [
+              "a",
+              "b",
+              "c",
+              "d"
+            ],
+            "wordbox": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "errors": []
+          }
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "source_content": {
+    "records": [
+      {
+        "lesson": "B2_LS_U01",
+        "questions": 50,
+        "multi": 8,
+        "reviews": 43,
+        "controls": 284
+      },
+      {
+        "lesson": "B2_LS_U02",
+        "questions": 45,
+        "multi": 3,
+        "reviews": 32,
+        "controls": 207
+      },
+      {
+        "lesson": "B2_LS_U03",
+        "questions": 39,
+        "multi": 5,
+        "reviews": 28,
+        "controls": 227
+      },
+      {
+        "lesson": "B2_LS_U04",
+        "questions": 39,
+        "multi": 1,
+        "reviews": 27,
+        "controls": 200
+      },
+      {
+        "lesson": "B2_LS_U05",
+        "questions": 38,
+        "multi": 4,
+        "reviews": 27,
+        "controls": 247
+      },
+      {
+        "lesson": "B2_LS_U06",
+        "questions": 40,
+        "multi": 1,
+        "reviews": 30,
+        "controls": 255
+      },
+      {
+        "lesson": "B2_LS_U07",
+        "questions": 38,
+        "multi": 3,
+        "reviews": 27,
+        "controls": 255
+      },
+      {
+        "lesson": "B2_LS_U08",
+        "questions": 40,
+        "multi": 1,
+        "reviews": 31,
+        "controls": 241
+      },
+      {
+        "lesson": "B2_RW_U01",
+        "questions": 28,
+        "multi": 5,
+        "reviews": 24,
+        "controls": 211
+      },
+      {
+        "lesson": "B2_RW_U02",
+        "questions": 27,
+        "multi": 3,
+        "reviews": 21,
+        "controls": 211
+      },
+      {
+        "lesson": "B2_RW_U03",
+        "questions": 36,
+        "multi": 3,
+        "reviews": 33,
+        "controls": 231
+      },
+      {
+        "lesson": "B2_RW_U04",
+        "questions": 32,
+        "multi": 5,
+        "reviews": 30,
+        "controls": 217
+      },
+      {
+        "lesson": "B2_RW_U05",
+        "questions": 30,
+        "multi": 4,
+        "reviews": 27,
+        "controls": 222
+      },
+      {
+        "lesson": "B2_RW_U06",
+        "questions": 38,
+        "multi": 5,
+        "reviews": 31,
+        "controls": 244
+      },
+      {
+        "lesson": "B2_RW_U07",
+        "questions": 33,
+        "multi": 3,
+        "reviews": 31,
+        "controls": 226
+      },
+      {
+        "lesson": "B2_RW_U08",
+        "questions": 31,
+        "multi": 10,
+        "reviews": 30,
+        "controls": 243
+      },
+      {
+        "lesson": "B3_LS_U01",
+        "questions": 40,
+        "multi": 7,
+        "reviews": 27,
+        "controls": 169
+      },
+      {
+        "lesson": "B3_LS_U02",
+        "questions": 38,
+        "multi": 5,
+        "reviews": 26,
+        "controls": 168
+      },
+      {
+        "lesson": "B3_LS_U03",
+        "questions": 37,
+        "multi": 12,
+        "reviews": 32,
+        "controls": 185
+      },
+      {
+        "lesson": "B3_LS_U04",
+        "questions": 40,
+        "multi": 5,
+        "reviews": 37,
+        "controls": 172
+      },
+      {
+        "lesson": "B3_LS_U05",
+        "questions": 39,
+        "multi": 8,
+        "reviews": 29,
+        "controls": 185
+      },
+      {
+        "lesson": "B3_LS_U06",
+        "questions": 44,
+        "multi": 6,
+        "reviews": 31,
+        "controls": 177
+      },
+      {
+        "lesson": "B3_LS_U07",
+        "questions": 45,
+        "multi": 9,
+        "reviews": 29,
+        "controls": 169
+      },
+      {
+        "lesson": "B3_LS_U08",
+        "questions": 38,
+        "multi": 10,
+        "reviews": 30,
+        "controls": 159
+      },
+      {
+        "lesson": "B3_RW_U01",
+        "questions": 26,
+        "multi": 5,
+        "reviews": 23,
+        "controls": 167
+      },
+      {
+        "lesson": "B3_RW_U02",
+        "questions": 25,
+        "multi": 4,
+        "reviews": 24,
+        "controls": 169
+      },
+      {
+        "lesson": "B3_RW_U03",
+        "questions": 25,
+        "multi": 7,
+        "reviews": 22,
+        "controls": 172
+      },
+      {
+        "lesson": "B3_RW_U04",
+        "questions": 29,
+        "multi": 4,
+        "reviews": 22,
+        "controls": 214
+      },
+      {
+        "lesson": "B3_RW_U05",
+        "questions": 27,
+        "multi": 3,
+        "reviews": 23,
+        "controls": 172
+      },
+      {
+        "lesson": "B3_RW_U06",
+        "questions": 23,
+        "multi": 4,
+        "reviews": 21,
+        "controls": 159
+      },
+      {
+        "lesson": "B3_RW_U07",
+        "questions": 34,
+        "multi": 7,
+        "reviews": 31,
+        "controls": 170
+      },
+      {
+        "lesson": "B3_RW_U08",
+        "questions": 30,
+        "multi": 6,
+        "reviews": 27,
+        "controls": 196
+      }
+    ],
+    "errors": []
+  },
+  "common_photo_groups": [
+    {
+      "lesson": "B2_LS_U01",
+      "resource": "photos_cfb0921b7e95",
+      "images": 4,
+      "exercises": [
+        {
+          "number": 2,
+          "pages": [
+            39
+          ]
+        },
+        {
+          "number": 3,
+          "pages": [
+            40,
+            41
+          ]
+        }
+      ],
+      "treatment": "统一四图与题干位置"
+    },
+    {
+      "lesson": "B2_LS_U02",
+      "resource": "photos_538d9430921c",
+      "images": 1,
+      "exercises": [
+        {
+          "number": 3,
+          "pages": [
+            36
+          ]
+        },
+        {
+          "number": 4,
+          "pages": [
+            37
+          ]
+        },
+        {
+          "number": 5,
+          "pages": [
+            37
+          ]
+        }
+      ],
+      "treatment": "共用一份复合素材；原题需要的材料入口保留"
+    },
+    {
+      "lesson": "B3_LS_U04",
+      "resource": "photos_a654d5e023fb",
+      "images": 1,
+      "exercises": [
+        {
+          "number": 5,
+          "pages": [
+            36
+          ]
+        },
+        {
+          "number": 6,
+          "pages": [
+            39
+          ]
+        }
+      ],
+      "treatment": "共用一份复合素材；原题需要的材料入口保留"
+    }
+  ],
+  "original_source_files_unchanged": 256,
+  "public_verification": "待公开发布后复查"
+}

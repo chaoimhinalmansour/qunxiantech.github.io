@@ -32,5 +32,5 @@ window.createSchoolQuestionView=function(ctx){
   app.classList.add('review-open');refresh();app.querySelector('.viewport').scrollTop=0;size(y+50)
  }
  function closeReview(){if(!reviewing)return;ctx.closePanel();reviewing=false;app.classList.remove('review-open');stage.innerHTML=savedQuestion.html;size(savedQuestion.height);app.querySelector('.viewport').scrollTop=savedQuestion.scroll;ctx.rebind();refresh();savedQuestion=null}
- return {renderQuestion,refresh,openReview,closeReview,isReview:()=>reviewing,stats:()=>({question:questionStats,review:reviewStats,height:questionHeight,reviewing})};
+ return {renderQuestion,setQuestionHeight:size,refresh,openReview,closeReview,isReview:()=>reviewing,stats:()=>({question:questionStats,review:reviewStats,height:questionHeight,reviewing})};
 };

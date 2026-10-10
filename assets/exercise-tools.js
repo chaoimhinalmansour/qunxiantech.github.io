@@ -13,13 +13,19 @@ window.createSchoolClassroom=function(ctx){
 
  function photoTile(photo){const tile=document.createElement('figure');tile.className='original-photo';tile.dataset.sourcePage=String(photo.page);tile.dataset.sourceShape=photo.shape;const original=originalNode(photo.page,photo.shape);if(original){const pic=original.cloneNode(true);pic.classList.remove('obj');pic.style.cssText='position:relative;flex:1;min-height:0;width:100%;aspect-ratio:'+photo.rect[2]+'/'+photo.rect[3]+';overflow:hidden';pic.querySelectorAll('img').forEach(im=>{im.style.objectFit='contain'});tile.append(pic)}if(photo.label){const caption=document.createElement('figcaption');caption.textContent=photo.label;tile.append(caption)}return tile}
  function gallery(resource){const div=document.createElement('div');div.className='original-photo-gallery';div.dataset.count=String(resource.photos.length);resource.photos.forEach(p=>div.append(photoTile(p)));return div}
- function sharedPhotos(){const e=exercise();if(!e)return;const r=e.resources.map(id=>G.resources[id]).find(r=>r.kind==='photos');if(!r)return;
+ function sharedPhotos(){const e=exercise();if(!e)return;const r=e.resources.map(id=>G.resources[id]).find(r=>r.kind==='photos');if(!r)return;if(r.id==='photos_cfb0921b7e95')return;
   const visible=[...stage.querySelectorAll('img')].filter(im=>im.checkVisibility()),shown=new Set(visible.map(im=>im.getAttribute('src'))),required=new Set(r.photos.map(p=>p.src));if([...required].every(src=>shown.has(src)))return;if(!visible.length){openResource(r,[r]);return}if(r.photos.length>4)return;
   const q=e.original_instructions.find(q=>q.page===ctx.state().current),instruction=q&&[...stage.querySelectorAll('[data-id]')].find(x=>x.dataset.id===String(q.render_shape||q.shape));let top=202,bottom=instruction?parseFloat(instruction.style.top)-22:720;
   if(bottom<top+220){top=instruction?parseFloat(instruction.style.top)+parseFloat(instruction.style.height)+24:350;bottom=920}
   const layers=new Set(pages[ctx.state().current-1].layers.map(x=>String(x.id)));
   stage.querySelectorAll(':scope > .obj').forEach(obj=>{if(layers.has(obj.dataset.id))return;const [,y]=box(obj),t=obj.textContent.trim();if(obj.querySelector('img')||(/^[a-h]$/.test(t)&&y>=190&&y<bottom))obj.classList.add('shared-photo-original')});
   const g=gallery(r);g.classList.add('task-shared-photos');g.style.cssText='position:absolute;left:108px;top:'+top+'px;width:1704px;height:'+Math.max(250,bottom-top)+'px';stage.prepend(g);
+ }
+ function alignSharedPhotoQuestion(){const e=exercise();if(ctx.state().raw||!e)return false;const r=e.resources.map(id=>G.resources[id]).find(r=>r.id==='photos_cfb0921b7e95');if(!r||![2,3].includes(e.number))return false;const instruction=[...stage.querySelectorAll('[data-original-instruction]')].find(o=>o.dataset.originalInstruction===e.id);if(!instruction)return false;const compact=t=>t.replace(/\s/g,''),wordbox=e.number===3?originalNode(40,'9'):null;
+  stage.querySelectorAll(':scope>.obj').forEach(o=>{if(o===instruction||o.classList.contains('layer'))return;const text=o.textContent.trim();if(o.querySelector('img')||/^[a-d]$/.test(text)||(wordbox&&compact(text)===compact(wordbox.textContent)))o.classList.add('shared-photo-original');if(o.dataset.name==='textbook-secondary')o.style.top='88.5px';if(o.dataset.name==='textbook-tertiary')o.style.top='162px'});
+  instruction.style.left='108px';instruction.style.top='212px';instruction.style.width='1704px';instruction.style.height='128px';
+  const g=gallery(r);g.classList.add('task-shared-photos','aligned-shared-photos');g.dataset.resource=r.id;g.style.cssText='position:absolute;left:108px;top:360px;width:1704px;height:450px';stage.append(g);
+  if(wordbox){wordbox.dataset.id='shared-photo-wordbox';wordbox.dataset.sourcePage='40';wordbox.dataset.sourceShape='9';wordbox.classList.add('shared-photo-wordbox');wordbox.style.left='108px';wordbox.style.top='842px';stage.append(wordbox)}stage.dataset.sharedPhotoLayout=r.id;return true
  }
  function render(){normalize(stage,ctx.state().current);if(!ctx.state().raw){stage.querySelectorAll('[data-action]').forEach(el=>{const a=JSON.parse(el.dataset.action);if(a.audio)el.classList.add('legacy-media-control')});stage.querySelectorAll('.inline-media-button').forEach(el=>el.parentElement.classList.add('legacy-media-control'));stage.querySelectorAll(':scope>.obj').forEach(el=>{if(el.textContent.trim()==='Play audio')el.classList.add('legacy-media-control')})};if(!ctx.state().raw)sharedPhotos();bindTools()}
  function resources(){const e=exercise();return e?e.resources.map(id=>G.resources[id]):[]}
@@ -55,5 +61,5 @@ window.createSchoolClassroom=function(ctx){
   stopNative=stop;precisionState=()=>({playing:!a.paused,shown,selected:[...selected],queue:[...queue],rate:a.playbackRate,preservesPitch:a.preservesPitch,media:r.media,cues:t.cues.length,position:a.currentTime,track:t.title});renderCues()
  }
  function close(){resourceSelect.hidden=true;if(stopNative)stopNative();stopNative=null;precisionAudio=null;precisionState=null;native.hidden=true;native.replaceChildren();native.className='native-material';currentResource=null}
- return {graph:G,exercise,render,normalize,bindTools,openResource,openPrecision,openLegacy,close,resource:()=>currentResource,state:()=>precisionState?precisionState():null};
+ return {graph:G,exercise,render,normalize,bindTools,alignSharedPhotoQuestion,openResource,openPrecision,openLegacy,close,resource:()=>currentResource,state:()=>precisionState?precisionState():null};
 };
