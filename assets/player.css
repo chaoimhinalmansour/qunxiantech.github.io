@@ -58,3 +58,19 @@
 /* Answers and explanations are separate return-only views. */
 .review-open #answer-mode{display:none!important}
 #feedback-view-label{color:#193c78;font-size:16px;font-weight:700}
+
+/* Prepared question and answers share geometry. Visibility changes preserve all space. */
+.inline-answer-value{position:absolute;left:0;top:0;width:100%;text-align:center;color:#c00000;font-weight:700;visibility:hidden}
+.inline-answer-placeholder{visibility:visible}
+.answers-visible .inline-answer-value{visibility:visible}
+.answers-visible .inline-answer-placeholder{visibility:hidden}
+.inline-answer-highlight{color:inherit;font-weight:inherit}
+.answers-visible .inline-answer-highlight{color:#c00000;text-decoration:underline}
+.inline-feedback,.inline-table-answer{visibility:hidden}
+.answers-visible .inline-feedback,.answers-visible .inline-table-answer{visibility:visible}
+.inline-answer-label{font-size:28px;font-weight:700;color:#65768b;line-height:1.12}
+.inline-answer-text{font-size:42px;color:#c00000;line-height:1.12;margin-top:8px!important;white-space:pre-line}
+
+.inline-cell-container{display:grid}.inline-cell-container>div{grid-area:1/1;min-width:0}.answers-visible .inline-cell-placeholder{visibility:hidden}
+
+.inline-correction>span{grid-area:1/1;min-width:0;white-space:normal}.inline-correction-value{visibility:hidden;color:#c00000}.answers-visible .inline-correction-placeholder{visibility:hidden}.answers-visible .inline-correction-value{visibility:visible}
