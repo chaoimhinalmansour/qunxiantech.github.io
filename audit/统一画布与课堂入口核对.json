@@ -861,5 +861,388 @@
   ],
   "errors": [],
   "version": "20261010-canvas-v5",
-  "public_verification": "待公开发布后复查"
+  "public_verification": {
+    "version": "20261010-canvas-v5",
+    "records": [
+      {
+        "lesson": "B2_LS_U01",
+        "errors": [],
+        "masks": 24,
+        "geometry": {
+          "x": 134.72222900390625,
+          "y": 100,
+          "scale": 0.851852
+        }
+      },
+      {
+        "lesson": "B2_LS_U02",
+        "errors": [],
+        "masks": 19,
+        "geometry": {
+          "x": 134.72222900390625,
+          "y": 100,
+          "scale": 0.851852
+        }
+      },
+      {
+        "lesson": "B2_LS_U03",
+        "errors": [],
+        "masks": 35,
+        "geometry": {
+          "x": 134.72222900390625,
+          "y": 100,
+          "scale": 0.851852
+        }
+      },
+      {
+        "lesson": "B2_LS_U04",
+        "errors": [],
+        "masks": 32,
+        "geometry": {
+          "x": 134.72222900390625,
+          "y": 100,
+          "scale": 0.851852
+        }
+      },
+      {
+        "lesson": "B2_LS_U05",
+        "errors": [],
+        "masks": 19,
+        "geometry": {
+          "x": 134.72222900390625,
+          "y": 100,
+          "scale": 0.851852
+        }
+      },
+      {
+        "lesson": "B2_LS_U06",
+        "errors": [],
+        "masks": 23,
+        "geometry": {
+          "x": 134.72222900390625,
+          "y": 100,
+          "scale": 0.851852
+        }
+      },
+      {
+        "lesson": "B2_LS_U07",
+        "errors": [],
+        "masks": 20,
+        "geometry": {
+          "x": 134.72222900390625,
+          "y": 100,
+          "scale": 0.851852
+        }
+      },
+      {
+        "lesson": "B2_LS_U08",
+        "errors": [],
+        "masks": 23,
+        "geometry": {
+          "x": 134.72222900390625,
+          "y": 100,
+          "scale": 0.851852
+        }
+      },
+      {
+        "lesson": "B2_RW_U01",
+        "errors": [],
+        "masks": 23,
+        "geometry": {
+          "x": 134.72222900390625,
+          "y": 100,
+          "scale": 0.851852
+        }
+      },
+      {
+        "lesson": "B2_RW_U02",
+        "errors": [],
+        "masks": 20,
+        "geometry": {
+          "x": 134.72222900390625,
+          "y": 100,
+          "scale": 0.851852
+        }
+      },
+      {
+        "lesson": "B2_RW_U03",
+        "errors": [],
+        "masks": 36,
+        "geometry": {
+          "x": 134.72222900390625,
+          "y": 100,
+          "scale": 0.851852
+        }
+      },
+      {
+        "lesson": "B2_RW_U04",
+        "errors": [],
+        "masks": 30,
+        "geometry": {
+          "x": 134.72222900390625,
+          "y": 100,
+          "scale": 0.851852
+        }
+      },
+      {
+        "lesson": "B2_RW_U05",
+        "errors": [],
+        "masks": 21,
+        "geometry": {
+          "x": 134.72222900390625,
+          "y": 100,
+          "scale": 0.851852
+        }
+      },
+      {
+        "lesson": "B2_RW_U06",
+        "errors": [],
+        "masks": 31,
+        "geometry": {
+          "x": 134.72222900390625,
+          "y": 100,
+          "scale": 0.851852
+        }
+      },
+      {
+        "lesson": "B2_RW_U07",
+        "errors": [],
+        "masks": 23,
+        "geometry": {
+          "x": 134.72222900390625,
+          "y": 100,
+          "scale": 0.851852
+        }
+      },
+      {
+        "lesson": "B2_RW_U08",
+        "errors": [],
+        "masks": 29,
+        "geometry": {
+          "x": 134.72222900390625,
+          "y": 100,
+          "scale": 0.851852
+        }
+      },
+      {
+        "lesson": "B3_LS_U01",
+        "errors": [],
+        "masks": 24,
+        "geometry": {
+          "x": 134.72222900390625,
+          "y": 100,
+          "scale": 0.851852
+        }
+      },
+      {
+        "lesson": "B3_LS_U02",
+        "errors": [],
+        "masks": 21,
+        "geometry": {
+          "x": 134.72222900390625,
+          "y": 100,
+          "scale": 0.851852
+        }
+      },
+      {
+        "lesson": "B3_LS_U03",
+        "errors": [],
+        "masks": 28,
+        "geometry": {
+          "x": 134.72222900390625,
+          "y": 100,
+          "scale": 0.851852
+        }
+      },
+      {
+        "lesson": "B3_LS_U04",
+        "errors": [],
+        "masks": 33,
+        "geometry": {
+          "x": 134.72222900390625,
+          "y": 100,
+          "scale": 0.851852
+        }
+      },
+      {
+        "lesson": "B3_LS_U05",
+        "errors": [],
+        "masks": 32,
+        "geometry": {
+          "x": 134.72222900390625,
+          "y": 100,
+          "scale": 0.851852
+        }
+      },
+      {
+        "lesson": "B3_LS_U06",
+        "errors": [],
+        "masks": 24,
+        "geometry": {
+          "x": 134.72222900390625,
+          "y": 100,
+          "scale": 0.851852
+        }
+      },
+      {
+        "lesson": "B3_LS_U07",
+        "errors": [],
+        "masks": 27,
+        "geometry": {
+          "x": 134.72222900390625,
+          "y": 100,
+          "scale": 0.851852
+        }
+      },
+      {
+        "lesson": "B3_LS_U08",
+        "errors": [],
+        "masks": 27,
+        "geometry": {
+          "x": 134.72222900390625,
+          "y": 100,
+          "scale": 0.851852
+        }
+      },
+      {
+        "lesson": "B3_RW_U01",
+        "errors": [],
+        "masks": 24,
+        "geometry": {
+          "x": 134.72222900390625,
+          "y": 100,
+          "scale": 0.851852
+        }
+      },
+      {
+        "lesson": "B3_RW_U02",
+        "errors": [],
+        "masks": 28,
+        "geometry": {
+          "x": 134.72222900390625,
+          "y": 100,
+          "scale": 0.851852
+        }
+      },
+      {
+        "lesson": "B3_RW_U03",
+        "errors": [],
+        "masks": 24,
+        "geometry": {
+          "x": 134.72222900390625,
+          "y": 100,
+          "scale": 0.851852
+        }
+      },
+      {
+        "lesson": "B3_RW_U04",
+        "errors": [],
+        "masks": 27,
+        "geometry": {
+          "x": 134.72222900390625,
+          "y": 100,
+          "scale": 0.851852
+        }
+      },
+      {
+        "lesson": "B3_RW_U05",
+        "errors": [],
+        "masks": 25,
+        "geometry": {
+          "x": 134.72222900390625,
+          "y": 100,
+          "scale": 0.851852
+        }
+      },
+      {
+        "lesson": "B3_RW_U06",
+        "errors": [],
+        "masks": 22,
+        "geometry": {
+          "x": 134.72222900390625,
+          "y": 100,
+          "scale": 0.851852
+        }
+      },
+      {
+        "lesson": "B3_RW_U07",
+        "errors": [],
+        "masks": 21,
+        "geometry": {
+          "x": 134.72222900390625,
+          "y": 100,
+          "scale": 0.851852
+        }
+      },
+      {
+        "lesson": "B3_RW_U08",
+        "errors": [],
+        "masks": 25,
+        "geometry": {
+          "x": 134.72222900390625,
+          "y": 100,
+          "scale": 0.851852
+        }
+      }
+    ],
+    "masks": 820,
+    "layoutCases": [
+      {
+        "lesson": "B2_LS_U01",
+        "page": 38,
+        "overlaps": []
+      },
+      {
+        "lesson": "B3_LS_U05",
+        "page": 36,
+        "overlaps": []
+      },
+      {
+        "lesson": "B3_RW_U04",
+        "page": 34,
+        "overlaps": []
+      }
+    ],
+    "complete": {
+      "current": 15,
+      "partsHidden": true,
+      "statements": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    "feedback": {
+      "review": true,
+      "all": true,
+      "onlyReturn": [
+        "回到题面"
+      ]
+    },
+    "listening": {
+      "playing": true,
+      "shown": true,
+      "selected": [
+        1,
+        3
+      ],
+      "queue": [
+        1,
+        3
+      ],
+      "rate": 1,
+      "preservesPitch": true,
+      "media": "../assets/media/871ce69611556a6430fcfe65b2ba57b291bd173da19d2dbbed18a5f4c9e8ffd5.mp3",
+      "cues": 82,
+      "position": 3.02,
+      "track": "Book 2 · Unit 1 · LS · LISTENING 1"
+    },
+    "photos": 4,
+    "errors": []
+  },
+  "public_code_commit": "6b515c22188feb055e4c326eb056c321ff238168"
 }
