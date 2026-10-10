@@ -1,5 +1,5 @@
 {
-  "version": "20261010-question-v3",
+  "version": "20261010-question-v3-1",
   "lessons": 32,
   "question_use_records": 1124,
   "complete_multi_frame_questions": 166,
@@ -234,7 +234,7 @@
       "controls": 196
     }
   ],
-  "public_verified": false,
+  "public_verified": true,
   "additional_explanation_feedback_views": 980,
   "navigation_errors": [],
   "media_return_checked": [
@@ -242,5 +242,32 @@
     "video",
     "four original photos"
   ],
-  "question_scroll_restored": true
+  "question_scroll_restored": true,
+  "public_runtime_commit": "4a90da768aeca6c7fbf652a33ed818a256f38000",
+  "public_validation": {
+    "version": "20261010-question-v3-1",
+    "complete": {
+      "current": 15,
+      "partsHidden": true,
+      "statements": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    "feedback": {
+      "review": true,
+      "all": true,
+      "onlyReturn": [
+        "鍥炲埌棰橀潰"
+      ]
+    },
+    "photos": 4,
+    "errors": [],
+    "lessons": 32
+  }
 }
