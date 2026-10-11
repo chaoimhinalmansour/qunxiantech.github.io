@@ -1,0 +1,219 @@
+{
+  "version": "20261011-screen-v15",
+  "units": 32,
+  "exercises": 1111,
+  "answerViews": 892,
+  "explanationViews": 319,
+  "cyclesPerView": 3,
+  "returnTransitions": 3633,
+  "returnGeometryFailures": 0,
+  "returnNodeIdentityFailures": 0,
+  "overflow": 0,
+  "viewportCases": 4,
+  "runtimeErrors": [],
+  "cause": "Reparsing a saved question HTML string changed nested row structure on return.",
+  "fix": "Restore the original question nodes directly and restore the question layout label.",
+  "checks": [
+    "Actual sidebar answer/explanation/return button handlers",
+    "Three consecutive round trips per available view",
+    "Visible text ranges and line breaks",
+    "Question numbers, sentence cells, answer cells, images and table rectangles",
+    "Original DOM node identity after return",
+    "No returned-question or review-view overflow",
+    "Return by button and Escape at four viewport sizes"
+  ],
+  "lessons": [
+    {
+      "unit": "B2_LS_U01",
+      "exercises": 48,
+      "transitions": 201,
+      "failures": 0
+    },
+    {
+      "unit": "B2_LS_U02",
+      "exercises": 44,
+      "transitions": 150,
+      "failures": 0
+    },
+    {
+      "unit": "B2_LS_U03",
+      "exercises": 39,
+      "transitions": 135,
+      "failures": 0
+    },
+    {
+      "unit": "B2_LS_U04",
+      "exercises": 39,
+      "transitions": 102,
+      "failures": 0
+    },
+    {
+      "unit": "B2_LS_U05",
+      "exercises": 36,
+      "transitions": 141,
+      "failures": 0
+    },
+    {
+      "unit": "B2_LS_U06",
+      "exercises": 39,
+      "transitions": 153,
+      "failures": 0
+    },
+    {
+      "unit": "B2_LS_U07",
+      "exercises": 38,
+      "transitions": 135,
+      "failures": 0
+    },
+    {
+      "unit": "B2_LS_U08",
+      "exercises": 38,
+      "transitions": 156,
+      "failures": 0
+    },
+    {
+      "unit": "B2_RW_U01",
+      "exercises": 28,
+      "transitions": 84,
+      "failures": 0
+    },
+    {
+      "unit": "B2_RW_U02",
+      "exercises": 27,
+      "transitions": 75,
+      "failures": 0
+    },
+    {
+      "unit": "B2_RW_U03",
+      "exercises": 36,
+      "transitions": 189,
+      "failures": 0
+    },
+    {
+      "unit": "B2_RW_U04",
+      "exercises": 32,
+      "transitions": 138,
+      "failures": 0
+    },
+    {
+      "unit": "B2_RW_U05",
+      "exercises": 30,
+      "transitions": 81,
+      "failures": 0
+    },
+    {
+      "unit": "B2_RW_U06",
+      "exercises": 38,
+      "transitions": 90,
+      "failures": 0
+    },
+    {
+      "unit": "B2_RW_U07",
+      "exercises": 33,
+      "transitions": 90,
+      "failures": 0
+    },
+    {
+      "unit": "B2_RW_U08",
+      "exercises": 31,
+      "transitions": 90,
+      "failures": 0
+    },
+    {
+      "unit": "B3_LS_U01",
+      "exercises": 39,
+      "transitions": 93,
+      "failures": 0
+    },
+    {
+      "unit": "B3_LS_U02",
+      "exercises": 38,
+      "transitions": 90,
+      "failures": 0
+    },
+    {
+      "unit": "B3_LS_U03",
+      "exercises": 36,
+      "transitions": 87,
+      "failures": 0
+    },
+    {
+      "unit": "B3_LS_U04",
+      "exercises": 39,
+      "transitions": 105,
+      "failures": 0
+    },
+    {
+      "unit": "B3_LS_U05",
+      "exercises": 39,
+      "transitions": 90,
+      "failures": 0
+    },
+    {
+      "unit": "B3_LS_U06",
+      "exercises": 43,
+      "transitions": 99,
+      "failures": 0
+    },
+    {
+      "unit": "B3_LS_U07",
+      "exercises": 44,
+      "transitions": 105,
+      "failures": 0
+    },
+    {
+      "unit": "B3_LS_U08",
+      "exercises": 38,
+      "transitions": 84,
+      "failures": 0
+    },
+    {
+      "unit": "B3_RW_U01",
+      "exercises": 26,
+      "transitions": 108,
+      "failures": 0
+    },
+    {
+      "unit": "B3_RW_U02",
+      "exercises": 25,
+      "transitions": 120,
+      "failures": 0
+    },
+    {
+      "unit": "B3_RW_U03",
+      "exercises": 25,
+      "transitions": 114,
+      "failures": 0
+    },
+    {
+      "unit": "B3_RW_U04",
+      "exercises": 29,
+      "transitions": 60,
+      "failures": 0
+    },
+    {
+      "unit": "B3_RW_U05",
+      "exercises": 27,
+      "transitions": 69,
+      "failures": 0
+    },
+    {
+      "unit": "B3_RW_U06",
+      "exercises": 23,
+      "transitions": 111,
+      "failures": 0
+    },
+    {
+      "unit": "B3_RW_U07",
+      "exercises": 34,
+      "transitions": 147,
+      "failures": 0
+    },
+    {
+      "unit": "B3_RW_U08",
+      "exercises": 30,
+      "transitions": 141,
+      "failures": 0
+    }
+  ]
+}
