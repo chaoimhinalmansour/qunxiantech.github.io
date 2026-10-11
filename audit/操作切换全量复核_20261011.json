@@ -1,5 +1,5 @@
 {
-  "version": "20261011-screen-v16",
+  "version": "20261011-screen-v17",
   "units": 32,
   "exercises": 1111,
   "routes": 5306,
@@ -10,8 +10,8 @@
   "resizedReviewReturns": 224,
   "failures": 0,
   "runtimeErrors": [],
-  "newIssue": "Precision audio did not track the current resource or restore the selected record. Reloading its owning question closed the audio panel.",
-  "fix": "Track the selected precision audio record, select that record when reopening, and retain its current question audio options.",
+  "newIssue": "Precision audio did not track the current resource or restore the selected record. Reloading its owning question closed the audio panel. Multi-material menus also lost other choices on owner-question reload.",
+  "fix": "Track the selected precision audio record, select that record when reopening, and retain its current question audio options. Rebuild the selected material menu from the current question resource list.",
   "checks": [
     "Answer and explanation return via sidebar handlers",
     "Review navigation guard",
@@ -22,7 +22,8 @@
     "Every route rerendered after navigating elsewhere",
     "Every reachable vocabulary mask reveal and hide",
     "Resize during review at 1280x720, 1920x1200, 1024x768, 1920x1080, then actual Escape keys",
-    "Question node identity, visible text ranges, line breaks, numbers, answer cells, images and tables"
+    "Question node identity, visible text ranges, line breaks, numbers, answer cells, images and tables",
+    "Each multi-material menu option selected via its change handler, then owner question reloaded with all choices and active selection retained"
   ],
   "limitations": [
     "Full route and resource suite executed locally in Edge at 1920x1080; viewport changes use one selected exercise per unit.",
@@ -285,5 +286,7 @@
       "masks": 25,
       "failures": 0
     }
-  ]
+  ],
+  "multiMaterialQuestions": 85,
+  "materialSelectionReturns": 180
 }
