@@ -1,0 +1,289 @@
+{
+  "version": "20261011-screen-v16",
+  "units": 32,
+  "exercises": 1111,
+  "routes": 5306,
+  "vocabularyMasks": 820,
+  "resources": 535,
+  "exerciseReviewReturns": 1211,
+  "resourceReviewReturns": 508,
+  "resizedReviewReturns": 224,
+  "failures": 0,
+  "runtimeErrors": [],
+  "newIssue": "Precision audio did not track the current resource or restore the selected record. Reloading its owning question closed the audio panel.",
+  "fix": "Track the selected precision audio record, select that record when reopening, and retain its current question audio options.",
+  "checks": [
+    "Answer and explanation return via sidebar handlers",
+    "Review navigation guard",
+    "Navigate to another exercise and back",
+    "Reset question without geometry drift",
+    "Each reachable resource open, review, enlarge, split share 35/70, owner reload and close",
+    "Precision transcript visibility, sentence selection and speed retained across review return",
+    "Every route rerendered after navigating elsewhere",
+    "Every reachable vocabulary mask reveal and hide",
+    "Resize during review at 1280x720, 1920x1200, 1024x768, 1920x1080, then actual Escape keys",
+    "Question node identity, visible text ranges, line breaks, numbers, answer cells, images and tables"
+  ],
+  "limitations": [
+    "Full route and resource suite executed locally in Edge at 1920x1080; viewport changes use one selected exercise per unit.",
+    "No new audit of factual textbook answers or external audio/video delivery speed in this state-restoration pass."
+  ],
+  "lessons": [
+    {
+      "unit": "B2_LS_U01",
+      "exercises": 48,
+      "resources": 30,
+      "routes": 139,
+      "masks": 24,
+      "failures": 0
+    },
+    {
+      "unit": "B2_LS_U02",
+      "exercises": 44,
+      "resources": 26,
+      "routes": 147,
+      "masks": 19,
+      "failures": 0
+    },
+    {
+      "unit": "B2_LS_U03",
+      "exercises": 39,
+      "resources": 24,
+      "routes": 146,
+      "masks": 35,
+      "failures": 0
+    },
+    {
+      "unit": "B2_LS_U04",
+      "exercises": 39,
+      "resources": 22,
+      "routes": 163,
+      "masks": 32,
+      "failures": 0
+    },
+    {
+      "unit": "B2_LS_U05",
+      "exercises": 36,
+      "resources": 19,
+      "routes": 136,
+      "masks": 19,
+      "failures": 0
+    },
+    {
+      "unit": "B2_LS_U06",
+      "exercises": 39,
+      "resources": 20,
+      "routes": 160,
+      "masks": 23,
+      "failures": 0
+    },
+    {
+      "unit": "B2_LS_U07",
+      "exercises": 38,
+      "resources": 14,
+      "routes": 155,
+      "masks": 20,
+      "failures": 0
+    },
+    {
+      "unit": "B2_LS_U08",
+      "exercises": 38,
+      "resources": 24,
+      "routes": 152,
+      "masks": 23,
+      "failures": 0
+    },
+    {
+      "unit": "B2_RW_U01",
+      "exercises": 28,
+      "resources": 10,
+      "routes": 123,
+      "masks": 23,
+      "failures": 0
+    },
+    {
+      "unit": "B2_RW_U02",
+      "exercises": 27,
+      "resources": 8,
+      "routes": 138,
+      "masks": 20,
+      "failures": 0
+    },
+    {
+      "unit": "B2_RW_U03",
+      "exercises": 36,
+      "resources": 12,
+      "routes": 188,
+      "masks": 36,
+      "failures": 0
+    },
+    {
+      "unit": "B2_RW_U04",
+      "exercises": 32,
+      "resources": 12,
+      "routes": 204,
+      "masks": 30,
+      "failures": 0
+    },
+    {
+      "unit": "B2_RW_U05",
+      "exercises": 30,
+      "resources": 12,
+      "routes": 167,
+      "masks": 21,
+      "failures": 0
+    },
+    {
+      "unit": "B2_RW_U06",
+      "exercises": 38,
+      "resources": 10,
+      "routes": 241,
+      "masks": 31,
+      "failures": 0
+    },
+    {
+      "unit": "B2_RW_U07",
+      "exercises": 33,
+      "resources": 12,
+      "routes": 198,
+      "masks": 23,
+      "failures": 0
+    },
+    {
+      "unit": "B2_RW_U08",
+      "exercises": 31,
+      "resources": 9,
+      "routes": 259,
+      "masks": 29,
+      "failures": 0
+    },
+    {
+      "unit": "B3_LS_U01",
+      "exercises": 39,
+      "resources": 27,
+      "routes": 115,
+      "masks": 24,
+      "failures": 0
+    },
+    {
+      "unit": "B3_LS_U02",
+      "exercises": 38,
+      "resources": 19,
+      "routes": 137,
+      "masks": 21,
+      "failures": 0
+    },
+    {
+      "unit": "B3_LS_U03",
+      "exercises": 36,
+      "resources": 38,
+      "routes": 125,
+      "masks": 28,
+      "failures": 0
+    },
+    {
+      "unit": "B3_LS_U04",
+      "exercises": 39,
+      "resources": 19,
+      "routes": 126,
+      "masks": 33,
+      "failures": 0
+    },
+    {
+      "unit": "B3_LS_U05",
+      "exercises": 39,
+      "resources": 22,
+      "routes": 124,
+      "masks": 32,
+      "failures": 0
+    },
+    {
+      "unit": "B3_LS_U06",
+      "exercises": 43,
+      "resources": 26,
+      "routes": 128,
+      "masks": 24,
+      "failures": 0
+    },
+    {
+      "unit": "B3_LS_U07",
+      "exercises": 44,
+      "resources": 19,
+      "routes": 126,
+      "masks": 27,
+      "failures": 0
+    },
+    {
+      "unit": "B3_LS_U08",
+      "exercises": 38,
+      "resources": 21,
+      "routes": 115,
+      "masks": 27,
+      "failures": 0
+    },
+    {
+      "unit": "B3_RW_U01",
+      "exercises": 26,
+      "resources": 8,
+      "routes": 191,
+      "masks": 24,
+      "failures": 0
+    },
+    {
+      "unit": "B3_RW_U02",
+      "exercises": 25,
+      "resources": 9,
+      "routes": 231,
+      "masks": 28,
+      "failures": 0
+    },
+    {
+      "unit": "B3_RW_U03",
+      "exercises": 25,
+      "resources": 10,
+      "routes": 164,
+      "masks": 24,
+      "failures": 0
+    },
+    {
+      "unit": "B3_RW_U04",
+      "exercises": 29,
+      "resources": 10,
+      "routes": 258,
+      "masks": 27,
+      "failures": 0
+    },
+    {
+      "unit": "B3_RW_U05",
+      "exercises": 27,
+      "resources": 9,
+      "routes": 199,
+      "masks": 25,
+      "failures": 0
+    },
+    {
+      "unit": "B3_RW_U06",
+      "exercises": 23,
+      "resources": 11,
+      "routes": 216,
+      "masks": 22,
+      "failures": 0
+    },
+    {
+      "unit": "B3_RW_U07",
+      "exercises": 34,
+      "resources": 14,
+      "routes": 163,
+      "masks": 21,
+      "failures": 0
+    },
+    {
+      "unit": "B3_RW_U08",
+      "exercises": 30,
+      "resources": 9,
+      "routes": 172,
+      "masks": 25,
+      "failures": 0
+    }
+  ]
+}
