@@ -1,0 +1,39 @@
+{
+  "version": "20261011-screen-v14",
+  "units": 32,
+  "exercises": 1111,
+  "answerViews": 892,
+  "explanationViews": 319,
+  "routes": 5306,
+  "numberedParagraphChecks": 3014,
+  "answerCellChecks": 1654,
+  "sharedPhotoSets": 2,
+  "visualExercises": 195,
+  "visualScreenshots": 460,
+  "layoutIssues": 0,
+  "textOrImageSwitchDrift": 0,
+  "overflow": 0,
+  "runtimeErrors": [],
+  "checks": [
+    "number and first sentence baseline",
+    "continuation indentation",
+    "answer placeholder and cell containment",
+    "adjacent row spacing",
+    "text/image overlap",
+    "question/answer text ranges and line breaks",
+    "question/answer image positions and sizes",
+    "shared photo frame sizes and positions",
+    "headers and body gap",
+    "single-screen content bounds"
+  ],
+  "fixes": [
+    "Shared number/sentence grid, including soft line breaks from source slides.",
+    "Fixed aligned answer and definition columns, including nested styled spans.",
+    "Contiguous question order in multiple columns.",
+    "Preserved original table header background colours.",
+    "Associated solution tables with the corresponding question, omitting repeated question columns.",
+    "Kept one completed model paragraph and concise sentence classifications.",
+    "Four answer mappings corrected against the original source."
+  ],
+  "manualReview": "Paired screenshots across all 32 units, covering tables, images, fill-ins, corrections, choices and explanations; all flagged examples inspected at full size."
+}

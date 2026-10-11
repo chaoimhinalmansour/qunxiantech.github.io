@@ -22,8 +22,8 @@
   },
   {
     "file": "README.md",
-    "bytes": 6601,
-    "sha256": "480833ab6b46d45a1877e2d29742a61fde30eebab81e2fd1bb3cc1a711f2e836"
+    "bytes": 6902,
+    "sha256": "de9b1686ca6b54e3c0eab63823fdd6916535d37b149fc20ba8a5a49c8d2afd99"
   },
   {
     "file": "assets/answer-corrections-manifest.json",
@@ -32,8 +32,8 @@
   },
   {
     "file": "assets/answer-corrections.js",
-    "bytes": 27789,
-    "sha256": "3d4e76419dd126a6f3e6858f7e47a6ede44e8691b7f31315da3769586510a96d"
+    "bytes": 28731,
+    "sha256": "72ad357e9a34150863a0870c69d0c8777c0bb9620f1ea3234d7d26a12d3354b7"
   },
   {
     "file": "assets/audio.css",
@@ -6957,13 +6957,13 @@
   },
   {
     "file": "assets/single-screen.css",
-    "bytes": 5707,
-    "sha256": "339c87b094d26878ad8c38c7885e532bd7b7fe6136777759a4ab5c351d6dfbe8"
+    "bytes": 6656,
+    "sha256": "7c93c255dcf81d6b7ff9935579cbde5fcb162908e560d6866ef07b4f8b13d772"
   },
   {
     "file": "assets/single-screen.js",
-    "bytes": 23163,
-    "sha256": "fcef244148ce4713ef977400f68362ab9030752f92f825122cb557d97a3984f6"
+    "bytes": 29272,
+    "sha256": "248e3b660dc6a4309cbfdaacc3aa471e500e729f2c4073b0e431f0886120f28d"
   },
   {
     "file": "assets/units/B2_LS_U01.js",
@@ -20457,6 +20457,16 @@
     "repository_sha256": "f219d42a56574d9b3164f15490940692d726c84140ee2fbeed4b5d1f71f10f7b"
   },
   {
+    "file": "audit/全套对齐间距复核_20261011.html",
+    "bytes": 1672,
+    "sha256": "c4f70802116241734de439f835ad77838bb6006f46d223708d1ed3e94ee67d16"
+  },
+  {
+    "file": "audit/全套对齐间距复核_20261011.json",
+    "bytes": 1541,
+    "sha256": "a1b13203445db37399409fffb3dc88294a1b6f7707de2ace5229e780823baa02"
+  },
+  {
     "file": "audit/全量单屏修复_20261011.html",
     "bytes": 2699,
     "sha256": "a8963c480941fc78d4c61f756e72797f04974e87bf2a2276019792a20e6ad1e8"
@@ -20659,12 +20669,12 @@
   {
     "file": "index.html",
     "bytes": 6024,
-    "sha256": "577eadd5dbca00b2ad273b7cc609e17fc1ba3dc4124be6b64ca5e6ddb00da8ad"
+    "sha256": "c950719797fc9cc5a763711aba7bd645dd6961134edf8cc7fc98356feba5f9ef"
   },
   {
     "file": "lessons/B2_LS_U01.html",
     "bytes": 1247,
-    "sha256": "e98f6b4d271a8d8b47446d88bcee593d9ab98f8984b536d867d0d3aa56675909"
+    "sha256": "e89a9ac089b543cf15b054e6b33f2bad1bf91a5af3fc22a3577f8fe9f72cf682"
   },
   {
     "file": "lessons/B2_LS_U01.js",
@@ -20674,7 +20684,7 @@
   {
     "file": "lessons/B2_LS_U02.html",
     "bytes": 1247,
-    "sha256": "b096c3fc66778b799a6a40ca14fa94a299df535255d259b906b4f375fc122bda"
+    "sha256": "3af55055c66b6b89519a65a01abb9ac892ac44efc47621fca18f13ec2e1d03c3"
   },
   {
     "file": "lessons/B2_LS_U02.js",
@@ -20684,7 +20694,7 @@
   {
     "file": "lessons/B2_LS_U03.html",
     "bytes": 1247,
-    "sha256": "6eb69df72a8eebc53cb951c8eb81cf1732a98f242f5af93cbf2aa4bff160d9b0"
+    "sha256": "e10cfb683b9a5f050cf28282c7c6106f3a26f3244dd7beeafc953b03cd7f22a1"
   },
   {
     "file": "lessons/B2_LS_U03.js",
@@ -20694,7 +20704,7 @@
   {
     "file": "lessons/B2_LS_U04.html",
     "bytes": 1247,
-    "sha256": "8c5a58ef001dd12b8528461b766523eda6d4e6aa2f3660ff3616fb7dcdce2c74"
+    "sha256": "f0d7de379be3de948652e74c6ebf06e1911a9284641305121a1ae6fb46a1f75c"
   },
   {
     "file": "lessons/B2_LS_U04.js",
@@ -20704,7 +20714,7 @@
   {
     "file": "lessons/B2_LS_U05.html",
     "bytes": 1247,
-    "sha256": "a137980dc103ee64afac8fa36d8d9cf2a86c3166bf1742dcf3287cd3cb81aa19"
+    "sha256": "092f89d354828f967571a214ac1057381e638f6cd4997b9af68bc8e435d2748b"
   },
   {
     "file": "lessons/B2_LS_U05.js",
@@ -20714,7 +20724,7 @@
   {
     "file": "lessons/B2_LS_U06.html",
     "bytes": 1247,
-    "sha256": "68707887304742efeabcb3c64bbc114ff852c10d49dff7bed2e3d5eb238ac6b7"
+    "sha256": "84caadb606dd4b03e8d1a22417e3091048fcf37fccfb67c4a948d57024e75b6a"
   },
   {
     "file": "lessons/B2_LS_U06.js",
@@ -20724,7 +20734,7 @@
   {
     "file": "lessons/B2_LS_U07.html",
     "bytes": 1247,
-    "sha256": "ef43456dedf76c7833d4f44b076d1c554b0cc7126ad99057308d4543b8a46386"
+    "sha256": "7d45ba3f85414488d0376d73303b81375768c7bec3a851b7fa544c7070e12649"
   },
   {
     "file": "lessons/B2_LS_U07.js",
@@ -20734,7 +20744,7 @@
   {
     "file": "lessons/B2_LS_U08.html",
     "bytes": 1247,
-    "sha256": "75a29f71c7c814660752c26f47a3736ea7deddc67232884bd427316df9f44f6b"
+    "sha256": "2f5be3327b19338a8489a3e14961bcd1e786c82ae31a9b2394dd85f67d953f48"
   },
   {
     "file": "lessons/B2_LS_U08.js",
@@ -20744,7 +20754,7 @@
   {
     "file": "lessons/B2_RW_U01.html",
     "bytes": 1247,
-    "sha256": "7a4a45b34daf14222ea74339a6592ae1d20219c6f885dbf34ab1d3365b5e99fd"
+    "sha256": "d229387deaa47211ab3a466ff19866e406658bc5952bc1d00eb4bfc4185e1d8e"
   },
   {
     "file": "lessons/B2_RW_U01.js",
@@ -20754,7 +20764,7 @@
   {
     "file": "lessons/B2_RW_U02.html",
     "bytes": 1247,
-    "sha256": "c5aec7c7928becf1ec085b9bc98c15b56be65b0134834982a88281b83cf09608"
+    "sha256": "d5e7c5ec5fe2743dcd0ea28b1119f6c3d640d7421368354d5a114c2b1978c179"
   },
   {
     "file": "lessons/B2_RW_U02.js",
@@ -20764,7 +20774,7 @@
   {
     "file": "lessons/B2_RW_U03.html",
     "bytes": 1247,
-    "sha256": "111d3131b60da7a2672f637871edcda7f8cd0bdb38ebaa28026a2408f1e4c804"
+    "sha256": "756092d27dc031cd1420ac493fda9f26e5a0b12016134746a83a0889f17aec18"
   },
   {
     "file": "lessons/B2_RW_U03.js",
@@ -20774,7 +20784,7 @@
   {
     "file": "lessons/B2_RW_U04.html",
     "bytes": 1247,
-    "sha256": "45be97d9e27c24e30dd3944dd0c53d24ce3507d401ae4c10fba5a24fc0206e84"
+    "sha256": "75c8e4f3fad614aa644bb63dcc1960415dd8af39228848e03a1366cdc37f0557"
   },
   {
     "file": "lessons/B2_RW_U04.js",
@@ -20784,7 +20794,7 @@
   {
     "file": "lessons/B2_RW_U05.html",
     "bytes": 1247,
-    "sha256": "3ebdd47e0651e35f78f5b3231be1e2cb71bc64a2dd5809b38ae2dd439e5c3ea3"
+    "sha256": "f2ca5cae0b0ed3ece465098c4b4050357d1f597d8a6c498f1e5d723168e7abdb"
   },
   {
     "file": "lessons/B2_RW_U05.js",
@@ -20794,7 +20804,7 @@
   {
     "file": "lessons/B2_RW_U06.html",
     "bytes": 1247,
-    "sha256": "5fe667cee07f496b41d9b7aeb338e8c172adf21d01335959eeb478721b090a83"
+    "sha256": "509d8fefb8785c3ae01c7420f54cf7c49eaf08adaf3a60468141004d53c6c487"
   },
   {
     "file": "lessons/B2_RW_U06.js",
@@ -20804,7 +20814,7 @@
   {
     "file": "lessons/B2_RW_U07.html",
     "bytes": 1247,
-    "sha256": "7af24a24d891a3764a0e860111d1d5d80a5d39a6c36ddba8f5d5061a5c366e33"
+    "sha256": "1e31c1308fa4401838fa3e00aa63fccf965d84405f9f4f4cdd41fe51f604efd6"
   },
   {
     "file": "lessons/B2_RW_U07.js",
@@ -20814,7 +20824,7 @@
   {
     "file": "lessons/B2_RW_U08.html",
     "bytes": 1247,
-    "sha256": "0e6a3e022d1168d7d903065c3f4cd2f71dca546d1a9574e216a5d52560ba470d"
+    "sha256": "cfe49e4e071934714b613bf69889ccd8b575b23e7ea49a46cb4be4f9bc98469d"
   },
   {
     "file": "lessons/B2_RW_U08.js",
@@ -20824,7 +20834,7 @@
   {
     "file": "lessons/B3_LS_U01.html",
     "bytes": 1247,
-    "sha256": "bb224a17c587a306a1f7d0a887655611e4922876de8e6b0da78a608026768df7"
+    "sha256": "e127dceced18eaa24dce60e196afbdafd005f194529f323aa8ff0ba810b4f1c3"
   },
   {
     "file": "lessons/B3_LS_U01.js",
@@ -20834,7 +20844,7 @@
   {
     "file": "lessons/B3_LS_U02.html",
     "bytes": 1247,
-    "sha256": "c658b304d7bc8e3a762423bcceb6482b69afa11a52f757442373719e62c27829"
+    "sha256": "eb9ba894142aa10f3dfe6bc0d3dc04ee0c892c694596e879057381f3a7ec032e"
   },
   {
     "file": "lessons/B3_LS_U02.js",
@@ -20844,7 +20854,7 @@
   {
     "file": "lessons/B3_LS_U03.html",
     "bytes": 1247,
-    "sha256": "294e982ed5368c74192939022089f1ed71f2072f565309a2728c6a760acdde03"
+    "sha256": "160caf3db01e9e86150cf36593f7d0030beb5fa23e9a1eefd0da84b4a791ab52"
   },
   {
     "file": "lessons/B3_LS_U03.js",
@@ -20854,7 +20864,7 @@
   {
     "file": "lessons/B3_LS_U04.html",
     "bytes": 1247,
-    "sha256": "90c6c8971d66ff6e0667d821fcecf509f18686abb6ac6e57d3957b3f8c1bc56c"
+    "sha256": "e0970b39d1315a74a68db5381ba569928031a0baf450c0de428ae39643412f95"
   },
   {
     "file": "lessons/B3_LS_U04.js",
@@ -20864,7 +20874,7 @@
   {
     "file": "lessons/B3_LS_U05.html",
     "bytes": 1247,
-    "sha256": "04dc2f80a451ee0d549cfd89e556ec92017d6950eeb47d2fca5828e753c840c4"
+    "sha256": "cdb51c9e434096cda245d000d5fed656665312f95edf01419f791428d0e7740b"
   },
   {
     "file": "lessons/B3_LS_U05.js",
@@ -20874,7 +20884,7 @@
   {
     "file": "lessons/B3_LS_U06.html",
     "bytes": 1247,
-    "sha256": "f67111aeb7116d405b6b3e46f823f0dd10b99c3d8094c4f0e939a730d418a2fa"
+    "sha256": "bdee01dce8ae90749c12e551f42668cb4a903ee009ba327562ccf62dc027f521"
   },
   {
     "file": "lessons/B3_LS_U06.js",
@@ -20884,7 +20894,7 @@
   {
     "file": "lessons/B3_LS_U07.html",
     "bytes": 1247,
-    "sha256": "41bb93729e059d8402ff1f2d0ac683a577d298bfcc2715e0945aa15f39cbee43"
+    "sha256": "170cdd6e645bd08b477ac1b94409583ec6f252edd0cd7edd0c595d6f64ac6184"
   },
   {
     "file": "lessons/B3_LS_U07.js",
@@ -20894,7 +20904,7 @@
   {
     "file": "lessons/B3_LS_U08.html",
     "bytes": 1247,
-    "sha256": "8c3102c6aad2d1787f5e706a60957799b00fb8e7954fae2799e5f5c799e8ce33"
+    "sha256": "d76d33b186a110b36e174f1882b6f2beff07c155a6365559b1524a92aac9d144"
   },
   {
     "file": "lessons/B3_LS_U08.js",
@@ -20904,7 +20914,7 @@
   {
     "file": "lessons/B3_RW_U01.html",
     "bytes": 1247,
-    "sha256": "ba0fa6cf9ae1ea73dcc1a87d5e76d2cd5c17e6134aa96b4d1db7a89eef79a55b"
+    "sha256": "90b3dda24373a0bf27bc95f39d59922e8856a975e45f2411db26ddfcc073efbf"
   },
   {
     "file": "lessons/B3_RW_U01.js",
@@ -20914,7 +20924,7 @@
   {
     "file": "lessons/B3_RW_U02.html",
     "bytes": 1247,
-    "sha256": "75c44e24e6ede9280c83c74560073ce76ed456abbcb875b0525218e2b31e15cb"
+    "sha256": "2674502cbe26c99fcfddac9428c421d8123ee992f37ab71bdc455e23ef9873f6"
   },
   {
     "file": "lessons/B3_RW_U02.js",
@@ -20924,7 +20934,7 @@
   {
     "file": "lessons/B3_RW_U03.html",
     "bytes": 1247,
-    "sha256": "5c2715e58745aa4c18578cc955d9cac00bd712e167a52f930f3b2c24abc368c2"
+    "sha256": "09d58957a34a49daad19b1dff8982d59f6b8f589593a9c32907883dbced56190"
   },
   {
     "file": "lessons/B3_RW_U03.js",
@@ -20934,7 +20944,7 @@
   {
     "file": "lessons/B3_RW_U04.html",
     "bytes": 1247,
-    "sha256": "b9f1d6844b030fa915edda2fc60c840bdc2d6daab2f409d3f1bd513405d14a94"
+    "sha256": "0435913e612d632072c51b02be7b7659217219e7d9024e6d66b57cccc5b0e55a"
   },
   {
     "file": "lessons/B3_RW_U04.js",
@@ -20944,7 +20954,7 @@
   {
     "file": "lessons/B3_RW_U05.html",
     "bytes": 1247,
-    "sha256": "506e853d50e7a10089573aaf90b69877aceccb50417080f3283bddc9523c15d9"
+    "sha256": "62102ef23f357724f97fcbde6de534463167481330a2624aad250dd673abd20a"
   },
   {
     "file": "lessons/B3_RW_U05.js",
@@ -20954,7 +20964,7 @@
   {
     "file": "lessons/B3_RW_U06.html",
     "bytes": 1247,
-    "sha256": "a9644475d72b18d731676dcc79144fb61e8f7323c3183e922756ca76880b3b31"
+    "sha256": "2d5905adb5b75323066288d29538a8d6e1f3f42a5c594d6dcb7d743b7084952c"
   },
   {
     "file": "lessons/B3_RW_U06.js",
@@ -20964,7 +20974,7 @@
   {
     "file": "lessons/B3_RW_U07.html",
     "bytes": 1247,
-    "sha256": "db337aacfb0ea60f9043e4731f085b7721910dfb9c7cccb903e7a7eb0f9e21fa"
+    "sha256": "1708691503de7bfda535bf1e8df3f585819225af3a7f17386c0916699e6eb70a"
   },
   {
     "file": "lessons/B3_RW_U07.js",
@@ -20974,7 +20984,7 @@
   {
     "file": "lessons/B3_RW_U08.html",
     "bytes": 1247,
-    "sha256": "58d485603291d5a071c8a938d518857efc348e731dcfff58921f557f19f7b05e"
+    "sha256": "96e38b48d0a4925ef00566262289a8e79f90aacd38d037e25e8204ac447a0b0c"
   },
   {
     "file": "lessons/B3_RW_U08.js",

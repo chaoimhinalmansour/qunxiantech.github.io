@@ -14,3 +14,15 @@
 .ss-layout .ss-judgement-mark{text-align:center;min-width:0}.ss-layout .ss-judgement-mark .inline-answer-slot{min-width:0!important;width:100%!important}
 .ss-layout .ss-judgement-content{min-width:0}.ss-layout .ss-judgement-content .inline-correction{display:grid!important;width:100%!important;vertical-align:baseline}
 .ss-layout .ss-judgement-content .inline-correction-placeholder,.ss-layout .ss-judgement-content .inline-correction-value{grid-area:1/1;min-width:0}
+.ss-layout .ss-numbered-row{display:grid!important;grid-template-columns:1.5em minmax(0,1fr);column-gap:.25em;align-items:start}
+.ss-layout .ss-numbered-number,.ss-layout .ss-numbered-content{min-width:0}
+.ss-layout .ss-numbered-content .inline-correction{display:grid!important;width:100%!important}
+.ss-layout .ss-definition-content{display:grid!important;grid-template-columns:9em minmax(0,1fr);column-gap:.5em;align-items:start}
+.ss-layout .ss-definition-content>.inline-answer-slot{min-width:0!important;width:100%!important;text-align:center}
+.ss-layout .ss-definition-description{min-width:0}
+
+.ss-layout .ss-item[data-number]>.inline-feedback{margin-left:1.75em}
+.ss-layout .ss-item[data-number]>.ss-node:not(:first-child):not(.inline-feedback){margin-left:0}
+
+.ss-layout .ss-item:has(>.ss-node .ss-numbered-row)>.inline-feedback{margin-left:1.75em}
+.ss-layout.answers-visible .inline-answer-highlight *{color:#c00000!important}
