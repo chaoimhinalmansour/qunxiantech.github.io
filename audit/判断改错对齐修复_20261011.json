@@ -1,0 +1,15 @@
+{
+  "version": "20261011-screen-v13",
+  "sample": "B2_LS_U01_G2_E3",
+  "judgementExercises": 7,
+  "judgementRows": 31,
+  "firstLineAlignmentFailures": 0,
+  "questionAnswerDrift": 0,
+  "exerciseAuditCount": 1111,
+  "routeAuditCount": 5306,
+  "overflow": 0,
+  "headers": 0,
+  "runtimeErrors": [],
+  "cause": "Correction holder width did not subtract judgement slot and item number, so its full content wrapped to the next line.",
+  "fix": "Shared judgement rows use explicit mark, item number and sentence columns; original and corrected sentence overlap inside the same sentence cell."
+}

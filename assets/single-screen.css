@@ -10,3 +10,7 @@
 
 .ss-header{gap:8px}.ss-layout .ss-body,.ss-layout .ss-item .inline-answer-text,.ss-layout .ss-gallery-tail .inline-answer-text{font-size:30px!important;line-height:1.16!important}.ss-layout .ss-node td[hidden],.ss-layout .ss-node th[hidden]{display:none!important}
 .ss-header{gap:6px}.ss-layout .ss-instruction{font-size:30px!important;line-height:1.05!important}
+.ss-layout .ss-judgement-row{display:grid!important;grid-template-columns:2.4em 1.3em minmax(0,1fr);column-gap:.35em;align-items:start}
+.ss-layout .ss-judgement-mark{text-align:center;min-width:0}.ss-layout .ss-judgement-mark .inline-answer-slot{min-width:0!important;width:100%!important}
+.ss-layout .ss-judgement-content{min-width:0}.ss-layout .ss-judgement-content .inline-correction{display:grid!important;width:100%!important;vertical-align:baseline}
+.ss-layout .ss-judgement-content .inline-correction-placeholder,.ss-layout .ss-judgement-content .inline-correction-value{grid-area:1/1;min-width:0}
