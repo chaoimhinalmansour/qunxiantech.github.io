@@ -1,0 +1,168 @@
+{
+  "version": "20261011-screen-v18",
+  "units": 32,
+  "exercises": 1111,
+  "answerViews": 892,
+  "blankExercises": 294,
+  "multiBlankExercises": 53,
+  "repairedExercises": 26,
+  "beforeResidualExercises": 26,
+  "remainingUnfilledExercises": 0,
+  "duplicateAnswerSentences": 0,
+  "switchOrReturnGeometryFailures": 0,
+  "lifecycleRoutes": 5306,
+  "resources": 535,
+  "resizedReturns": 344,
+  "runtimeErrors": [],
+  "rootCauses": [
+    "Partial slot matching read hidden placeholder underscores and failed to consume the complete source answer.",
+    "Adjacent blanks lost their separation during text normalization.",
+    "Rephrased source answers and split paragraph answers did not map to original blank positions.",
+    "A practice example sentence was misclassified as the task instruction.",
+    "Numeric choices were treated as a numbered question and their whitespace collapsed."
+  ],
+  "checks": [
+    "Original blanks versus filled values and repeated full answer sentences across every available answer view",
+    "Question to answer and back: shared node positions and dimensions",
+    "All question, explanation, route and resource lifecycle operations",
+    "Four viewports on one representative question per unit and all 26 repaired questions",
+    "Manual visual review of eight representative question-answer-return sets"
+  ],
+  "limits": [
+    "Automation covers rendered blank mapping and layout, not an independent factual audit of all textbook answers.",
+    "Manual visual review covers eight representative tasks, not every page.",
+    "Resize checks use 1280x720, 1920x1200, 1024x768 and 1920x1080; device and font differences beyond these are not exhaustively tested."
+  ],
+  "repaired": [
+    {
+      "id": "B2_LS_U01_G3_E5",
+      "beforeRemaining": 1,
+      "afterRemaining": 0
+    },
+    {
+      "id": "B2_LS_U03_G5_E9",
+      "beforeRemaining": 2,
+      "afterRemaining": 0
+    },
+    {
+      "id": "B2_LS_U03_P92_E5",
+      "beforeRemaining": 1,
+      "afterRemaining": 0
+    },
+    {
+      "id": "B2_LS_U04_G1_E2",
+      "beforeRemaining": 3,
+      "afterRemaining": 0
+    },
+    {
+      "id": "B2_RW_U03_P138_E5",
+      "beforeRemaining": 1,
+      "afterRemaining": 0
+    },
+    {
+      "id": "B2_RW_U04_P203_E1",
+      "beforeRemaining": 4,
+      "afterRemaining": 0
+    },
+    {
+      "id": "B2_RW_U05_P16_E4",
+      "beforeRemaining": 2,
+      "afterRemaining": 0
+    },
+    {
+      "id": "B2_RW_U05_P137_E2",
+      "beforeRemaining": 4,
+      "afterRemaining": 0
+    },
+    {
+      "id": "B2_RW_U05_P177_E2",
+      "beforeRemaining": 1,
+      "afterRemaining": 0
+    },
+    {
+      "id": "B2_RW_U07_P12_E2",
+      "beforeRemaining": 1,
+      "afterRemaining": 0
+    },
+    {
+      "id": "B2_RW_U07_P148_E5",
+      "beforeRemaining": 3,
+      "afterRemaining": 0
+    },
+    {
+      "id": "B2_RW_U08_P276_E1",
+      "beforeRemaining": 1,
+      "afterRemaining": 0
+    },
+    {
+      "id": "B3_LS_U01_G5_E5",
+      "beforeRemaining": 5,
+      "afterRemaining": 0
+    },
+    {
+      "id": "B3_LS_U01_G5_E6",
+      "beforeRemaining": 1,
+      "afterRemaining": 0
+    },
+    {
+      "id": "B3_LS_U02_P12_E3",
+      "beforeRemaining": 1,
+      "afterRemaining": 0
+    },
+    {
+      "id": "B3_LS_U03_G2_E4",
+      "beforeRemaining": 4,
+      "afterRemaining": 0
+    },
+    {
+      "id": "B3_LS_U04_P39_E6",
+      "beforeRemaining": 1,
+      "afterRemaining": 0
+    },
+    {
+      "id": "B3_LS_U04_G4_E1",
+      "beforeRemaining": 1,
+      "afterRemaining": 0
+    },
+    {
+      "id": "B3_LS_U04_P82_E3",
+      "beforeRemaining": 1,
+      "afterRemaining": 0
+    },
+    {
+      "id": "B3_LS_U05_P89_E3",
+      "beforeRemaining": 1,
+      "afterRemaining": 0
+    },
+    {
+      "id": "B3_LS_U06_P14_E3",
+      "beforeRemaining": 4,
+      "afterRemaining": 0
+    },
+    {
+      "id": "B3_LS_U06_G5_E7",
+      "beforeRemaining": 12,
+      "afterRemaining": 0
+    },
+    {
+      "id": "B3_LS_U07_P84_E3",
+      "beforeRemaining": 1,
+      "afterRemaining": 0
+    },
+    {
+      "id": "B3_LS_U08_P17_E5",
+      "beforeRemaining": 1,
+      "afterRemaining": 0
+    },
+    {
+      "id": "B3_RW_U05_G6_E4",
+      "beforeRemaining": 2,
+      "afterRemaining": 0
+    },
+    {
+      "id": "B3_RW_U08_P164_E5",
+      "beforeRemaining": 1,
+      "afterRemaining": 0
+    }
+  ]
+}

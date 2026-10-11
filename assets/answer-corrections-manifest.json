@@ -1297,6 +1297,14 @@
   },
   "B3_LS_U03_G2_E4": {
     "items": {
+      "4": [
+        "cable",
+        "car"
+      ],
+      "5": [
+        "tram",
+        "systems"
+      ],
       "2": [
         "congestion",
         "zone"
@@ -2022,6 +2030,359 @@
       "Sea levels may rise because of melting ice.",
       "Some land may flood due to rising sea levels.",
       "Temperatures rise, so some habitats change."
+    ]
+  },
+  "B2_LS_U01_G9_E6": {
+    "items": {
+      "2": [
+        "In fact"
+      ],
+      "3": [
+        "As we know"
+      ],
+      "4": [
+        "I think"
+      ],
+      "5": [
+        "I personally feel"
+      ],
+      "6": [
+        "In my opinion"
+      ]
+    },
+    "possible": false,
+    "basis": "original source answer and definition cross-check during alignment review"
+  },
+  "B2_LS_U01_P141_E3": {
+    "items": {},
+    "possible": true,
+    "basis": "original source answer and definition cross-check during alignment review",
+    "numbered": {
+      "1": "b",
+      "2": "c",
+      "3": "f",
+      "4": "d",
+      "5": "g",
+      "6": "i",
+      "7": "j"
+    }
+  },
+  "B3_RW_U05_G3_E1": {
+    "items": {
+      "a": [
+        "active"
+      ],
+      "b": [
+        "suffer"
+      ],
+      "c": [
+        "serious"
+      ],
+      "d": [
+        "self-esteem"
+      ],
+      "e": [
+        "calories"
+      ],
+      "f": [
+        "recognize"
+      ],
+      "g": [
+        "moderate"
+      ]
+    },
+    "possible": false,
+    "basis": "original source answer and definition cross-check during alignment review"
+  },
+  "B3_LS_U03_G6_E2": {
+    "items": {
+      "a": [
+        "convenient"
+      ],
+      "b": [
+        "pass"
+      ],
+      "c": [
+        "injure"
+      ],
+      "d": [
+        "respect"
+      ],
+      "e": [
+        "solve"
+      ],
+      "f": [
+        "fine"
+      ],
+      "g": [
+        "prevent"
+      ],
+      "h": [
+        "break the law"
+      ]
+    },
+    "possible": false,
+    "basis": "original source answer and definition cross-check during alignment review"
+  },
+  "B2_LS_U04_G1_E2": {
+    "items": {
+      "1": [
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "possible": false,
+    "basis": "source answer and original blank order verified during multiblank review"
+  },
+  "B2_RW_U03_P138_E5": {
+    "items": {
+      "1": [
+        "entertaining"
+      ],
+      "2": [
+        "convenient"
+      ],
+      "3": [
+        "useful"
+      ],
+      "4": [
+        "quick"
+      ],
+      "5": [
+        "expensive"
+      ],
+      "6": [
+        "relaxing"
+      ],
+      "7": [
+        "annoying"
+      ]
+    },
+    "possible": true,
+    "basis": "source answer and original blank order verified during multiblank review"
+  },
+  "B2_RW_U05_P16_E4": {
+    "items": {
+      "2": [
+        "back",
+        "neck"
+      ]
+    },
+    "possible": false,
+    "basis": "source answer and original blank order verified during multiblank review"
+  },
+  "B2_RW_U05_P177_E2": {
+    "items": {
+      "1": [
+        "✗"
+      ],
+      "2": [
+        "✓"
+      ],
+      "3": [
+        "✗"
+      ]
+    },
+    "possible": false,
+    "basis": "source answer and original blank order verified during multiblank review",
+    "corrections": {
+      "1": "Julia and Suki are tennis players.",
+      "3": "We cycle to school every day."
+    }
+  },
+  "B2_RW_U07_P148_E5": {
+    "items": {
+      "1": [
+        "stupid",
+        "N"
+      ],
+      "2": [
+        "calm",
+        "P"
+      ],
+      "3": [
+        "friendly",
+        "P"
+      ],
+      "4": [
+        "reliable",
+        "P"
+      ],
+      "5": [
+        "difficult",
+        "N"
+      ]
+    },
+    "possible": false,
+    "basis": "source answer and original blank order verified during multiblank review"
+  },
+  "B3_LS_U01_G5_E5": {
+    "items": {},
+    "possible": false,
+    "basis": "source answer and original blank order verified during multiblank review",
+    "numbered": {
+      "2": "loss of habitat",
+      "3": "contact between humans and elephants",
+      "4": "increase the number of trained guards",
+      "5": "ban buying and selling ivory",
+      "6": "reduce contact between humans and elephants"
+    }
+  },
+  "B3_LS_U01_G5_E6": {
+    "items": {
+      "1": [
+        "F"
+      ],
+      "2": [
+        "T"
+      ],
+      "3": [
+        "T"
+      ],
+      "4": [
+        "DNS"
+      ],
+      "5": [
+        "F"
+      ],
+      "6": [
+        "T"
+      ]
+    },
+    "possible": false,
+    "basis": "source answer and original blank order verified during multiblank review",
+    "corrections": {
+      "1": "Today, the number of African elephants has probably fallen below 500,000.",
+      "5": "Specially trained guards working in the rainforests catch poachers."
+    }
+  },
+  "B3_LS_U02_P12_E3": {
+    "items": {
+      "1": [
+        "T"
+      ],
+      "2": [
+        "F"
+      ],
+      "3": [
+        "T"
+      ],
+      "4": [
+        "F"
+      ],
+      "5": [
+        "T"
+      ]
+    },
+    "possible": false,
+    "basis": "source answer and original blank order verified during multiblank review",
+    "corrections": {
+      "2": "The ship made it possible to build the turbines in the middle of the sea.",
+      "4": "It was difficult to build the turbines in windy weather."
+    }
+  },
+  "B3_LS_U04_P39_E6": {
+    "items": {},
+    "possible": false,
+    "basis": "source answer and original blank order verified during multiblank review",
+    "anchors": {
+      "5": [
+        "a"
+      ]
+    }
+  },
+  "B3_LS_U04_G4_E1": {
+    "items": {},
+    "possible": false,
+    "basis": "source answer and original blank order verified during multiblank review",
+    "anchors": {
+      "59-6": [
+        "n"
+      ]
+    },
+    "keepAssociatedAnswers": true
+  },
+  "B3_LS_U06_P14_E3": {
+    "items": {},
+    "possible": false,
+    "basis": "source answer and original blank order verified during multiblank review",
+    "anchors": {
+      "6": [
+        "solutions",
+        "mental",
+        "solution",
+        "environments",
+        "lives"
+      ]
+    }
+  },
+  "B3_LS_U06_G5_E7": {
+    "items": {
+      "1": [
+        "and",
+        "and",
+        "the",
+        "to"
+      ],
+      "2": [
+        "The",
+        "of",
+        "the"
+      ],
+      "3": [
+        "The",
+        "a",
+        "to",
+        "in",
+        "a"
+      ],
+      "4": [
+        "of",
+        "the",
+        "of"
+      ]
+    },
+    "possible": false,
+    "basis": "source answer and original blank order verified during multiblank review"
+  },
+  "B3_LS_U07_P84_E3": {
+    "items": {
+      "5": [
+        "will be earning",
+        "will be living"
+      ]
+    },
+    "possible": false,
+    "basis": "source answer and original blank order verified during multiblank review"
+  },
+  "B3_RW_U05_G6_E4": {
+    "items": {},
+    "possible": true,
+    "basis": "source answer and original blank order verified during multiblank review",
+    "anchors": {
+      "6": [
+        "governments",
+        "individuals",
+        "laws",
+        "responsibility",
+        "obesity"
+      ]
+    }
+  },
+  "B3_RW_U08_P164_E5": {
+    "items": {},
+    "possible": false,
+    "basis": "source answer and original blank order verified during multiblank review",
+    "anchors": {
+      "6": [
+        "video streaming",
+        "DVDs"
+      ]
+    },
+    "keepAssociatedAnswers": true,
+    "omitAnswerShapes": [
+      "13-15"
     ]
   }
 }

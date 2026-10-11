@@ -26,3 +26,9 @@
 
 .ss-layout .ss-item:has(>.ss-node .ss-numbered-row)>.inline-feedback{margin-left:1.75em}
 .ss-layout.answers-visible .inline-answer-highlight *{color:#c00000!important}
+
+/* Number choices form a word bank, never a numbered question row. */
+.ss-layout .ss-number-bank{display:flex!important;flex-wrap:wrap;align-items:baseline;gap:1.1em!important}.ss-layout .ss-number-option{flex:none;white-space:nowrap}
+
+/* Align note-table answers to the start of their original answer cells. */
+.ss-layout td .inline-answer-value{text-align:left!important}
