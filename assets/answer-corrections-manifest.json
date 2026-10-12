@@ -569,13 +569,37 @@
     ]
   },
   "B3_LS_U01_P116_E4": {
-    "items": {
-      "Audience:": [
+    "anchors": {
+      "116-7": [
+        "an endangered whale species"
+      ],
+      "116-8": [
         "secondary school students"
       ]
     },
+    "cells": [
+      {
+        "anchor": "117-12",
+        "row": 0,
+        "col": 1,
+        "text": "Whales are threatened by human activities."
+      },
+      {
+        "anchor": "117-12",
+        "row": 1,
+        "col": 1,
+        "text": "Threats:\n• Hunting\n• Pollution in the ocean\n• Fishing in whales’ habitat\nWhat people should/must do to help:\n• Stop hunting threatened whales\n• Reduce plastic and other pollution\n• Restrict harmful fishing in their habitat"
+      },
+      {
+        "anchor": "117-12",
+        "row": 2,
+        "col": 1,
+        "text": "Hunting, pollution and fishing can threaten whale populations. People and governments must act to protect the chosen species."
+      }
+    ],
     "possible": true,
-    "basis": "textbook definition and original question context"
+    "suppressSourceAnswers": true,
+    "basis": "Original possible whale presentation model on source page 116; species and audience have separate original blanks"
   },
   "B3_LS_U02_P42_E7": {
     "items": {},
@@ -610,14 +634,17 @@
     ]
   },
   "B3_LS_U06_P56_E1": {
-    "items": {
-      "2": [
+    "anchors": {
+      "6": [
+        "mobile phone apps / applications"
+      ],
+      "7": [
         "app",
         "application"
       ]
     },
-    "possible": false,
-    "basis": "textbook definition and original question context"
+    "suppressSourceAnswers": true,
+    "basis": "Two source questions and original supplied key on page 56; corrected first answer ownership"
   },
   "B3_LS_U08_P111_E1": {
     "items": {
@@ -2384,5 +2411,765 @@
     "omitAnswerShapes": [
       "13-15"
     ]
+  },
+  "B2_LS_U01_P137_E1": {
+    "items": {
+      "b": [
+        "✓"
+      ],
+      "c": [
+        "✓"
+      ],
+      "d": [
+        "✓"
+      ],
+      "f": [
+        "✓"
+      ],
+      "g": [
+        "✓"
+      ],
+      "i": [
+        "✓"
+      ],
+      "j": [
+        "✓"
+      ]
+    },
+    "possible": true,
+    "suppressSourceAnswers": true,
+    "basis": "original selection layers on source pages 137-139; selection task, not the ordering task on page 141"
+  },
+  "B3_RW_U01_P130_E3": {
+    "anchors": {
+      "9": [
+        "Elephants are bigger than mice."
+      ],
+      "10": [
+        "Elephants are heavier than mice."
+      ],
+      "11": [
+        "Lions are more dangerous than mice."
+      ]
+    },
+    "possible": true,
+    "suppressSourceAnswers": true,
+    "basis": "three model sentences from original source page 130; retain the given example outside the answer blanks"
+  },
+  "B3_RW_U08_P172_E5": {
+    "anchors": {
+      "7": [
+        "nearly"
+      ],
+      "8": [
+        "over"
+      ],
+      "9": [
+        "around",
+        "about",
+        "approximately"
+      ]
+    },
+    "suppressSourceAnswers": true,
+    "basis": "original answer layers on page 172; all three roughly synonyms occupy their original gaps"
+  },
+  "B3_RW_U01_P198_E2": {
+    "highlights": [
+      {
+        "anchor": "198-7",
+        "text": "The American black bear and the grizzly, or brown, bear are similar in many ways."
+      },
+      {
+        "anchor": "198-8",
+        "text": "The American black bear and the grizzly, or brown, bear are similar in habitat, colour and behaviour."
+      },
+      {
+        "anchor": "201-6",
+        "text": "African and Asian elephants are different in appearance, but they are similar socially."
+      },
+      {
+        "anchor": "201-7",
+        "text": "African and Asian elephants have both differences and similarities."
+      }
+    ],
+    "suppressSourceAnswers": true,
+    "basis": "original source page 198 key and note choose b/c; page 201 key and note choose a/b; completed reading paragraphs belong to source material"
+  },
+  "B3_RW_U02_P161_E1": {
+    "corrections": {
+      "1": "The most serious issue which threatens the environment is climate change.",
+      "2": "Experts predict that there will not be enough fresh water in the future.",
+      "3": "Pollution and climate change are the consequences of human activity.",
+      "4": "Fortunately, we are seeing a trend where people recycle more and use less packaging.",
+      "5": "Constant logging has left dry soil and bare land.",
+      "6": "The annual rate of species loss in the rainforest is nearly 50,000 — that’s 135 plant, animal and insect species each day!",
+      "7": "The biggest challenge we face is to protect the planet.",
+      "8": "Human activity contributes to climate change."
+    },
+    "suppressSourceAnswers": true,
+    "basis": "verified full sentences from the original answer layers; replace on their numbered source rows"
+  },
+  "B3_RW_U04_P178_E4": {
+    "corrections": {
+      "1": "The business meeting was brief, and we went straight to the reception for our overseas visitors.",
+      "2": "The loss of our cultural heritage is a serious problem.",
+      "3": "In many cultures, parents and their married children live in separate houses.",
+      "4": "The ICH list has played a huge part in protecting cultural traditions.",
+      "5": "Some customs and traditions are not obvious to people who are visiting a country for the first time."
+    },
+    "suppressSourceAnswers": true,
+    "basis": "verified full sentences from the original answer layers; replace on their numbered source rows"
+  },
+  "B3_RW_U03_P172_E1": {
+    "corrections": {
+      "1": "If we move the offices and schools next to the houses, it will be very expensive.",
+      "2": "If drivers have to pay to use the bridge, congestion will decrease.",
+      "3": "Fewer cars will use the roads if we increase the price of fuel.",
+      "4": "If we change the office hours, the cars won’t all use the road at the same time.",
+      "5": "The traffic on the bridge will be lighter if the city builds a cable car system."
+    },
+    "suppressSourceAnswers": true,
+    "basis": "verified full sentences from the original answer layers; replace on their numbered source rows",
+    "possible": true
+  },
+  "B2_LS_U08_P169_E4": {
+    "items": {
+      "1": [
+        "S"
+      ],
+      "2": [
+        "F"
+      ],
+      "3": [
+        "S"
+      ],
+      "4": [
+        "S"
+      ],
+      "5": [
+        "F"
+      ],
+      "6": [
+        "F"
+      ]
+    },
+    "suppressSourceAnswers": true,
+    "basis": "original start/finish answer layers; show only the requested letter in the blank"
+  },
+  "B3_RW_U05_P156_E4": {
+    "numbered": {
+      "2": "healthy lifestyle",
+      "3": "educational programmes",
+      "4": "heart disease",
+      "5": "physical activity",
+      "6": "advertising campaigns",
+      "7": "serious illness",
+      "8": "balanced diet",
+      "9": "regular exercise",
+      "10": "junk food"
+    },
+    "suppressSourceAnswers": true,
+    "basis": "all ten definitions on the original source page 157 and its continuation table; first answer is supplied"
+  },
+  "B2_LS_U01_P148_E3": {
+    "badges": {
+      "7": "2",
+      "8": "3",
+      "9": "4",
+      "10": "1"
+    },
+    "suppressSourceAnswers": true,
+    "basis": "original topic/sentence matching answer layers on source page 148"
+  },
+  "B2_RW_U02_P51_E6": {
+    "highlights": [
+      {
+        "anchor": "7",
+        "text": "in a magazine"
+      }
+    ],
+    "suppressSourceAnswers": true,
+    "basis": "source feedback distinguishes Exercise 6 magazine choice from Exercise 7 supporting reasons"
+  },
+  "B2_RW_U06_P85_E9": {
+    "highlights": [
+      {
+        "anchor": "7",
+        "text": "a new university graduate"
+      },
+      {
+        "anchor": "8",
+        "text": "a secondary school student"
+      }
+    ],
+    "possible": true,
+    "suppressSourceAnswers": true,
+    "basis": "original possible audience answer b and c"
+  },
+  "B3_LS_U07_P129_E4": {
+    "items": {
+      "1": [
+        "Can you explain why you’re planning to do that"
+      ],
+      "2": [
+        "Could you expand on that point"
+      ],
+      "3": [
+        "What do you mean by ‘too young’"
+      ],
+      "4": [
+        "Can you tell me more about that"
+      ],
+      "5": [
+        "How did the researchers find that out"
+      ]
+    },
+    "possible": true,
+    "suppressSourceAnswers": true,
+    "basis": "possible follow-up questions grounded in the five original statements; preserve quotation marks and use a different opening phrase for each response"
+  },
+  "B2_LS_U06_P141_E4": {
+    "anchors": {
+      "142-6": [
+        "Art For You"
+      ]
+    },
+    "possible": true,
+    "suppressSourceAnswers": true,
+    "cells": [
+      {
+        "anchor": "142-16",
+        "row": 1,
+        "col": 1,
+        "text": "Offer smaller original pieces at lower prices."
+      },
+      {
+        "anchor": "142-16",
+        "row": 1,
+        "col": 2,
+        "text": "More customers can afford original art."
+      },
+      {
+        "anchor": "142-16",
+        "row": 2,
+        "col": 0,
+        "text": "2 Few people know about the business."
+      },
+      {
+        "anchor": "142-16",
+        "row": 2,
+        "col": 1,
+        "text": "Share photos of the art on social media."
+      },
+      {
+        "anchor": "142-16",
+        "row": 2,
+        "col": 2,
+        "text": "More people visit the shop."
+      },
+      {
+        "anchor": "142-16",
+        "row": 3,
+        "col": 0,
+        "text": "3 Art materials cost too much."
+      },
+      {
+        "anchor": "142-16",
+        "row": 3,
+        "col": 1,
+        "text": "Buy materials in larger quantities."
+      },
+      {
+        "anchor": "142-16",
+        "row": 3,
+        "col": 2,
+        "text": "Costs fall and profits improve."
+      },
+      {
+        "anchor": "142-16",
+        "row": 4,
+        "col": 0,
+        "text": "4 The shop is only open three days a week."
+      },
+      {
+        "anchor": "142-16",
+        "row": 4,
+        "col": 1,
+        "text": "Open for more hours or days."
+      },
+      {
+        "anchor": "142-16",
+        "row": 4,
+        "col": 2,
+        "text": "Customers have more time to visit and buy."
+      }
+    ],
+    "basis": "Possible business-planning example based on the supplied Art For You problem; three problems with practical solutions and results"
+  },
+  "B3_LS_U01_P113_E3": {
+    "cells": [
+      {
+        "anchor": "115-12",
+        "row": 0,
+        "col": 1,
+        "text": "African forest elephants are threatened by humans."
+      },
+      {
+        "anchor": "115-12",
+        "row": 1,
+        "col": 1,
+        "text": "Threats:\n• Hunting by poachers\n• Loss of forest habitat\n• Contact between humans and elephants\nWhat people should/must do to help:\n• Increase the number of guards who catch poachers\n• Ban buying and selling ivory\n• Reduce contact between humans and elephants"
+      },
+      {
+        "anchor": "115-12",
+        "row": 2,
+        "col": 1,
+        "text": "Poaching, habitat loss and human contact threaten forest elephants. Governments and environmental organizations must act without delay."
+      }
+    ],
+    "suppressSourceAnswers": true,
+    "basis": "Both original answer-table parts on source pages 113 and 115 combined into the original planning table"
+  },
+  "B3_LS_U08_P149_E5": {
+    "extraRows": {
+      "150-13": [
+        [
+          "Argument 3:\nSupporting details:",
+          "Counter-argument 3:\nResponse:"
+        ]
+      ]
+    },
+    "cells": [
+      {
+        "anchor": "150-13",
+        "row": 0,
+        "col": 0,
+        "text": "My position: In favour of credit cards with guidance."
+      },
+      {
+        "anchor": "150-13",
+        "row": 1,
+        "col": 0,
+        "text": "Argument 1: Learn to manage money.\nSupporting details: Spending can lead to debt."
+      },
+      {
+        "anchor": "150-13",
+        "row": 1,
+        "col": 1,
+        "text": "Counter-argument 1: Some students are not ready.\nResponse: Parents and university services can give guidance."
+      },
+      {
+        "anchor": "150-13",
+        "row": 2,
+        "col": 0,
+        "text": "Argument 2: Build a credit history.\nSupporting details: It can help with buying a car or property later."
+      },
+      {
+        "anchor": "150-13",
+        "row": 2,
+        "col": 1,
+        "text": "Counter-argument 2: Irresponsible use creates a bad credit history.\nResponse: Borrow responsibly and repay on time."
+      },
+      {
+        "anchor": "150-13",
+        "row": 3,
+        "col": 0,
+        "text": "Argument 3: Pay for emergencies.\nSupporting details: An urgent journey may require extra money."
+      },
+      {
+        "anchor": "150-13",
+        "row": 3,
+        "col": 1,
+        "text": "Counter-argument 3: Unexpected bills can create debt.\nResponse: Use a low limit and a repayment plan."
+      }
+    ],
+    "possible": true,
+    "suppressSourceAnswers": true,
+    "basis": "Three arguments and responses from the original model, shortened as planning notes and placed in the original table"
+  },
+  "B2_RW_U08_P255_E4": {
+    "cells": [
+      {
+        "anchor": "256-13",
+        "row": 1,
+        "col": 0,
+        "text": "• Astronauts take part in important experiments (a)\n• The ISS brings many countries together (a).\n• The research is necessary for long-term journeys, such as travel to Mars (a)."
+      },
+      {
+        "anchor": "256-13",
+        "row": 1,
+        "col": 1,
+        "text": "• Space exploration is expensive (b).\n• Space travel is dangerous (b)."
+      },
+      {
+        "anchor": "256-13",
+        "row": 2,
+        "col": 0,
+        "text": "• Space exploration proves that countries can work together (a).\n• It leads to technological advances (c).\n• People may need to live on Mars because Earth will become too hot and crowded (c)."
+      },
+      {
+        "anchor": "256-13",
+        "row": 2,
+        "col": 1,
+        "text": "• Building spacecraft wastes natural resources (b)."
+      },
+      {
+        "anchor": "256-13",
+        "row": 3,
+        "col": 0,
+        "text": "• It encourages young people to study Science and Engineering (c).\n• It leads to medical advances (c).\n• Research in space can improve life on Earth (c)."
+      },
+      {
+        "anchor": "256-13",
+        "row": 3,
+        "col": 1,
+        "text": "• Money should support clean water, food, education and medical research (b)."
+      }
+    ],
+    "suppressSourceAnswers": true,
+    "basis": "All nine reasons for and four reasons against in the three original source answer tables, retaining their a/b/c citations"
+  },
+  "B2_LS_U02_P152_E7": {
+    "responses": [
+      {
+        "anchor": "@instruction",
+        "text": "Let’s go to the parade. We can see the traditional costumes and fireworks."
+      }
+    ],
+    "possible": true,
+    "suppressSourceAnswers": true,
+    "basis": "Source question and supplied model checked individually; model rewritten only to remove repeated prompts and associate each response with its own question"
+  },
+  "B2_LS_U02_P152_E8": {
+    "responses": [
+      {
+        "anchor": "@instruction",
+        "text": "Our group chose the parade because we want to see traditional costumes and fireworks. We decided to arrive early because it may be crowded."
+      }
+    ],
+    "possible": true,
+    "suppressSourceAnswers": true,
+    "basis": "Source question and supplied model checked individually; model rewritten only to remove repeated prompts and associate each response with its own question"
+  },
+  "B2_LS_U01_P166_E6": {
+    "responses": [
+      {
+        "anchor": "7",
+        "text": "I liked your clear introduction and your description of the water."
+      },
+      {
+        "anchor": "9",
+        "text": "I think you can explain how visitors get there. You can also practise linking “talk about”."
+      }
+    ],
+    "possible": true,
+    "suppressSourceAnswers": true,
+    "basis": "Source question and supplied model checked individually; model rewritten only to remove repeated prompts and associate each response with its own question"
+  },
+  "B2_LS_U07_P142_E4": {
+    "responses": [
+      {
+        "anchor": "@instruction",
+        "text": "Roy Allela\nWhy famous: invented Sign-IO gloves that turn sign language into speech; won an award.\nPersonal life: Kenyan; his niece could not hear, and her family could not understand sign language.\nWork: worked for Intel; tutored at Oxford University.\nProduct: gloves in different colours, with designs that appeal to children."
+      }
+    ],
+    "possible": true,
+    "suppressSourceAnswers": true,
+    "basis": "Source question and supplied model checked individually; model rewritten only to remove repeated prompts and associate each response with its own question"
+  },
+  "B2_LS_U08_P182_E6": {
+    "responses": [
+      {
+        "anchor": "@instruction",
+        "text": "A: I think the best idea is to visit museums because children can learn from what they see.\nD: That’s a good idea. I’m not sure about inviting experts, though. How can we find them?\nC: We could ask people we know. I know a professor who would be happy to visit a school.\nA: I see your point. B, you haven’t said much. What do you think?\nB: I like both ideas. Let’s arrange a museum visit and invite the professor."
+      }
+    ],
+    "possible": true,
+    "suppressSourceAnswers": true,
+    "basis": "Source question and supplied model checked individually; model rewritten only to remove repeated prompts and associate each response with its own question"
+  },
+  "B3_LS_U03_P142_E4": {
+    "responses": [
+      {
+        "anchor": "@instruction",
+        "text": "A: I’d suggest that drivers stop somewhere suitable before eating. Holding food could distract them from the road.\nB: I agree. The best thing would be to leave enough time for a break—for example, before starting a long journey.\nA: That sounds practical. Even a sudden spill can cause a serious problem."
+      }
+    ],
+    "possible": true,
+    "suppressSourceAnswers": true,
+    "basis": "Source question and supplied model checked individually; model rewritten only to remove repeated prompts and associate each response with its own question"
+  },
+  "B3_LS_U03_P146_E2": {
+    "responses": [
+      {
+        "anchor": "@instruction",
+        "text": "Hello, everybody. Thank you for being here today. I’m going to talk about rush-hour traffic between our town and the city centre. This interests me because my family makes this journey every day. First, I’ll explain the problems, then I’ll suggest some solutions."
+      }
+    ],
+    "possible": true,
+    "suppressSourceAnswers": true,
+    "basis": "Source question and supplied model checked individually; model rewritten only to remove repeated prompts and associate each response with its own question"
+  },
+  "B3_LS_U03_P150_E5": {
+    "responses": [
+      {
+        "anchor": "@instruction",
+        "text": "Recommendation: more buses connecting our town with the railway station.\nReason: many people drive to the city when they cannot easily reach the station.\nExample: missing one connecting bus can make the whole journey much longer."
+      }
+    ],
+    "possible": true,
+    "suppressSourceAnswers": true,
+    "basis": "Source question and supplied model checked individually; model rewritten only to remove repeated prompts and associate each response with its own question"
+  },
+  "B3_LS_U07_P144_E6": {
+    "responses": [
+      {
+        "anchor": "7",
+        "text": "There were enough focused questions. You could also ask for an example of a place where a dress code is important."
+      },
+      {
+        "anchor": "8",
+        "text": "Yes. The interviewer used “So, are you saying that…?” to check an opinion before asking another question."
+      },
+      {
+        "anchor": "9",
+        "text": "Yes. The interviewee gave an opinion and then explained it with a reason or example."
+      }
+    ],
+    "possible": true,
+    "suppressSourceAnswers": true,
+    "basis": "Source question and supplied model checked individually; model rewritten only to remove repeated prompts and associate each response with its own question"
+  },
+  "B3_RW_U06_P212_E2": {
+    "responses": [
+      {
+        "anchor": "6",
+        "text": "An actor’s head appears on a completely different actor’s body. Yes—the surprising image makes me want to understand how the technology works."
+      },
+      {
+        "anchor": "7",
+        "text": "It defines deepfake, explains its connection to artificial intelligence and describes who can use it."
+      },
+      {
+        "anchor": "8",
+        "text": "Topic: deepfakes. Point of view: benefits and concerns (“excitement and worry”). The body paragraphs will discuss positive uses and problems."
+      },
+      {
+        "anchor": "9",
+        "text": "I find the deepfake introduction more interesting because the surprising image catches my attention."
+      }
+    ],
+    "possible": true,
+    "suppressSourceAnswers": true,
+    "basis": "Source question and supplied model checked individually; model rewritten only to remove repeated prompts and associate each response with its own question"
+  },
+  "B3_LS_U03_P137_E5": {
+    "possible": true,
+    "suppressSourceAnswers": true,
+    "cells": [
+      {
+        "anchor": "136-12",
+        "row": 1,
+        "col": 0,
+        "text": "Heavy commuter traffic"
+      },
+      {
+        "anchor": "136-12",
+        "row": 1,
+        "col": 1,
+        "text": "Improve bus connections to the railway station."
+      },
+      {
+        "anchor": "136-12",
+        "row": 1,
+        "col": 2,
+        "text": "More commuters could use public transport. Best first step: quicker than building a new railway."
+      },
+      {
+        "anchor": "136-12",
+        "row": 2,
+        "col": 0,
+        "text": "Heavy commuter traffic"
+      },
+      {
+        "anchor": "136-12",
+        "row": 2,
+        "col": 1,
+        "text": "Help colleagues share car journeys."
+      },
+      {
+        "anchor": "136-12",
+        "row": 2,
+        "col": 2,
+        "text": "Fewer separate cars would travel into the centre."
+      },
+      {
+        "anchor": "136-12",
+        "row": 3,
+        "col": 0,
+        "text": "Heavy commuter traffic"
+      },
+      {
+        "anchor": "136-12",
+        "row": 3,
+        "col": 1,
+        "text": "Improve cycle access to stations."
+      },
+      {
+        "anchor": "136-12",
+        "row": 3,
+        "col": 2,
+        "text": "More people could combine cycling and train travel."
+      }
+    ],
+    "basis": "Original three-row planning table and supplied transport solutions, with the preferred solution explicitly identified"
+  },
+  "B3_RW_U07_P141_E1": {
+    "numbered": {
+      "4": "earn less than €100 a month",
+      "5": "textile workers",
+      "6": "most workers are paid by the piece",
+      "9": "working conditions remain uncomfortable and unsafe",
+      "10": "worker protection laws often do not exist or are not followed",
+      "11": "workers are exposed to chemicals, dust and unsafe noise levels;"
+    },
+    "anchors": {
+      "144-14": [
+        "Overseas factories have become safer and more ethical in recent years.",
+        "now provide centres for their workers"
+      ]
+    },
+    "suppressSourceAnswers": true,
+    "basis": "All four original outline sections on pages 142–145; completed notes checked against the supplied answer tables"
+  },
+  "B3_RW_U02_P232_E1": {
+    "highlights": [
+      {
+        "anchor": "233-5",
+        "text": "plastic water bottles hurt both people and the environment"
+      }
+    ],
+    "strikes": [
+      {
+        "anchor": "234-5",
+        "text": "In the 1970s, the United States was the world’s biggest exporter of fossil fuels."
+      }
+    ],
+    "suppressSourceAnswers": true,
+    "basis": "Original complete paragraph on pages 233–235, with main idea highlighted and unrelated sentence crossed out"
+  },
+  "B2_RW_U05_P169_E1": {
+    "imageLabels": [
+      {
+        "anchor": "170-13",
+        "width": 1083,
+        "height": 1021,
+        "labels": [
+          {
+            "x": 524,
+            "y": 300,
+            "width": 172,
+            "height": 27,
+            "text": "bridge"
+          },
+          {
+            "x": 737,
+            "y": 386,
+            "width": 172,
+            "height": 27,
+            "text": "swimming route"
+          },
+          {
+            "x": 88,
+            "y": 535,
+            "width": 172,
+            "height": 27,
+            "text": "tunnel"
+          },
+          {
+            "x": 154,
+            "y": 654,
+            "width": 172,
+            "height": 27,
+            "text": "cycling route"
+          },
+          {
+            "x": 526,
+            "y": 693,
+            "width": 172,
+            "height": 27,
+            "text": "central library"
+          },
+          {
+            "x": 565,
+            "y": 828,
+            "width": 172,
+            "height": 27,
+            "text": "running route"
+          }
+        ]
+      }
+    ],
+    "suppressSourceAnswers": true,
+    "basis": "Six original numbered map blanks on page 170 and supplied triathlon diagram key"
+  },
+  "B3_RW_U03_P152_E2": {
+    "responses": [
+      {
+        "anchor": "@instruction",
+        "text": "• People travelling between homes and schools or offices depend on one bridge and a two-lane motorway.\n• Traffic may build up at the junction during the morning and afternoon rush hours.\n• The bus uses the same road. Heat makes walking or cycling difficult, and fuel is expensive."
+      }
+    ],
+    "possible": true,
+    "suppressSourceAnswers": true,
+    "basis": "Source question and supplied model checked individually; model rewritten only to remove repeated prompts and associate each response with its own question"
+  },
+  "B2_LS_U05_P139_E6": {
+    "responses": [
+      {
+        "anchor": "139-6",
+        "text": "Could you give an example? / Can you explain what you mean?"
+      },
+      {
+        "anchor": "139-7",
+        "text": "I’m sorry, I don’t understand. / I’m afraid I didn’t get that."
+      }
+    ],
+    "possible": true,
+    "suppressSourceAnswers": true,
+    "basis": "The two clarification questions on original page 139; ordering interview context belongs to Exercise 5"
+  },
+  "B2_LS_U05_P141_E7": {
+    "highlights": [
+      {
+        "anchor": "142-9",
+        "text": "Can you explain what you mean by that?"
+      },
+      {
+        "anchor": "142-9",
+        "text": "Why do people want to do this sport?"
+      },
+      {
+        "anchor": "143-12",
+        "text": "Can you give some examples of the excitement of surfing?"
+      },
+      {
+        "anchor": "142-7",
+        "text": "Definitely",
+        "style": "circle"
+      },
+      {
+        "anchor": "142-8",
+        "text": "Obviously",
+        "style": "circle"
+      },
+      {
+        "anchor": "142-8",
+        "text": "actually",
+        "style": "circle"
+      }
+    ],
+    "suppressSourceAnswers": true,
+    "basis": "Original Part 2 source answer layers: clarification questions and emphasis words; ordering blanks are not part of Exercise 7"
   }
 }

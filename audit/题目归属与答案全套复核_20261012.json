@@ -1,0 +1,47 @@
+{
+  "summary": {
+    "version": "20261012-screen-v19",
+    "units": 32,
+    "exercises": 1197,
+    "answer_views": 947,
+    "resources": 535,
+    "classroom_routes": 5262,
+    "navigation_views": 6713,
+    "chapter_jumps": 211,
+    "responsive_cases": 156,
+    "responsive_return_cycles": 756,
+    "source_files_unchanged": 256,
+    "failures": 0,
+    "scope": "All original/answer/return geometry, loaded images, number wrapping, remaining projected blanks, navigation and interaction lifecycle; selected content corrections checked against original task instructions. Not a new independent factual review of every reference answer."
+  },
+  "repairs": [
+    {
+      "area": "Stanley Park选事实题",
+      "change": "恢复a–j十条事实，b/c/d/f/g/i/j作为Possible answers勾选；取消来自另一道排序题的数字。"
+    },
+    {
+      "area": "原题归属与完整内容",
+      "change": "补回85条带蓝色题号的原指令及1条同页黑色原指令；按题目身份补齐跨页表格、地图和段落。"
+    },
+    {
+      "area": "题面、答案和返回",
+      "change": "保留原字号、题号列、正文列、图表尺寸和间距；答案占用原空格、单元格或原图标号位置；返回恢复原节点。"
+    },
+    {
+      "area": "讨论、展示与写作",
+      "change": "按原问题分别提供Possible answers，讨论采用口语表达；保留完整对话、提纲和书面示例，避免截断或重复短题干。"
+    },
+    {
+      "area": "图片",
+      "change": "修正裁切图片容器零高度导致的不可见问题；保留原始裁切比例和已有轻量图片资源。"
+    },
+    {
+      "area": "常驻目录",
+      "change": "题面、答案、解析和材料页均可展开左栏访问课件目录、章节目录和全屏；展开和收起均不改变内容位置。"
+    },
+    {
+      "area": "核验边界",
+      "change": "自动检查覆盖全部1197道题和947个答案视图。21道具体内容问题逐项复核原题并查看截图；未将几何检查等同于全部参考答案事实正确性审读。"
+    }
+  ]
+}

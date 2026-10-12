@@ -32,3 +32,25 @@
 
 /* Align note-table answers to the start of their original answer cells. */
 .ss-layout td .inline-answer-value{text-align:left!important}
+
+/* Short ranking and judgement keys occupy a shared trailing column. */
+.ss-layout .ss-key-content{display:grid!important;grid-template-columns:minmax(0,1fr) 3em;gap:.75em;align-items:start}.ss-layout .ss-key-sentence{min-width:0}.ss-layout .ss-key-content>.inline-answer-slot{width:100%!important;min-width:0!important}.ss-layout .ss-given-key{text-align:center}
+
+.ss-layout .ss-key-content>.inline-answer-slot .inline-answer-placeholder{overflow:hidden;min-width:0;max-width:100%}
+
+/* Completed table cells retain the original grid and distinguish the revealed answer. */
+.ss-layout .inline-table-answer{color:#b3261e}
+
+/* Diagram labels share the raster coordinate space and never reflow its original map. */
+.ss-layout .ss-full-diagram{max-height:none!important}.ss-layout .ss-full-diagram .inline-image-map{position:relative;container-type:inline-size;width:min(100%,658px);margin:auto}.ss-layout .inline-image-map img{display:block!important;position:static!important;width:100%!important;height:auto!important;max-height:none!important;object-fit:fill}.inline-image-answer{position:absolute;display:flex;align-items:center;justify-content:center;color:#b3261e;font-size:2.05cqw;line-height:1;white-space:nowrap;visibility:hidden}.answers-visible .inline-image-answer{visibility:visible}.ss-layout.answers-visible .inline-answer-strike{text-decoration:line-through;text-decoration-thickness:2px}.ss-layout .ss-full-diagram>img{display:block!important;position:static!important;width:auto!important;max-width:100%;height:560px!important;max-height:560px;object-fit:contain;margin:auto}
+
+/* Native crop wrappers must keep a real height when their absolute source objects enter the projection grid. */
+.ss-layout .ss-source-image>img{object-fit:fill}.ss-layout.ss-note-outline td,.ss-layout.ss-note-outline th,.ss-layout.ss-note-outline td .text{font-size:30px!important;line-height:1.12!important}
+
+/* Verified spoken exchanges and planning notes keep their intended line breaks. */
+.ss-layout .inline-feedback[data-explicit-response] .inline-answer-text{white-space:pre-line!important}.ss-layout.ss-note-outline td .ss-numbered-row{grid-template-columns:1.1em minmax(0,1fr);column-gap:.15em}
+
+/* Two-digit labels stay on one baseline in all question and answer views. */
+.ss-layout .ss-numbered-number,.ss-layout .ss-judgement-number{white-space:nowrap!important}.ss-layout.ss-note-outline td .ss-numbered-row{grid-template-columns:1.5em minmax(0,1fr)}
+
+.ss-layout.answers-visible .inline-answer-highlight.inline-answer-circle{text-decoration:none!important;outline:2px solid #c00000;outline-offset:2px;border-radius:50%}

@@ -22,18 +22,24 @@
   },
   {
     "file": "README.md",
-    "bytes": 8098,
-    "sha256": "04e68feb4d155e88157fc0b7c0926d7fd9384d1fe2f6c5faa1c83cd12d0f8076"
+    "bytes": 9149,
+    "sha256": "4bc614cc73cebfa6ab9c92f8a681fae7ed6b9717cd061ea99cd5e0f20a70c8a3",
+    "repository_bytes": 9026,
+    "repository_sha256": "72a8d44551d7a0e5452b93f41ebfbcbe11eec6d07b2793af050eac0dec96c09c"
   },
   {
     "file": "assets/answer-corrections-manifest.json",
-    "bytes": 51302,
-    "sha256": "31fd9b1f0126a133e48ab10aea9ad78562246ecf34a397c32d3e3a4b91f567a9"
+    "bytes": 78452,
+    "sha256": "e22df02ca43aed2eae8fdb0383c96588d8bdd494ffeddc3184715057183a3632",
+    "repository_bytes": 75277,
+    "repository_sha256": "e0a5fe0cf43f8bacbb103e1cd4889fb385348903596043cf6e084a8dbc8abe5a"
   },
   {
     "file": "assets/answer-corrections.js",
-    "bytes": 32252,
-    "sha256": "16dd240d31d416cfb94e470f8a737fbe299151964d78f3f232163a8db785ef64"
+    "bytes": 52455,
+    "sha256": "0ccf8866fe69c9b50f0bff079f93774b788c7ffa47a7ad2127d7f4672c9d6fe5",
+    "repository_bytes": 52454,
+    "repository_sha256": "0c5f875f87056f40437f78edb8ac37c919b666946fa3053e864b5507e8e3b331"
   },
   {
     "file": "assets/audio.css",
@@ -520,8 +526,10 @@
   },
   {
     "file": "assets/complete-question.js",
-    "bytes": 22623,
-    "sha256": "e2fc068eefcb8a58a84f4d1e2a54874b57eabc82d0eee32cde4c0b841ab34295"
+    "bytes": 23106,
+    "sha256": "8fe0d7391451b79867e7ed49b10032606f83dd6ccaa9c11fe76629bdf3d649c1",
+    "repository_bytes": 23057,
+    "repository_sha256": "c84a127f9b6a0539667397e9aecf5a28fbd19444216dab1c4764c8e42974aa39"
   },
   {
     "file": "assets/course-structure.js",
@@ -6859,10 +6867,10 @@
   },
   {
     "file": "assets/feedback-policy.js",
-    "bytes": 16718,
-    "sha256": "f8a6ca845417504bf2f84a1b363e2f5d98b35c87fb223d6a227b27a2a47401fd",
-    "repository_bytes": 16711,
-    "repository_sha256": "94de609ea42f708774b84172f49d99a8c4b2c4880dd85c1bc86360d9fabd80cf"
+    "bytes": 17043,
+    "sha256": "38e27c8d44f2b118be303a6ea9c277b000246ab5efa6564e367f93d098ee0608",
+    "repository_bytes": 17036,
+    "repository_sha256": "2ef43c0f9585099af29df0fbd03234e3bec580ea4f33283dd955bb18cf864553"
   },
   {
     "file": "assets/image-manifest.json",
@@ -6873,8 +6881,10 @@
   },
   {
     "file": "assets/inline-answers.js",
-    "bytes": 30684,
-    "sha256": "5134eae878595cacc535ef267d8ad695b0c73ed6c84c6fcafa83f847fdfb5eab"
+    "bytes": 38551,
+    "sha256": "c1cf7f8ffdcd43429e844040481ec0dcb3b47a3e3eb65343e59f5199f6f3183a",
+    "repository_bytes": 38493,
+    "repository_sha256": "0d2e52c877150ea15920317309e08e67048e610749b086d542db0371f641f12c"
   },
   {
     "file": "assets/listening-library.js",
@@ -6941,67 +6951,87 @@
   },
   {
     "file": "assets/sidebar.css",
-    "bytes": 5138,
-    "sha256": "da1550245bd4be6d91cb0ec634468f8a4b2616659fecbc1aed046bf3a235c84e",
-    "repository_bytes": 5113,
-    "repository_sha256": "92fbb721467204df20368933b4f36346c3ae381e9af9355084ae8939abf44d49"
+    "bytes": 5155,
+    "sha256": "1d96b74320f85f369688fbb64c204637de4e172ee2a7fedab991f6d93211a9e7",
+    "repository_bytes": 5130,
+    "repository_sha256": "f0568e30852a8e45d5c3ef61a02e38bb9a42faef4d5c16cc60590a25257331b8"
   },
   {
     "file": "assets/sidebar.js",
-    "bytes": 9261,
-    "sha256": "7d5f981aed402690a4f327b0d7ad7f500054707c64f4427853c67ab3fc41e7e5",
-    "repository_bytes": 9213,
-    "repository_sha256": "1f584644ee685856bcd55ba594bc1431312b1ad70d8bb3eecef743956db7232d"
+    "bytes": 9402,
+    "sha256": "0dd7d531fe39f11b485e711367b40e9694bf7fe8d8156887a9b27065d9511542",
+    "repository_bytes": 9354,
+    "repository_sha256": "f17f9c0a84e5ac99b2843fa0749f1f9a95d71e928ecd14011092fecbefb20ad9"
   },
   {
     "file": "assets/single-screen.css",
-    "bytes": 7037,
-    "sha256": "5381b60195eb85c078b769f148ed8484d0f200073f1e834ed9b7954245010d39"
+    "bytes": 9687,
+    "sha256": "27ff8e623966aac760f0f2529feb57e39d844126c756ff7e6df2ccc85802910e",
+    "repository_bytes": 9631,
+    "repository_sha256": "76d8887f17dd3872a2335d15d2d11da0a7ad6807ed52f0b160d8f4f5957bb6a5"
   },
   {
     "file": "assets/single-screen.js",
-    "bytes": 29880,
-    "sha256": "acd31fa5b71946906d00616c0332f275bb2c51adbe042571903354df996b311c"
+    "bytes": 35031,
+    "sha256": "ce1075cf9800ff4896044554439297e15c412aeac6964827e5227c46a1943450",
+    "repository_bytes": 34961,
+    "repository_sha256": "5799e5c4d86ee0fe9092337d0c1d96fc3794edd1c9070d6fcf7b570ffdab333a"
   },
   {
     "file": "assets/units/B2_LS_U01.js",
-    "bytes": 187667,
-    "sha256": "5b32487a2f8027683120fc71220144a31b0d4f749c526d766be20d5b5d35edce"
+    "bytes": 195375,
+    "sha256": "31b92053ce981f286d8506ff12810a16b892993478cb6a0e0782198f5c7bc360",
+    "repository_bytes": 195371,
+    "repository_sha256": "d8dd287d3e83d2a16ca7c85949eae2918e143c0d6e3a36e5ce7f0bff015ac4e5"
   },
   {
     "file": "assets/units/B2_LS_U02.js",
-    "bytes": 162814,
-    "sha256": "1fad175e729b714ae59351962070749037d85429f68214312aeb30e4a7d79fa0"
+    "bytes": 166645,
+    "sha256": "2140ace841a09a57b7791c588213b8a43238af22a43e090139215607f0354e09",
+    "repository_bytes": 166641,
+    "repository_sha256": "413725cd4ae7aeb1bace9e425da8cbb1f57e800951ad111827f62f62e237e3c9"
   },
   {
     "file": "assets/units/B2_LS_U03.js",
-    "bytes": 159673,
-    "sha256": "b86d4f5ce310224eb72e4f61a0e3771b5de39197b58010aa510a7f957733b425"
+    "bytes": 163780,
+    "sha256": "0364528e810cff332b69c1a7e3372b644fbf371a0fd2cceec7be599c30cc9a2a",
+    "repository_bytes": 163776,
+    "repository_sha256": "9dad27c30a8787db9fbc35ae50838b32cea63d6007d4349e0df2a37c8871bd60"
   },
   {
     "file": "assets/units/B2_LS_U04.js",
-    "bytes": 157824,
-    "sha256": "f2e6fa2fe2afce07c3db5a2e09ddc2eab557e7247a3b57d86db38fbfc98f62ca"
+    "bytes": 160836,
+    "sha256": "69edbcadb0ab3df4323ef9dfc95bb3f70a1053a721c6c03b4728241f22f08227",
+    "repository_bytes": 160832,
+    "repository_sha256": "d57cdcd923dc2005467f3d1228728efa0b58c407d79ea7f40d16c5a0c0f70ac4"
   },
   {
     "file": "assets/units/B2_LS_U05.js",
-    "bytes": 161866,
-    "sha256": "1e0e7332853d7256cadf485d859f759542943d753f6d558aa1d80598a367deb1"
+    "bytes": 170035,
+    "sha256": "aa2ea344d13a60103c8af63d9c4f4c69856132fe12178575e27c52e37710a2a7",
+    "repository_bytes": 170031,
+    "repository_sha256": "988c625431af361a612684f38a65d2ba3ca3002d952d75dd90aaaea43aac4c2d"
   },
   {
     "file": "assets/units/B2_LS_U06.js",
-    "bytes": 173774,
-    "sha256": "123c4f0b8b37fa0fdd708563db5cf37b095e677a18f8c752395fe33935544046"
+    "bytes": 175056,
+    "sha256": "f20a7e934f72c0def720a124d8316f9f2c77abf8b59e24aec8faf4fd6311c391",
+    "repository_bytes": 175052,
+    "repository_sha256": "513937119f7fb83c1729b2e77ecb15ffc5ee0c51cfa14626ef83ff01e949e436"
   },
   {
     "file": "assets/units/B2_LS_U07.js",
-    "bytes": 164868,
-    "sha256": "e7b07ed8c6751e75e211725a8a53b6c3f2ac03bd07ec915fc120e32241460109"
+    "bytes": 168081,
+    "sha256": "ace2cb0994299942297f5c61b7392bfa118c270384180182eddff9642c14f2d1",
+    "repository_bytes": 168077,
+    "repository_sha256": "6d5702639b4c027e7c67b4f99f971297576c51e289fefbbe048f5a11016a7f5c"
   },
   {
     "file": "assets/units/B2_LS_U08.js",
-    "bytes": 178969,
-    "sha256": "15122398fc6f30b09cc5c494f36a3487fdfc98114a776210695f49d9a7de38f3"
+    "bytes": 185044,
+    "sha256": "188feec986801b6d489d7d5fb3647038a16a0bf8b6598bd23e28bb237b4d7b6e",
+    "repository_bytes": 185040,
+    "repository_sha256": "60174c4f6d58860789b45f8d09a2f7bab7d986f1e32084177d59c9e52145b622"
   },
   {
     "file": "assets/units/B2_RW_U01.js",
@@ -7010,118 +7040,164 @@
   },
   {
     "file": "assets/units/B2_RW_U02.js",
-    "bytes": 120598,
-    "sha256": "683701ef8589b833aff7d4e1163fea2577b11fb4a5a91eb6da367baa58fd1cc9"
+    "bytes": 122606,
+    "sha256": "69bcdf84e849abd0b2029772eff75b957918b28d4a665c5564bc82bf0d060fbc",
+    "repository_bytes": 122602,
+    "repository_sha256": "bed928b9aa5471e4b4b7703bdf7510e42d7a2014ced0ce4941ef36570aee895c"
   },
   {
     "file": "assets/units/B2_RW_U03.js",
-    "bytes": 153699,
-    "sha256": "66f2b11e6bddeecd68a6d03815c7aba80b36efefbf066ffdc44d5df745b12e88"
+    "bytes": 154613,
+    "sha256": "4a51f4c39f42aa5eae4d1f9e2bb994fb439aa3f263e10db1c87f72ffa0553494",
+    "repository_bytes": 154609,
+    "repository_sha256": "926d22222fd1a21ff3366e39e403735995a20ce34c4df91726bfd4ba79bca548"
   },
   {
     "file": "assets/units/B2_RW_U04.js",
-    "bytes": 147339,
-    "sha256": "784d149782401f98043360e9c2a39381c2bf14946b2de5e5caa899e7ef13bbb4"
+    "bytes": 148185,
+    "sha256": "ce5a4747a161b3e11b671ae3f18fd39aeeaff02f889c4249b499b94325a8315e",
+    "repository_bytes": 148181,
+    "repository_sha256": "12692f8250f63de47393dcdd1e08fab32443f51f722fba466f4c56c7cd319061"
   },
   {
     "file": "assets/units/B2_RW_U05.js",
-    "bytes": 136924,
-    "sha256": "f6b85a3474fa020c039d6e7d07bd1ac335e54d10bcee9fe14f6fea751c8ccedf"
+    "bytes": 139438,
+    "sha256": "d94a549f1edc929c2f72c494522f9e1fdbee50f0e951ee7ae6d50fadfe36efe6",
+    "repository_bytes": 139434,
+    "repository_sha256": "d834bb1df2a548535f382d866ffcc56f359b9b8e0a75095a832222f66341c050"
   },
   {
     "file": "assets/units/B2_RW_U06.js",
-    "bytes": 175425,
-    "sha256": "6a7faac42068984a52940a365c1bfbbb3376bdca38f61189ab78a7377ea99fc0"
+    "bytes": 176479,
+    "sha256": "0e0a236cbce233ac034331e8ed41421a8fc6bedda13b32d6ee8d1c62329b682e",
+    "repository_bytes": 176475,
+    "repository_sha256": "2ce0ac471601108bd5d9fa24adf15ac86c6b7ec57002702d5368591457b28f2b"
   },
   {
     "file": "assets/units/B2_RW_U07.js",
-    "bytes": 147788,
-    "sha256": "4d0ea3c8935360491cd7b2ac1be40327f29b67ae4459658a0506d1671644823f"
+    "bytes": 148574,
+    "sha256": "9c7bd10667bb20cebb52040de8e06a1c0108f3a70d0c0968802cd507c9a69ba1",
+    "repository_bytes": 148570,
+    "repository_sha256": "b54a9805668a2275c4c4ca61804d3d3bdb5cbf95af69aad47a77b3fb3f3d40e9"
   },
   {
     "file": "assets/units/B2_RW_U08.js",
-    "bytes": 180497,
-    "sha256": "ec27e47a914af8079eaf4a21975c4d6614a0e7a41ef8aa34109595a12d77ca28"
+    "bytes": 181233,
+    "sha256": "2cbbbdb824ccf0f790aaa64b1e953227ec323748e9ce903fd60097f474eccef3",
+    "repository_bytes": 181229,
+    "repository_sha256": "ec4ee3bde77aee12b7f37d27218e8cb071f97bf9d34f6fb7ef414a692e270a25"
   },
   {
     "file": "assets/units/B3_LS_U01.js",
-    "bytes": 175178,
-    "sha256": "eda0394d00df7a6c4fc7713c7f92d8086c9ac5a534522f15f442dec73df9d69f"
+    "bytes": 180275,
+    "sha256": "8aa1d5a543a30f4751f61855c6e9ae49013ab0dceb29f84dba38c986609811d9",
+    "repository_bytes": 180271,
+    "repository_sha256": "e9ba7dfa8f4447583f968cee454b325cc010724e9f300359dae8b4dad290d7a9"
   },
   {
     "file": "assets/units/B3_LS_U02.js",
-    "bytes": 164060,
-    "sha256": "73fa4a764753465ef9490fa7f9e9fbc6865dab58e94213c70427f9d79ce35508"
+    "bytes": 167210,
+    "sha256": "1f9df64d4f9bb5035a799712e2336be3484f8d1077487d5e6a05a8c6430549cf",
+    "repository_bytes": 167206,
+    "repository_sha256": "19090114341e477c4f7532c4c6a7f920e34a54efcbde8fe70004ccdd36ccc398"
   },
   {
     "file": "assets/units/B3_LS_U03.js",
-    "bytes": 188022,
-    "sha256": "5823a9e5b919f5cb6e1580e30805f37b4bf05eb05abecbd2adffc64733654dd4"
+    "bytes": 195936,
+    "sha256": "1b4cce2e7920cdc9d89fc95c52cc4493ae958776d59df48a7869c377e2606cb3",
+    "repository_bytes": 195932,
+    "repository_sha256": "8deb62af55f1e8bacd553b71b42addf412f0c0475de91273a5d1039d9a0c44c4"
   },
   {
     "file": "assets/units/B3_LS_U04.js",
-    "bytes": 180665,
-    "sha256": "5d9adba92761700665fbdc64bbbfa53eb576244e83605737dce35f6c4a6cbd01"
+    "bytes": 181421,
+    "sha256": "2cce6300616c7f0e4a477d681239fe5443465deba5c68dac7c6fe96a5a958f11",
+    "repository_bytes": 181417,
+    "repository_sha256": "2721c45cfed84539e02bd08616b7fa874e35f9c9564bfd512c04e2efec64a850"
   },
   {
     "file": "assets/units/B3_LS_U05.js",
-    "bytes": 173293,
-    "sha256": "6a7d380688c4c9a6192ec964df9c6e691565cb4672e757c19a185dd921c34151"
+    "bytes": 175843,
+    "sha256": "3770b5985911473909cc233180e8523957b269da0f666c19a96d8e4ce04c483a",
+    "repository_bytes": 175839,
+    "repository_sha256": "11b8a1bacd27323a04ce066a0d93f95b5163be6e1492030a6d2df4a6454ef4ae"
   },
   {
     "file": "assets/units/B3_LS_U06.js",
-    "bytes": 175404,
-    "sha256": "e9898f9628cb94125a966558a53e9051280d6a79d2b1ce4bb09bc21065beb83b"
+    "bytes": 176176,
+    "sha256": "ea7836f9d2495d5ef130a4e56f1696aba2cc9e512c7078a8a26818eec51c33ff",
+    "repository_bytes": 176172,
+    "repository_sha256": "9c3b878d4dbd79ba7edfb49a18384748d7dc542c6e8fefd16c19ae84c6b5bbde"
   },
   {
     "file": "assets/units/B3_LS_U07.js",
-    "bytes": 195766,
-    "sha256": "3664884c462ef3095675dce2b110451923522b583045b20c76ef7504a1e7dc76"
+    "bytes": 199144,
+    "sha256": "c6b1806af9acf2c72467813add785e9fdd2501679d4241f766916aa4048e337f",
+    "repository_bytes": 199140,
+    "repository_sha256": "5a1c12b86fb5d21628d5ffc5fb9971e64ca84a188a11c9a55f2f318cf6f87f8c"
   },
   {
     "file": "assets/units/B3_LS_U08.js",
-    "bytes": 168118,
-    "sha256": "0c1dfe5027685fbf1fb2bd8a7de92bbe15502322037a64394c75918d10efcb6e"
+    "bytes": 168870,
+    "sha256": "b441c6369c5e3822af0d852aceb27bc0861fafa198011af0fde434ecd832d331",
+    "repository_bytes": 168866,
+    "repository_sha256": "6f92a395e1c7e6478f31193240828b592b3bb49fac37d53d1e48813510e61612"
   },
   {
     "file": "assets/units/B3_RW_U01.js",
-    "bytes": 142320,
-    "sha256": "19e9384c8425f207dfa0140c69d944c90fda4d5f9a577efb7626cd3b1d14d335"
+    "bytes": 146296,
+    "sha256": "d049aca4121dc304372134efc6e4c9db77f842deeebf27675b2368c1d4927009",
+    "repository_bytes": 146292,
+    "repository_sha256": "1fb86ecd9e5138b40afd63789b00900c0c439710d31e62f26d0f8e4fd9db31a8"
   },
   {
     "file": "assets/units/B3_RW_U02.js",
-    "bytes": 149832,
-    "sha256": "93fb86c9f3777bcd102a940157eb0d9cbf8eb247a5894011e4b718649986b70b"
+    "bytes": 153123,
+    "sha256": "4e47e7a0b2cc0dce8ff9bd9fb821c432ae254e8c3cb8b601a066c0280b798518",
+    "repository_bytes": 153119,
+    "repository_sha256": "3170ec62973bc267eba416b6e6c69c11c9e0af2f831b29a5227277de77fe3e57"
   },
   {
     "file": "assets/units/B3_RW_U03.js",
-    "bytes": 135378,
-    "sha256": "d73f68e6c3f367cb43fa73773c67c73cc6a7994772646ce476889114594fd65a"
+    "bytes": 137283,
+    "sha256": "25f75a30004b8886777a4e2c8f80c10624358a721b0c422a08cbf76d910efdeb",
+    "repository_bytes": 137279,
+    "repository_sha256": "a89857d97e6f7a4abb3be953f6180b1a08bc4ac84612beee5ba19c43b2a66e75"
   },
   {
     "file": "assets/units/B3_RW_U04.js",
-    "bytes": 175608,
-    "sha256": "1f11fef5612d5099f17ccfb7d179a812823533df65f8d371e4309081f60bfc84"
+    "bytes": 178174,
+    "sha256": "4d6cb82a08e82ddef5799fc3b3e7ccfeee4e833709f2a84fde80badcc6f304fd",
+    "repository_bytes": 178170,
+    "repository_sha256": "b773cfffebef7edcce73150ff95fa99a28592195720eb8f8e32b2aa5fc69371c"
   },
   {
     "file": "assets/units/B3_RW_U05.js",
-    "bytes": 147421,
-    "sha256": "952acd74b45482537b0ea7166a8ab7278ed06ccc9ab29cc89239e178b5655aaf"
+    "bytes": 149532,
+    "sha256": "afdada28ef9fe750267647bad67ad97f6e9a33108a0e93bed84ac39cdb810a24",
+    "repository_bytes": 149528,
+    "repository_sha256": "1375864d74695a4cd11194342dbd6b3f9faf703d984f72b163d78a7f920dcdaf"
   },
   {
     "file": "assets/units/B3_RW_U06.js",
-    "bytes": 144808,
-    "sha256": "90d4d02c4aa4c79d5eadb90b5f6a4dbc4ab532ce61a73414a86758d5a42f362d"
+    "bytes": 149037,
+    "sha256": "02b23600231254881195de25c213dc3cb6fbb3d4efb41f762e77d6c538f443d4",
+    "repository_bytes": 149033,
+    "repository_sha256": "387ddafffb96dbac811c8a58a480c61a967fc7a022c611371fe8f2e2b823add9"
   },
   {
     "file": "assets/units/B3_RW_U07.js",
-    "bytes": 151125,
-    "sha256": "b61a0644c89e58bf7fba8ce7577706ccb228eeb1a5d45a10d8be4ae9c2218c28"
+    "bytes": 152753,
+    "sha256": "bb3b5b148b68cd7bee8e265b8f873c5e1ff7ab6caea5e2e37f0a3f4f222b1efa",
+    "repository_bytes": 152749,
+    "repository_sha256": "d48b96937a7afa960a904ca3458bbde15e9933ea87bff77b61212df20ebf3e1a"
   },
   {
     "file": "assets/units/B3_RW_U08.js",
-    "bytes": 140731,
-    "sha256": "00df67ecdb76cea5d34542b49eabcf2b445a7f89ca92f655cb407feb4426e2d8"
+    "bytes": 144046,
+    "sha256": "0c9f7cbde63078878d1743071f4fb0dc3d82d1358829f25ed64d1c08fd4f719d",
+    "repository_bytes": 144042,
+    "repository_sha256": "4a71e804b1fd87a9f280649efcd12a42bf4dbee365022f732985d864951404a8"
   },
   {
     "file": "assets/units/manifest.json",
@@ -20697,12 +20773,16 @@
   {
     "file": "index.html",
     "bytes": 6024,
-    "sha256": "dde0a8ae2af7e4dfaacca40ba7649e9db1d90a16c36943b1889febdc15dd6b7c"
+    "sha256": "62aa4bd14a10f9029a4581e0627d4eb33835bfd65c2f96f34db0b277556c4960",
+    "repository_bytes": 6024,
+    "repository_sha256": "62aa4bd14a10f9029a4581e0627d4eb33835bfd65c2f96f34db0b277556c4960"
   },
   {
     "file": "lessons/B2_LS_U01.html",
     "bytes": 1247,
-    "sha256": "045d8a48b50cc589430a23dfe75808e361aca9be4ef76ad5115f90d4334a7f74"
+    "sha256": "99c5e3d2624b0426516f4e22708fa0746f9936d86aac0bba7ac085094bbb0f4d",
+    "repository_bytes": 1247,
+    "repository_sha256": "99c5e3d2624b0426516f4e22708fa0746f9936d86aac0bba7ac085094bbb0f4d"
   },
   {
     "file": "lessons/B2_LS_U01.js",
@@ -20712,7 +20792,9 @@
   {
     "file": "lessons/B2_LS_U02.html",
     "bytes": 1247,
-    "sha256": "d01d808517c5ebe3b99e0e21823cca4a1bef3e1545fb22f7159f090103edcca8"
+    "sha256": "3eb6a2223cc7fa38d41369affb7445f99bd3125c784214ab81da9e82c13c49ed",
+    "repository_bytes": 1247,
+    "repository_sha256": "3eb6a2223cc7fa38d41369affb7445f99bd3125c784214ab81da9e82c13c49ed"
   },
   {
     "file": "lessons/B2_LS_U02.js",
@@ -20722,7 +20804,9 @@
   {
     "file": "lessons/B2_LS_U03.html",
     "bytes": 1247,
-    "sha256": "c95ec6dc82eb4bf3a7672750f88fd9e3ab78da10d8368d1c2f3bb316617d1dcb"
+    "sha256": "d954c6075484ac4f161a6eb98cd7b82e253741ed664e991eaf1be8514b8e94fc",
+    "repository_bytes": 1247,
+    "repository_sha256": "d954c6075484ac4f161a6eb98cd7b82e253741ed664e991eaf1be8514b8e94fc"
   },
   {
     "file": "lessons/B2_LS_U03.js",
@@ -20732,7 +20816,9 @@
   {
     "file": "lessons/B2_LS_U04.html",
     "bytes": 1247,
-    "sha256": "fd8dbd07ffb7c9bed436cc36c65842f3389a49ac4268d60429a2bb2145edbedd"
+    "sha256": "a31aa4b762e7147a31c3b75d8e4a9aeabe07af3b21ee5125cdb7609980284aa8",
+    "repository_bytes": 1247,
+    "repository_sha256": "a31aa4b762e7147a31c3b75d8e4a9aeabe07af3b21ee5125cdb7609980284aa8"
   },
   {
     "file": "lessons/B2_LS_U04.js",
@@ -20742,7 +20828,9 @@
   {
     "file": "lessons/B2_LS_U05.html",
     "bytes": 1247,
-    "sha256": "4967784b05faf86e2e98fcd93358e18fc6131e8c5a2d288785a8e3e79f9c5444"
+    "sha256": "b97eb79e1ed676552ac5b834bcd0d705ad1144564ffb7b21d40b8690b8cbfabe",
+    "repository_bytes": 1247,
+    "repository_sha256": "b97eb79e1ed676552ac5b834bcd0d705ad1144564ffb7b21d40b8690b8cbfabe"
   },
   {
     "file": "lessons/B2_LS_U05.js",
@@ -20752,7 +20840,9 @@
   {
     "file": "lessons/B2_LS_U06.html",
     "bytes": 1247,
-    "sha256": "99e4d9bb0db2afc41c253c0bed3113ccbe6b91cacf5d62405fdc556ae480be0d"
+    "sha256": "50221ed5a3960a3538543044edb740fafd824c9dbcd6ee10b7e8af2ba3ca88e5",
+    "repository_bytes": 1247,
+    "repository_sha256": "50221ed5a3960a3538543044edb740fafd824c9dbcd6ee10b7e8af2ba3ca88e5"
   },
   {
     "file": "lessons/B2_LS_U06.js",
@@ -20762,7 +20852,9 @@
   {
     "file": "lessons/B2_LS_U07.html",
     "bytes": 1247,
-    "sha256": "016bfd1e553b7c8c65cf8ceb7fee40d9ee42bb6db9b0a0133a807e057856c061"
+    "sha256": "58701902a3e5f71d92e5a44fff43287c19951d5486da09e1e6e4bc40c24e3654",
+    "repository_bytes": 1247,
+    "repository_sha256": "58701902a3e5f71d92e5a44fff43287c19951d5486da09e1e6e4bc40c24e3654"
   },
   {
     "file": "lessons/B2_LS_U07.js",
@@ -20772,7 +20864,9 @@
   {
     "file": "lessons/B2_LS_U08.html",
     "bytes": 1247,
-    "sha256": "ddd074e7cc504138f20ca58aa998bd5e87db82e8567d5864e1d7d1cd22a36bf1"
+    "sha256": "3b21335f5593e1ee9875dd752700d343e35ce16d6200a7d5e72cea75c2b25d09",
+    "repository_bytes": 1247,
+    "repository_sha256": "3b21335f5593e1ee9875dd752700d343e35ce16d6200a7d5e72cea75c2b25d09"
   },
   {
     "file": "lessons/B2_LS_U08.js",
@@ -20782,7 +20876,9 @@
   {
     "file": "lessons/B2_RW_U01.html",
     "bytes": 1247,
-    "sha256": "a12754490fdb1a57bd2d13b94c0c03a3d3e942a1feafb2e0acdf10e96cc404dc"
+    "sha256": "b6102bd8be47226791b71317c9fd4410adb893994a23209d48c40eb885a76bf7",
+    "repository_bytes": 1247,
+    "repository_sha256": "b6102bd8be47226791b71317c9fd4410adb893994a23209d48c40eb885a76bf7"
   },
   {
     "file": "lessons/B2_RW_U01.js",
@@ -20792,7 +20888,9 @@
   {
     "file": "lessons/B2_RW_U02.html",
     "bytes": 1247,
-    "sha256": "19af7cc983147ed8a57d78fcc0da753b9d3de423e625f2a89890941c5b2f54b7"
+    "sha256": "fc4f70b72a68e6c9c900eb0a46eaf460962f7fe1d55aa0806f527bce543da6c7",
+    "repository_bytes": 1247,
+    "repository_sha256": "fc4f70b72a68e6c9c900eb0a46eaf460962f7fe1d55aa0806f527bce543da6c7"
   },
   {
     "file": "lessons/B2_RW_U02.js",
@@ -20802,7 +20900,9 @@
   {
     "file": "lessons/B2_RW_U03.html",
     "bytes": 1247,
-    "sha256": "fa75ae47cf16b7924bdc06e125cdc6d0f7a4fc4bba8a1fa857364bfca67cfd66"
+    "sha256": "e864f985dfe3d1577d6311e2992543818b91f0b958aea21507275b2d11765942",
+    "repository_bytes": 1247,
+    "repository_sha256": "e864f985dfe3d1577d6311e2992543818b91f0b958aea21507275b2d11765942"
   },
   {
     "file": "lessons/B2_RW_U03.js",
@@ -20812,7 +20912,9 @@
   {
     "file": "lessons/B2_RW_U04.html",
     "bytes": 1247,
-    "sha256": "f3dfd116fcaa3cb45c1fa9211ebb14c97ae14d7bccf876c4a454c1054379f6ab"
+    "sha256": "c2b05b221b8b8967f63b550e0e603e5f29a8c9fc6de6b95ebf405169408fe637",
+    "repository_bytes": 1247,
+    "repository_sha256": "c2b05b221b8b8967f63b550e0e603e5f29a8c9fc6de6b95ebf405169408fe637"
   },
   {
     "file": "lessons/B2_RW_U04.js",
@@ -20822,7 +20924,9 @@
   {
     "file": "lessons/B2_RW_U05.html",
     "bytes": 1247,
-    "sha256": "5be39ece55882dd604d4dd0ca6136061c3abb8f39524fefd3e716639753eb970"
+    "sha256": "45eed819b093cfead7ea0da7d34af9893809608730f416091c69364b79997928",
+    "repository_bytes": 1247,
+    "repository_sha256": "45eed819b093cfead7ea0da7d34af9893809608730f416091c69364b79997928"
   },
   {
     "file": "lessons/B2_RW_U05.js",
@@ -20832,7 +20936,9 @@
   {
     "file": "lessons/B2_RW_U06.html",
     "bytes": 1247,
-    "sha256": "eaca339ab2f1fdb8813357d0fe5afbda73a3c6407a0d2158d363b93015c4dfa3"
+    "sha256": "1d54575fdda4ed4e689bd60f18550bc2553c177b8c4eb31fcd825a38ea56c409",
+    "repository_bytes": 1247,
+    "repository_sha256": "1d54575fdda4ed4e689bd60f18550bc2553c177b8c4eb31fcd825a38ea56c409"
   },
   {
     "file": "lessons/B2_RW_U06.js",
@@ -20842,7 +20948,9 @@
   {
     "file": "lessons/B2_RW_U07.html",
     "bytes": 1247,
-    "sha256": "658a5294de73b359df09ad74e11fcd835106c06c402fb0f72c045cd63ea0dfc8"
+    "sha256": "da216309dbf672b1689b500eefd73d019e1c8cb5a5a57902a36cab80be2ae925",
+    "repository_bytes": 1247,
+    "repository_sha256": "da216309dbf672b1689b500eefd73d019e1c8cb5a5a57902a36cab80be2ae925"
   },
   {
     "file": "lessons/B2_RW_U07.js",
@@ -20852,7 +20960,9 @@
   {
     "file": "lessons/B2_RW_U08.html",
     "bytes": 1247,
-    "sha256": "02e84f360a4023a6efc22eee88c209d2b2cd8388dbaa437fef2b113625d3a465"
+    "sha256": "a2fd655e7e066931f4eb0f9eeb5b1f37fb9ddc4d5b9c22a7405176cd5d609d96",
+    "repository_bytes": 1247,
+    "repository_sha256": "a2fd655e7e066931f4eb0f9eeb5b1f37fb9ddc4d5b9c22a7405176cd5d609d96"
   },
   {
     "file": "lessons/B2_RW_U08.js",
@@ -20862,7 +20972,9 @@
   {
     "file": "lessons/B3_LS_U01.html",
     "bytes": 1247,
-    "sha256": "ec6a1cc5238719953ca1523adf9993d9acd8a182ba9caac302f4ee8afc5d16aa"
+    "sha256": "e5d693d1f2505d463b9cbe1469a79527926eb1bab9e9e0e2b295f7c751b6c708",
+    "repository_bytes": 1247,
+    "repository_sha256": "e5d693d1f2505d463b9cbe1469a79527926eb1bab9e9e0e2b295f7c751b6c708"
   },
   {
     "file": "lessons/B3_LS_U01.js",
@@ -20872,7 +20984,9 @@
   {
     "file": "lessons/B3_LS_U02.html",
     "bytes": 1247,
-    "sha256": "f56a87c54f7707bf88b80d716e6a87286c0266a4c555a122a2f99c1e1ccb86a5"
+    "sha256": "5728a5c62d8d49c6a3b4a61741cdbc113d1b37033944a894bc0d88899a492412",
+    "repository_bytes": 1247,
+    "repository_sha256": "5728a5c62d8d49c6a3b4a61741cdbc113d1b37033944a894bc0d88899a492412"
   },
   {
     "file": "lessons/B3_LS_U02.js",
@@ -20882,7 +20996,9 @@
   {
     "file": "lessons/B3_LS_U03.html",
     "bytes": 1247,
-    "sha256": "a9ca3d1dc3174e404bdb25c3ecfe0d1a47a5aec991800998139d95f1960d1629"
+    "sha256": "779b0c202a5cd874712989d5f7dcf6cc07269d517c38b2709f2d375316e40a42",
+    "repository_bytes": 1247,
+    "repository_sha256": "779b0c202a5cd874712989d5f7dcf6cc07269d517c38b2709f2d375316e40a42"
   },
   {
     "file": "lessons/B3_LS_U03.js",
@@ -20892,7 +21008,9 @@
   {
     "file": "lessons/B3_LS_U04.html",
     "bytes": 1247,
-    "sha256": "b39d6ee0210529af3e107dab09ae1d97d811a3c327bdec03014add048ff32713"
+    "sha256": "fee78047ead3b3bc88665d30f8edf97d6a4d9dfd0ae814fa7451c5be3993d134",
+    "repository_bytes": 1247,
+    "repository_sha256": "fee78047ead3b3bc88665d30f8edf97d6a4d9dfd0ae814fa7451c5be3993d134"
   },
   {
     "file": "lessons/B3_LS_U04.js",
@@ -20902,7 +21020,9 @@
   {
     "file": "lessons/B3_LS_U05.html",
     "bytes": 1247,
-    "sha256": "a5ddefa7bd580cbb250fefdbd07c8d39476cc954db6bc0b5b71e09c3d5343d52"
+    "sha256": "a12abbc311b91e68f504e4314ccc6f97958f2f9c9ebb7ee41862cad9cb3e98c0",
+    "repository_bytes": 1247,
+    "repository_sha256": "a12abbc311b91e68f504e4314ccc6f97958f2f9c9ebb7ee41862cad9cb3e98c0"
   },
   {
     "file": "lessons/B3_LS_U05.js",
@@ -20912,7 +21032,9 @@
   {
     "file": "lessons/B3_LS_U06.html",
     "bytes": 1247,
-    "sha256": "02d3e6d4fb862168a16f6746f2245974e1b57afcce1d5d70f676c6e705995968"
+    "sha256": "bbe14f53b26ba15cac8d944682bdb7d345bc0df05cc49a3e9f549b6fd57b0017",
+    "repository_bytes": 1247,
+    "repository_sha256": "bbe14f53b26ba15cac8d944682bdb7d345bc0df05cc49a3e9f549b6fd57b0017"
   },
   {
     "file": "lessons/B3_LS_U06.js",
@@ -20922,7 +21044,9 @@
   {
     "file": "lessons/B3_LS_U07.html",
     "bytes": 1247,
-    "sha256": "5738959d1ca6a18dd1bc31bbafee0f46831763ab2334409b05503315095b00df"
+    "sha256": "f7ca59091035f85a0c6211c89dc72e45630ff6ba364e303822c8afd9b5beafc0",
+    "repository_bytes": 1247,
+    "repository_sha256": "f7ca59091035f85a0c6211c89dc72e45630ff6ba364e303822c8afd9b5beafc0"
   },
   {
     "file": "lessons/B3_LS_U07.js",
@@ -20932,7 +21056,9 @@
   {
     "file": "lessons/B3_LS_U08.html",
     "bytes": 1247,
-    "sha256": "b486dcd050dc820fef23dc392bb81c54186fe5d67a026330010c90bfa7f2f547"
+    "sha256": "6198a72ceeba7be3dd6de2acdaa5f021e483938f70ff6c8d40a3eb9b52abb0c8",
+    "repository_bytes": 1247,
+    "repository_sha256": "6198a72ceeba7be3dd6de2acdaa5f021e483938f70ff6c8d40a3eb9b52abb0c8"
   },
   {
     "file": "lessons/B3_LS_U08.js",
@@ -20942,7 +21068,9 @@
   {
     "file": "lessons/B3_RW_U01.html",
     "bytes": 1247,
-    "sha256": "9bf3bd2843984d8f36be1c093c020778e956aec062408b14a6b9d8fe9e2792e4"
+    "sha256": "28fa52f291c04421d09301aa728f772e457cf7a53f7b033cc1b221b99c766b9c",
+    "repository_bytes": 1247,
+    "repository_sha256": "28fa52f291c04421d09301aa728f772e457cf7a53f7b033cc1b221b99c766b9c"
   },
   {
     "file": "lessons/B3_RW_U01.js",
@@ -20952,7 +21080,9 @@
   {
     "file": "lessons/B3_RW_U02.html",
     "bytes": 1247,
-    "sha256": "d7f966d8950ea5fe7ecd7832bb37f5624f35289d03a66ff50c4e069612d55613"
+    "sha256": "8f5fc9eab4c3039022e352756f5ba900a49ebfb45ad69a3b7006d37eb54d9d43",
+    "repository_bytes": 1247,
+    "repository_sha256": "8f5fc9eab4c3039022e352756f5ba900a49ebfb45ad69a3b7006d37eb54d9d43"
   },
   {
     "file": "lessons/B3_RW_U02.js",
@@ -20962,7 +21092,9 @@
   {
     "file": "lessons/B3_RW_U03.html",
     "bytes": 1247,
-    "sha256": "971876d0de152cded29879be6c12be63ce35d6ae96580963894888d589274648"
+    "sha256": "f9221f526d008534d5b18a6b5781ba3161f8b6533aa2d31834d60eee268cad6e",
+    "repository_bytes": 1247,
+    "repository_sha256": "f9221f526d008534d5b18a6b5781ba3161f8b6533aa2d31834d60eee268cad6e"
   },
   {
     "file": "lessons/B3_RW_U03.js",
@@ -20972,7 +21104,9 @@
   {
     "file": "lessons/B3_RW_U04.html",
     "bytes": 1247,
-    "sha256": "0390009b7814300f418804f58a2bbae307418dabdbad4b990c593997fe13751f"
+    "sha256": "181186224cd9ef5d09efe6f25bf12c79635b95b887eeea3e5c4e4b9c5fd50995",
+    "repository_bytes": 1247,
+    "repository_sha256": "181186224cd9ef5d09efe6f25bf12c79635b95b887eeea3e5c4e4b9c5fd50995"
   },
   {
     "file": "lessons/B3_RW_U04.js",
@@ -20982,7 +21116,9 @@
   {
     "file": "lessons/B3_RW_U05.html",
     "bytes": 1247,
-    "sha256": "4b7304751c92022f55d6dd26f7f8867f30f04c604bd3560de15059d613081c8b"
+    "sha256": "bdd855d0325bcdcce30118468e58c750712b6fd2ebffbd1815ce7ed90e18012d",
+    "repository_bytes": 1247,
+    "repository_sha256": "bdd855d0325bcdcce30118468e58c750712b6fd2ebffbd1815ce7ed90e18012d"
   },
   {
     "file": "lessons/B3_RW_U05.js",
@@ -20992,7 +21128,9 @@
   {
     "file": "lessons/B3_RW_U06.html",
     "bytes": 1247,
-    "sha256": "2c31a8585ef35e76d85ac75c4af9e00076c4cb0c4639d78ef63065b159710542"
+    "sha256": "e2e33dfc7bf297f387d58000c8e081023c4e5ed97f61be595c34e3848042dd71",
+    "repository_bytes": 1247,
+    "repository_sha256": "e2e33dfc7bf297f387d58000c8e081023c4e5ed97f61be595c34e3848042dd71"
   },
   {
     "file": "lessons/B3_RW_U06.js",
@@ -21002,7 +21140,9 @@
   {
     "file": "lessons/B3_RW_U07.html",
     "bytes": 1247,
-    "sha256": "7259ff656ca59964b389a244c2d6b2f7c0528867b708eac7fc6a41c7d9609db6"
+    "sha256": "51cb1ba66e40d3d3599ec4a0f5c5e117e477712b98e8ab17fcb0ed6001de6adb",
+    "repository_bytes": 1247,
+    "repository_sha256": "51cb1ba66e40d3d3599ec4a0f5c5e117e477712b98e8ab17fcb0ed6001de6adb"
   },
   {
     "file": "lessons/B3_RW_U07.js",
@@ -21012,7 +21152,9 @@
   {
     "file": "lessons/B3_RW_U08.html",
     "bytes": 1247,
-    "sha256": "e1113a32784eda636350d445ac781f73d03eb43658af0c8efad0ccc961f717ad"
+    "sha256": "67b725b95fd47f9334599b1b954c00a712a80ee0bfaaa8967669782bab223344",
+    "repository_bytes": 1247,
+    "repository_sha256": "67b725b95fd47f9334599b1b954c00a712a80ee0bfaaa8967669782bab223344"
   },
   {
     "file": "lessons/B3_RW_U08.js",
@@ -21032,5 +21174,19 @@
     "sha256": "55051727b58be9f2b361682127cc8452ba89c16511b0e855e6706b01cb3f8196",
     "repository_bytes": 1730,
     "repository_sha256": "55051727b58be9f2b361682127cc8452ba89c16511b0e855e6706b01cb3f8196"
+  },
+  {
+    "file": "audit/题目归属与答案全套复核_20261012.html",
+    "bytes": 2337,
+    "sha256": "c0c26f901fce2d85101d9ab4119a62dc2c6b8d4a96550d89f4ad9391a896be78",
+    "repository_bytes": 2336,
+    "repository_sha256": "81dda09367a11de8e578bde9fcbc7ebd6f45a83e4be388b8f9d32806f7182f87"
+  },
+  {
+    "file": "audit/题目归属与答案全套复核_20261012.json",
+    "bytes": 2157,
+    "sha256": "49742fcf5a181712959a01189062d72838c7d591e842235df7a48cc18a70bd9a",
+    "repository_bytes": 2110,
+    "repository_sha256": "6fa1135cabb0ffa41d7f657946378dc582e749365ab801b61462c26a82d47c12"
   }
 ]
