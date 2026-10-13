@@ -54,3 +54,8 @@
 .ss-layout .ss-numbered-number,.ss-layout .ss-judgement-number{white-space:nowrap!important}.ss-layout.ss-note-outline td .ss-numbered-row{grid-template-columns:1.5em minmax(0,1fr)}
 
 .ss-layout.answers-visible .inline-answer-highlight.inline-answer-circle{text-decoration:none!important;outline:2px solid #c00000;outline-offset:2px;border-radius:50%}
+
+/* v21: source inputs share a fixed question/answer layout. */
+.stage.textbook-complete .ss-body,.stage.textbook-complete .ss-item .inline-answer-text,.stage.textbook-complete .ss-gallery-tail .inline-answer-text,.stage.textbook-complete .ss-node td,.stage.textbook-complete .ss-node th,.stage.textbook-complete .ss-node td .text{font-size:var(--tb-font,28px)!important;line-height:1.16!important}.textbook-definition-input strong{font-weight:700}.textbook-word-bank{color:#7030a0;font-weight:700}.textbook-complete .ss-column{gap:14px}
+
+.stage.textbook-complete .inline-word-correction{display:inline-grid!important;width:auto!important;max-width:100%}.stage.textbook-complete .inline-word-correction>.inline-correction-placeholder,.stage.textbook-complete .inline-word-correction>.inline-correction-value{grid-area:1/1;white-space:nowrap!important}.stage.textbook-complete table{overflow-wrap:normal}.stage.textbook-complete .inline-table-answer{overflow-wrap:normal;word-break:normal}.answers-visible .textbook-inactive .inline-answer-value{visibility:hidden!important}.answers-visible .textbook-inactive .inline-answer-placeholder{visibility:visible!important}
