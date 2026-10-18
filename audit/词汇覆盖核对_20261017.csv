@@ -1,0 +1,884 @@
+﻿unit,page,category,term,status,back_terms,back_pages,text
+B2_LS_U01,16,Glossary,canal,absent,[],[],canal (n) a river made by people
+B2_LS_U01,16,Glossary,gondola,absent,[],[],"gondola (n) a narrow boat with a raised point at both ends, used on canals in Venice"
+B2_LS_U01,16,Glossary,man-made,absent,[],[],man-made (adj) not natural but made by people
+B2_LS_U01,16,Glossary,palace,absent,[],[],"palace (n) a large, important house or building, often where a king or queen lives"
+B2_LS_U01,16,Glossary,stilts,absent,[],[],stilts (n) long pieces of wood or metal that a building stands on so that it is above the ground or water
+B2_LS_U01,18,Target bold,recognize,exact,['recognize'],[191],1 Look at the pictures. Do you recognize any of the places? Where
+B2_LS_U01,18,Target bold,strange,exact,['strange'],[191],2 Some of these places are very strange . They are not like other
+B2_LS_U01,18,Target bold,capital,exact,['capital'],[191],3 The capital of the United Kingdom is London. The Prime Minister
+B2_LS_U01,18,Target bold,ancient,exact,['ancient'],[191],"4 These ancient buildings are more than 1,000 years old."
+B2_LS_U01,18,Target bold,rocks,inflection,['rock'],[191],5 Mountains have a lot of rocks on them. They make it difficult to
+B2_LS_U01,18,Target bold,apartment,exact,['apartment'],[191],6 Kara lives in a small apartment in Tokyo. It's in a big building.
+B2_LS_U01,18,Target bold,bridge,exact,['bridge'],[191],7 We have to drive over the bridge to get to the island.
+B2_LS_U01,18,Target bold,cave,exact,['cave'],[191],8 Lisa found a large cave in the mountain. It was very dark and
+B2_LS_U01,21,Glossary,edge,absent,[],[],edge (n) the part around something that is furthest from the centre
+B2_LS_U01,21,Glossary,ground,absent,[],[],ground (n) the surface of the earth
+B2_LS_U01,21,Glossary,soil,absent,[],[],soil (n) the top layer of earth that plants grow in
+B2_LS_U01,25,Target bold,is located,phrase/word form,['be located'],[191],The city of Vancouver is located in British Columbia in Western
+B2_LS_U01,25,Target bold,area,exact,['area'],[191],Canada. Vancouver has many things to do. What area of the city
+B2_LS_U01,25,Target bold,traffic,exact,['traffic'],[191],cars in the city. Stay away from traffic by taking the bus or train in
+B2_LS_U01,25,Target bold,lake,exact,['lake'],[191],"Vancouver. Plan a visit to Stanley Park. In summer, swim in a lake"
+B2_LS_U01,25,Target bold,woods,exact,['woods'],[191],"if you get hot. In the woods , visitors see many birds and other wild"
+B2_LS_U01,25,Target bold,field,exact,['field'],[191],"animals. Some people sit and relax in a green, sunny field . Come"
+B2_LS_U01,25,Target bold,be located,exact,['be located'],[191],The city of Vancouver is located in British Columbia in Western
+B2_LS_U02,38,Glossary,advertise,absent,[],[],advertise (v) to tell the public about something so you can sell it
+B2_LS_U02,38,Glossary,display,absent,[],[],display (n) a collection of objects or pictures for people to look at
+B2_LS_U02,38,Glossary,economy,absent,[],[],economy (n) the system by which a country produces and uses goods/money
+B2_LS_U02,38,Glossary,figure,absent,[],[],figure (n) an object in the shape of a body
+B2_LS_U02,38,Glossary,melt,absent,[],[],"melt (v) to change from something hard into a liquid because of heat, like ice changing to water"
+B2_LS_U02,38,Glossary,sculpture,absent,[],[],"sculpture (n) a piece of art that is made from stone, wood, metal, clay, etc."
+B2_LS_U02,39,Target bold,festival,exact,['festival'],[192],1 It is now the largest ice festival in the world.
+B2_LS_U02,39,Target bold,frozen,exact,['frozen'],[192],"Songhua, is completely frozen ."
+B2_LS_U02,39,Target bold,amazing,exact,['amazing'],[192],3 The people of Harbin do something amazing with the frozen river.
+B2_LS_U02,39,Target bold,attracts,inflection,['attract'],[192],4 The famous festival attracts visitors from all over the world.
+B2_LS_U02,40,Target bold,lecture,exact,['lecture'],[192],1 We listened and took notes while the professor gave the lecture .
+B2_LS_U02,40,Target bold,activities,inflection,['activity'],[192],"2 There were many activities at the festival, such as watching shows"
+B2_LS_U02,40,Target bold,traditional,exact,['traditional'],[193],3 We wear traditional clothes at the festival. The clothes are very
+B2_LS_U02,40,Target bold,culture,exact,['culture'],[192],"4 If a festival is about culture , tourists often enjoy going to it"
+B2_LS_U02,40,Target bold,entertainment,exact,['entertainment'],[192],5 A popular type of entertainment at a festival is watching a race or
+B2_LS_U02,40,Target bold,enjoyed,inflection,['enjoy'],[192],6 We enjoyed the delicious food.
+B2_LS_U02,48,Target bold,celebrate,exact,['celebrate'],[192],1 My city is having a festival to celebrate local culture.
+B2_LS_U02,48,Target bold,costumes,inflection,['costume'],[192],2 The people in the video are wearing costumes that look like
+B2_LS_U02,48,Target bold,dish,exact,['dish'],[192],3 A favourite dish for breakfast in Canada is pancakes with maple
+B2_LS_U02,48,Target bold,decorates,inflection,['decorate'],[192],"4 For parties, my sister bakes cookies and decorates them with"
+B2_LS_U02,48,Target bold,fireworks,inflection,['firework'],[192],"5 I love colourful fireworks , but the loud sounds scare my cats."
+B2_LS_U02,48,Target bold,gifts,inflection,['gift'],[192],6 Some people give small gifts to their children on their graduation
+B2_LS_U02,48,Target bold,parade,exact,['parade'],[193],"7 Every year, there is a big parade through the city streets for the"
+B2_LS_U02,48,Target bold,decorate,exact,['decorate'],[192],"4 For parties, my sister bakes cookies and decorates them with"
+B2_LS_U03,60,Glossary,connect,absent,[],[],connect (v) to join two things or places together
+B2_LS_U03,60,Glossary,control,absent,[],[],"control (v) to limit the number, amount or increase of something"
+B2_LS_U03,60,Glossary,device,absent,[],[],device (n} a piece of equipment that is used for a particular purpose
+B2_LS_U03,60,Glossary,expiration date,absent,[],[],expiration date (n) the end of a period when something can be used
+B2_LS_U03,60,Glossary,sensor,absent,[],[],"sensor (n) a piece of equipment that can find heat, light, etc."
+B2_LS_U03,60,Glossary,waste,absent,[],[],waste (n) a bad use of something useful
+B2_LS_U03,62,Target bold,accident,exact,['accident'],[193],"When Jamila was 25, she had an accident . The weather was bad and a car hit her."
+B2_LS_U03,62,Target bold,disability,exact,['disability'],[193],"Even with this disability , Jamila is able to stay in her home. She doesn't need"
+B2_LS_U03,62,Target bold,look after,exact,['look after'],[194],"somebody to look after her or do many things for her. Instead, she has a small robot"
+B2_LS_U03,62,Target bold,assistant,exact,['assistant'],[193],assistant . It delivers medicine and carries things for her.
+B2_LS_U03,62,Target bold,delivers,inflection,['deliver'],[193],assistant . It delivers medicine and carries things for her.
+B2_LS_U03,62,Target bold,research,exact,['research'],[194],did research and collected many facts about how to improve home robots. She asked
+B2_LS_U03,62,Target bold,collected,inflection,['collect'],[193],did research and collected many facts about how to improve home robots. She asked
+B2_LS_U03,62,Target bold,information,exact,['information'],[194],"other people with disabilities for information about what they needed. Finally, she"
+B2_LS_U03,62,Target bold,developed,inflection,['develop'],[193],developed a robot that could cook simple food. She wants to make robots that can
+B2_LS_U03,64,Glossary,bar code,absent,[],[],"bar code (n) a row of black lines, often on something you buy, that a computer reads to find the price or other information"
+B2_LS_U03,64,Glossary,care home,absent,[],[],care home (n) a place where somebody who is old or sick lives when they cannot live at home any more
+B2_LS_U03,64,Glossary,equipment,absent,[],[],equipment (n) the things that are used for an activity or purpose
+B2_LS_U03,64,Glossary,surgery,absent,[],[],surgery (n) the treatment of injuries or diseases in people or animals by cutting open the body and removing or repairing the damaged part
+B2_LS_U03,68,Target bold,keys,inflection,['key'],[194],1 Do you prefer using a touchscreen or typing on real keys . Why?
+B2_LS_U03,68,Target bold,apps,inflection,['app'],[193],"2 What type of apps do you use most: games, social media or"
+B2_LS_U03,68,Target bold,social media,exact,['social media'],[194],"2 What type of apps do you use most: games, social media or"
+B2_LS_U03,68,Target bold,text,exact,['text'],[195],4 Do you call and talk to people or do you only text them? Why?
+B2_LS_U03,68,Target bold,battery,exact,['battery'],[193],5 When was the last time your phone's battery stopped working at
+B2_LS_U03,68,Target bold,charger,exact,['charger'],[193],6 Do you always carry a charger with you so you can use your
+B2_LS_U03,68,Target bold,mobile device,exact,['mobile device'],[194],7 Which type of mobile device do you prefer: a phone or a tablet ?
+B2_LS_U03,68,Target bold,phone,exact,['phone'],[194],7 Which type of mobile device do you prefer: a phone or a tablet ?
+B2_LS_U03,68,Target bold,tablet,exact,['tablet'],[195],7 Which type of mobile device do you prefer: a phone or a tablet ?
+B2_LS_U03,68,Target bold,charge,exact,['charge'],[193],8 How long do you charge your phone when it has no power?
+B2_LS_U03,70,Target bold,stupid,exact,['stupid'],[194],1 Sometimes I feel stupid when I can't remember something easily.
+B2_LS_U03,70,Target bold,memory,exact,['memory'],[194],2 It's important to have a good memory when you're learning a
+B2_LS_U03,70,Target bold,affects,inflection,['affect'],[193],"3 Technology affects many parts of our lives, especially how we"
+B2_LS_U03,70,Target bold,lazy,exact,['lazy'],[194],4 Some days I feel lazy and I don't want to do much.
+B2_LS_U03,70,Target bold,file,exact,['file'],[193],5 The file was damaged and I couldn't open my homework any
+B2_LS_U03,62,Target bold,deliver,exact,['deliver'],[193],assistant . It delivers medicine and carries things for her.
+B2_LS_U03,62,Target bold,collect,exact,['collect'],[193],did research and collected many facts about how to improve home robots. She asked
+B2_LS_U03,62,Target bold,develop,exact,['develop'],[193],developed a robot that could cook simple food. She wants to make robots that can
+B2_LS_U04,82,Glossary,current,absent,[],[],current (n) a movement of water or air
+B2_LS_U04,82,Glossary,gyre,absent,[],[],gyre (n) a flow of water in a circle
+B2_LS_U04,82,Glossary,the equator,absent,[],[],the equator (n) the imaginary line around the Earth that divides it into equal north and south parts
+B2_LS_U04,82,Glossary,clockwise,absent,[],[],clockwise (adv) in the same direction as the hands on a clock move
+B2_LS_U04,82,Glossary,heat,absent,[],[],heat (n) hot weather; extreme warmth
+B2_LS_U04,85,Glossary,behave,absent,[],[],behave (v) to do or say things in a particular way
+B2_LS_U04,85,Glossary,sweat,absent,[],[],sweat (v) to produce liquid through your skin because you are hot or nervous
+B2_LS_U04,85,Target bold,prefer,exact,['prefer'],[196],Which type of weather do you prefer ? Some people like hot
+B2_LS_U04,85,Target bold,cool,exact,['cool'],[195],"weather. Some like cold weather. I like cool weather, between"
+B2_LS_U04,85,Target bold,angry,exact,['angry'],[195],"are many reasons why. For example, some people get angry"
+B2_LS_U04,85,Target bold,humid,exact,['humid'],[196],"friendly or pleasant. Sometimes the weather is hot and humid ,"
+B2_LS_U04,85,Target bold,dry,exact,['dry'],[195],"is dry , people worry that plants will die without rain."
+B2_LS_U04,85,Target bold,upset,exact,['upset'],[196],But some people get upset when it rains. They're quite
+B2_LS_U04,85,Target bold,energy,exact,['energy'],[196],have energy to get things done.
+B2_LS_U04,93,Target bold,becoming,inflection,['become'],[195],changing the rainforests themselves; the environment is becoming damaged and the
+B2_LS_U04,93,Target bold,unusual,exact,['unusual'],[196],"plants and trees are growing more slowly. The rainforests are home to unusual wildlife, 1"
+B2_LS_U04,93,Target bold,discovering,inflection,['discover'],[195],"which looks nothing like any other wildlife on Earth, and scientists are still discovering"
+B2_LS_U04,93,Target bold,disappearing,inflection,['disappear'],[195],which can't be found anywhere else are disappearing because they're being killed by
+B2_LS_U04,93,Target bold,believe,exact,['believe'],[195],the changes in the climate. Many people believe that governments need to save the
+B2_LS_U04,93,Target bold,carefully,exact,['carefully'],[195],will have to look carefully for ways to stop global warming. They'll need to really watch
+B2_LS_U04,97,Glossary,heatwave,absent,[],[],heatwave (n) a period of days during which the weather is much hotter than usual
+B2_LS_U04,97,Glossary,shortage,absent,[],[],shortage (n) a situation when there is not enough of something
+B2_LS_U04,97,Glossary,wildfire,absent,[],[],wildfire (n) a fire that is burning strongly and out of control in the countryside
+B2_LS_U05,104,Glossary,IBM,absent,[],[],IBM (n) the name of an American technology company
+B2_LS_U05,104,Glossary,genius,absent,[],[],genius (n) somebody who is excellent at doing something; a very intelligent person
+B2_LS_U05,104,Glossary,move,absent,[],[],"move (n) in a game like chess, a change of the position of one of the pieces, or a person's turn to play"
+B2_LS_U05,104,Glossary,trick,absent,[],[],trick (v) to make somebody believe something that is not true
+B2_LS_U05,104,Glossary,escape,absent,[],[],escape (v) to get away from a dangerous or bad situation
+B2_LS_U05,107,Target bold,compete,exact,['compete'],[196],Do you want to compete against other schools in your favourite games? Join
+B2_LS_U05,107,Target bold,champion,exact,['champion'],[196],our esports team! You could win games and medals and become a champion .
+B2_LS_U05,107,Target bold,hit,exact,['hit'],[197],"In esports, you don't need to hit a ball like a cricket player or to kick a ball like"
+B2_LS_U05,107,Target bold,kick,exact,['kick'],[197],"In esports, you don't need to hit a ball like a cricket player or to kick a ball like"
+B2_LS_U05,107,Target bold,strong,exact,['strong'],[197],in football. But esports athletes don't just sit. They keep their bodies strong so
+B2_LS_U05,107,Target bold,intelligent,exact,['intelligent'],[197],Esports players are often intelligent people who think a lot as they play and plan
+B2_LS_U05,113,Target bold,Fans,inflection,['fan'],[196],1 Fans enjoy watching their favourite teams do sports.
+B2_LS_U05,113,Target bold,salary,exact,['salary'],[197],2 Some people are paid a salary for a full-time job. They aren't
+B2_LS_U05,113,Target bold,support,exact,['support'],[197],3 Some big companies support players by giving them clothing
+B2_LS_U05,113,Target bold,charge,exact,['charge'],[196],4 Ticket sellers charge people a lot of money to go to a popular
+B2_LS_U05,113,Target bold,competitions,inflection,['competition'],[196],"5 Every year, there are football competitions like the World Cup"
+B2_LS_U05,113,Target bold,prize,exact,['prize'],[197],6 The prize in the golf competition is money and a silver cup.
+B2_LS_U05,113,Target bold,scores,inflection,['score'],[197],"7 In football, the team that scores more goals wins."
+B2_LS_U05,113,Target bold,cost,exact,['cost'],[196],8 The cost of buying a sports team is millions of pounds.
+B2_LS_U06,126,Glossary,develop,absent,[],[],develop (v) to grow or change and become more advanced
+B2_LS_U06,126,Glossary,education,absent,[],[],"education (n) the process of teaching and learning in a school or college, or the knowledge that you get from this"
+B2_LS_U06,126,Glossary,exist,absent,[],[],exist (v) to be real or present
+B2_LS_U06,126,Glossary,industry,absent,[],[],industry (n) the people and activities involved in one type of business
+B2_LS_U06,126,Glossary,re-training,absent,[],[],re-training (n) the process of learning new skills you need to do a particular job or activity
+B2_LS_U06,126,Glossary,skill,exact,['skill'],[198],"skill (n) the ability to do an activity or job well, especially by practising it"
+B2_LS_U06,128,Target bold,project,exact,['project'],[198],a project to make our company better and to help you be happy
+B2_LS_U06,128,Target bold,earn,exact,['earn'],[197],What would you prefer: to earn more money or to have more
+B2_LS_U06,128,Target bold,profit,exact,['profit'],[197],This company makes a lot of money and we share the profit
+B2_LS_U06,128,Target bold,colleagues,inflection,['colleague'],[197],What type of colleagues do you enjoy working with?
+B2_LS_U06,128,Target bold,spend time,exact,['spend time'],[198],What type of projects do you prefer to spend time working
+B2_LS_U06,128,Target bold,waste,phrase/word form,['waste time'],[198],What work activities do you think waste your time during
+B2_LS_U06,128,Target bold,time,phrase/word form,['waste time'],[198],What work activities do you think waste your time during
+B2_LS_U06,128,Target bold,breaks,inflection,['break'],[197],"How much time do you want for breaks in the morning, at"
+B2_LS_U06,137,Target bold,stress,exact,['stress'],[198],Are you under a lot of stress about losing money? Are you worried about your
+B2_LS_U06,137,Target bold,goals,inflection,['goal'],[197],business goals ? Contact us today.
+B2_LS_U06,137,Target bold,careless,exact,['careless'],[197],We know that in business one careless mistake could lose you a lot of money. It can
+B2_LS_U06,137,Target bold,messy,exact,['messy'],[197],be a messy website or unhappy customers . Do you have the skills to do everything
+B2_LS_U06,137,Target bold,customers,inflection,['customer'],[197],be a messy website or unhappy customers . Do you have the skills to do everything
+B2_LS_U06,137,Target bold,skills,inflection,['skill'],[198],be a messy website or unhappy customers . Do you have the skills to do everything
+B2_LS_U06,137,Target bold,hire,exact,['hire'],[197],in your business yourself or should you hire professional help? We will help you
+B2_LS_U06,137,Target bold,strengths,inflection,['strength'],[198],identify your company's strengths and weaknesses .
+B2_LS_U06,137,Target bold,weaknesses,inflection,['weakness'],[198],identify your company's strengths and weaknesses .
+B2_LS_U06,128,Target bold,colleague,exact,['colleague'],[197],What type of colleagues do you enjoy working with?
+B2_LS_U06,128,Target bold,waste time,exact,['waste time'],[198],What work activities do you think waste your time during
+B2_LS_U06,128,Target bold,break,exact,['break'],[197],"How much time do you want for breaks in the morning, at"
+B2_LS_U06,137,Target bold,goal,exact,['goal'],[197],business goals ? Contact us today.
+B2_LS_U06,137,Target bold,customer,exact,['customer'],[197],be a messy website or unhappy customers . Do you have the skills to do everything
+B2_LS_U06,137,Target bold,skill,exact,['skill'],[198],be a messy website or unhappy customers . Do you have the skills to do everything
+B2_LS_U06,137,Target bold,strength,exact,['strength'],[198],identify your company's strengths and weaknesses .
+B2_LS_U06,137,Target bold,weakness,exact,['weakness'],[198],identify your company's strengths and weaknesses .
+B2_LS_U07,148,Glossary,isolated,absent,[],[],isolated (adj) very far from other places
+B2_LS_U07,148,Glossary,trash,absent,[],[],trash (US n) the things you throw away because you do not want them; rubbish
+B2_LS_U07,148,Glossary,wash up,absent,[],[],wash up (phr v) to move naturally from the water to the beach
+B2_LS_U07,148,Glossary,flip-flop,absent,[],[],flip-flop (n) a kind of open shoe that people often wear at the beach
+B2_LS_U07,148,Glossary,ornament,absent,[],[],ornament (n) an object that decorates a home or garden
+B2_LS_U07,150,Target bold,inventions,inflection,['invention'],[199],"products and inventions look good and work well. First, they think"
+B2_LS_U07,150,Target bold,purpose,exact,['purpose'],[199],about the purpose of the item they want to make. Sometimes they
+B2_LS_U07,150,Target bold,designs,inflection,['design'],[198],use computer programs to make designs . Some designers like to
+B2_LS_U07,150,Target bold,simple,exact,['simple'],[199],"make simple things, with a neat and clean look - not complicated"
+B2_LS_U07,150,Target bold,complicated,exact,['complicated'],[198],"make simple things, with a neat and clean look - not complicated"
+B2_LS_U07,150,Target bold,uses,inflection,['use'],[199],things with many parts and uses . A simple item might have only
+B2_LS_U07,150,Target bold,achievement,exact,['achievement'],[198],good design isn't just one person's achievement. Designers need
+B2_LS_U07,150,Target bold,points,inflection,['point'],[199],to show their work to others and listen to the points they make
+B2_LS_U07,158,Target bold,retire,exact,['retire'],[199],do so. Or they think that when they retire and don't work any
+B2_LS_U07,158,Target bold,entrepreneurs,inflection,['entrepreneur'],[198],young people are becoming entrepreneurs and are starting
+B2_LS_U07,158,Target bold,reach,exact,['reach'],[199],"they reach the age of 30! However, it isn't always easy, and"
+B2_LS_U07,158,Target bold,situations,inflection,['situation'],[199],"you may have difficult situations , such as having trouble with"
+B2_LS_U07,158,Target bold,success,exact,['success'],[199],deliveries to your customers. But you can achieve success with
+B2_LS_U07,158,Target bold,amazing,exact,['amazing'],[198],lots of people using your product! There are amazing stories
+B2_LS_U07,158,Target bold,remarkable,exact,['remarkable'],[199],"own business? One day, you might be one of the remarkable"
+B2_LS_U07,150,Target bold,invention,exact,['invention'],[199],"products and inventions look good and work well. First, they think"
+B2_LS_U07,150,Target bold,design,exact,['design'],[198],use computer programs to make designs . Some designers like to
+B2_LS_U07,150,Target bold,use,exact,['use'],[199],things with many parts and uses . A simple item might have only
+B2_LS_U07,150,Target bold,point,exact,['point'],[199],to show their work to others and listen to the points they make
+B2_LS_U07,158,Target bold,entrepreneur,exact,['entrepreneur'],[198],young people are becoming entrepreneurs and are starting
+B2_LS_U07,158,Target bold,situation,exact,['situation'],[199],"you may have difficult situations , such as having trouble with"
+B2_LS_U08,170,Glossary,explore,exact,['explore'],[200],explore (v) to go around a new place to find out what is there
+B2_LS_U08,170,Glossary,instrument,absent,[],[],instrument (n) a tool that is used for doing something
+B2_LS_U08,170,Glossary,object,absent,[],[],object (n) a thing that you can see or touch
+B2_LS_U08,170,Glossary,research,absent,[],[],research (n) detailed study of a subject in order to discover new information
+B2_LS_U08,170,Glossary,GPS,absent,[],[],"GPS (abbreviation) Global Positioning System: used to show where something is on a map, drivers often use it to find places"
+B2_LS_U08,173,Glossary,clear,absent,[],[],clear (v) to take away objects and create more space
+B2_LS_U08,173,Glossary,debris,exact,['debris'],[200],debris (n) broken pieces of something
+B2_LS_U08,173,Glossary,junk,absent,[],[],junk (n) old things that have little value
+B2_LS_U08,173,Glossary,researcher,absent,[],[],"researcher (n) somebody who studies a subject, especially to get information that people did not know before"
+B2_LS_U08,173,Target bold,explore,exact,['explore'],[200],"There's a lot to explore in space, out beyond our moon and off"
+B2_LS_U08,173,Target bold,beyond,exact,['beyond'],[200],"There's a lot to explore in space, out beyond our moon and off"
+B2_LS_U08,173,Target bold,journeys,inflection,['journey'],[200],"to the stars far away. But to reach space and make long journeys ,"
+B2_LS_U08,173,Target bold,satellites,inflection,['satellite'],[200],satellites from Earth. Satellites can take photos of the surface
+B2_LS_U08,173,Target bold,surface,exact,['surface'],[200],satellites from Earth. Satellites can take photos of the surface
+B2_LS_U08,173,Target bold,planets,inflection,['planet'],[200],"of other planets , like Mars or Venus, to show us the land and if"
+B2_LS_U08,173,Target bold,spacecraft,exact,['spacecraft'],[200],the Earth. Other research is done by scientists in spacecraft such
+B2_LS_U08,176,Target bold,impacts,inflection,['impact'],[200],What are some of the impacts of space exploration? One is that
+B2_LS_U08,176,Target bold,option,exact,['option'],[200],can choose the best option . But there are issues with building new
+B2_LS_U08,176,Target bold,issues,inflection,['issue'],[200],can choose the best option . But there are issues with building new
+B2_LS_U08,176,Target bold,effects,inflection,['effect'],[200],worry about the effects of noise and light on people and animals
+B2_LS_U08,176,Target bold,problem,exact,['problem'],[200],problem . One solution might be to build small spaceports to send
+B2_LS_U08,176,Target bold,solution,exact,['solution'],[200],problem . One solution might be to build small spaceports to send
+B2_LS_U08,176,Target bold,alternative,exact,['alternative'],[200],very small rockets into space. Another alternative is to just use the
+B2_LS_U08,179,Target bold,evaluate,exact,['evaluate'],[200],We will look at how to pay for Mars exploration. We will also evaluate the
+B2_LS_U08,179,Target bold,public,exact,['public'],[200],Should public money be used to pay for it or should private companies pay?
+B2_LS_U08,179,Target bold,private,exact,['private'],[200],Should public money be used to pay for it or should private companies pay?
+B2_LS_U08,179,Target bold,Expert,exact,['expert'],[200],Expert speakers:
+B2_LS_U08,179,Target bold,talent,exact,['talent'],[200],"If you want to develop your talent for public speaking, join us next week!"
+B2_LS_U08,173,Target bold,journey,exact,['journey'],[200],"to the stars far away. But to reach space and make long journeys ,"
+B2_LS_U08,173,Target bold,satellite,exact,['satellite'],[200],satellites from Earth. Satellites can take photos of the surface
+B2_LS_U08,173,Target bold,planet,exact,['planet'],[200],"of other planets , like Mars or Venus, to show us the land and if"
+B2_RW_U01,16,Glossary,destination,absent,[],[],destination (n) the place where somebody or something is going
+B2_RW_U01,16,Glossary,harbour,absent,[],[],harbour (n) an area of water by the coast used to keep ships safe
+B2_RW_U01,16,Glossary,tower,absent,[],[],"tower (n) a very tall, thin building or part of a building"
+B2_RW_U01,16,Glossary,monument,absent,[],[],monument (n) a special building to make people remember an event in history or a famous person
+B2_RW_U01,16,Glossary,goods,absent,[],[],goods (n) things that people sell
+B2_RW_U01,16,Glossary,fireworks,absent,[],[],fireworks (n) small objects which explode to make a loud noise and bright colours in the night sky
+B2_RW_U01,19,Target bold,population,exact,['population'],[191],"2 Today, 12% of the world's urban 1 population lives in megacities. Studies show that there will be"
+B2_RW_U01,19,Target bold,Experts,inflection,['expert'],[190],8.5 billion people in the world in 2030. Experts say that there will be 40 megacities.
+B2_RW_U01,19,Target bold,countryside,exact,['countryside'],[190],countryside and moving to the city.
+B2_RW_U01,19,Target bold,opportunities,inflection,['opportunity'],[191],"4 Many megacities have better opportunities , such as more jobs and a choice of schools"
+B2_RW_U01,19,Target bold,pollution,exact,['pollution'],[191],pollution or poor housing 2
+B2_RW_U01,19,Target bold,capital,exact,['capital'],[190],Cairo is the capital of Egypt
+B2_RW_U01,19,Target bold,modern,exact,['modern'],[190],"6 Tokyo is an exciting, modern"
+B2_RW_U01,19,Target bold,traffic,exact,['traffic'],[191],and the traffic is very bad.
+B2_RW_U01,22,Target bold,area,exact,['area'],[190],"area (n) a region or part of a larger place, like a country or city"
+B2_RW_U01,22,Target bold,cheap,exact,['cheap'],[190],"cheap (adj) not expensive, or costs less than usual"
+B2_RW_U01,22,Target bold,city centre,exact,['city centre'],[190],city centre (n) the main or central part of a city
+B2_RW_U01,22,Target bold,expensive,exact,['expensive'],[190],expensive (adj) costs a lot of money; not cheap
+B2_RW_U01,22,Target bold,local,exact,['local'],[190],"local (adj) relating to a particular area, city or town"
+B2_RW_U01,22,Target bold,noisy,exact,['noisy'],[191],noisy (adj) loud; makes a lot of noise
+B2_RW_U01,22,Target bold,quiet,exact,['quiet'],[191],quiet (adj) makes little or no noise
+B2_RW_U01,23,Target bold,cheap,exact,['cheap'],[190],offering their homes as places to stay. Homestays offer cheap places to stay and the
+B2_RW_U01,23,Target bold,area,exact,['area'],[190],chance for guests to see the area like local people. They are very popular with students
+B2_RW_U01,23,Target bold,local,exact,['local'],[190],chance for guests to see the area like local people. They are very popular with students
+B2_RW_U01,23,Target bold,quiet,exact,['quiet'],[191],and very quiet . It is a very friendly place. The mountains
+B2_RW_U01,23,Target bold,expensive,exact,['expensive'],[190],"the houses here are expensive , which can be a problem"
+B2_RW_U01,23,Target bold,noisy,exact,['noisy'],[191],it can be noisy at night and there is a lot of traffic during
+B2_RW_U01,18,Target bold,population,exact,['population'],[191],population (n) the number of people living in a place
+B2_RW_U01,18,Target bold,expert,exact,['expert'],[190],expert (n) somebody who has a lot of skill in or knowledge about something
+B2_RW_U01,18,Target bold,countryside,exact,['countryside'],[190],countryside (n) land that is not in towns or cities and may have farms and fields
+B2_RW_U01,18,Target bold,opportunity,exact,['opportunity'],[191],opportunity (n) a chance to do something
+B2_RW_U01,18,Target bold,pollution,exact,['pollution'],[191],"pollution (n) damage caused to water, air and land by harmful materials or waste"
+B2_RW_U01,18,Target bold,modern,exact,['modern'],[190],modern (adj) designed and made using the most recent ideas and methods
+B2_RW_U01,18,Target bold,traffic,exact,['traffic'],[191],"traffic (n) the cars, lorries and other vehicles using a road"
+B2_RW_U01,18,Target bold,capital,exact,['capital'],[190],capital (n) the most important city in a country or state; where the government is
+B2_RW_U02,38,Glossary,regret,absent,[],[],"regret (v) to feel sorry about a situation, especially something that you did not do"
+B2_RW_U02,38,Glossary,media coverage,absent,[],[],"media coverage (n) when a newspaper, television programme, etc. shows a particular thing happening"
+B2_RW_U02,38,Glossary,torch,absent,[],[],"torch (n) a long stick with fire at the top of it, used as a light"
+B2_RW_U02,38,Glossary,procession,absent,[],[],"procession (n) a long line of people, and sometimes cars and trucks, which moves forward slowly along the street, for example during a festival"
+B2_RW_U02,38,Glossary,unique,absent,[],[],unique (adj) different from everybody and everything else
+B2_RW_U02,41,Target bold,celebrate,exact,['celebrate'],[191],"2 In China, people celebrate weddings with an eight-course meal,"
+B2_RW_U02,41,Target bold,culture,exact,['culture'],[191],"them. In Chinese culture , long"
+B2_RW_U02,41,Target bold,lucky,exact,['lucky'],[192],noodles are lucky . Long noodles
+B2_RW_U02,41,Target bold,gifts,inflection,['gift'],[191],cooking a nice meal for her. They also give her gifts such as flowers or jewellery.
+B2_RW_U02,41,Target bold,fireworks,exact,['fireworks'],[191],"to the River Thames, and then, when it is dark outside, fireworks light up"
+B2_RW_U02,41,Target bold,traditional,exact,['traditional'],[192],"usually wear a traditional furisode kimono, while young"
+B2_RW_U02,43,Target bold,activities,inflection,['activity'],[191],activities (n) things people do for fun
+B2_RW_U02,43,Target bold,highlight,exact,['highlight'],[191],highlight (n) most enjoyable part
+B2_RW_U02,43,Target bold,history,exact,['history'],[192],history (n) something that has been done or experienced
+B2_RW_U02,43,Target bold,popular,exact,['popular'],[192],popular (adj) liked by many people
+B2_RW_U02,43,Target bold,take part,exact,['take part'],[192],take part (phr v) do an activity with other people
+B2_RW_U02,43,Target bold,visitors,inflection,['visitor'],[192],visitors (n) people who go to see a person or place
+B2_RW_U02,44,Target bold,highlights,inflection,['highlight'],[191],Other highlights of Muscat Nights
+B2_RW_U02,44,Target bold,activities,inflection,['activity'],[191],"year. During the festival, many activities are"
+B2_RW_U02,44,Target bold,take part,exact,['take part'],[192],available for people to take part in.
+B2_RW_U02,44,Target bold,visitors,inflection,['visitor'],[192],"Omanis and visitors to Oman, go to the"
+B2_RW_U02,44,Target bold,history,exact,['history'],[192],of both Omani and international history
+B2_RW_U02,44,Target bold,popular,exact,['popular'],[192],Muscat Nights also includes the very popular
+B2_RW_U03,60,Glossary,celebrities,absent,[],[],celebrities
+B2_RW_U03,60,Glossary,viewers,absent,[],[],viewers
+B2_RW_U03,60,Glossary,encourage,absent,[],[],encourage
+B2_RW_U03,60,Glossary,advice,absent,[],[],advice
+B2_RW_U03,60,Glossary,compete,absent,[],[],compete
+B2_RW_U03,60,Glossary,notice,absent,[],[],notice
+B2_RW_U03,63,Target bold,collect,exact,['collect'],[192],collect
+B2_RW_U03,63,Target bold,record,exact,['record'],[193],record
+B2_RW_U03,63,Target bold,free,exact,['free'],[193],free
+B2_RW_U03,63,Target bold,adverts,inflection,['advert'],[192],adverts
+B2_RW_U03,63,Target bold,interests,inflection,['interest'],[193],"interests ,"
+B2_RW_U03,63,Target bold,security,exact,['security'],[193],security
+B2_RW_U03,63,Target bold,secret,exact,['secret'],[193],secret
+B2_RW_U03,66,Target bold,affect,exact,['affect'],[192],affect (v) to influence somebody or something; to cause change
+B2_RW_U03,66,Target bold,creative,exact,['creative'],[192],creative (adj) good at thinking of new ideas or creating new and
+B2_RW_U03,66,Target bold,download,exact,['download'],[192],"download (v) to copy programs, music or other information"
+B2_RW_U03,66,Target bold,educational,exact,['educational'],[193],educational (adj) providing or relating to teaching and learning
+B2_RW_U03,66,Target bold,imagination,exact,['imagination'],[193],imagination (n) the part of your mind that creates ideas or
+B2_RW_U03,66,Target bold,improve,exact,['improve'],[193],improve (v) to get better or to make something better
+B2_RW_U03,62,Target bold,secret,exact,['secret'],[193],6 I know how people can steal my secret
+B2_RW_U03,62,Target bold,interests,inflection,['interest'],[193],"what my interests are, for example, that I 1 2 3 4"
+B2_RW_U03,62,Target bold,adverts,inflection,['advert'],[192],4 I know why I see adverts selling the same
+B2_RW_U03,62,Target bold,security,exact,['security'],[193],"7 I know about internet security. For example,"
+B2_RW_U03,62,Target bold,record,exact,['record'],[193],2 I know why internet companies record my
+B2_RW_U03,62,Target bold,collect,exact,['collect'],[192],collect and remember about me.
+B2_RW_U03,62,Target bold,free,exact,['free'],[193],from websites that are free for me to use.
+B2_RW_U04,82,Glossary,crystal,absent,[],[],"crystal (n) a piece of something, for example salt or ice, that is solid with a regular shape"
+B2_RW_U04,82,Glossary,common,absent,[],[],common (adj) found often in many places
+B2_RW_U04,82,Glossary,form,absent,[],[],form (v) to begin to exist
+B2_RW_U04,82,Glossary,rise,exact,['rise'],[195],rise (v) to move upwards
+B2_RW_U04,82,Glossary,rotate,absent,[],[],rotate (v) to turn in a circle
+B2_RW_U04,82,Glossary,atmosphere,absent,[],[],atmosphere (n) the mixture of gases around the Earth
+B2_RW_U04,87,Target bold,shock,exact,['shock'],[195],"1 It was sunny all day, so it was a shock when it started to rain."
+B2_RW_U04,87,Target bold,rise,exact,['rise'],[195],2 The temperature will rise in the summer and drop in the winter.
+B2_RW_U04,87,Target bold,drop,exact,['drop'],[194],2 The temperature will rise in the summer and drop in the winter.
+B2_RW_U04,87,Target bold,decide,exact,['decide'],[194],decide if we want to go to the beach or to a museum.
+B2_RW_U04,87,Target bold,careful,exact,['careful'],[194],4 Be careful when you drive on icy roads and go slowly.
+B2_RW_U04,87,Target bold,precipitation,exact,['precipitation'],[195],"5 Mawsynram, India has the most precipitation in the world. It gets"
+B2_RW_U04,89,Target bold,rise,exact,['rise'],[195],when temperatures rise to 33 °C. But it is
+B2_RW_U04,89,Target bold,precipitation,exact,['precipitation'],[195],dry. The average precipitation in a year is only
+B2_RW_U04,89,Target bold,careful,exact,['careful'],[194],warmest. But be careful before you decide
+B2_RW_U04,89,Target bold,decide,exact,['decide'],[194],warmest. But be careful before you decide
+B2_RW_U04,89,Target bold,drops,inflection,['drop'],[194],"temperature drops , it can be a shock and make"
+B2_RW_U04,89,Target bold,shock,exact,['shock'],[195],"temperature drops , it can be a shock and make"
+B2_RW_U04,84,Target bold,almost,exact,['almost'],[194],it flashed in the sky. I didn't get to sleep until almost 4 am!
+B2_RW_U04,84,Target bold,cover,exact,['cover'],[194],"I'm sure water will cover many of the local roads this morning,"
+B2_RW_U04,84,Target bold,dangerous,exact,['dangerous'],[194],which means that driving might be dangerous. We'll need to be
+B2_RW_U04,84,Target bold,last,exact,['last'],[194],rain lasted for eight hours. The thunder was so loud it scared
+B2_RW_U04,84,Target bold,lightning,exact,['lightning'],[195],"the dog, and the lightning, though scary, was beautiful when"
+B2_RW_U04,84,Target bold,thunder,exact,['thunder'],[195],rain lasted for eight hours. The thunder was so loud it scared
+B2_RW_U04,84,Target bold,huge,exact,['huge'],[194],"from home, though. Last night there was a huge storm! The"
+B2_RW_U05,104,Glossary,injured,absent,[],[],"injured (adj) hurt or physically harmed -for example, having a broken arm or leg"
+B2_RW_U05,104,Glossary,challenge,inflection,['challenging'],[195],challenge (n) something that is difficult to do
+B2_RW_U05,104,Glossary,experience,absent,[],[],experience (n) something that happens to you that changes how you feel
+B2_RW_U05,104,Glossary,deafening,absent,[],[],deafening (adj) very loud
+B2_RW_U05,104,Glossary,jerk,absent,[],[],"jerk (v) to make a short sudden movement, or to cause somebody or something to do this"
+B2_RW_U05,104,Glossary,shake,absent,[],[],shake (v) to move quickly from side to side or up and down
+B2_RW_U05,106,Target bold,ancient,exact,['ancient'],[195],ancient (adj) from a long time ago; very old
+B2_RW_U05,106,Target bold,compete,exact,['compete'],[195],compete (v) to take part in a race or competition; to try to be
+B2_RW_U05,106,Target bold,competition,exact,['competition'],[196],competition (n) an organized event in which people try to win
+B2_RW_U05,106,Target bold,strange,exact,['strange'],[196],strange (adj) not familiar; difficult to understand; different
+B2_RW_U05,106,Target bold,swimming,exact,['swimming'],[196],swimming (n) a sport where people move through water by
+B2_RW_U05,106,Target bold,take place,exact,['take place'],[196],take place (phr v) to happen
+B2_RW_U05,106,Target bold,throw,exact,['throw'],[196],"throw (v) to send something through the air, pushing it out of"
+B2_RW_U05,108,Target bold,strange,exact,['strange'],[196],with strange and interesting rules. Here are our
+B2_RW_U05,108,Target bold,swimming,exact,['swimming'],[196],People go swimming in the Atlantic Ocean in
+B2_RW_U05,108,Target bold,compete,exact,['compete'],[195],"In this sport, people compete by throwing"
+B2_RW_U05,108,Target bold,throwing,inflection,['throw'],[196],"In this sport, people compete by throwing"
+B2_RW_U05,108,Target bold,ancient,exact,['ancient'],[195],they can. The caber toss is an ancient Scottish
+B2_RW_U05,111,Target bold,course,exact,['course'],[196],of the course .
+B2_RW_U05,111,Target bold,challenging,exact,['challenging'],[195],It looks challenging !
+B2_RW_U05,111,Target bold,fit,exact,['fit'],[196],I'm not sure I'm fit enough and I'm a bit worried about accidents . Do you
+B2_RW_U05,111,Target bold,accidents,inflection,['accident'],[195],I'm not sure I'm fit enough and I'm a bit worried about accidents . Do you
+B2_RW_U05,111,Target bold,climb,exact,['climb'],[195],think we have to climb anything? Let's talk next week.
+B2_RW_U05,111,Target bold,Participant,exact,['participant'],[196],"Dear Participant ,"
+B2_RW_U05,112,Target bold,accidents,inflection,['accident'],[195],one of the most difficult there are accidents . Injuries 3
+B2_RW_U05,112,Target bold,Participants,inflection,['participant'],[196],"UK. Participants run, very hard: one-third of of the Tough Guy course. First,"
+B2_RW_U05,112,Target bold,climb,exact,['climb'],[195],swim and climb across participants do not finish participants run for one kilometre
+B2_RW_U05,112,Target bold,course,exact,['course'],[196],"the 15-kilometre course . it. Runners have to be fit along a muddy road. Next,"
+B2_RW_U05,112,Target bold,fit,exact,['fit'],[196],"the 15-kilometre course . it. Runners have to be fit along a muddy road. Next,"
+B2_RW_U05,112,Target bold,challenging,exact,['challenging'],[195],"from the US, Australia and challenging , so people kilometres through nettles before"
+B2_RW_U05,111,Target bold,accident,exact,['accident'],[195],I'm not sure I'm fit enough and I'm a bit worried about accidents . Do you
+B2_RW_U06,126,Glossary,throw away,absent,[],[],throw away (v) to get rid of something that you do not want any more
+B2_RW_U06,126,Glossary,mend,absent,[],[],mend (v) to repair something when it breaks
+B2_RW_U06,126,Glossary,materials,absent,[],[],"materials (n) physical things, like wood and stone, that other things can be made from"
+B2_RW_U06,126,Glossary,reuse,absent,[],[],reuse (v) to use something again
+B2_RW_U06,126,Glossary,recycle,absent,[],[],recycle (v) to make new things from used objects or waste materials
+B2_RW_U06,126,Glossary,waste,absent,[],[],"waste (n) unwanted material of any type, especially what is left after useful parts have been removed"
+B2_RW_U06,128,Target bold,organize,exact,['organize'],[197],1 Marta likes to organize her schedule at work. She puts her
+B2_RW_U06,128,Target bold,apply,exact,['apply'],[196],2 Ken found a job he wants to do. He wants to apply for it this week
+B2_RW_U06,128,Target bold,results,inflection,['result'],[197],3 Emre just shared the results of the company survey. They show that
+B2_RW_U06,128,Target bold,occupation,exact,['occupation'],[197],"4 Grace is trying to decide on an occupation . She studied business,"
+B2_RW_U06,128,Target bold,colleague,exact,['colleague'],[196],5 My colleague and I are writing a new computer program. We work
+B2_RW_U06,128,Target bold,customers,inflection,['customer'],[196],customers go there and buy things.
+B2_RW_U06,129,Target bold,apply,exact,['apply'],[196],"Do you know what kind of job you want? Before you apply for a job, think about"
+B2_RW_U06,129,Target bold,organize,exact,['organize'],[197],b organize your books and
+B2_RW_U06,129,Target bold,customers,inflection,['customer'],[196],"children, with customers in a shop or on"
+B2_RW_U06,129,Target bold,colleagues,inflection,['colleague'],[196],a team with colleagues . Possible jobs are:
+B2_RW_U06,131,Target bold,advertise,exact,['advertise'],[196],"advertise (v) to tell people about a product or service, for"
+B2_RW_U06,131,Target bold,employ,exact,['employ'],[197],employ (v) to give somebody a job
+B2_RW_U06,131,Target bold,goal,exact,['goal'],[197],goal (n) something you want to do successfully in the future
+B2_RW_U06,131,Target bold,introduce,exact,['introduce'],[197],introduce (v) to make something available for the first time
+B2_RW_U06,131,Target bold,office,exact,['office'],[197],"office (n) a place where somebody works, especially with"
+B2_RW_U06,131,Target bold,partner,exact,['partner'],[197],partner (n) somebody who runs or owns a business with
+B2_RW_U06,131,Target bold,run,exact,['run'],[197],run (v) to manage or operate something
+B2_RW_U06,131,Target bold,set up,exact,['set up'],[198],set up (phr v) to create or start something for a particular reason
+B2_RW_U06,128,Target bold,result,exact,['result'],[197],3 Emre just shared the results of the company survey. They show that
+B2_RW_U06,128,Target bold,customer,exact,['customer'],[196],customers go there and buy things.
+B2_RW_U07,148,Glossary,pure,absent,[],[],pure
+B2_RW_U07,148,Glossary,prospector,absent,[],[],prospector
+B2_RW_U07,148,Glossary,shovel,absent,[],[],shovel
+B2_RW_U07,148,Glossary,"£20/$100, etc. worth of something",absent,[],[],"£20/$100, etc. worth of something"
+B2_RW_U07,148,Glossary,dream job,absent,[],[],dream job
+B2_RW_U07,150,Target bold,blind,exact,['blind'],[198],blind (adj) not able to see
+B2_RW_U07,150,Target bold,incredible,exact,['incredible'],[198],incredible (adj) impossible or very difficult to believe; amazing
+B2_RW_U07,150,Target bold,inspire,exact,['inspire'],[198],inspire (v) to make other people feel that they want to do something
+B2_RW_U07,150,Target bold,operation,exact,['operation'],[199],operation (n) the process when doctors cut your body to repair
+B2_RW_U07,150,Target bold,respect,exact,['respect'],[199],respect (v) to like or to have a very good opinion of somebody
+B2_RW_U07,150,Target bold,talent,exact,['talent'],[199],talent (n) a natural ability to do something well
+B2_RW_U07,151,Target bold,talent,exact,['talent'],[199],"other teenagers-he was blind. However, Ben had a special talent. He didn't have eyes, but he"
+B2_RW_U07,151,Target bold,operation,exact,['operation'],[199],"bad news - Ben had cancer 1 After a few months, he had an operation to remove the cancer."
+B2_RW_U07,151,Target bold,blind,exact,['blind'],[198],and Ben became blind .
+B2_RW_U07,151,Target bold,incredible,exact,['incredible'],[198],"3 After his operation, Ben developed an incredible talent like a superhero. When he was three,"
+B2_RW_U07,151,Target bold,respected,inflection,['respect'],[199],People respected him because of this.
+B2_RW_U07,151,Target bold,inspired,inflection,['inspire'],[198],people admired him because he inspired
+B2_RW_U07,154,Target bold,look after,exact,['look after'],[199],"1 My mum thinks I'm too young to look after my little sister, so"
+B2_RW_U07,154,Target bold,tournament,exact,['tournament'],[200],2 The tournament was a success because all the games were
+B2_RW_U07,154,Target bold,train,exact,['train'],[200],3 Aisha runs at least 16 kilometres every morning to train for the
+B2_RW_U07,154,Target bold,protest,exact,['protest'],[199],4 Two million people came to the city centre to protest against
+B2_RW_U07,154,Target bold,intelligent,exact,['intelligent'],[198],5 People say Terence Tao is one of the most intelligent people in
+B2_RW_U07,154,Target bold,brave,exact,['brave'],[198],6 Eugene was brave when he ran into a burning house to save an
+B2_RW_U07,154,Target bold,went on strike,phrase/word form,['strike'],[199],7 Many people in the company went on strike because of low pay
+B2_RW_U07,154,Target bold,dream,exact,['dream'],[198],dream of opening a restaurant.
+B2_RW_U07,154,Target bold,strike,exact,['strike'],[199],7 Many people in the company went on strike because of low pay
+B2_RW_U08,170,Glossary,mission,absent,[],[],mission (n) an important job that somebody is sent somewhere to do
+B2_RW_U08,170,Glossary,achievement,absent,[],[],achievement (n) something very good and difficult that you succeed in doing
+B2_RW_U08,170,Glossary,astronaut,absent,[],[],astronaut (n) somebody who travels to and works in space
+B2_RW_U08,170,Glossary,Mars,absent,[],[],Mars (n) the planet fourth in order of distance from the sun
+B2_RW_U08,170,Glossary,base,absent,[],[],base (n) the main place where a person lives and works
+B2_RW_U08,170,Glossary,rocket,absent,[],[],rocket (n) a vehicle for travelling to space
+B2_RW_U08,172,Target bold,explore,exact,['explore'],[200],1 Mariam loves to explore new places. Her dream is to go into
+B2_RW_U08,172,Target bold,advances,inflection,['advance'],[200],2 There were many advances in science and medicine during the
+B2_RW_U08,172,Target bold,beyond,exact,['beyond'],[200],"3 Astronauts have not set foot beyond the moon, but one day soon"
+B2_RW_U08,172,Target bold,entrepreneur,exact,['entrepreneur'],[200],4 It is important for an entrepreneur to understand that they might
+B2_RW_U08,172,Target bold,crashed,inflection,['crash'],[200],"5 The rocket crashed when it was landing. Luckily, the people inside"
+B2_RW_U08,172,Target bold,private,exact,['private'],[201],6 SpaceX is a private company. The government does not run it.
+B2_RW_U08,172,Target bold,public,exact,['public'],[201],"7 Some people don't think we should use public money, like taxes,"
+B2_RW_U08,173,Target bold,entrepreneur,exact,['entrepreneur'],[200],4 Another entrepreneur who supports
+B2_RW_U08,173,Target bold,crashed,inflection,['crash'],[200],Enterprise crashed in the Mojave Desert in
+B2_RW_U08,173,Target bold,advances,inflection,['advance'],[200],incredible advances were made. Astronauts orbited
+B2_RW_U08,173,Target bold,beyond,exact,['beyond'],[200],"seemed, wanted to learn what was beyond Earth."
+B2_RW_U08,173,Target bold,explore,exact,['explore'],[200],6 The race to explore the universe
+B2_RW_U08,173,Target bold,private,exact,['private'],[201],"private companies, instead of public government"
+B2_RW_U08,173,Target bold,public,exact,['public'],[201],"private companies, instead of public government"
+B2_RW_U08,177,Target bold,wondered,inflection,['wonder'],[201],wondered whether we are the only
+B2_RW_U08,177,Target bold,exist,exact,['exist'],[200],"might exist on other planets, they"
+B2_RW_U08,177,Target bold,unlikely,exact,['unlikely'],[201],unlikely that there is life on other
+B2_RW_U08,177,Target bold,prove,exact,['prove'],[201],have never found evidence to prove
+B2_RW_U08,177,Target bold,support,exact,['support'],[201],support the idea of life on other
+B2_RW_U08,177,Target bold,conditions,exact,['conditions'],[200],"2 2b , has the right conditions - the"
+B2_RW_U08,177,Target bold,evidence,exact,['evidence'],[200],evidence that there is life on Kepler
+B2_RW_U08,177,Target bold,particular,exact,['particular'],[200],3 A planet needs very particular
+B2_RW_U08,172,Target bold,advance,exact,['advance'],[200],2 There were many advances in science and medicine during the
+B2_RW_U08,172,Target bold,crash,exact,['crash'],[200],"5 The rocket crashed when it was landing. Luckily, the people inside"
+B2_RW_U08,175,Target bold,wonder,exact,['wonder'],[201],1 Do you ever wonder if people will live on another planet one day?
+B2_RW_U08,175,Target bold,support,exact,['support'],[201],2 It is important to support your ideas when you write an essay
+B2_RW_U08,175,Target bold,evidence,exact,['evidence'],[200],"3 A lot of evidence shows that Mars has four seasons, like many"
+B2_RW_U08,175,Target bold,prove,exact,['prove'],[201],"life on other planets, but nobody can prove it. What do you think?"
+B2_RW_U08,175,Target bold,exist,exact,['exist'],[200],"5 Life cannot exist without air and water. For this reason, Earth is"
+B2_RW_U08,175,Target bold,unlikely,exact,['unlikely'],[201],"expensive, it is unlikely that many space hotels will open. Would you"
+B2_RW_U08,176,Target bold,conditions,exact,['conditions'],[200],7 Astronauts have to train a lot to prepare for the conditions they will
+B2_RW_U08,176,Target bold,particular,exact,['particular'],[200],"8 On a particular night - for example, when the sky is clear - you can"
+B3_LS_U01,16,Glossary,mental,absent,[],[],mental (adj) relating to the mind
+B3_LS_U01,16,Glossary,maze,absent,[],[],maze (n) a type of puzzle with a series of paths from entrance to exit
+B3_LS_U01,16,Glossary,in the wild,absent,[],[],"in the wild (phr) in nature, not in a zoo, on a farm or as a pet"
+B3_LS_U01,16,Glossary,reflect upon,absent,[],[],reflect upon (phr v) to think about in a serious and careful way
+B3_LS_U01,18,Target bold,abuse,exact,"['abuse', 'abuse']",[190],abuse (n) violent or unfair treatment of somebody
+B3_LS_U01,18,Target bold,conditions,exact,['conditions'],[190],conditions (n pi) the situation in which somebody lives or works
+B3_LS_U01,18,Target bold,cruel,exact,['cruel'],[190],cruel (adj) not kind
+B3_LS_U01,18,Target bold,issue,exact,['issue'],[191],issue (n) a topic or problem which causes concern and discussion
+B3_LS_U01,18,Target bold,protect,exact,['protect'],[191],protect (v) to keep safe from danger
+B3_LS_U01,18,Target bold,suffer,exact,['suffer'],[191],suffer (v) to feel pain or unhappiness
+B3_LS_U01,18,Target bold,survive,exact,['survive'],[191],"survive (v) to continue to live, in spite of danger and difficulty"
+B3_LS_U01,18,Target bold,welfare,exact,['welfare'],[191],welfare (n) somebody's or something's health and happiness
+B3_LS_U01,25,Target bold,critically,exact,['critically'],[190],1 The vets at the zoo are treating a critically ill tiger.
+B3_LS_U01,25,Target bold,extinct,exact,['extinct'],[190],2 There is concern that the giant panda will soon become extinct .
+B3_LS_U01,25,Target bold,depend on,exact,['depend on'],[190],"3 Polar bears depend on sea ice for survival. Without it, it's difficult"
+B3_LS_U01,25,Target bold,habitat,exact,['habitat'],[190],their own habitat in Africa.
+B3_LS_U01,25,Target bold,species,exact,['species'],[191],5 There are two species of elephants: Asian and African.
+B3_LS_U01,25,Target bold,endangered,exact,['endangered'],[190],"6 Gorillas are endangered. If we don't do something to save them,"
+B3_LS_U01,25,Target bold,poachers,inflection,['poacher'],[191],"7 Because of what the poachers did to her mother, the baby"
+B3_LS_U01,25,Target bold,threat,exact,['threat'],[191],8 The greatest human threat to the environment is climate change.
+B3_LS_U01,25,Target bold,illegal,exact,['illegal'],[190],"9 It is illegal to keep wild animals, like tigers, as pets."
+B3_LS_U01,26,Glossary,ban,absent,[],[],ban (v) to refuse to allow something by law
+B3_LS_U01,26,Glossary,fence,absent,[],[],fence {n) a structure around a house or piece of land; similar to a wall but made of wood
+B3_LS_U01,26,Glossary,tusks,absent,[],[],"tusks (n, pi) the two long, pointed teeth of some animals, such as elephants"
+B3_LS_U01,25,Target bold,poacher,exact,['poacher'],[191],"7 Because of what the poachers did to her mother, the baby"
+B3_LS_U02,38,Glossary,run out,absent,[],[],run out (phr v) to use all of something so that there is none left
+B3_LS_U02,38,Glossary,alternative energy,absent,[],[],"alternative energy (n phr) power which comes from natural resources, like the sun or wind"
+B3_LS_U02,38,Glossary,turbine,absent,[],[],turbine (n) a type of machine which uses air or water to produce power
+B3_LS_U02,38,Glossary,assemble,absent,[],[],assemble (v) to build something by putting parts together
+B3_LS_U02,47,Target bold,benefits,inflection,['benefit'],[191],"Many people think wind power has a lot of benefits . First, it's very clean and it doesn't"
+B3_LS_U02,47,Target bold,pollute,exact,['pollute'],[192],"pollute the environment. Also, there are very few risks connected to wind power. Unlike"
+B3_LS_U02,47,Target bold,risks,inflection,['risk'],[192],"pollute the environment. Also, there are very few risks connected to wind power. Unlike"
+B3_LS_U02,47,Target bold,disasters,inflection,['disaster'],[191],"to disasters . Most importantly, this source of energy is affordable . It's much cheaper"
+B3_LS_U02,47,Target bold,affordable,exact,['affordable'],[191],"to disasters . Most importantly, this source of energy is affordable . It's much cheaper"
+B3_LS_U02,47,Target bold,Opponents,inflection,['opponent'],[192],Opponents of wind power argue that the wind turbines can have a negative effect on the
+B3_LS_U02,47,Target bold,long-term,exact,['long-term'],[192],"turbines aren't a long-term source of energy because, unlike nuclear power plants, the"
+B3_LS_U02,48,Glossary,sustainable,absent,[],[],"sustainable (adj) causing little or no damage to the environment, and therefore able to continue for a long time"
+B3_LS_U02,48,Glossary,low-income,absent,[],[],low-income (adj) not having or making much money
+B3_LS_U02,40,Target bold,limited,exact,['limited'],[191],a reduced b limited c saved
+B3_LS_U02,40,Target bold,provide,exact,['provide'],[192],a provide b arrange c send
+B3_LS_U02,40,Target bold,solution,exact,['solution'],[192],a explanation b solution c suggestion
+B3_LS_U02,40,Target bold,alternative,exact,['alternative'],[191],a unusual b special c alternative
+B3_LS_U02,40,Target bold,environmental,exact,['environmental'],[191],a natural b environmental c geographical
+B3_LS_U02,40,Target bold,system,exact,['system'],[192],a arrangement b organization c system
+B3_LS_U02,40,Target bold,resource,exact,['resource'],[192],a resource b equipment c material
+B3_LS_U02,40,Target bold,crisis,exact,['crisis'],[191],a difficulty b crisis c lack
+B3_LS_U02,47,Target bold,benefit,exact,['benefit'],[191],"Many people think wind power has a lot of benefits . First, it's very clean and it doesn't"
+B3_LS_U02,47,Target bold,risk,exact,['risk'],[192],"pollute the environment. Also, there are very few risks connected to wind power. Unlike"
+B3_LS_U02,47,Target bold,disaster,exact,['disaster'],[191],"to disasters . Most importantly, this source of energy is affordable . It's much cheaper"
+B3_LS_U02,47,Target bold,opponent,exact,['opponent'],[192],Opponents of wind power argue that the wind turbines can have a negative effect on the
+B3_LS_U03,60,Glossary,congestion,absent,[],[],"congestion (n) a situation in which a place has too much traffic, and movement is difficult"
+B3_LS_U03,60,Glossary,electromagnet,absent,[],[],"electromagnet (n) wire that has electricity passing through it, creating the effect of a magnet (able to attract iron and steel objects)"
+B3_LS_U03,60,Glossary,emission,absent,[],[],"emission (n) an amount of gas, heat, light, etc. that is produced and sent out into the air which is damaging to the environment"
+B3_LS_U03,60,Glossary,sustainable,absent,[],[],sustainable (adj) causing little or no damage to the environment and therefore able to continue for a long time
+B3_LS_U03,60,Glossary,registration number,absent,[],[],registration number (n) the series of letters and numbers on the front and back of a vehicle that identify it
+B3_LS_U03,63,Target bold,avoid,exact,['avoid'],[192],avoid block cope crash extreme
+B3_LS_U03,63,Target bold,block,exact,['block'],[192],avoid block cope crash extreme
+B3_LS_U03,63,Target bold,cope,exact,['cope'],[192],avoid block cope crash extreme
+B3_LS_U03,63,Target bold,crash,exact,['crash'],[192],avoid block cope crash extreme
+B3_LS_U03,63,Target bold,extreme,exact,['extreme'],[192],avoid block cope crash extreme
+B3_LS_U03,63,Target bold,management,exact,['management'],[193],management measure primary
+B3_LS_U03,63,Target bold,measure,exact,['measure'],[193],management measure primary
+B3_LS_U03,63,Target bold,primary,exact,['primary'],[193],management measure primary
+B3_LS_U03,64,Glossary,drone,absent,[],[],drone (n) - an aircraft that is controlled by somebody (or by a computer) on the ground
+B3_LS_U03,64,Glossary,junction,absent,[],[],junction (n) - a place where roads come together
+B3_LS_U03,64,Glossary,steering wheel,absent,[],[],steering wheel (n) - the wheel that a driver turns to make a vehicle go in a particular direction
+B3_LS_U03,64,Glossary,traffic signals,absent,[],[],traffic signals (n pi) - a set of lights that control the movement of vehicles
+B3_LS_U03,71,Target bold,injure,exact,['injure'],[193],1 Did you injure your knee when you fell off your bicycle?
+B3_LS_U03,71,Target bold,respect,exact,['respect'],[193],2 Drivers should always have respect for pedestrians and stop
+B3_LS_U03,71,Target bold,fine,exact,['fine'],[192],3 I got a fine for driving through a red light. It was over £50.
+B3_LS_U03,71,Target bold,break the law,exact,['break the law'],[192],4 Some people break the law by driving without a licence.
+B3_LS_U03,71,Target bold,prevent,exact,['prevent'],[193],5 We can prevent accidents by driving within the speed limit.
+B3_LS_U03,71,Target bold,pass,exact,['pass'],[193],6 Many accidents happen when drivers pass other cars without
+B3_LS_U03,71,Target bold,convenient,exact,['convenient'],[192],7 Many people drive cars to work because it's more convenient
+B3_LS_U03,71,Target bold,solve,exact,['solve'],[193],"8 Our city has a lot of traffic problems. To solve some of them,"
+B3_LS_U04,82,Glossary,filling,absent,[],[],"filling (n) food that is put inside things, such as cakes, sandwiches, etc."
+B3_LS_U04,82,Glossary,paste,absent,[],[],"paste (n) a soft food which can be used to put on bread, fill cakes, etc."
+B3_LS_U04,82,Glossary,layer,absent,[],[],"layer (n) a flat, thin piece of something which covers something else"
+B3_LS_U04,82,Glossary,pastry,absent,[],[],"pastry (n) a food made from flour, butter or oil, and water, cooked and used to cover or hold other food"
+B3_LS_U04,82,Glossary,mould,absent,[],[],mould (n) an object that is used to make something in a particular shape
+B3_LS_U04,82,Glossary,decoration,absent,[],[],decoration (n) attractive patterns or objects put on something else to make it look nice
+B3_LS_U04,84,Target bold,anniversary,exact,['anniversary'],[193],anniversary interact
+B3_LS_U04,84,Target bold,interact,exact,['interact'],[194],anniversary interact
+B3_LS_U04,84,Target bold,celebration,exact,['celebration'],[193],celebration multicultural
+B3_LS_U04,84,Target bold,multicultural,exact,['multicultural'],[194],celebration multicultural
+B3_LS_U04,84,Target bold,die out,exact,['die out'],[194],die out political
+B3_LS_U04,84,Target bold,political,exact,['political'],[194],die out political
+B3_LS_U04,84,Target bold,generation,exact,['generation'],[194],generation social
+B3_LS_U04,84,Target bold,social,exact,['social'],[194],generation social
+B3_LS_U04,92,Target bold,events,inflection,['event'],[194],1 What are some special events (_ _ ) when people give each other
+B3_LS_U04,92,Target bold,graduate,exact,['graduate'],[194],when students graduate (_ _) from college or university.
+B3_LS_U04,92,Target bold,thoughtful,exact,['thoughtful'],[194],2 What is the most thoughtful (_ _) a nd personal (_ _) g ift that
+B3_LS_U04,92,Target bold,personal,exact,['personal'],[194],2 What is the most thoughtful (_ _) a nd personal (_ _) g ift that
+B3_LS_U04,92,Target bold,occasion,exact,['occasion'],[194],you have received? What was the occasion ( __ )?
+B3_LS_U04,92,Target bold,obligation,exact,['obligation'],[194],feel it is an unnecessary obligation (_ _) ?
+B3_LS_U04,92,Target bold,commercial,exact,['commercial'],[193],4 Do you think that holidays have become too commercial (_ _)
+B3_LS_U04,92,Target bold,behaviour,exact,['behaviour'],[193],changing behaviour (_ _) and attitudes towards special events
+B3_LS_U04,92,Target bold,event,exact,['event'],[194],1 What are some special events (_ _ ) when people give each other
+B3_LS_U05,104,Glossary,signal,absent,[],[],signal (n) an action that is intended to give a particular message
+B3_LS_U05,104,Glossary,protein,absent,[],[],protein (n) something found in foods like meat and eggs which is necessary for the body to grow and be strong
+B3_LS_U05,104,Glossary,focused,absent,[],[],focused (adj) giving a lot of attention to one particular thing
+B3_LS_U05,104,Glossary,effectively,absent,[],[],effectively (adv) in a way that is successful and achieves what you want
+B3_LS_U05,104,Glossary,interpret,absent,[],[],interpret (v) to decide what the intended meaning of something is
+B3_LS_U05,104,Glossary,neuron,absent,[],[],neuron (n) a tiny unit of the brain that carries information to and from other parts of the body
+B3_LS_U05,106,Target bold,habit,exact,['habit'],[195],habit illness in shape overweight
+B3_LS_U05,106,Target bold,illness,exact,['illness'],[195],habit illness in shape overweight
+B3_LS_U05,106,Target bold,in shape,exact,['in shape'],[195],habit illness in shape overweight
+B3_LS_U05,106,Target bold,overweight,exact,['overweight'],[195],habit illness in shape overweight
+B3_LS_U05,106,Target bold,prove,exact,['prove'],[196],prove ridiculous unhealthy work out
+B3_LS_U05,106,Target bold,ridiculous,exact,['ridiculous'],[196],prove ridiculous unhealthy work out
+B3_LS_U05,106,Target bold,unhealthy,exact,['unhealthy'],[196],prove ridiculous unhealthy work out
+B3_LS_U05,106,Target bold,work out,exact,['work out'],[196],prove ridiculous unhealthy work out
+B3_LS_U05,113,Target bold,cultural,exact,['cultural'],[195],"cultural (adj) relating to the habits, traditions and beliefs of a society"
+B3_LS_U05,113,Target bold,educational,exact,['educational'],[195],educational (adj) relating to learning
+B3_LS_U05,113,Target bold,emotional,exact,['emotional'],[195],emotional (adj) relating to feelings
+B3_LS_U05,113,Target bold,intellectual,exact,['intellectual'],[195],intellectual (adj) relating to your ability to think and understand
+B3_LS_U05,113,Target bold,personal,exact,['personal'],[196],personal (adj) relating to a single person rather than to a group
+B3_LS_U05,113,Target bold,physical,exact,['physical'],[196],physical (adj) relating to the body
+B3_LS_U05,113,Target bold,social,exact,['social'],[196],social (adj) relating to activities in which you meet and spend time
+B3_LS_U05,114,Target bold,relax,exact,['relax'],[196],"at home, relax and watch a film."
+B3_LS_U05,114,Target bold,stress,exact,['stress'],[196],2 Marcus is feeling a lot of stress at work. It's giving him headaches.
+B3_LS_U05,114,Target bold,treatment,exact,['treatment'],[196],3 Drinking a lot of water can be a good treatment for a stomachache.
+B3_LS_U05,114,Target bold,reduce,exact,['reduce'],[196],"4 If you reduce the number of calories you eat, you will lose weight."
+B3_LS_U05,114,Target bold,mental,exact,['mental'],[195],"5 Exercise has a number of mental benefits, like improving memory."
+B3_LS_U05,114,Target bold,performance,exact,['performance'],[195],6 Eating healthy food can improve your athletic performance .
+B3_LS_U05,114,Target bold,concentration,exact,['concentration'],[195],7 Writing requires a lot of concentration . It's a good idea to be
+B3_LS_U05,114,Target bold,participate,exact,['participate'],[195],8 Anybody can participate in the game. You don't need to be an
+B3_LS_U06,126,Glossary,fundamental,absent,[],[],fundamental (adj) more important than anything else
+B3_LS_U06,126,Glossary,treatment,absent,[],[],treatment (n) the use of medicine to make a sick or injured person healthy
+B3_LS_U06,126,Glossary,immune system,absent,[],[],immune system (n) the system in the body that protects it against infection
+B3_LS_U06,126,Glossary,vaccine,absent,[],[],vaccine (n) a special substance that you take into your body to prevent a disease
+B3_LS_U06,126,Glossary,cataract,absent,[],[],cataract (n) a disease which affects somebody's eye so that they can not see clearly
+B3_LS_U06,126,Glossary,pandemic,absent,[],[],pandemic (n) a dangerous disease that infects many people at the same time
+B3_LS_U06,128,Target bold,contribution,exact,['contribution'],[197],contribution device diagram discovery
+B3_LS_U06,128,Target bold,device,exact,['device'],[197],contribution device diagram discovery
+B3_LS_U06,128,Target bold,diagram,exact,['diagram'],[197],contribution device diagram discovery
+B3_LS_U06,128,Target bold,discovery,exact,['discovery'],[197],contribution device diagram discovery
+B3_LS_U06,128,Target bold,outcome,exact,['outcome'],[197],outcome scholar technology weapon
+B3_LS_U06,128,Target bold,scholar,exact,['scholar'],[198],outcome scholar technology weapon
+B3_LS_U06,128,Target bold,technology,exact,['technology'],[198],outcome scholar technology weapon
+B3_LS_U06,128,Target bold,weapon,exact,['weapon'],[198],outcome scholar technology weapon
+B3_LS_U06,136,Target bold,access,exact,['access'],[196],a access b connect c enter
+B3_LS_U06,136,Target bold,install,exact,['install'],[197],a produce b install c add
+B3_LS_U06,136,Target bold,create,exact,['create'],[197],a create b start c form
+B3_LS_U06,136,Target bold,user,exact,['user'],[198],a keepers b holders c users
+B3_LS_U06,136,Target bold,product,exact,['product'],[197],a goods b equipment c product
+B3_LS_U06,136,Target bold,industry,exact,['industry'],[197],a industry b custom c trade
+B3_LS_U06,136,Target bold,allow,exact,['allow'],[196],a mean b allow c let
+B3_LS_U07,148,Glossary,military,absent,[],[],military (adj) relating to the army
+B3_LS_U07,148,Glossary,parachute,absent,[],[],parachute (n) a large piece of material that helps you to drop safely from an aircraft
+B3_LS_U07,148,Glossary,production,absent,[],[],production (n) all the things that you do in order to make a product which you then sell
+B3_LS_U07,148,Glossary,fabric,absent,[],[],"fabric (n) cloth, material"
+B3_LS_U07,148,Glossary,garment,absent,[],[],garment (n) a piece of clothing
+B3_LS_U07,150,Target bold,convert,exact,['convert'],[198],convert (v) to change something into something else
+B3_LS_U07,150,Target bold,collaborate,exact,['collaborate'],[198],collaborate (v) to work with somebody for a special purpose
+B3_LS_U07,150,Target bold,criticize,exact,['criticize'],[198],criticize (v) to express that you believe something or somebody is bad
+B3_LS_U07,150,Target bold,copyright,exact,['copyright'],[198],"copyright (n) the legal right to control the use of a design,"
+B3_LS_U07,150,Target bold,ethical,exact,['ethical'],[198],ethical (adj) something that meets society's standards of
+B3_LS_U07,150,Target bold,focus on,exact,['focus on'],[198],focus on (phr v) to give a lot of attention to one subject or thing
+B3_LS_U07,150,Target bold,image,exact,['image'],[198],image (n) a picture or photograph
+B3_LS_U07,150,Target bold,practical,exact,['practical'],[199],practical (adj) able to be done or put into action
+B3_LS_U07,151,Glossary,intellectual property,absent,[],[],intellectual property (n) - somebody's work that is protected by law from being copied
+B3_LS_U07,151,Glossary,copyright infringement,absent,[],[],copyright infringement (n) - using all or a part of somebody else's work without their permission
+B3_LS_U07,151,Glossary,lift,absent,[],[],"lift {v) (informal) - to use somebody's work, without their permission; steal"
+B3_LS_U07,151,Glossary,plagiarize,absent,[],[],plagiarize (v) - to use another person's ideas or work and pretend that it is your own
+B3_LS_U07,151,Glossary,go viral,absent,[],[],go viral (idiom) - quickly become very popular or well known by being published on the internet
+B3_LS_U07,151,Glossary,resources,absent,[],[],"resources (n) - something that a country, person or organization has that they can use"
+B3_LS_U07,156,Target bold,collection,exact,['collection'],[198],1 Aysha's collection was presented during the last Fashion Week
+B3_LS_U07,156,Target bold,combine,exact,['combine'],[198],2 I have always tried to combine my culture with fashion.
+B3_LS_U07,156,Target bold,individual,exact,['individual'],[198],"my designs to be individual. They were unique and, eventually,"
+B3_LS_U07,156,Target bold,unique,exact,['unique'],[199],"my designs to be individual. They were unique and, eventually,"
+B3_LS_U07,156,Target bold,admired,inflection,['admire'],[198],people admired my clothes rather than laughed at me.
+B3_LS_U07,156,Target bold,styles,inflection,['style'],[199],4 Many traditional clothing styles are being reused by young designers.
+B3_LS_U07,156,Target bold,modest,exact,['modest'],[199],"5 My philosophy is to create clothes which are modest but, at the"
+B3_LS_U07,156,Target bold,confidence,exact,['confidence'],[198],"same time, give women confidence ."
+B3_LS_U07,156,Target bold,admire,exact,['admire'],[198],people admired my clothes rather than laughed at me.
+B3_LS_U07,156,Target bold,style,exact,['style'],[199],4 Many traditional clothing styles are being reused by young designers.
+B3_LS_U08,170,Glossary,satisfaction,absent,[],[],"satisfaction (n) a pleasant feeling you get when you receive something you want, or when you have done something you wanted to do"
+B3_LS_U08,170,Glossary,psychologist / psychology,absent,[],[],psychologist (n) / psychology (n) - somebody who studies/ the study of the human mind and human emotions and behaviour
+B3_LS_U08,170,Glossary,purchase,absent,[],[],purchase (n) something you buy
+B3_LS_U08,170,Glossary,budget,absent,[],[],budget (n) a plan of how much money you will spend and how you will spend it
+B3_LS_U08,170,Glossary,deal,absent,[],[],"deal (n) an agreement, especially in business, on exactly how to pay for or do something"
+B3_LS_U08,170,Glossary,savings account,absent,[],[],savings account (n) an account in a bank or similar financial organization for keeping money not used for day-to-day spending
+B3_LS_U08,172,Target bold,save,phrase/word form,['save money'],[200],"1 If you want to save / afford money, you could stop eating out in"
+B3_LS_U08,172,Target bold,afford,exact,['afford'],[199],"1 If you want to save / afford money, you could stop eating out in"
+B3_LS_U08,172,Target bold,debt,exact,['debt'],[199],2 Sarah got a big debt / loan to help her buy her first house.
+B3_LS_U08,172,Target bold,loan,exact,['loan'],[199],2 Sarah got a big debt / loan to help her buy her first house.
+B3_LS_U08,172,Target bold,payment,exact,['payment'],[200],£300 payment I saving .
+B3_LS_U08,172,Target bold,saving,inflection,['savings'],[200],£300 payment I saving .
+B3_LS_U08,172,Target bold,million,absent,[],[],"4 My cousin is a million / millionaire . He has three houses, four cars"
+B3_LS_U08,172,Target bold,millionaire,exact,['millionaire'],[200],"4 My cousin is a million / millionaire . He has three houses, four cars"
+B3_LS_U08,172,Target bold,savings,exact,['savings'],[200],"has £15,000 in savings / payments ."
+B3_LS_U08,172,Target bold,payments,inflection,['payment'],[200],"has £15,000 in savings / payments ."
+B3_LS_U08,177,Target bold,borrow money,exact,['borrow money'],[199],borrow money (v phr) to take money and promise to pay it back later
+B3_LS_U08,177,Target bold,lose money,exact,['lose money'],[199],lose money (v phr) to have less money than you had before
+B3_LS_U08,177,Target bold,make money,exact,['make money'],[199],make money (v phr) to earn money from a job or an investment
+B3_LS_U08,177,Target bold,owe money,exact,['owe money'],[200],owe money (v phr) to have to pay somebody money you borrowed
+B3_LS_U08,177,Target bold,pay a fine,exact,['pay a fine'],[200],pay a fine (v phr) to pay money for not obeying a rule or law
+B3_LS_U08,177,Target bold,pay in cash,exact,['pay in cash'],[200],pay in cash (v phr) to pay for something with money (not a bank card)
+B3_LS_U08,177,Target bold,invest money,exact,['invest money'],[199],invest money (v phr) to put money into something to try and earn
+B3_LS_U08,177,Target bold,raise money,exact,['raise money'],[200],"raise money (v phr) to collect money from other people, often for"
+B3_LS_U08,177,Target bold,save money,exact,['save money'],[200],save money (v phr) to keep money for use in the future
+B3_LS_U08,177,Target bold,spend money,exact,['spend money'],[200],spend money (v phr) to give money as a payment for something
+B3_LS_U08,180,Target bold,sense,exact,['sense'],[200],1 sense ---- a a general feeling or understanding
+B3_LS_U08,180,Target bold,services,inflection,['service'],[200],2 services b make somebody more likely to do something
+B3_LS_U08,180,Target bold,minimum wage,exact,['minimum wage'],[200],3 minimum wage c types of support connected to education or
+B3_LS_U08,180,Target bold,responsible,exact,['responsible'],[200],4 responsible facilities
+B3_LS_U08,180,Target bold,encourage,exact,['encourage'],[199],5 encourage d a choice you make after thinking about
+B3_LS_U08,180,Target bold,decision,exact,['decision'],[199],6 decision several possibilities
+B3_RW_U01,16,Glossary,marsh,absent,[],[],marsh
+B3_RW_U01,16,Glossary,egret,absent,[],[],egret
+B3_RW_U01,16,Glossary,surface,absent,[],[],surface
+B3_RW_U01,16,Glossary,mud bank,absent,[],[],mud bank
+B3_RW_U01,16,Glossary,shore,absent,[],[],shore
+B3_RW_U01,16,Glossary,depend on,absent,[],[],depend on
+B3_RW_U01,18,Target bold,chemical,exact,['chemical'],[190],"chemical (n) a man-made or natural solid, liquid or gas made by"
+B3_RW_U01,18,Target bold,destroy,exact,['destroy'],[190],destroy (v) to damage something very badly; to cause it to
+B3_RW_U01,18,Target bold,due to,exact,['due to'],[190],due to (prep) because of; as a result of
+B3_RW_U01,18,Target bold,endangered,exact,['endangered'],[190],endangered (adj) (of plants and animals) that may disappear soon
+B3_RW_U01,18,Target bold,natural,exact,['natural'],[190],natural (adj) as found in nature; not made or caused by people
+B3_RW_U01,18,Target bold,pollute,exact,['pollute'],[191],"pollute (v) to make the air, water or land dirty and unhealthy"
+B3_RW_U01,18,Target bold,protect,exact,['protect'],[191],protect (v) to keep something or someone safe from damage
+B3_RW_U01,18,Target bold,species,exact,['species'],[191],species (n) a group of plants or animals which are the same in
+B3_RW_U01,19,Target bold,endangered species,separate headwords,"['endangered', 'species']","[190, 191]",1 An endangered species is a group of animals or plants which could soon
+B3_RW_U01,19,Target bold,due to,exact,['due to'],[190],"become endangered, but most harm to species is due to human activities such as habitat"
+B3_RW_U01,19,Target bold,destroys,inflection,['destroy'],[190],This destroys the animals' habitat - the natural environment where plants or animals usually
+B3_RW_U01,19,Target bold,natural,exact,['natural'],[190],This destroys the animals' habitat - the natural environment where plants or animals usually
+B3_RW_U01,19,Target bold,chemicals,inflection,['chemical'],[190],"Dirty water from factories, which contains chemicals , ends up in rivers, and poisons used on"
+B3_RW_U01,19,Target bold,protect,exact,['protect'],[191],4 What steps can individuals and governments take to protect more animal and plant species
+B3_RW_U01,19,Target bold,pollute,exact,['pollute'],[191],"from becoming endangered?We should try not to pollute natural areas, and farmers or"
+B3_RW_U01,21,Target bold,common,exact,['common'],[190],1 Are these animals common in your country?
+B3_RW_U01,21,Target bold,major,exact,['major'],[190],2 Which squirrel do you think is seen as a major pest? Why?
+B3_RW_U01,21,Target bold,introduce,exact,['introduce'],[190],3 Which squirrel do you think was introduced to the UK from North
+B3_RW_U01,21,Target bold,survive,exact,['survive'],[191],4 Which squirrel do you think can survive best in difficult conditions?
+B3_RW_U01,21,Target bold,disease,exact,['disease'],[190],5 Which squirrel do you think is more likely to survive a disease or
+B3_RW_U01,21,Target bold,cruel,exact,['cruel'],[190],6 Some people say that it's cruel to destroy one species of animal to
+B3_RW_U02,38,Glossary,canyon,absent,[],[],canyon
+B3_RW_U02,38,Glossary,form,absent,[],[],form (v) to create; to make something begin to exist or take a particular shape cavern
+B3_RW_U02,38,Glossary,cavern,absent,[],[],cavern
+B3_RW_U02,38,Glossary,spectacular,absent,[],[],spectacular
+B3_RW_U02,38,Glossary,glacier,absent,[],[],glacier
+B3_RW_U02,40,Target bold,ecosystems,inflection,['ecosystem'],[192],"1 The Amazon rainforest is one of the largest ecosystems in the world,"
+B3_RW_U02,40,Target bold,climate,exact,['climate'],[191],"2 Adelaide, Australia, has a very pleasant climate . The winters are"
+B3_RW_U02,40,Target bold,threaten,exact,['threaten'],[192],"plants - also threaten helpful insects, such as bees."
+B3_RW_U02,40,Target bold,fossil fuels,inflection,['fossil fuel'],[192],electric or solar energy instead of fossil fuels like gasoline.
+B3_RW_U02,40,Target bold,greenhouse gas,exact,['greenhouse gas'],[192],5 Methane (CH ) is a greenhouse gas which is found naturally
+B3_RW_U02,40,Target bold,atmosphere,exact,['atmosphere'],[191],6 The Earth's atmosphere is 480 km thick and contains a mixture of
+B3_RW_U02,40,Target bold,global warming,exact,['global warming'],[192],"7 Because of global warming , polar ice is melting, sea levels are"
+B3_RW_U02,40,Target bold,cause,exact,['cause'],[191],8 Habitat loss is the most important cause of species extinction.
+B3_RW_U02,41,Target bold,cause,exact,['cause'],[191],The main cause is This is evidence of
+B3_RW_U02,41,Target bold,global warming,exact,['global warming'],[192],the huge amount of global warmin
+B3_RW_U02,41,Target bold,threatening,inflection,['threaten'],[192],rise and threatening the habitat of many species
+B3_RW_U02,41,Target bold,greenhouse gases,inflection,['greenhouse gas'],[192],"greenhouse gases ,"
+B3_RW_U02,41,Target bold,fossil fuels,inflection,['fossil fuel'],[192],"energy. Burning fossil fuels for heating, lighting,"
+B3_RW_U02,41,Target bold,climate,exact,['climate'],[191],"As a result of the changing climate , the world's"
+B3_RW_U02,41,Target bold,ecosystems,inflection,['ecosystem'],[192],ecosystems are also changing faster than ever
+B3_RW_U02,41,Target bold,atmosphere,exact,['atmosphere'],[191],"higher levels of carbon dioxide in the atmosphere ,"
+B3_RW_U02,44,Target bold,absorb,exact,['absorb'],[191],absorb (v) to take in a liquid or gas through a surface and hold it
+B3_RW_U02,44,Target bold,construction,exact,['construction'],[191],"construction (n) the process of building something, usually large"
+B3_RW_U02,44,Target bold,destruction,exact,['destruction'],[192],destruction (n) the act of causing so much damage to
+B3_RW_U02,44,Target bold,effect,exact,['effect'],[192],effect (n) result; a change which happens because of a cause
+B3_RW_U02,44,Target bold,farming,exact,['farming'],[192],farming (n) the job of working or organizing work on a farm
+B3_RW_U02,44,Target bold,logging,exact,['logging'],[192],logging (n) the activity or business of cutting down trees
+B3_RW_U02,44,Target bold,rainforest,exact,['rainforest'],[192],rainforest (n) a forest in a tropical area with a rainfall of 250 cm
+B3_RW_U02,45,Target bold,absorbing,inflection,['absorb'],[191],"temperature by absorbing carbon dioxide. However,"
+B3_RW_U02,45,Target bold,destruction,exact,['destruction'],[192],large areas of land. The destruction of forests occurs
+B3_RW_U02,45,Target bold,construction,exact,['construction'],[191],"construction , and cleared land is used as pasture 1 for"
+B3_RW_U02,45,Target bold,effects,inflection,['effect'],[192],effects of deforestation are climate change and
+B3_RW_U02,45,Target bold,farming,exact,['farming'],[192],farming by big business and farming by local people.
+B3_RW_U02,45,Target bold,logging,exact,['logging'],[192],industrial logging is carried out to clear huge areas for
+B3_RW_U02,45,Target bold,rainforest,exact,['rainforest'],[192],of the Amazon rainforest are cleared to grow soy and
+B3_RW_U02,40,Target bold,ecosystem,exact,['ecosystem'],[192],"1 The Amazon rainforest is one of the largest ecosystems in the world,"
+B3_RW_U02,40,Target bold,fossil fuel,exact,['fossil fuel'],[192],electric or solar energy instead of fossil fuels like gasoline.
+B3_RW_U03,60,Glossary,tracks,absent,[],[],tracks (n) metal bars that trains travel on
+B3_RW_U03,60,Glossary,network,absent,[],[],"network (n) system of connected, similar parts"
+B3_RW_U03,60,Glossary,investment,absent,[],[],investment (n) the act of putting money into something to achieve a result
+B3_RW_U03,60,Glossary,platform,absent,[],[],"platform (n) a long, raised area where people get off and on trains"
+B3_RW_U03,60,Glossary,restore,absent,[],[],restore (v) to return something to an earlier good condition
+B3_RW_U03,66,Target bold,cycle,exact,['cycle'],[193],cycle (v) to travel by bicycle
+B3_RW_U03,66,Target bold,emergency,exact,['emergency'],[193],emergency (n) an unexpected situation which requires
+B3_RW_U03,66,Target bold,engineering,exact,['engineering'],[193],engineering (n) the activity of designing and building things like
+B3_RW_U03,66,Target bold,fuel,exact,['fuel'],[193],fuel (n) a substance like gas or coal which produces energy when
+B3_RW_U03,66,Target bold,government,exact,['government'],[193],government (n) the group of people that controls a country or
+B3_RW_U03,66,Target bold,practical,exact,['practical'],[193],practical (adj) useful; suitable for the situation it is being used for
+B3_RW_U03,66,Target bold,vehicle,exact,['vehicle'],[194],"vehicle (n) any machine which travels on roads, such as cars,"
+B3_RW_U03,66,Target bold,governments,inflection,['government'],[193],1 What do you think governments can do to solve the problem of
+B3_RW_U03,66,Target bold,vehicles,inflection,['vehicle'],[194],Do you think electric vehicles are better than the ones that use
+B3_RW_U03,67,Target bold,vehicles,inflection,['vehicle'],[194],There are simply too many vehicles competing for too
+B3_RW_U03,67,Target bold,governments,inflection,['government'],[193],governments everywhere are working hard to find
+B3_RW_U03,67,Target bold,cycle,exact,['cycle'],[193],encourage people to cycle more. Although cycling has
+B3_RW_U03,67,Target bold,emergency,exact,['emergency'],[193],is that emergency services can become caught in traffic
+B3_RW_U03,67,Target bold,practical,exact,['practical'],[193],not practical in every climate and can prove dangerous
+B3_RW_U03,67,Target bold,fuel,exact,['fuel'],[193],"environment. Traffic congestion wastes fuel , which in"
+B3_RW_U03,67,Target bold,engineering,exact,['engineering'],[193],engineering . This means building more roads with
+B3_RW_U04,82,Glossary,rights,absent,[],[],rights (n pi) things the law allows you to do
+B3_RW_U04,82,Glossary,responsibility,absent,[],[],"responsibility (n) something that you must look after, deal with, pay for, etc."
+B3_RW_U04,82,Glossary,date back,absent,[],[],"date back (phr v) to have existed for a particular length of time, or since a particular time"
+B3_RW_U04,82,Glossary,formal,exact,['formal'],[195],"formal (adj) (of language, clothes and behaviour) suitable for serious or important occasions"
+B3_RW_U04,82,Glossary,ritual,absent,[],[],"ritual (n) a set of particular actions, and sometimes words, which are part of a ceremony belonging to a particular culture"
+B3_RW_U04,84,Target bold,appearance,exact,['appearance'],[194],appearance (n) the way someone or something looks
+B3_RW_U04,84,Target bold,culture,exact,['culture'],[194],"culture (n) the way of life, especially customs and beliefs, of a"
+B3_RW_U04,84,Target bold,exchange,exact,['exchange'],[195],exchange (v) to give something to someone and receive
+B3_RW_U04,84,Target bold,expect,exact,['expect'],[195],expect (v) to think that something will or should happen
+B3_RW_U04,84,Target bold,formal,exact,['formal'],[195],"formal (adj) (of clothes, behaviour or language) serious or"
+B3_RW_U04,84,Target bold,greet,exact,['greet'],[195],greet (v) to welcome someone with particular words or actions
+B3_RW_U04,84,Target bold,relationship,exact,['relationship'],[195],relationship (n) the way two people or groups feel and behave
+B3_RW_U04,86,Target bold,cultures,inflection,['culture'],[194],the cultures they're visiting. It is very important for travellers to take the time to learn about
+B3_RW_U04,86,Target bold,expect,exact,['expect'],[195],the cultures they plan to visit so that they know what to expect and how to avoid cultural
+B3_RW_U04,86,Target bold,greet,exact,['greet'],[195],greet the oldest or the most senior person first. Men
+B3_RW_U04,86,Target bold,relationships,inflection,['relationship'],[195],8 Personal relationships are very important in Saudi
+B3_RW_U04,86,Target bold,appearance,exact,['appearance'],[194],"always dress well, because a person's appearance can be very"
+B3_RW_U04,86,Target bold,formal,exact,['formal'],[195],"tend to be quite formal , so don't stand too close. Kissing or"
+B3_RW_U04,86,Target bold,exchanged,inflection,['exchange'],[195],"early and dress formally. Gifts are often exchanged , but"
+B3_RW_U04,91,Target bold,preserving,inflection,['preserve'],[195],preserving our own unique cultural heritage. But
+B3_RW_U04,91,Target bold,ceremonies,inflection,['ceremony'],[194],"but what about our songs, stories, ceremonies"
+B3_RW_U04,91,Target bold,aspects,inflection,['aspect'],[194],aspects of our culture can be just as meaningful
+B3_RW_U04,91,Target bold,generations,inflection,['generation'],[195],also be preserved for future generations to
+B3_RW_U04,91,Target bold,protection,exact,['protection'],[195],of places selected for special protection
+B3_RW_U04,91,Target bold,traditions,inflection,['tradition'],[195],customs and traditions which are endangered
+B3_RW_U04,91,Target bold,beliefs,inflection,['belief'],[194],local knowledge and beliefs .
+B3_RW_U04,88,Target bold,ceremony,exact,['ceremony'],[194],"1 In Mexican culture, a quinceaf\era is a special ceremony to"
+B3_RW_U04,88,Target bold,generation,exact,['generation'],[195],"2 In some cultures, several generations live together in the same"
+B3_RW_U04,88,Target bold,belief,exact,['belief'],[194],3 Children tend to have the same beliefs as their parents when they
+B3_RW_U04,88,Target bold,preserve,exact,['preserve'],[195],4 Japanese cities are trying to preserve some of their beautiful old
+B3_RW_U04,88,Target bold,tradition,exact,['tradition'],[195],5 It is a Chinese tradition to give money to young people in red
+B3_RW_U04,88,Target bold,aspect,exact,['aspect'],[194],"6 We should consider all the valuable aspects of culture, including"
+B3_RW_U04,88,Target bold,protection,exact,['protection'],[195],special protection and cannot be destroyed.
+B3_RW_U05,104,Glossary,health conscious,absent,[],[],health conscious (adj) having an active interest in one's health
+B3_RW_U05,104,Glossary,limit,absent,[],[],limit (v) to control something so that it does not go above a certain level
+B3_RW_U05,104,Glossary,molecule,absent,[],[],molecule (n) the smallest unit of a substance
+B3_RW_U05,104,Glossary,risk,absent,[],[],risk (n) the possibility that something bad will happen
+B3_RW_U05,104,Glossary,dementia,absent,[],[],dementia (n) a mental illness suffered especially by old people
+B3_RW_U05,104,Glossary,filtered,absent,[],[],filtered (adj) with the solid parts of a liquid taken out
+B3_RW_U05,106,Target bold,serious,exact,['serious'],[197],1 Heart disease is an extremely serious condition. Many people die
+B3_RW_U05,106,Target bold,self-esteem,exact,['self-esteem'],[197],2 Playing team sports is an excellent way to raise the self-esteem of
+B3_RW_U05,106,Target bold,active,exact,['active'],[196],"3 My grandmother is 88 years old, but she is still quite active . She"
+B3_RW_U05,106,Target bold,calories,exact,['calories'],[196],"4 To lose weight, you should exercise and count calories ."
+B3_RW_U05,106,Target bold,moderate,exact,['moderate'],[196],"5 To stay healthy, you should do a moderate amount of exercise"
+B3_RW_U05,106,Target bold,recognize,exact,['recognize'],[196],6 Many young people do not recognize the importance of getting
+B3_RW_U05,106,Target bold,suffer,exact,['suffer'],[197],7 This new medication can help people who suffer from cancer and
+B3_RW_U05,107,Target bold,suffer,exact,['suffer'],[197],regularly are less likely to suffer from many
+B3_RW_U05,107,Target bold,serious,exact,['serious'],[197],"serious illness by SO%. In addition, regular"
+B3_RW_U05,107,Target bold,self-esteem,exact,['self-esteem'],[197],"also improves your mood, self-esteem and"
+B3_RW_U05,107,Target bold,active,exact,['active'],[196],"2 Today, most adults are much less active"
+B3_RW_U05,107,Target bold,calories,exact,['calories'],[196],that people burn fewer calories than in the
+B3_RW_U05,107,Target bold,moderate,exact,['moderate'],[196],moderate exercise per week. This could
+B3_RW_U05,107,Target bold,recognize,exact,['recognize'],[196],easy ways of keeping fit. If we all recognize
+B3_RW_U05,109,Target bold,obesity,exact,['obesity'],[196],Obesity has become a maJor problem 1n many parts of the world.
+B3_RW_U05,110,Target bold,balanced diet,exact,['balanced diet'],[196],2 Do you follow a balanced diet? How many portions of fruit and
+B3_RW_U05,110,Target bold,junk food,exact,['junk food'],[196],4 What can be done to prevent people from eating junk food?
+B3_RW_U05,110,Target bold,campaign,exact,['campaign'],[196],5 Are there any health campaigns where you live to deal with the
+B3_RW_U06,126,Glossary,reaction,absent,[],[],reaction (n) a change that occurs when two chemicals are mixed together
+B3_RW_U06,126,Glossary,recreate,absent,[],[],recreate (v) to make something exist or happen again
+B3_RW_U06,126,Glossary,power station,absent,[],[],power station (n) a factory that produces electricity
+B3_RW_U06,126,Glossary,pressure,absent,[],[],pressure (n) the force or weight that is put against something
+B3_RW_U06,126,Glossary,unlimited,exact,['unlimited'],[198],unlimited (adj) having the greatest possible amount
+B3_RW_U06,126,Glossary,breakthrough,absent,[],[],breakthrough (n) an important discovery that helps solve a problem
+B3_RW_U06,128,Target bold,conditions,exact,['conditions'],[197],conditions (n) the physical situation that something is in
+B3_RW_U06,128,Target bold,essential,exact,['essential'],[197],essential (adj) very important or necessary
+B3_RW_U06,128,Target bold,harmful,exact,['harmful'],[197],harmful (adj) able to hurt or damage
+B3_RW_U06,128,Target bold,illustrate,exact,['illustrate'],[197],illustrate (v) to show the meaning or truth of something more
+B3_RW_U06,128,Target bold,prevent,absent,[],[],prevent (v) to stop something from happening or stop someone
+B3_RW_U06,128,Target bold,range,exact,['range'],[198],range (n) a set of similar things
+B3_RW_U06,128,Target bold,unlimited,exact,['unlimited'],[198],unlimited (adj) without end or restriction
+B3_RW_U06,129,Target bold,essential,exact,['essential'],[197],from other dangerous radiation is also essential .
+B3_RW_U06,129,Target bold,prevent,absent,[],[],prevent or solve problems or to create
+B3_RW_U06,129,Target bold,harmful,exact,['harmful'],[197],harmful radiation and allows them to see very
+B3_RW_U06,129,Target bold,range,exact,['range'],[198],"a huge range of everyday products,"
+B3_RW_U06,129,Target bold,illustrate,exact,['illustrate'],[197],"As these examples illustrate , biomimicry appears"
+B3_RW_U06,129,Target bold,unlimited,exact,['unlimited'],[198],to have an unlimited number of applications. It will
+B3_RW_U06,129,Target bold,conditions,exact,['conditions'],[197],works in wet conditions .
+B3_RW_U06,132,Target bold,personal,exact,['personal'],[197],"1 It is important to protect your personal data, such as your"
+B3_RW_U06,132,Target bold,movement,exact,['movement'],[197],2 Actors use their voices and the movement of their bodies to
+B3_RW_U06,132,Target bold,spread,exact,['spread'],[198],3 The internet helps to spread information and ideas around
+B3_RW_U06,132,Target bold,appearance,exact,['appearance'],[197],4 Actors often change their appearance so that their fans cannot
+B3_RW_U06,132,Target bold,security,exact,['security'],[198],5 This building does not have good security. The doors are
+B3_RW_U06,132,Target bold,privacy,exact,['privacy'],[198],6 Actors often lose their privacy after they become famous. People
+B3_RW_U06,132,Target bold,image,exact,['image'],[197],7 Experts say images are more powerful than words. They are easier
+B3_RW_U07,148,Glossary,tailor,absent,[],[],tailor
+B3_RW_U07,148,Glossary,master tailor,absent,[],[],master tailor
+B3_RW_U07,148,Glossary,prominent position,absent,[],[],prominent position
+B3_RW_U07,148,Glossary,apprentice,absent,[],[],apprentice
+B3_RW_U07,148,Glossary,values/principles,absent,[],[],values/principles
+B3_RW_U07,150,Target bold,brand,exact,['brand'],[198],brand (n) a product made by a company that has a specific name
+B3_RW_U07,150,Target bold,consumer,exact,['consumer'],[198],consumer (n) a person who buys things
+B3_RW_U07,150,Target bold,controversial,exact,['controversial'],[198],controversial (adj) causing disagreement or discussion
+B3_RW_U07,150,Target bold,hesitate,exact,['hesitate'],[198],hesitate (v) to stop briefly before doing or saying something
+B3_RW_U07,150,Target bold,manufacture,exact,['manufacture'],[199],manufacture (v) to produce a large number of things
+B3_RW_U07,150,Target bold,market,exact,['market'],[199],market (n) the business for a particular product
+B3_RW_U07,150,Target bold,volume,exact,['volume'],[199],volume (n) number; amount
+B3_RW_U07,151,Target bold,controversial,exact,['controversial'],[198],"about it? Wells is a thrifter and a reseller, and both have become controversial . Thrifting"
+B3_RW_U07,151,Target bold,market,exact,['market'],[199],second-hand clothing market is growing three times faster than the general clothing
+B3_RW_U07,151,Target bold,brands,inflection,['brand'],[198],"the most expensive brands of clothing, this probably makes very little"
+B3_RW_U07,151,Target bold,volume,exact,['volume'],[199],difference in the market. The volume of second-hand clothing is so high
+B3_RW_U07,154,Target bold,import,exact,['import'],[199],1 What kind of products does your country import ?
+B3_RW_U07,154,Target bold,textile,exact,['textile'],[199],2 Why do some textile companies produce clothes offshore ?
+B3_RW_U07,154,Target bold,offshore,exact,['offshore'],[199],2 Why do some textile companies produce clothes offshore ?
+B3_RW_U07,154,Target bold,multinational,exact,['multinational'],[199],3 Do you know any countries to which large multinational
+B3_RW_U07,154,Target bold,outsource,exact,['outsource'],[199],companies outsource their production?
+B3_RW_U07,154,Target bold,wages,inflection,['wage'],[199],4 Do you think that the wages and working conditions in many
+B3_RW_U07,154,Target bold,working conditions,exact,['working conditions'],[199],4 Do you think that the wages and working conditions in many
+B3_RW_U07,155,Target bold,imported,inflection,['import'],[199],Union imported more than €29 billion worth
+B3_RW_U07,155,Target bold,offshore,exact,['offshore'],[199],down. One way they do this is by using offshore
+B3_RW_U07,155,Target bold,multinational,exact,['multinational'],[199],production. Large multinational companies
+B3_RW_U07,155,Target bold,outsource,exact,['outsource'],[199],outsource their production to developing
+B3_RW_U07,155,Target bold,wages,inflection,['wage'],[199],wages than local workers can make by working
+B3_RW_U07,155,Target bold,textile,exact,['textile'],[199],found that textile workers earned less than 40%
+B3_RW_U07,155,Target bold,working conditions,exact,['working conditions'],[199],"workers, for instance. But working conditions"
+B3_RW_U08,170,Glossary,suburbs,absent,[],[],suburbs (n) the area outside of a town or city
+B3_RW_U08,170,Glossary,economy,exact,['economy'],[200],economy (n) the system by which a country produces and uses goods and money
+B3_RW_U08,170,Glossary,GDP,absent,[],[],GDP (n) the total value of the goods and services that a country produces every year
+B3_RW_U08,170,Glossary,inflation,absent,[],[],inflation (n) how fast prices are increasing
+B3_RW_U08,170,Glossary,cardboard,absent,[],[],"cardboard (n) thick, stiff paper that is used to make boxes"
+B3_RW_U08,172,Target bold,afford,exact,['afford'],[200],1 I would like to buy a home but I can't afford it. I have not saved
+B3_RW_U08,172,Target bold,interest rate,exact,['interest rate'],[200],"2 At my bank, the interest rate on a loan to buy a car is about 4.5%."
+B3_RW_U08,172,Target bold,stocks and shares,exact,['stocks and shares'],[201],3 Since Apple Computer company stocks and shares went on sale
+B3_RW_U08,172,Target bold,investment,exact,['investment'],[200],"4 Real estate, that is land or buildings, is an excellent investment in"
+B3_RW_U08,172,Target bold,invests,inflection,['invest'],[200],"5 My father invests carefully. He buys assets, like buildings and cars,"
+B3_RW_U08,172,Target bold,value,exact,['value'],[201],businesses in an area usually go down in value .
+B3_RW_U08,172,Target bold,return,exact,['return'],[201],return on your investment.
+B3_RW_U08,173,Target bold,interest rate,exact,['interest rate'],[200],"However, the interest rate at most banks is quite low. As a result,"
+B3_RW_U08,173,Target bold,invest,exact,['invest'],[200],some people choose to invest their money in stocks and shares
+B3_RW_U08,173,Target bold,stocks and shares,exact,['stocks and shares'],[201],some people choose to invest their money in stocks and shares
+B3_RW_U08,173,Target bold,value,exact,['value'],[201],"Yet, investing in stocks can be risky. If the value of the stocks"
+B3_RW_U08,173,Target bold,afford,exact,['afford'],[200],"you should invest only what you can afford to lose. So, what are"
+B3_RW_U08,173,Target bold,investments,inflection,['investment'],[200],some alternative investments for people who can afford to take
+B3_RW_U08,173,Target bold,returns,inflection,['return'],[201],market has brought in significantly higher returns than gold.
+B3_RW_U08,175,Target bold,standard of living,exact,['standard of living'],[201],1 My family has a comfortable standard of living . We have enough
+B3_RW_U08,175,Target bold,income,exact,['income'],[200],2 People who go to university usually have a higher income than
+B3_RW_U08,175,Target bold,expenditure,exact,['expenditure'],[200],3 Housing is most people's biggest expenditure . Many Europeans
+B3_RW_U08,175,Target bold,factor,exact,['factor'],[200],4 The weather is one factor which influences the price of food. If there
+B3_RW_U08,175,Target bold,inequality,exact,['inequality'],[200],5 The laws and economic system have resulted in inequality in our
+B3_RW_U08,175,Target bold,savings,exact,['savings'],[201],6 Workers should put some money into savings every month. Even
+B3_RW_U08,177,Target bold,standard of living,exact,['standard of living'],[201],standard of living as their parents did. What
+B3_RW_U08,177,Target bold,factor,exact,['factor'],[200],example. One key factor which influences
+B3_RW_U08,177,Target bold,expenditure,exact,['expenditure'],[200],"the standard ofliving is expenditure , which"
+B3_RW_U08,177,Target bold,income,exact,['income'],[200],"earn, their income . In the United States, in"
+B3_RW_U08,177,Target bold,inequality,exact,['inequality'],[200],2 shows this increase in inequality . It shows
+B3_RW_U08,177,Target bold,savings,exact,['savings'],[201],investment and savings . This makes it

@@ -1,0 +1,134 @@
+/* A: approved white classroom theme. Content geometry remains owned by the classroom renderer. */
+:root[data-course-theme=a]{--page:#f5f5f7;--paper:#fff;--ink:#1d1d1f;--muted:#77777d;--line:#dedee3;--subtle:#ededf0;--accent:#0066cc;--accent-soft:#eaf3ff;--answer:#b32632;--sans:'Segoe UI','Microsoft YaHei',Arial,sans-serif;--display:'Segoe UI','Microsoft YaHei',Arial,sans-serif;--word:'Segoe UI','Microsoft YaHei',Arial,sans-serif;--radius:22px}
+html[data-course-theme=a],html[data-course-theme=a] body{background:var(--page)!important;color:var(--ink);font-family:var(--sans)}
+html[data-course-theme=a] .stage,html[data-course-theme=a] .lesson-opening,html[data-course-theme=a] .full-homework,html[data-course-theme=a] .guided-screen,html[data-course-theme=a] .vocab-scope-screen{background:var(--page)!important;color:var(--ink)!important;font-family:var(--sans)!important;box-shadow:none!important}
+html[data-course-theme=a] .opening-context{font-family:var(--sans)!important;color:var(--muted)!important;font-size:23px;letter-spacing:.1px}html[data-course-theme=a] .opening-context span{color:var(--muted)!important;border-color:var(--line)!important;font-weight:400}
+html[data-course-theme=a] .opening-header h1{color:var(--ink)!important;font-family:var(--display)!important;font-weight:600!important;letter-spacing:-1.8px;font-size:66px;line-height:1.18}
+html[data-course-theme=a] .opening-note{font:24px/1.4 var(--sans)!important;color:var(--muted)!important}
+html[data-course-theme=a] .lesson-dictation{padding:64px 112px 60px!important}
+html[data-course-theme=a] .lesson-dictation .opening-header{margin-bottom:34px!important}
+html[data-course-theme=a] .lesson-dictation .opening-header h1{font-size:64px!important;margin-top:22px!important;letter-spacing:-1.8px}
+html[data-course-theme=a] .lesson-dictation .opening-note{font-size:23px!important;margin-top:20px!important}
+html[data-course-theme=a] .lesson-dictation .dictation-frame{gap:44px!important}
+html[data-course-theme=a] .stage .lesson-dictation .dictation-table{border-collapse:separate!important;border-spacing:0!important;border:0!important;border-radius:var(--radius)!important;overflow:hidden!important;background:var(--paper)!important;box-shadow:0 2px 12px #00000004!important}
+html[data-course-theme=a] .stage .lesson-dictation .dictation-table .dict-no{width:8%!important}html[data-course-theme=a] .stage .lesson-dictation .dictation-table .dict-en{width:38%!important}html[data-course-theme=a] .stage .lesson-dictation .dictation-table .dict-cn{width:41%!important}html[data-course-theme=a] .stage .lesson-dictation .dictation-table .dict-pos{width:13%!important}
+html[data-course-theme=a] .stage .lesson-dictation .dictation-table tr{height:62px!important}
+html[data-course-theme=a] .stage .lesson-dictation .dictation-table th,html[data-course-theme=a] .stage .lesson-dictation .dictation-table td{background:var(--paper)!important;border:0!important;border-bottom:1px solid var(--line)!important;padding:9px 16px!important;vertical-align:middle!important;line-height:1.2!important}
+html[data-course-theme=a] .stage .lesson-dictation .dictation-table thead tr{height:51px!important}
+html[data-course-theme=a] .stage .lesson-dictation .dictation-table thead th{height:auto!important;color:var(--muted)!important;font:500 22px/1.2 var(--sans)!important;padding-top:13px!important;padding-bottom:13px!important;border-bottom-color:var(--line)!important}
+html[data-course-theme=a] .stage .lesson-dictation .dictation-table th:first-child{text-align:center!important;padding-left:7px!important;padding-right:7px!important}
+html[data-course-theme=a] .stage .lesson-dictation .dictation-table tbody th{font:400 22px/1.2 var(--sans)!important;color:var(--muted)!important;font-variant-numeric:tabular-nums}
+html[data-course-theme=a] .stage .lesson-dictation .dictation-table tbody tr:last-child>*{border-bottom:0!important}
+html[data-course-theme=a] .stage .lesson-dictation .dictation-cell{font:500 29px/1.2 var(--word)!important;min-height:30px!important}
+html[data-course-theme=a] .stage .lesson-dictation .dictation-cell.field-1{font:400 26px/1.2 var(--sans)!important}
+html[data-course-theme=a] .stage .lesson-dictation .dictation-cell.field-2{font:400 22px/1.2 var(--sans)!important}
+html[data-course-theme=a] .stage .lesson-dictation .dictation-value{color:var(--ink)!important}
+html[data-course-theme=a] .stage .lesson-dictation .field-1 .dictation-value{color:var(--ink)!important;opacity:.82}
+html[data-course-theme=a] .stage .lesson-dictation .field-2 .dictation-value{color:var(--muted)!important}
+html[data-course-theme=a] .stage .lesson-dictation .dictation-blank{width:88%!important;height:23px!important;border-bottom:1px solid #d7d7dd!important;justify-self:start!important}
+html[data-course-theme=a] .stage .lesson-dictation .field-2 .dictation-blank{width:75%!important}
+html[data-course-theme=a] .dictation-audio-controls{right:112px!important;top:134px!important;gap:13px!important}
+html[data-course-theme=a] .dictation-audio-controls button{height:48px!important;border:0!important;background:var(--accent)!important;color:#fff!important;border-radius:999px!important;font:500 22px var(--sans)!important;padding:8px 20px!important;box-shadow:none!important}
+html[data-course-theme=a] .dictation-audio-controls .dictation-audio-restart{background:var(--subtle)!important;color:var(--ink)!important;font-size:20px!important;padding-left:18px!important;padding-right:18px!important}
+html[data-course-theme=a] .dictation-audio-controls [data-dictation-status]{color:var(--muted)!important;font:20px var(--sans)!important}
+html[data-course-theme=a] .page-source-button{top:28px!important;right:60px!important;height:48px!important;padding:8px 20px!important;border:1px solid var(--line)!important;border-radius:999px!important;background:var(--paper)!important;color:var(--muted)!important;font:22px var(--sans)!important;box-shadow:none!important}
+html[data-course-theme=a] .lesson-plan .opening-header{margin-bottom:40px!important}
+html[data-course-theme=a] .plan-list{gap:12px!important}
+html[data-course-theme=a] .plan-list .plan-item{border:0!important;border-radius:18px!important;background:var(--paper)!important;padding-left:30px!important;box-shadow:0 1px 2px #00000003!important}
+html[data-course-theme=a] .plan-list .plan-item:hover{background:var(--accent-soft)!important}
+html[data-course-theme=a] .plan-list .plan-number{color:var(--accent)!important;font-size:27px!important;font-weight:500!important;flex-basis:62px!important}
+html[data-course-theme=a] .plan-list .plan-text strong{color:var(--ink)!important;font-size:33px!important;font-weight:600!important;font-family:var(--sans)!important}
+html[data-course-theme=a] .plan-list .plan-text>span{color:var(--muted)!important;font:24px/1.3 var(--sans)!important}
+html[data-course-theme=a] .plan-list .plan-arrow{color:var(--accent)!important;font-size:29px!important}
+html[data-course-theme=a] .plan-quick-button,html[data-course-theme=a] .transition-action{border:1px solid var(--line)!important;border-radius:10px!important;background:var(--subtle)!important;color:var(--ink)!important;font-family:var(--sans)!important}
+html[data-course-theme=a] .transition-action.is-primary{background:var(--accent)!important;color:#fff!important;border-color:var(--accent)!important}
+html[data-course-theme=a] .transition-task{border:1px solid var(--line)!important;border-radius:18px!important;background:var(--paper)!important;color:var(--ink)!important;border-left:1px solid var(--line)!important}
+html[data-course-theme=a] .transition-category,html[data-course-theme=a] .transition-task p{color:var(--ink)!important}
+html[data-course-theme=a] .ss-layout .ss-section,html[data-course-theme=a] .hw-heading small,html[data-course-theme=a] .guided-context{color:var(--accent)!important;font-weight:500!important;font-family:var(--sans)!important}
+html[data-course-theme=a] .ss-layout .ss-title,html[data-course-theme=a] .hw-heading h1,html[data-course-theme=a] .guided-screen h1{color:var(--ink)!important;font-family:var(--display)!important;letter-spacing:-.8px}
+html[data-course-theme=a] .ss-layout .ss-subtitle,html[data-course-theme=a] .hw-group{color:var(--muted)!important}
+html[data-course-theme=a] .ss-layout .ss-instruction{color:var(--ink)!important;font-weight:500!important}
+html[data-course-theme=a] .ss-layout .ss-body,html[data-course-theme=a] .hw-fit{color:var(--ink)!important;font-family:var(--sans)!important}
+html[data-course-theme=a] .stage .ss-body table{border:1px solid var(--line)!important;border-collapse:collapse!important;background:var(--paper)!important}
+html[data-course-theme=a] .stage .ss-body table th,html[data-course-theme=a] .stage .ss-body table td{border:1px solid var(--line)!important;color:var(--ink)!important;background:var(--paper)!important}
+html[data-course-theme=a] .stage .ss-body table th{background:var(--subtle)!important;font-weight:600!important}
+html[data-course-theme=a] .uniform-wordbank{border:1px solid var(--line)!important;background:var(--subtle)!important;border-radius:12px!important;color:var(--ink)!important}
+html[data-course-theme=a] .vocabulary-mosaic{background:var(--subtle)!important;background-image:none!important;border:1px solid var(--line)!important;border-radius:12px!important;color:var(--muted)!important;font:23px var(--sans)!important;text-align:left;padding-left:24px!important;box-shadow:none!important}
+html[data-course-theme=a] .meaning-revealed>.vocabulary-mosaic{color:transparent!important;border-color:transparent!important;background:transparent!important}
+html[data-course-theme=a] .stage[data-a-vocabulary] .obj img{border-radius:var(--radius)!important}
+html[data-course-theme=a] [data-course-color=ink]{color:var(--ink)!important}html[data-course-theme=a] [data-course-color=muted]{color:var(--muted)!important}html[data-course-theme=a] [data-course-color=accent]{color:var(--accent)!important}html[data-course-theme=a] [data-course-color=answer]{color:var(--answer)!important}
+html[data-course-theme=a] .lesson-source-intro{background:var(--page)!important;color:var(--ink)!important}
+html[data-course-theme=a] .intro-title,html[data-course-theme=a] .intro-page{color:var(--ink)!important;font-family:var(--sans)!important}
+html[data-course-theme=a] .lesson-source-intro button,html[data-course-theme=a] .hw-footer button,html[data-course-theme=a] .group-next,html[data-course-theme=a] .guided-screen button{border:1px solid var(--line)!important;background:var(--paper)!important;color:var(--ink)!important;border-radius:10px!important}
+html[data-course-theme=a] .teacher-sidebar{background:var(--paper)!important;color:var(--ink)!important;border-color:var(--line)!important;font-family:var(--sans)!important}
+html[data-course-theme=a] .teacher-sidebar button,html[data-course-theme=a] .teacher-sidebar a{color:var(--ink)!important;border-color:var(--line)!important;font-family:var(--sans)!important}
+html[data-course-theme=a] .sidebar-handle{background:var(--paper)!important;color:var(--muted)!important;border-color:var(--line)!important;border-radius:0 9px 9px 0!important}
+html[data-course-theme=a] .stage .obj .text,html[data-course-theme=a] .stage .obj .text span{font-family:var(--sans)!important}
+html[data-course-theme=a] .stage .ss-body tr[data-preview-table-header]>*{background:var(--subtle)!important;color:var(--ink)!important;font-weight:600!important}html[data-course-theme=a] .stage .ss-body tr[data-preview-table-header] [data-preview-color]{color:var(--ink)!important}
+:root[data-course-theme=a]{--page:#fff;--paper:#fff;--ink:#1d1d1f;--muted:#606a78;--line:#d9dfe7;--subtle:#f4f7fb;--accent:#0066cc;--accent-soft:#eaf3ff;--answer:#b32632}
+html[data-course-theme=a] .viewport,html[data-course-theme=a] .reference-viewport{background:#fff!important}
+html[data-course-theme=a] .stage .lesson-dictation .dictation-table tr{height:var(--a-row,60px)!important}
+html[data-course-theme=a] .stage .lesson-dictation .dictation-table thead tr{height:46px!important}
+html[data-course-theme=a] .stage .lesson-dictation .dictation-table thead th{background:var(--subtle)!important;padding:9px 14px!important}
+html[data-course-theme=a] .stage .lesson-dictation .dictation-table td,html[data-course-theme=a] .stage .lesson-dictation .dictation-table th{padding:3px 14px!important}
+html[data-course-theme=a] .stage .lesson-dictation[data-density=compact] .dictation-cell{font-size:26px!important;min-height:27px!important}
+html[data-course-theme=a] .stage .lesson-dictation[data-density=compact] .dictation-cell.field-1{font-size:24px!important}
+html[data-course-theme=a] .stage .lesson-dictation[data-density=compact] .dictation-cell.field-2{font-size:21px!important}
+html[data-course-theme=a] .stage .lesson-dictation[data-density=dense] .dictation-cell{font-size:23px!important;min-height:24px!important}
+html[data-course-theme=a] .stage .lesson-dictation[data-density=dense] .dictation-cell.field-1{font-size:22px!important}
+html[data-course-theme=a] .stage .lesson-dictation[data-density=dense] .dictation-cell.field-2{font-size:20px!important}
+html[data-course-theme=a] .stage .lesson-dictation[data-density=dense] .dictation-table tbody th{font-size:20px!important}
+html[data-course-theme=a] .stage .lesson-dictation .dictation-cell.dictation-multiword{font-size:22px!important;line-height:1.1!important}
+html[data-course-theme=a] .stage .lesson-dictation .dictation-multiword .dictation-value{white-space:normal!important;overflow-wrap:normal!important}
+html[data-course-theme=a] .stage .lesson-dictation .dictation-value{white-space:normal!important;overflow-wrap:normal!important;word-break:normal!important}
+html[data-course-theme=a] .teacher-sidebar button.active{background:var(--accent)!important;color:white!important;border-color:var(--accent)!important}
+html[data-course-theme=a] .teacher-sidebar .sidebar-heading strong{font-weight:600}
+html[data-course-theme=a] .teacher-sidebar button:hover{background:var(--accent-soft)!important}
+html[data-course-theme=a] .teacher-sidebar button.active:hover{background:#0056b3!important;color:white!important}
+html[data-course-theme=a] .ss-body table th *,html[data-course-theme=a] .ss-body table[data-format-header=true] tr:first-child *{color:var(--ink)!important}
+html[data-course-theme=a] .stage table:not(.dictation-table){border:1px solid var(--line)!important;border-collapse:collapse!important;background:white!important}
+html[data-course-theme=a] .stage table:not(.dictation-table) td,html[data-course-theme=a] .stage table:not(.dictation-table) th{border:1px solid var(--line)!important;background:white!important;color:var(--ink)!important}
+html[data-course-theme=a] .stage table:not(.dictation-table) .a-table-head>*,html[data-course-theme=a] .stage table:not(.dictation-table) th{background:var(--subtle)!important;color:var(--ink)!important}
+html[data-course-theme=a] .stage table:not(.dictation-table) .a-table-head *{color:var(--ink)!important}
+html[data-course-theme=a] .stage.format-standard table[data-format-header=true] tr.fmt-table-heading.a-table-head>td,html[data-course-theme=a] .stage.format-standard table[data-format-header=true] tr.fmt-table-heading.a-table-head>th{background:var(--subtle)!important;color:var(--ink)!important}
+html[data-course-theme=a] .stage.format-standard table[data-format-header=true] tr.fmt-table-heading.a-table-head span{color:var(--ink)!important}
+html[data-course-theme=a] .vocab-scope-screen header small{color:var(--accent)!important}
+html[data-course-theme=a] .vocab-scope-screen h1,html[data-course-theme=a] .vocab-scope-details h2{color:var(--ink)!important}
+html[data-course-theme=a] .vocab-scope-tabs button{border:1px solid var(--line)!important;border-radius:10px;color:var(--ink);font-family:var(--sans)}
+html[data-course-theme=a] .vocab-scope-tabs button[aria-selected=true]{background:var(--accent)!important;color:white!important;border-color:var(--accent)!important}
+html[data-course-theme=a] .ss-body .inline-answer-value,html[data-course-theme=a] .ss-body .inline-correction-value,html[data-course-theme=a] .inline-answer-text,html[data-course-theme=a] .group-value,html[data-course-theme=a] .hw-filled,html[data-course-theme=a] .ot-answer,html[data-course-theme=a] .analysis-answer{color:var(--answer)!important}
+html[data-course-theme=a] .answers-visible .inline-answer-highlight,html[data-course-theme=a] .answers-visible .fmt-reveal-target{color:var(--answer)!important}
+html[data-course-theme=a] .group-analysis,html[data-course-theme=a] .fmt-detail-dialog,html[data-course-theme=a] dialog{border-color:var(--line);border-radius:16px;font-family:var(--sans);color:var(--ink)}
+html[data-course-theme=a] .group-analysis h2,html[data-course-theme=a] .group-analysis h3{color:var(--ink)}
+html[data-course-theme=a] .group-analysis header button,html[data-course-theme=a] .fmt-detail-dialog button{border-radius:9px;color:var(--accent);border-color:var(--line)}
+html[data-course-theme=a] .group-analysis blockquote{border-color:var(--accent)}
+html[data-course-theme=a] .reference-tools,html[data-course-theme=a] .reader-document{background:white;color:var(--ink)}
+html[data-course-theme=a] .intro-title{font-weight:600}
+html[data-course-theme=a] .source-intro-paper,html[data-course-theme=a] .textbook-source-dialog #source-body{background:white!important}
+html[data-course-theme=a] .lesson-source-intro footer button{border-radius:9px;color:var(--accent);border-color:var(--line)}
+html[data-course-theme=a] .source-heading h2,html[data-course-theme=a] .source-context-panel h3{color:var(--ink)}
+html[data-course-theme=a] .guided-screen button,html[data-course-theme=a] .hw-footer button{border-radius:10px}
+.unit-welcome{position:absolute;inset:0;z-index:130;background:white;color:#1d1d1f;overflow:auto;font:16px/1.6 'Segoe UI','Microsoft YaHei',Arial,sans-serif}
+.unit-top{height:88px;max-width:1440px;padding:0 60px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:30px;border-bottom:1px solid #dce2ea}
+.unit-top a{color:#0066cc;text-decoration:none;font-size:14px}.unit-top .a-wordmark{font-size:23px;letter-spacing:3px;font-weight:700;color:#1d1d1f}.unit-top .a-wordmark span{margin-left:18px;font-size:13px;letter-spacing:.5px;color:#66717f;font-weight:400}
+.unit-hero h1:focus{outline:none}
+.unit-main{max-width:1320px;padding:60px 60px 40px;margin:auto}.unit-eyebrow{color:#66717f;font-size:15px;margin:0 0 27px}.unit-hero{display:flex;justify-content:space-between;align-items:end;gap:60px;margin-bottom:45px}.unit-number{font-size:15px;letter-spacing:2px;color:#0066cc;margin:0 0 12px;font-weight:600}.unit-hero h1{font-size:58px;line-height:1.12;letter-spacing:-2px;margin:0;font-weight:650;max-width:830px}.unit-chinese{font-size:21px;color:#66717f;margin:16px 0 0}.unit-intro{color:#66717f;font-size:18px;flex-shrink:0;line-height:1.8}.unit-session-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:19px}.unit-session{font:inherit;text-align:left;background:#fff;border:1px solid #dce3ed;border-radius:19px;padding:25px 24px;cursor:pointer;color:#1d1d1f;min-height:245px;display:flex;flex-direction:column}.unit-session:hover{border-color:#8db7e0;background:#f8fbff}.unit-session:focus-visible{outline:3px solid #95c1ed;outline-offset:4px}.session-week{font-size:14px;color:#66717f}.unit-session h2{font-size:31px;font-weight:600;margin:12px 0 14px}.unit-session p{font-size:14px;line-height:1.8;color:#66717f;margin:0 0 25px;min-height:50px}.session-enter{display:flex;align-items:center;justify-content:space-between;gap:18px;color:#0066cc;font-size:14px;margin-top:auto}.session-enter svg{width:21px;height:21px;stroke:currentColor;stroke-width:1.6;fill:none}.unit-footnote{font-size:14px;color:#66717f;margin:28px 0 0}.unit-home-button{width:100%}
+@media(max-width:1100px){.unit-session-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.unit-session{min-height:210px}.unit-session p{min-height:0}.unit-main{padding:45px 40px}.unit-hero h1{font-size:46px}.unit-top{padding:0 40px}.unit-hero{margin-bottom:30px}.unit-eyebrow{margin-bottom:18px}}
+@media(max-width:650px){.unit-top{height:74px;padding:0 23px}.unit-top .a-wordmark span{display:none}.unit-main{padding:35px 23px}.unit-hero{display:block}.unit-hero h1{font-size:36px;letter-spacing:-1px}.unit-intro{display:none}.unit-session{padding:22px 19px;min-height:210px}.unit-session-grid{gap:12px}.unit-session h2{font-size:28px}.unit-chinese{font-size:19px}.unit-footnote{font-size:13px}}
+
+/* Same frame owns image clipping and its border, including cropped photos. */
+html[data-course-theme=a] .stage>.obj[data-a-image-frame]{border-radius:var(--radius)!important;overflow:hidden!important;clip-path:inset(0 round var(--radius))}
+html[data-course-theme=a] .stage>.obj[data-a-photo-outline]{border-radius:var(--radius)!important;overflow:hidden!important}
+html[data-course-theme=a] .stage[data-a-vocabulary] .obj[data-a-image-frame] img{border-radius:0!important}
+html[data-course-theme=a] .stage.a-additional .ss-instruction{font-weight:400!important}
+html[data-course-theme=a] .stage.a-additional .ss-instruction *{font-weight:400!important;font-size:inherit!important}
+html[data-course-theme=a] .stage.a-additional .ss-title{margin:0!important}
+html[data-course-theme=a] .stage.a-additional .ss-body{display:grid;grid-template-columns:1fr}
+html[data-course-theme=a] .stage.a-additional .ss-node .text{height:auto;white-space:normal}
+html[data-course-theme=a] .stage.a-additional .ss-node span{font-size:inherit!important;line-height:inherit!important}
+html[data-course-theme=a] .stage.a-additional .ss-numbered-row{display:grid;grid-template-columns:52px minmax(0,1fr);gap:8px}
+html[data-course-theme=a] .stage.a-additional .a-additional-bank{font:32px/1.35 var(--sans);display:flex;flex-wrap:wrap;gap:12px 32px;margin-top:20px;padding:16px 22px}
+html[data-course-theme=a] .stage.a-additional .a-bank-option{white-space:nowrap}
+html[data-course-theme=a] .stage.a-additional .a-bank-number{color:var(--accent)}
+html[data-course-theme=a] .stage.a-additional .fmt-header-banks .a-additional-bank{margin-top:0}
+html[data-course-theme=a] .stage.a-additional .a-additional-label{position:absolute;right:144px;bottom:30px;font:22px/1.3 var(--sans);color:var(--muted)}
