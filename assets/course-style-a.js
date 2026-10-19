@@ -82,7 +82,27 @@
   }
  }
 
+
+ function classroomContext(stage){
+  const U=window.UNLOCK_PLAYER,state=ctxRef?.state()||U?.state(),S=ctxRef?.structure||U?.structure,lesson=window.LESSON;
+  if(!state||!S?.routes?.length||!lesson)return;
+  stage.dataset.aUnit=lesson.id;stage.dataset.aPage=String(state.current);
+  const routes=S.routes,sessions=window.SCHOOL_LESSON_OPENING?.data.sessions||window.SCHOOL_LESSON_OPENINGS?.sessions||[];
+  let index=U?.state().current===state.current?U.state().routeIndex:S.routeMap[String(state.current)];
+  if(!Number.isInteger(index)||!routes[index])index=routes.findIndex(r=>r.anchor===state.current||r.pages?.includes(state.current));
+  if(index<0)index=0;
+  let session=sessions[0];
+  for(const item of sessions){const start=routes.findIndex(r=>r.anchor===item.plan);if(start>=0&&start<=index)session=item;}
+  let footer=stage.querySelector(':scope>.a-classroom-meta');
+  if(!footer){footer=document.createElement('footer');footer.className='a-classroom-meta';footer.setAttribute('aria-label','课程信息');for(const cls of ['a-meta-unit','a-meta-session','a-meta-page']){const span=document.createElement('span');span.className=cls;footer.append(span);}stage.append(footer);}
+  footer.querySelector('.a-meta-unit').textContent=`UNLOCK · Book ${lesson.book} · ${lesson.course==='LS'?'LS 听说':'RW 读写'} · Unit ${lesson.unit}`;
+  footer.querySelector('.a-meta-session').textContent=session?`第${session.week}周 · ${session.skill}`:'单元导学';
+  footer.querySelector('.a-meta-page').textContent=`课件第 ${index+1} / ${routes.length} 页`;
+  footer.dataset.unit=lesson.id;footer.dataset.session=session?.id||'';footer.dataset.route=String(index);
+ }
+
  function skin(stage){
+  classroomContext(stage);
   standardHeader(stage);
   imageFrames(stage);additionalPolish(stage);
   dictation(stage);

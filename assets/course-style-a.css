@@ -200,3 +200,18 @@ html[data-course-theme=a] .stage .hw-count{top:90px!important;right:108px!import
 /* Source controls share one size and position on all page types. */
 html[data-course-theme=a] .stage .page-source-button,
 html[data-course-theme=a] .stage .vc-source{position:absolute!important;right:60px!important;top:28px!important;height:48px!important;margin:0!important;padding:8px 20px!important;border:1px solid var(--line)!important;border-radius:999px!important;background:#fff!important;color:var(--muted)!important;font:400 22px/30px var(--sans)!important;box-sizing:border-box!important;box-shadow:none!important}
+
+/* Persistent classroom context uses the same fixed stage coordinates in every state. */
+html[data-course-theme="a"] .stage>.a-classroom-meta{position:absolute;left:108px;right:108px;bottom:8px;height:26px;display:flex;align-items:center;gap:28px;z-index:4;color:#747d8b;font-family:Arial,"Microsoft YaHei",sans-serif;font-size:20px;line-height:26px;font-weight:400;white-space:nowrap;pointer-events:none;box-sizing:border-box;}
+html[data-course-theme="a"] .a-meta-session{padding-left:28px;border-left:1px solid #e5e9ef;}
+html[data-course-theme="a"] .a-meta-page{margin-left:auto;font-variant-numeric:tabular-nums;}
+
+html[data-course-theme="a"] .stage .ot-footer,
+html[data-course-theme="a"] .stage.a-additional .a-additional-label{bottom:58px!important;}
+html[data-course-theme="a"] .stage.format-standard .fmt-detail-button,
+html[data-course-theme="a"] .stage.format-standard .fmt-section-nav,
+html[data-course-theme="a"] .stage.format-standard .fmt-footer-audio{top:996px!important;}
+html[data-course-theme="a"] .stage[data-a-unit="B2_LS_U07"][data-a-page="149"]>.obj[data-name="图片 16"]{top:494px!important;}
+
+/* The common context replaces legacy slide footers; textbook pages remain in the source button. */
+html[data-course-theme="a"] .stage>.source-page-footer{display:none!important;}
