@@ -1,0 +1,44 @@
+.plain-ui-icon{display:inline-block;width:1em;height:1em;vertical-align:-.13em;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0;overflow:visible}.a-meta-unit{display:flex;align-items:center;gap:18px}.a-meta-unit>span{display:inline-block}.plan-arrow .plain-ui-icon{width:26px;height:26px;vertical-align:middle}.vc-pair-result .plain-ui-icon{width:24px;height:24px;vertical-align:middle}.vc-bank em,.a-bank-number{font-style:normal}
+
+.plan-arrow{font-size:22px!important;font-weight:400;white-space:nowrap}.vc-practice .vc-footer [data-vc-progress]{width:280px;white-space:nowrap}
+.plain-fit-review .ss-body,.plain-fit-review .ss-body td,.plain-fit-review .ss-body th{font-size:var(--plain-review-font,36px)!important;line-height:1.22!important}
+.plain-fit-review .ss-body .inline-answer-text{font-size:var(--plain-review-font,36px)!important;line-height:1.22!important}
+.plain-review-pages{position:absolute;left:108px;right:108px;top:984px;height:48px;display:flex;align-items:center;justify-content:flex-end;gap:24px;font-size:24px;color:#687383}.plain-review-pages button{font:inherit;padding:8px 20px;border:1px solid #dbe1ea;background:white;border-radius:18px;color:#3966cd;cursor:pointer}.plain-review-pages button:disabled{color:#b4bac3;cursor:default}
+.plain-review-gallery .ot-gallery img{height:150px!important}.plain-review-gallery .ot-body{top:270px!important;gap:12px!important}.plain-review-gallery>.ot-footer{display:none}
+.plain-review-outline>.obj:not(.inline-feedback):has(table){height:450px!important}.plain-review-outline>.inline-feedback{top:680px!important;height:290px!important}
+
+/* Shared A typography for student instructions and homework answer review. */
+html[data-course-theme=a] .stage .lesson-dictation .opening-note{max-width:1040px;line-height:1.35!important;font-size:25px!important}
+html[data-course-theme=a] .stage .dictation-audio-controls{top:210px!important;gap:12px!important}
+html[data-course-theme=a] .stage .dictation-audio-controls [data-dictation-status]{font-size:19px!important;max-width:400px;line-height:1.25}
+html[data-course-theme=a] .stage .lesson-dictation .dictation-table .dict-no{width:8%!important}
+html[data-course-theme=a] .stage .lesson-dictation .dictation-table .dict-en{width:33%!important}
+html[data-course-theme=a] .stage .lesson-dictation .dictation-table .dict-cn{width:39%!important}
+html[data-course-theme=a] .stage .lesson-dictation .dictation-table .dict-pos{width:20%!important}
+html[data-course-theme=a] .stage .lesson-dictation .dictation-table thead th{font-size:20px!important;white-space:nowrap}
+html[data-course-theme=a] .stage .guided-screen .guided-instructions{margin-top:40px!important;gap:26px}
+html[data-course-theme=a] .stage .guided-screen .guided-instructions p{font:400 34px/1.4 var(--sans)!important}
+html[data-course-theme=a] .stage .guided-screen .guided-status{color:var(--muted)!important;font-size:28px!important}
+html[data-course-theme=a] .stage .guided-screen .guided-page-number{display:none}
+html[data-course-theme=a] .stage .hw-heading .hw-group{color:var(--muted)!important;font:400 27px/1.3 var(--sans)!important}
+html[data-course-theme=a] .stage .group-homework .hw-instruction{position:absolute;top:230px;left:108px;right:108px;height:90px;font:400 30px/1.4 var(--sans)!important}
+html[data-course-theme=a] .stage .group-homework .hw-fit{top:330px!important;bottom:150px!important;gap:48px!important;font-size:var(--plain-hw-font,32px)!important}
+html[data-course-theme=a] .stage .group-homework .group-question{font:400 var(--plain-hw-font,32px)/1.35 var(--sans)!important;margin:0 0 24px!important;padding-left:52px}
+html[data-course-theme=a] .stage .group-homework .group-question:before{color:var(--muted)}
+html[data-course-theme=a] .stage .group-homework .question-stem{font:inherit!important;margin:0 0 12px!important}
+html[data-course-theme=a] .stage .group-homework .options{display:grid!important;grid-template-columns:1fr!important;gap:8px!important;margin-left:0!important}
+html[data-course-theme=a] .stage .group-homework .option{display:grid!important;grid-template-columns:34px minmax(0,1fr);gap:8px!important;align-items:baseline!important;font-size:.94em!important;line-height:1.3!important}
+html[data-course-theme=a] .stage .group-homework .box{display:none!important}
+html[data-course-theme=a] .stage .group-homework .option-label{color:var(--muted);font-weight:500}
+html[data-course-theme=a] .stage .group-homework .group-key{margin-top:10px;min-height:42px;font-size:.9em}
+html[data-course-theme=a] .stage .group-homework .group-aids{font:400 28px/1.35 var(--sans)!important}
+html[data-course-theme=a] .stage .group-homework table{table-layout:auto;width:100%;border-radius:12px;overflow:hidden}
+html[data-course-theme=a] .stage .group-homework table td,html[data-course-theme=a] .stage .group-homework table th{padding:10px 14px!important;font:inherit!important;vertical-align:top!important}
+html[data-course-theme=a] .stage .group-homework table.plain-heading-list td:first-child{width:64px!important;color:var(--muted)!important}
+html[data-course-theme=a] .stage .group-homework .hw-count{display:none}
+html[data-course-theme=a] .stage .group-homework .hw-footer{bottom:58px!important;left:108px;right:108px;display:flex;justify-content:space-between;align-items:center}
+html[data-course-theme=a] .stage .group-homework .group-actions{display:flex;flex:1;gap:18px}
+html[data-course-theme=a] .stage .group-homework .group-actions [data-group-next]{order:3;margin-left:auto;min-width:140px;background:var(--accent)!important;color:white!important;border-radius:999px!important}
+html[data-course-theme=a] .stage .group-homework .group-actions [data-group-progress]{order:2;color:var(--muted)!important;font-size:22px!important}
+html[data-course-theme=a] .stage .group-homework .group-actions [data-group-material]{order:1;border-radius:999px!important;font-size:23px!important}
+html[data-course-theme=a] .stage .group-homework .group-value{font-weight:600!important}

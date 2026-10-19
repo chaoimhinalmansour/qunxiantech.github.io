@@ -18,9 +18,9 @@
  for(const card of D.glossary){const route={anchor:card.page,pages:[card.page],section:card.section,label:'Glossary · '+card.word,kind:'content',number:null,group:null};let at=S.routes.findIndex(r=>r.section===card.section&&r.anchor>card.page);if(at<0)at=S.routes.findIndex(r=>r.anchor>card.page&&r.anchor<=D.sessions[3].dictation);if(at<0)at=S.routes.length;S.routes.splice(at,0,route);window.SCHOOL_EXCLUDED_PAGES.delete(card.page);}
  const at=S.routes.findIndex(r=>r.anchor===first.plan);S.routes.splice(at+1,0,...core,...matches,...practice);
  function plan(s){const keep=s.tasks.filter(t=>!['词汇讲解','图句匹配','词汇应用'].includes(t.label));for(const t of keep){if(rawCards.has(t.go)||removedAdditional.has(t.go)){const section=L.pages[t.go-1].section,candidate=S.routes.find(r=>r.section===section&&!glossaryPages.has(r.anchor));if(candidate)t.go=candidate.anchor;}}
- s.tasks=s===first?[{label:'词汇讲解',detail:'书后 Vocabulary 全部 '+D.cards.length+' 个词项',go:core[0].anchor},{label:'图句匹配',detail:'读例句，指认图片 · 每页 5 组',go:matches[0].anchor},{label:'词汇应用',detail:'完成全部核心词汇的 Additional practice',go:practice[0].anchor},...keep]:keep;
+ s.tasks=s===first?[{label:'词汇讲解',detail:'书后 Vocabulary 全部 '+D.cards.length+' 个词项',go:core[0].anchor},{label:'图句匹配',detail:'读例句，指认图片，每页 5 组',go:matches[0].anchor},{label:'词汇应用',detail:'完成全部核心词汇的 Additional practice',go:practice[0].anchor},...keep]:keep;
  s.vocabularyPages=s===first?core.map(r=>r.anchor):[];s.vocabularyWords=s===first?D.cards.map(c=>c.word):[];
- const p=L.pages[s.plan-1];p.html=`<section class="lesson-opening lesson-plan" data-session="${s.id}" style="--plan-rows:${s.tasks.length}"><header class="opening-header"><div class="opening-context">Book ${L.book} · Unit ${L.unit}<span>第${s.week}周 · ${s.skill}</span></div><h1>本节课计划</h1></header><ol class="plan-list">${s.tasks.map((t,i)=>`<li><button class="plan-item" data-action='${JSON.stringify({go:t.go})}'><span class="plan-number">${String(i+1).padStart(2,'0')}</span><span class="plan-text"><strong>${esc(t.label)}</strong><span>${esc(t.detail)}</span></span><span class="plan-arrow" aria-hidden="true">→</span></button></li>`).join('')}</ol></section>`;}
+ const p=L.pages[s.plan-1];p.html=`<section class="lesson-opening lesson-plan" data-session="${s.id}" style="--plan-rows:${s.tasks.length}"><header class="opening-header"><div class="opening-context">Book ${L.book} Unit ${L.unit}<span>第${s.week}周 ${s.skill}</span></div><h1>本节课计划</h1></header><ol class="plan-list">${s.tasks.map((t,i)=>`<li><button class="plan-item" data-action='${JSON.stringify({go:t.go})}'><span class="plan-number">${String(i+1).padStart(2,'0')}</span><span class="plan-text"><strong>${esc(t.label)}</strong><span>${esc(t.detail)}</span></span><span class="plan-arrow" aria-hidden="true">进入</span></button></li>`).join('')}</ol></section>`;}
  sessions.forEach(plan);S.routeMap={};S.routes.forEach((r,i)=>r.pages.forEach(p=>S.routeMap[String(p)]=i));
  function syncSources(){const viewer=window.SCHOOL_SOURCE_VIEWER;if(viewer)Object.entries(pageSources.records).filter(([k])=>k.startsWith('v23_')||D.glossary.some(c=>k==='page_'+c.page)).forEach(([id,r])=>viewer.records.set(id,r));}
  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',syncSources,{once:true});else syncSources();
@@ -29,23 +29,24 @@
  const sourceButton='<button type="button" class="vc-source" data-vc-source>教材来源</button>';
  function mark(c){let html=esc(c.example);for(const target of c.answerParts||[c.answer]){const token=esc(target),i=html.toLowerCase().indexOf(token.toLowerCase());if(i>=0)html=html.slice(0,i)+'<b>'+html.slice(i,i+token.length)+'</b>'+html.slice(i+token.length);}return html;}
  function head(title,note,extra=''){return`<header class="vc-head"><small>VOCABULARY</small><h1>${title}</h1><p>${note}</p>${extra}</header>${sourceButton}`;}
- function cardHTML(c){return`<section class="vcycle vc-card">${head('Vocabulary in context','Book '+L.book+' · Unit '+L.unit)}<div class="vc-card-word${c.word.length>20?' vc-long':''}">${esc(c.word)}</div><div class="vc-pos">${esc(c.pos)}</div><button type="button" class="vc-cn" data-vc-cn><span class="vc-cn-hint">点击查看中文释义</span><span class="vc-cn-value">${esc(c.cn)}</span></button><div class="vc-definition"><h2>DEFINITION</h2><p>${esc(c.definition)}</p></div><div class="vc-example"><h2>EXAMPLE</h2><p>${mark(c)}</p></div><img class="vc-card-photo" src="${c.image}" style="${photoStyle(c)}" alt="词汇情境配图"></section>`;}
- function matchHTML(q){const g=q.group,list=g.cards.map(id=>cards.get(id)),letters='ABCDE';return`<section class="vcycle vc-match">${head('Read. Look. Match.','Match sentences 1–5 with pictures A–E.')}<div class="vc-workspace"><div class="vc-sentences">${list.map((c,i)=>`<button type="button" class="vc-sentence" data-vc-row="${i}" aria-label="句子 ${i+1}"><span class="vc-num">${i+1}</span><span class="vc-copy">${mark(c)}</span><span class="vc-pair-response"><span class="vc-answer"></span><span class="vc-pair-result" role="status"></span></span></button>`).join('')}</div><div class="vc-pictures">${g.order.map((i,j)=>`<button type="button" class="vc-picture" data-vc-picture="${j}" aria-label="图片 ${letters[j]}"><img src="${list[i].image}" style="${photoStyle(list[i])}" alt=""><span class="vc-letter">${letters[j]}</span><span class="vc-pair"></span></button>`).join('')}</div></div><footer class="vc-footer"><div class="vc-footer-label"><span>图句匹配 ${q.number} / ${q.total}</span><span class="vc-match-help">先选句子，再选图片</span></div><div><span data-vc-progress aria-live="polite">已配对 0 / 5</span><button type="button" data-vc-reset>重置</button><button type="button" class="vc-primary" data-vc-check disabled>检查</button><button type="button" data-vc-answer>答案</button></div></footer></section>`;}
+ function cardHTML(c){return`<section class="vcycle vc-card">${head('Vocabulary in context','Book '+L.book+' Unit '+L.unit)}<div class="vc-card-word${c.word.length>20?' vc-long':''}">${esc(c.word)}</div><div class="vc-pos">${esc(c.pos)}</div><button type="button" class="vc-cn" data-vc-cn><span class="vc-cn-hint">点击查看中文释义</span><span class="vc-cn-value">${esc(c.cn)}</span></button><div class="vc-definition"><h2>DEFINITION</h2><p>${esc(c.definition)}</p></div><div class="vc-example"><h2>EXAMPLE</h2><p>${mark(c)}</p></div><img class="vc-card-photo" src="${c.image}" style="${photoStyle(c)}" alt="词汇情境配图"></section>`;}
+ function matchHTML(q){const g=q.group,list=g.cards.map(id=>cards.get(id)),letters='ABCDE';return`<section class="vcycle vc-match">${head('Read. Look. Match.','Match sentences 1–5 with pictures A–E.')}<div class="vc-workspace"><div class="vc-sentences">${list.map((c,i)=>`<button type="button" class="vc-sentence" data-vc-row="${i}" aria-label="句子 ${i+1}"><span class="vc-num">${i+1}</span><span class="vc-copy">${mark(c)}</span><span class="vc-pair-response"><span class="vc-answer"></span><span class="vc-pair-result" role="status"></span></span></button>`).join('')}</div><div class="vc-pictures">${g.order.map((i,j)=>`<button type="button" class="vc-picture" data-vc-picture="${j}" aria-label="图片 ${letters[j]}"><img src="${list[i].image}" style="${photoStyle(list[i])}" alt=""><span class="vc-letter">${letters[j]}</span><span class="vc-pair"></span></button>`).join('')}</div></div><footer class="vc-footer"><div class="vc-footer-label"><span>图句匹配 ${q.number} / ${q.total}</span><span class="vc-match-help">可先选句子或图片</span></div><div><span data-vc-progress aria-live="polite">已配对 0 / 5</span><button type="button" data-vc-reset>重置</button><button type="button" class="vc-primary" data-vc-check disabled>检查</button><button type="button" data-vc-answer>答案</button></div></footer></section>`;}
  const textMeasure=document.createElement('canvas').getContext('2d');textMeasure.font='600 34px Arial';
  function cloze(c){let html=esc(c.example);for(const answer of c.answerParts||[c.answer]){const token=esc(answer),i=html.toLowerCase().indexOf(token.toLowerCase());if(i<0)throw Error('Cloze answer missing: '+c.word);const width=Math.max(130,Math.ceil(textMeasure.measureText(answer).width)+30);html=html.slice(0,i)+`<span class="vc-slot" style="width:${width}px"><span class="vc-blank">________</span><span class="vc-fill">${html.slice(i,i+token.length)}</span></span>`+html.slice(i+token.length);}return html;}
- function practiceHTML(q){const list=q.group.cards.map(id=>cards.get(id)),order=list.map((_,i)=>i);if(order.length>1)order.push(order.shift());return`<section class="vcycle vc-practice">${head('Use the words.','Complete the sentences with the correct forms of the words in the box.')}<div class="vc-bank">${order.map((i,j)=>`<span><em>${String.fromCodePoint(0x2460+j)}</em> ${esc(list[i].word)}</span>`).join('')}</div><div class="vc-practice-rows">${list.map((c,i)=>`<div class="vc-practice-row"><span class="vc-num">${i+1}</span><p>${cloze(c)}</p></div>`).join('')}</div><footer class="vc-footer"><span>Additional practice ${q.number} / ${q.total}</span><div><span data-vc-progress>已揭晓 0 / ${list.length}</span><button data-vc-reset>重置</button><button class="vc-primary" data-vc-next>揭晓下一题</button></div></footer></section>`;}
+ function optionOrder(q){if(q.type==='match')return q.group.order;const order=q.group.cards.map((_,i)=>i);if(order.length>1)order.push(order.shift());return order;}
+ function practiceHTML(q){const list=q.group.cards.map(id=>cards.get(id)),order=optionOrder({...q,type:'practice'});return`<section class="vcycle vc-practice">${head('Use the words.','Match each sentence with a word in the box. Use the correct form.')}<div class="vc-bank">${order.map((i,j)=>`<button type="button" class="vc-option" data-vc-option="${j}" aria-label="选项 ${'ABCDE'[j]} ${esc(list[i].word)}"><em>${'ABCDE'[j]}</em><span>${esc(list[i].word)}</span><span class="vc-option-pair"></span></button>`).join('')}</div><div class="vc-practice-rows">${list.map((c,i)=>`<button type="button" class="vc-practice-row" data-vc-row="${i}" aria-label="句子 ${i+1}"><span class="vc-num">${i+1}</span><span class="vc-practice-copy">${cloze(c)}</span><span class="vc-pair-response"><span class="vc-answer"></span><span class="vc-pair-result" role="status"></span></span></button>`).join('')}</div><footer class="vc-footer"><div class="vc-footer-label"><span>Additional practice ${q.number} of ${q.total}</span><span class="vc-match-help">可先选句子或词语</span></div><div><span data-vc-progress aria-live="polite">已配对 0 组，共 ${list.length} 组</span><button type="button" data-vc-reset>重置</button><button type="button" class="vc-primary" data-vc-check disabled>检查</button><button type="button" data-vc-answer>答案</button></div></footer></section>`;}
  for(const [index,q]of screens)L.pages[index-1].html=q.type==='card'?cardHTML(q.card):q.type==='match'?matchHTML(q):practiceHTML(q);
  const previous=window.createSchoolQuestionView;
  window.createSchoolQuestionView=ctx=>{
   const base=previous(ctx),stage=ctx.stage,app=ctx.app;
-  let current=null,revealed=new Set(),active=-1,reviewing=false,pairs=new Map(),checked=false,answerShown=false;
+  let current=null,revealed=new Set(),active=-1,pendingOption=-1,reviewing=false,pairs=new Map(),checked=false,answerShown=false;
   const letters='ABCDE',palette=[['#3565c7','#edf3ff'],['#087b69','#eaf7f2'],['#915086','#f8eef7'],['#986613','#fff6e8'],['#6654b2','#f1effb']];
   const get=()=>screens.get(ctx.state().current),controls={answer:app.querySelector('#answer-mode'),explanation:app.querySelector('#review-mode'),back:app.querySelector('#question-return'),label:app.querySelector('#feedback-view-label')};
   function tint(node,index){const p=palette[index];node.style.setProperty('--vc-pair-color',p?.[0]||'#dce2ea');node.style.setProperty('--vc-pair-bg',p?.[1]||'#fff');}
-  function isCorrect(i){const q=get();return pairs.has(i)&&q.group.order[pairs.get(i)]===i;}
+  function isCorrect(i){const q=get();return pairs.has(i)&&optionOrder(q)[pairs.get(i)]===i;}
   function paint(){
    const q=get();if(!q)return;
-   if(q.type==='match'){
+   if(q.type==='match'||q.type==='practice'){
     stage.querySelectorAll('[data-vc-row]').forEach((node,i)=>{
      const paired=pairs.has(i),selected=i===active,showResult=checked&&!answerShown&&paired;
      tint(node,i);node.classList.toggle('vc-paired',paired);node.classList.toggle('vc-selected',selected);node.classList.toggle('vc-checked-correct',showResult&&isCorrect(i));node.classList.toggle('vc-checked-incorrect',showResult&&!isCorrect(i));
@@ -53,15 +54,16 @@
      node.querySelector('.vc-answer').textContent=paired?letters[pairs.get(i)]:'';
      const result=node.querySelector('.vc-pair-result');result.textContent=showResult?(isCorrect(i)?'✓':'×'):'';result.setAttribute('aria-label',showResult?(isCorrect(i)?'配对正确':'配对需调整'):'');
     });
-    stage.querySelectorAll('[data-vc-picture]').forEach(node=>{
-     const pos=Number(node.dataset.vcPicture),entry=[...pairs].find(([,picture])=>picture===pos),i=entry?.[0];
-     tint(node,i);node.classList.toggle('vc-paired',!!entry);node.setAttribute('aria-disabled',String(answerShown));node.setAttribute('aria-label','图片 '+letters[pos]+(entry?'，已配第 '+(i+1)+' 句':''));node.querySelector('.vc-pair').textContent=entry?String(i+1):'';
+    stage.querySelectorAll('[data-vc-picture],[data-vc-option]').forEach(node=>{
+     const pos=Number(node.dataset.vcPicture??node.dataset.vcOption),entry=[...pairs].find(([,picture])=>picture===pos),i=entry?.[0];
+     const selected=pos===pendingOption;tint(node,i??(selected?0:undefined));node.classList.toggle('vc-paired',!!entry);node.classList.toggle('vc-selected',selected);node.setAttribute('aria-pressed',String(selected));node.setAttribute('aria-disabled',String(answerShown));node.setAttribute('aria-label',(q.type==='match'?'图片 ':'选项 ')+letters[pos]+(q.type==='practice'?' '+cards.get(q.group.cards[optionOrder(q)[pos]]).word:'')+(entry?'，已配第 '+(i+1)+' 句':''));node.querySelector('.vc-pair,.vc-option-pair').textContent=entry?String(i+1):'';
     });
     const progress=stage.querySelector('[data-vc-progress]'),checkButton=stage.querySelector('[data-vc-check]');
     if(answerShown)progress.textContent='答案已显示';
-    else if(checked){const correct=[...pairs.keys()].filter(isCorrect).length;progress.textContent=correct===5?'5 组配对正确':correct+' 组正确，'+(5-correct)+' 组需调整';}
-    else progress.textContent='已配对 '+pairs.size+' / 5';
-    checkButton.disabled=pairs.size!==5||answerShown;
+    else if(checked){const correct=[...pairs.keys()].filter(isCorrect).length;progress.textContent=correct===q.group.cards.length?correct+' 组配对正确':correct+' 组正确，'+(q.group.cards.length-correct)+' 组需调整';}
+    else progress.textContent='已配对 '+pairs.size+' 组，共 '+q.group.cards.length+' 组';
+    checkButton.disabled=pairs.size!==q.group.cards.length||answerShown;
+    if(q.type==='practice')stage.querySelectorAll('.vc-practice-row').forEach(n=>n.classList.toggle('vc-revealed',answerShown));
     return;
    }
    stage.querySelectorAll('.vc-practice-row').forEach((n,i)=>n.classList.toggle('vc-revealed',revealed.has(i)));
@@ -69,33 +71,33 @@
    if(p)p.textContent='已揭晓 '+revealed.size+' / '+total;
    if(button){button.disabled=revealed.size===total;button.textContent=button.disabled?'已全部揭晓':'揭晓下一题';}
   }
-  function selectSentence(i){if(get()?.type!=='match'||answerShown)return;active=active===i?-1:i;paint();}
+  function pair(sentence,option){for(const [i,picture]of pairs)if(picture===option&&i!==sentence)pairs.delete(i);pairs.set(sentence,option);checked=false;active=-1;pendingOption=-1;paint();}
+  function selectSentence(i){if(!['match','practice'].includes(get()?.type)||answerShown||i<0||i>=get().group.cards.length)return;if(pendingOption>=0){pair(i,pendingOption);return;}active=active===i?-1:i;paint();}
   function selectPicture(pos){
-   if(get()?.type!=='match'||answerShown)return;
-   if(active<0){stage.querySelector('[data-vc-progress]').textContent='请先选择左侧句子';return;}
-   for(const [i,picture]of pairs)if(picture===pos&&i!==active)pairs.delete(i);
-   pairs.set(active,pos);checked=false;active=-1;paint();
+   if(!['match','practice'].includes(get()?.type)||answerShown||pos<0||pos>=get().group.cards.length)return;
+   if(active>=0){pair(active,pos);return;}
+   pendingOption=pendingOption===pos?-1:pos;paint();
   }
-  function check(){if(get()?.type!=='match'||pairs.size!==5||answerShown)return;checked=true;active=-1;paint();}
-  function answer(){const q=get();if(q?.type!=='match')return;pairs=new Map(q.group.cards.map((_,i)=>[i,q.group.order.indexOf(i)]));answerShown=true;checked=false;active=-1;paint();}
-  function next(){const q=get();if(q?.type==='match'){answer();return;}if(!q?.group)return;const i=q.group.cards.findIndex((_,i)=>!revealed.has(i));if(i<0)return;revealed.add(i);paint();}
-  function reset(){revealed.clear();pairs.clear();checked=false;answerShown=false;active=-1;paint();}
+  function check(){if(!['match','practice'].includes(get()?.type)||pairs.size!==get().group.cards.length||answerShown)return;checked=true;active=-1;pendingOption=-1;paint();}
+  function answer(){const q=get();if(!['match','practice'].includes(q?.type))return;pairs=new Map(q.group.cards.map((_,i)=>[i,optionOrder(q).indexOf(i)]));if(q.type==='practice')revealed=new Set(q.group.cards.map((_,i)=>i));answerShown=true;checked=false;active=-1;pendingOption=-1;paint();}
+  function next(){answer();}
+  function reset(){revealed.clear();pairs.clear();checked=false;answerShown=false;active=-1;pendingOption=-1;paint();}
   function bind(){
    stage.querySelector('[data-vc-source]').onclick=()=>window.SCHOOL_SOURCE_VIEWER.open();
    stage.querySelector('[data-vc-cn]')?.addEventListener('click',e=>e.currentTarget.classList.toggle('vc-shown'));
    stage.querySelector('[data-vc-next]')?.addEventListener('click',next);stage.querySelector('[data-vc-reset]')?.addEventListener('click',reset);
    stage.querySelector('[data-vc-check]')?.addEventListener('click',check);stage.querySelector('[data-vc-answer]')?.addEventListener('click',answer);
-   stage.querySelectorAll('[data-vc-row]').forEach((n,i)=>n.onclick=()=>selectSentence(i));stage.querySelectorAll('[data-vc-picture]').forEach(n=>n.onclick=()=>selectPicture(Number(n.dataset.vcPicture)));
+   stage.querySelectorAll('[data-vc-row]').forEach((n,i)=>n.onclick=()=>selectSentence(i));stage.querySelectorAll('[data-vc-picture],[data-vc-option]').forEach(n=>n.onclick=()=>selectPicture(Number(n.dataset.vcPicture??n.dataset.vcOption)));
   }
   function refresh(){if(!get())return base.refresh();controls.answer.hidden=get().type==='card';controls.explanation.hidden=true;controls.back.hidden=!reviewing;controls.label.hidden=!reviewing;controls.label.textContent='答案';controls.answer.onclick=()=>api.openReview('answer');controls.back.onclick=()=>api.closeReview();app.querySelector('#feedback-controls').hidden=true;app.querySelector('#part-select').hidden=true;}
   const api={...base,
-   prepareInline(){const q=get();if(!q){current=null;reviewing=false;stage.classList.remove('vc-stage');return base.prepareInline();}if(current!==ctx.state().current){current=ctx.state().current;revealed=new Set();pairs=new Map();active=-1;checked=false;answerShown=false;reviewing=false;}stage.classList.add('vc-stage');base.setQuestionHeight(1080);bind();paint();refresh();return{answer:q.type!=='card',explanation:false};},
+   prepareInline(){const q=get();if(!q){current=null;reviewing=false;stage.classList.remove('vc-stage');return base.prepareInline();}if(current!==ctx.state().current){current=ctx.state().current;revealed=new Set();pairs=new Map();active=-1;pendingOption=-1;checked=false;answerShown=false;reviewing=false;}stage.classList.add('vc-stage');base.setQuestionHeight(1080);bind();paint();refresh();return{answer:q.type!=='card',explanation:false};},
    refresh,availability:()=>get()?{answer:get().type!=='card',explanation:false}:base.availability(),
-   openReview(kind){if(!get())return base.openReview(kind);if(kind!=='answer'||get().type==='card')return;reviewing=true;if(get().type==='match')answer();else for(let i=0;i<get().group.cards.length;i++)revealed.add(i);app.classList.add('review-open');stage.dataset.feedbackView='answer';paint();refresh();},
+   openReview(kind){if(!get())return base.openReview(kind);if(kind!=='answer'||get().type==='card')return;reviewing=true;answer();app.classList.add('review-open');stage.dataset.feedbackView='answer';paint();refresh();},
    closeReview(){if(!get())return base.closeReview();reviewing=false;app.classList.remove('review-open');delete stage.dataset.feedbackView;reset();refresh();},
    isReview:()=>get()?reviewing:base.isReview()
   };
-  window.VOCABULARY_CYCLE_PLAYER={next,reset,selectSentence,selectPicture,check,answer,state:()=>({page:ctx.state().current,type:get()?.type,revealed:[...revealed],pairs:[...pairs].map(([sentence,picture])=>({sentence:sentence+1,picture:letters[picture]})),selected:active<0?null:active+1,checked,answerShown,results:checked?[...pairs.keys()].sort().map(i=>({sentence:i+1,correct:isCorrect(i)})):[]})};
+  window.VOCABULARY_CYCLE_PLAYER={next,reset,selectSentence,selectPicture,selectOption:selectPicture,check,answer,state:()=>({page:ctx.state().current,type:get()?.type,revealed:[...revealed],pairs:[...pairs].map(([sentence,picture])=>({sentence:sentence+1,picture:letters[picture]})),selected:active<0?null:active+1,selectedOption:pendingOption<0?null:letters[pendingOption],checked,answerShown,results:checked?[...pairs.keys()].sort().map(i=>({sentence:i+1,correct:isCorrect(i)})):[]})};
   return api;
  };
  window.VOCABULARY_CYCLE_MODEL={data:D,screens,core:core.map(r=>r.anchor),matches:matches.map(r=>r.anchor),practice:practice.map(r=>r.anchor),glossary:[...glossaryPages],removedAdditional:[...removedAdditional]};

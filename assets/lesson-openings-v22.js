@@ -11,10 +11,10 @@
   const expected=new Map(textbookUnit.terms.map(t=>[wordKey(t),t])),used=new Set(),words=[];
   for(const old of session.words){const raw=wordKey(old[1]),key=expected.has(wordAliases[raw])?wordAliases[raw]:raw;if(!expected.has(key)||(used.has(key)&&textbookUnit.terms.filter(t=>wordKey(t)===key).length<2))continue;used.add(key);const gloss=addedWords[key]||old.slice(2);words.push([String(words.length+1),expected.get(key),...gloss]);}
   for(const [key,term]of expected)if(!used.has(key)){const gloss=addedWords[key];if(!gloss)throw Error('Missing textbook dictation gloss: '+lesson.id+' '+term);words.push([String(words.length+1),term,...gloss]);used.add(key);}
-  session.words=words;session.source=textbookUnit.pdf;session.source_sha256=textbookUnit.sha256;session.bookVocabularySource=textbookUnit.source;session.source_parts=textbookUnit.source.pages.map(p=>({heading:'教材书后 Vocabulary p. '+p.page}));session.tasks[0].detail='教材书后 Vocabulary · '+words.length+' 个词条 · 英文 / 中文释义 / 词性';
+  session.words=words;session.source=textbookUnit.pdf;session.source_sha256=textbookUnit.sha256;session.bookVocabularySource=textbookUnit.source;session.source_parts=textbookUnit.source.pages.map(p=>({heading:'教材书后 Vocabulary p. '+p.page}));session.tasks[0].detail='教材书后 Vocabulary 共 '+words.length+' 个词条，写出英文、中文释义和词性';
  }
  const escape=t=>String(t).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
- const context=s=>`Book ${lesson.book} · Unit ${lesson.unit}<span>第${s.week}周 · ${s.skill}</span>`;
+ const context=s=>`Book ${lesson.book} Unit ${lesson.unit}<span>第${s.week}周 ${s.skill}</span>`;
  const head=(s,title,note)=>`<header class="opening-header"><div class="opening-context">${context(s)}</div><h1>${title}</h1>${note?`<p class="opening-note">${note}</p>`:''}</header>`;
  const specialPages=new Map();
  const originalRoutes=S.routes.slice();
@@ -52,15 +52,15 @@
    const section=lesson.pages[task.go-1].section,target=local.find(r=>r.section===section&&!movedWordRoute(r));if(target)task.go=target.anchor;
   }
   function movedWordRoute(r){return r.pages.some(n=>teachingPages.has(n));}
-  const p=lesson.pages[s.plan-1];p.kind='lesson plan';p.title=`第${s.week}周${s.skill} · 本节课计划`;
-  p.html=`<section class="lesson-opening lesson-plan" data-session="${s.id}" style="--plan-rows:${s.tasks.length}">${head(s,'本节课计划','')}<ol class="plan-list">${s.tasks.map((t,i)=>`<li><button class="plan-item" data-action='${JSON.stringify({go:t.go})}'><span class="plan-number">${String(i+1).padStart(2,'0')}</span><span class="plan-text"><strong>${escape(t.label)}</strong><span>${escape(t.detail)}</span></span><span class="plan-arrow" aria-hidden="true">→</span></button></li>`).join('')}</ol></section>`;
+  const p=lesson.pages[s.plan-1];p.kind='lesson plan';p.title=`第${s.week}周 ${s.skill} · 本节课计划`;
+  p.html=`<section class="lesson-opening lesson-plan" data-session="${s.id}" style="--plan-rows:${s.tasks.length}">${head(s,'本节课计划','')}<ol class="plan-list">${s.tasks.map((t,i)=>`<li><button class="plan-item" data-action='${JSON.stringify({go:t.go})}'><span class="plan-number">${String(i+1).padStart(2,'0')}</span><span class="plan-text"><strong>${escape(t.label)}</strong><span>${escape(t.detail)}</span></span><span class="plan-arrow" aria-hidden="true">进入</span></button></li>`).join('')}</ol></section>`;
   const rows=Math.ceil(s.words.length/2),height=Math.min(60,Math.floor(716/(rows+1)));
   function table(side){
    const words=s.words.slice(side*rows,(side+1)*rows),cells=words.map(w=>`<tr data-word="${w[0]}"><th scope="row">${w[0]}</th>${w.slice(1).map((v,k)=>`<td><div class="dictation-cell field-${k}${k===0&&v.length>26?' dictation-multiword':''}"><span class="dictation-blank" aria-hidden="true"></span><span class="dictation-value">${k===0&&v.length>26?escape(v).replace(' / ',' /<br>'):escape(v)}</span></div></td>`).join('')}</tr>`);
    while(cells.length<rows)cells.push('<tr class="dictation-padding" aria-hidden="true"><td colspan="4"></td></tr>');
    return `<table class="dictation-table"><colgroup><col class="dict-no"><col class="dict-en"><col class="dict-cn"><col class="dict-pos"></colgroup><thead><tr><th scope="col">序号</th><th scope="col">英文</th><th scope="col">中文释义</th><th scope="col">词性</th></tr></thead><tbody>${cells.join('')}</tbody></table>`;
   }
-  const page={index:s.dictation,section:'CLASS',title:`第${s.week}周${s.skill} · 单词听写`,kind:'lesson dictation',controls:[],layers:[],html:`<section class="lesson-opening lesson-dictation" data-session="${s.id}" style="--dictation-row:${height}px">${head(s,'单词听写',`教材书后 Vocabulary · 共 ${s.words.length} 个词条 · 写出英文、中文释义和词性`)}<div class="dictation-frame">${table(0)}${table(1)}</div></section>`};
+  const page={index:s.dictation,section:'CLASS',title:`第${s.week}周 ${s.skill} · 单词听写`,kind:'lesson dictation',controls:[],layers:[],html:`<section class="lesson-opening lesson-dictation" data-session="${s.id}" style="--dictation-row:${height}px">${head(s,'单词听写',`教材书后 Vocabulary 共 ${s.words.length} 个词条，写出英文、中文释义和词性`)}<div class="dictation-frame">${table(0)}${table(1)}</div></section>`};
   if(page.index!==lesson.pages.length+1)throw new Error('Dictation page index mismatch');lesson.pages.push(page);specialPages.set(page.index,s);
   S.pageInfo[String(page.index)]={question:null,section:'CLASS',title:page.title,old:null};
   S.pageInfo[String(s.plan)].title=p.title;
@@ -100,7 +100,7 @@
  window.createSchoolQuestionView=ctx=>{
   const q=previous(ctx);let current=null,ui=null;
   function status(){if(!current)return{};return{session:current.session.id,index:current.index,reading:current.reading+1,phase:current.phase,playing:current.playing,remaining:current.phase==='gap'&&current.playing?Math.max(0,current.deadline-performance.now()):current.remaining,finished:current.finished,total:current.items.length,src:current.audio.src};}
-  function paint(){if(!ui||!current)return;const b=ui.querySelector('[data-dictation-play]'),s=ui.querySelector('[data-dictation-status]');b.innerHTML=speaker+'<span>'+(current.playing?'暂停听写':current.finished?'重新播放':current.started?'继续听写':'播放听写')+'</span>';b.setAttribute('aria-label',current.playing?'暂停听写':'播放英文听写');b.setAttribute('aria-pressed',String(current.playing));s.textContent=current.error?'音频播放失败，请重试':current.finished?'本轮听写已播放完毕':current.started?'第 '+Math.min(current.index+1,current.items.length)+' / '+current.items.length+' 个词条'+(current.playing?'':' · 已暂停'):'英文读两遍 · 词间停顿 1.5 秒';}
+  function paint(){if(!ui||!current)return;const b=ui.querySelector('[data-dictation-play]'),s=ui.querySelector('[data-dictation-status]');b.innerHTML=speaker+'<span>'+(current.playing?'暂停听写':current.finished?'重新播放':current.started?'继续听写':'播放听写')+'</span>';b.setAttribute('aria-label',current.playing?'暂停听写':'播放英文听写');b.setAttribute('aria-pressed',String(current.playing));s.textContent=current.error?'音频播放失败，请重试':current.finished?'本轮听写已播放完毕':current.started?'第 '+Math.min(current.index+1,current.items.length)+' / '+current.items.length+' 个词条'+(current.playing?'':'，已暂停'):'英文读两遍，词间停顿 1.5 秒';}
   function pause(){if(!current)return;current.playing=false;current.audio.pause();clearTimeout(current.timer);if(current.phase==='gap')current.remaining=Math.max(0,current.deadline-performance.now());paint();}
   function stop(){if(!current)return;pause();current.audio.onended=null;current.audio.onerror=null;current.audio.currentTime=0;current=null;}
   function schedule(ms){current.phase='gap';current.remaining=ms;current.deadline=performance.now()+ms;clearTimeout(current.timer);current.timer=setTimeout(()=>{if(current?.playing)sound();},ms);paint();}

@@ -15,7 +15,7 @@
   if(!stage.classList.contains('a-additional'))return;
   for(const bank of stage.querySelectorAll('.uniform-wordbank:not(.a-additional-bank)')){
    const words=bank.textContent.split(/[①-⑳]/).map(w=>w.trim()).filter(Boolean);if(!words.length)continue;
-   bank.classList.add('a-additional-bank');bank.replaceChildren();words.forEach((w,i)=>{const option=document.createElement('span'),number=document.createElement('span');option.className='a-bank-option';number.className='a-bank-number';number.textContent=String.fromCodePoint(0x2460+i);option.append(number,document.createTextNode(' '+w));bank.append(option);});
+   bank.classList.add('a-additional-bank');bank.replaceChildren();words.forEach((w,i)=>{const option=document.createElement('span'),number=document.createElement('span');option.className='a-bank-option';number.className='a-bank-number';number.textContent=String(i+1)+'.';option.append(number,document.createTextNode(' '+w));bank.append(option);});
   }
   const current=window.UNLOCK_PLAYER?.state().current??ctxRef?.state().current;
   const raw=document.createElement('div');raw.innerHTML=LESSON.pages[current-1].html;
@@ -48,7 +48,7 @@
   const head=make('header','ss-header'),titles=(page.title||'').split('|');
   if(titles[0]?.trim()===page.section?.trim()&&/WATCH AND LISTEN/i.test(page.section)&&/GLOSSARY/i.test(titles[1]||''))titles[0]='PREPARING TO WATCH';
   head.append(make('div','ss-section',page.section),make('h1','ss-title',titles[0]),make('div','ss-subtitle',titles[1]||''),make('div','ss-instruction',plain(instruction).replace(/^Additional practice[.:]?\s*/i,'')));
-  if(words.length){const bank=make('div','uniform-wordbank a-additional-bank');words.forEach((w,i)=>{const option=make('span','a-bank-option');option.append(make('span','a-bank-number',String.fromCodePoint(0x2460+i)),document.createTextNode(' '+w));bank.append(option);});head.append(bank);}
+  if(words.length){const bank=make('div','uniform-wordbank a-additional-bank');words.forEach((w,i)=>{const option=make('span','a-bank-option');option.append(make('span','a-bank-number',String(i+1)+'.'),document.createTextNode(' '+w));bank.append(option);});head.append(bank);}
   const area=make('div','ss-body'),column=make('div','ss-column');area.append(column);
   for(const node of body.filter(n=>n!==bankNode)){
    const group=make('div','ss-item');node.classList.add('ss-node');node.style.cssText='';
@@ -95,9 +95,9 @@
   for(const item of sessions){const start=routes.findIndex(r=>r.anchor===item.plan);if(start>=0&&start<=index)session=item;}
   let footer=stage.querySelector(':scope>.a-classroom-meta');
   if(!footer){footer=document.createElement('footer');footer.className='a-classroom-meta';footer.setAttribute('aria-label','课程信息');for(const cls of ['a-meta-unit','a-meta-session','a-meta-page']){const span=document.createElement('span');span.className=cls;footer.append(span);}stage.append(footer);}
-  footer.querySelector('.a-meta-unit').textContent=`UNLOCK · Book ${lesson.book} · ${lesson.course==='LS'?'LS 听说':'RW 读写'} · Unit ${lesson.unit}`;
-  footer.querySelector('.a-meta-session').textContent=session?`第${session.week}周 · ${session.skill}`:'单元导学';
-  footer.querySelector('.a-meta-page').textContent=`课件第 ${index+1} / ${routes.length} 页`;
+  const parts=['UNLOCK',`Book ${lesson.book}`,lesson.course==='LS'?'LS 听说':'RW 读写',`Unit ${lesson.unit}`];footer.querySelector('.a-meta-unit').replaceChildren(...parts.map(text=>{const span=document.createElement('span');span.textContent=text;return span;}));
+  footer.querySelector('.a-meta-session').textContent=session?`第${session.week}周 ${session.skill}`:'单元导学';
+  footer.querySelector('.a-meta-page').textContent=`课件第 ${index+1} 页，共 ${routes.length} 页`;
   footer.dataset.unit=lesson.id;footer.dataset.session=session?.id||'';footer.dataset.route=String(index);
  }
 
