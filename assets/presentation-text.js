@@ -33,7 +33,7 @@ function taskText(node){const value=node.textContent.trim();let next=taskCopy[va
  if(!next&&node.closest('.lesson-dictation')){next=value.replace(/^教材书后 Vocabulary 共 (\d+) 个词条，写出英文、中文释义和词性$/,'$1 words from the Vocabulary list. Write the English word, Chinese meaning and part of speech.').replace(/^第 (\d+) \/ (\d+) 个词条(，已暂停)?$/,'Word $1 of $2$3').replace('，已暂停',' (paused)');}
  if(!next&&node.matches('[data-group-progress]'))next=value.replace(/^已揭晓 (\d+) \/ (\d+)$/,'$1 of $2 answers shown').replace(/^已显示 (\d+) 题，共 (\d+) 题$/,'$1 of $2 answers shown');
  if(!next&&node.matches('.guided-page-number'))next=value.replace(/^教材 p\./,'Book p.');
- if(!next&&node.matches('[data-track] option'))next=value.replace(/^教材录音 /,'Recording '); if(!next&&node.matches('[data-group-audio] option'))next='Recording '+(value.match(/^[A-Z]?\d+/)?.[0]||value.split(/[，,]/)[0]);
+ if(!next&&node.matches('[data-track] option'))next=value.replace(/^教材录音 /,'Recording '); if(!next&&node.matches('[data-group-audio] option')&&!/^Recording /.test(value))next='Recording '+(value.match(/^[A-Z]?\d+/)?.[0]||value.split(/[，,]/)[0]);
  if(next&&next!==value){if(node.tagName==='OPTION'&&!node.hasAttribute('value'))node.setAttribute('value',node.value);node.textContent=next;}
 }
 function studentTasks(){const stage=document.querySelector('.stage');if(!stage)return;
@@ -90,7 +90,7 @@ function clean(value){let s=String(value).replace(/(^|\n)\s*[•·]\s*/g,'$1');
   s=s.replace(/([\u3400-\u9fff])\s*\+\s*(?=[\u3400-\u9fff])/g,'$1与');
   s=s.replace(/([\u3400-\u9fff])\s*[—–]\s*(?=[\u3400-\u9fff])/g,'$1，');
   s=s.replace(/LS\s*\/\s*RW/g,'LS 和 RW');
- }else{s=s.replace(/\s*[·•]\s*/g,' ').replace(/\s+[|｜]\s+/g,', ').replace(/\s*—\s*/g,', ').replace(/([0-9A-Z])–([0-9A-Z])/g,'$1 to $2');}
+ }else{s=s.replace(/\s*[·•]\s*/g,' ').replace(/\s+[|｜]\s+/g,', ').replace(/\s*—\s*/g,', ').replace(/(?<=[0-9A-Z])–(?=[0-9A-Z])/g,' to ');}
  s=s.replace(/[①-⑳]/g,c=>String(c.charCodeAt(0)-0x2460+1)+'.');
  s=s.replace(/[「」]/g,c=>c==='「'?'“':'”');
  if(!/[★☆]\s*=/.test(s))s=s.replace(/(^|\n)\s*[★☆◆◇▪▸➤]+\s*/g,'$1');
@@ -126,7 +126,7 @@ function fitReview(){const U=window.UNLOCK_PLAYER,stage=document.querySelector('
  const pages=Array.from({length:Math.ceil(columns.length/2)},(_,i)=>columns.slice(i*2,i*2+2));let page=0;const nav=document.createElement('div');nav.className='plain-review-pages';const prev=document.createElement('button'),label=document.createElement('span'),next=document.createElement('button');prev.type=next.type='button';prev.textContent='上一页';next.textContent='下一页';nav.append(prev,label,next);stage.append(nav);old.nav=nav;
  const show=()=>{area.replaceChildren(...pages[page].map(groups=>{const column=document.createElement('div');column.className='ss-column';column.append(...groups);return column;}));label.textContent='解析第 '+(page+1)+' 页，共 '+pages.length+' 页';prev.disabled=page===0;next.disabled=page===pages.length-1;};prev.onclick=()=>{page--;show();};next.onclick=()=>{page++;show();};show();
 }
-function flush(root=document.documentElement){if(working)return;working=true;try{studentTasks();polish(root);fitReview();}finally{working=false;}}
+function flush(root=document.documentElement){if(working)return;working=true;try{studentTasks();window.SCHOOL_AUTHORED_A?.polish(document.querySelector('.stage'));polish(root);fitReview();}finally{working=false;}}
 const observer=new MutationObserver(records=>{for(const r of records){if(r.type==='characterData')pending.add(r.target);else if(r.type==='attributes')pending.add(r.target);else for(const n of r.addedNodes)if(n.nodeType===1||n.nodeType===3)pending.add(n);}const roots=[...pending];pending.clear();for(const root of roots)if(root.isConnected)flush(root);});
 observer.observe(document.documentElement,{subtree:true,childList:true,characterData:true,attributes:true,attributeFilter:['title','aria-label','placeholder']});flush();
 window.PLAIN_PRESENTATION_TEXT={clean,flush,stats:()=>({changes}),version:'20261019'};

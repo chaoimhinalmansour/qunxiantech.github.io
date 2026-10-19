@@ -1,0 +1,42 @@
+/* Shared task band: instruction, divider, then question content. */
+html[data-course-theme=a] .stage .u-task-instruction,
+html[data-course-theme=a] .stage .ss-header>.ss-instruction,
+html[data-course-theme=a] .stage .ss-header>.ss-instruction *,
+html[data-course-theme=a] .stage.a-additional .ss-instruction *{font:600 30px/39px var(--sans)!important;color:var(--ink)!important;letter-spacing:0!important}
+html[data-course-theme=a] .stage .u-task-instruction,
+html[data-course-theme=a] .stage .ss-header>.ss-instruction{border-bottom:1px solid var(--line)!important;padding:0 0 18px!important;margin:0!important;box-sizing:border-box!important;height:auto!important;min-height:58px}
+html[data-course-theme=a] .stage .ss-header>.ss-instruction *{border-bottom:0!important}
+html[data-course-theme=a] .stage .vc-match .vc-head>p,
+html[data-course-theme=a] .stage .vc-practice .vc-head>p{font:600 30px/39px var(--sans)!important;color:var(--ink)!important;border-bottom:1px solid var(--line);padding:0 0 18px!important;margin:0!important}
+html[data-course-theme=a] .stage .lesson-dictation .opening-note{max-width:none!important;width:1704px!important;font:600 30px/39px var(--sans)!important;color:var(--ink)!important;margin:0!important}
+html[data-course-theme=a] .stage .dictation-audio-controls{top:258px!important}
+html[data-course-theme=a] .stage .dictation-frame{position:absolute;top:330px;left:108px;right:108px}
+html[data-course-theme=a] .stage .lesson-dictation .dictation-table .dict-en{width:39%!important}
+html[data-course-theme=a] .stage .lesson-dictation .dictation-table .dict-cn{width:33%!important}
+html[data-course-theme=a] .stage .lesson-dictation .dictation-cell.field-0.u-phrase{font-size:var(--u-phrase-font,25px)!important;line-height:1.2!important}
+html[data-course-theme=a] .stage .u-guide-task{position:absolute;top:142px;left:108px;right:108px}
+html[data-course-theme=a] .stage .guided-screen .guided-instructions p{border-left:0!important;padding-left:0!important;font:400 34px/1.4 var(--sans)!important}
+html[data-course-theme=a] .stage .guided-next button,
+html[data-course-theme=a] .stage .transition-action{font:500 26px/34px var(--sans)!important;min-height:62px!important;padding:12px 24px!important;border-radius:12px!important}
+html[data-course-theme=a] .stage .guided-next button{background:var(--accent)!important;color:#fff!important;border-color:var(--accent)!important}
+html[data-course-theme=a] .stage .transition-task{position:absolute;top:222px;left:108px;right:108px;padding:0!important;border:0!important;border-radius:0!important;background:#fff!important}
+html[data-course-theme=a] .stage .transition-category{display:none!important}
+html[data-course-theme=a] .stage .transition-task>p{font:600 30px/39px var(--sans)!important;margin:0 0 30px!important}
+html[data-course-theme=a] .stage .transition-actions{margin-top:32px!important;gap:20px!important}
+html[data-course-theme=a] .stage .transition-footer{left:108px;bottom:58px}
+html[data-course-theme=a] .stage .group-homework .hw-instruction{height:auto!important;min-height:72px!important;top:218px!important}
+html[data-course-theme=a] .stage .group-homework .hw-instruction.u-task-instruction{font:600 30px/39px var(--sans)!important;color:var(--ink)!important}
+html[data-course-theme=a] .stage .group-homework .hw-fit{top:330px!important}
+.u-stage,.u-stage *{box-sizing:border-box}.u-homework,.u-supplement{position:absolute;inset:0;background:#fff;color:var(--ink);font-family:var(--sans)}
+.u-header .u-label{position:absolute;top:36px;left:108px;right:108px;font:600 26px/32px var(--sans);color:var(--accent)}
+.u-header .u-title{position:absolute;top:76px;left:108px;right:108px;margin:0;font:700 48px/58px var(--sans);letter-spacing:-.8px;color:var(--ink)}
+.u-header .u-subtitle{position:absolute;top:142px;left:108px;right:108px;margin:0;font:400 28px/36px var(--sans);color:var(--muted)}
+html[data-course-theme=a] .stage .u-homework-task{position:absolute;top:218px;left:108px;right:108px}
+.u-homework-body{position:absolute;top:308px;bottom:128px;left:108px;right:108px;display:grid;grid-template-columns:minmax(0,1fr);gap:48px}
+.u-homework-body.u-with-photo{grid-template-columns:minmax(0,.94fr) minmax(0,1.06fr)}
+.u-photo-rail{display:flex;flex-direction:column;justify-content:center;gap:20px;min-width:0;height:100%}.u-photo-rail img{display:block;max-height:620px;width:100%;object-fit:contain;border-radius:20px}
+.u-question-list{--u-body-font:32px;min-width:0;align-self:start;display:grid;grid-template-columns:minmax(0,1fr);gap:34px;max-height:100%}.u-question-list.u-two-columns{grid-template-columns:repeat(2,minmax(0,1fr));gap:48px}
+.u-question{display:grid;grid-template-columns:44px minmax(0,1fr);gap:16px;margin:0;align-content:start;min-width:0}.u-question[hidden]{display:none}.u-question-number{font:400 27px/42px var(--sans);color:var(--muted)}.u-question-copy{min-width:0;font:400 var(--u-body-font)/1.38 var(--sans)}.u-question-copy>p{margin:0 0 14px}.u-question-copy .u-wordbank{font-size:.88em;color:var(--muted)}.u-question-copy .u-option{padding-left:18px}.u-question-copy .u-opening{padding:12px 16px;background:var(--subtle);border-radius:12px;font-size:.9em}.u-answer{margin-top:24px}.u-answer h2,.u-explanation h2{font:600 23px/31px var(--sans);margin:0 0 10px;color:var(--muted)}.u-answer p{font:500 var(--u-body-font)/1.4 var(--sans);color:var(--answer);margin:0}.u-explanation{margin-top:24px}.u-explanation p{font:400 28px/1.4 var(--sans);margin:0;color:var(--ink)}
+.u-footer{position:absolute;left:108px;right:108px;bottom:58px;height:62px;display:flex;align-items:center;gap:24px}.u-controls{display:flex;gap:16px;margin-left:auto}.u-stage button{font:500 25px/34px var(--sans);height:62px;padding:10px 24px;border:1px solid var(--line);border-radius:12px;background:#fff;color:var(--ink);cursor:pointer}.u-stage button.u-current{background:var(--accent);color:#fff;border-color:var(--accent)}.u-stage button:focus-visible{outline:3px solid #8ab7ec;outline-offset:3px}.u-pages{display:flex;align-items:center;gap:16px;color:var(--muted);font:400 24px/32px var(--sans)}.u-pages[hidden]{display:none}.u-pages button:disabled{color:#aab2bd;cursor:default}
+html[data-course-theme=a] .stage .u-source-block.u-diagram-center .text span{color:#fff!important}
+html[data-course-theme=a] .stage .u-supplement-task{position:absolute;left:108px;right:108px;top:158px}.u-supplement-body{position:absolute;left:108px;right:108px;top:260px;height:690px}.u-supplement-canvas{position:relative;transform-origin:0 0}.u-source-block{position:absolute;font:400 34px/1.35 var(--sans)}.u-source-block .text{padding:0!important;justify-content:flex-start!important}.u-source-block p{margin:0!important;white-space:normal!important;line-height:1.35!important}.u-source-block .text span{font-size:34px!important;line-height:1.35!important}.u-source-block img{max-width:100%;object-fit:contain}
