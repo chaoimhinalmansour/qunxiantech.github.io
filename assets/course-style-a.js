@@ -67,7 +67,23 @@
   return true;
  }
 
+ function standardHeader(stage){
+  const head=stage.querySelector('.ss-header');if(!head)return;
+  const labels=[...head.children].filter(n=>n.classList.contains('ss-section'));
+  if(labels.length>1&&!head.querySelector(':scope>.ss-title')){
+   labels[1].classList.replace('ss-section','ss-title');
+  }
+  for(const node of head.querySelectorAll(':scope>.ss-subtitle')){
+   if(/^Possible answers?\b/i.test(node.textContent.trim()))node.classList.replace('ss-subtitle','a-header-feedback');
+  }
+  if(!head.querySelector(':scope>.ss-section,:scope>.ss-title')){
+   const remaining=[...head.querySelectorAll(':scope>.ss-subtitle')].filter(n=>n.textContent.trim());
+   if(remaining.length===1)remaining[0].classList.replace('ss-subtitle','ss-title');
+  }
+ }
+
  function skin(stage){
+  standardHeader(stage);
   imageFrames(stage);additionalPolish(stage);
   dictation(stage);
   const page=window.UNLOCK_PLAYER?.state().current,scope=window.SCHOOL_VOCABULARY_SCOPE?.data.pages[String(page)];
