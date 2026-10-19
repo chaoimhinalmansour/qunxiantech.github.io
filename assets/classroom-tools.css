@@ -66,7 +66,7 @@ html[data-course-theme=a] #app.ct-enabled .stage .group-homework .hw-fit{bottom:
 .ct-enabled .fmt-section-nav,.ct-enabled .plain-review-pages,.ct-enabled .u-pages{display:none!important}
 
 /* Plain UNLOCK progress and equal fixed paging zones. */
-:root{--ct-footer-height:84px;--ct-paging-width:clamp(96px,10vw,144px)}
+:root{--ct-footer-height:64px;--ct-paging-width:clamp(96px,10vw,144px)}
 #app.ct-enabled>.workspace{inset:48px 0 var(--ct-footer-height)!important}
 #app.ct-enabled .teacher-sidebar{bottom:var(--ct-footer-height)}
 .ct-footer{height:var(--ct-footer-height);display:grid;grid-template-columns:var(--ct-paging-width) minmax(0,1fr) var(--ct-paging-width);gap:0;padding:0;justify-content:initial}
@@ -75,7 +75,7 @@ html[data-course-theme=a] #app.ct-enabled .stage .group-homework .hw-fit{bottom:
 .ct-footer>[data-ct-next]{border-left:1px dashed #cbd6e5;color:var(--ct-blue)}
 .ct-footer>button:hover{background:#f4f8fe}.ct-footer>button:focus-visible{outline-offset:-5px}
 .ct-progress{min-width:0;display:flex;align-items:center;justify-content:center;gap:3px;padding:4px 24px;height:100%;overflow:hidden}
-.ct-unlock{position:relative;flex:none;display:inline-block;font:700 29px/32px 'Segoe UI','Microsoft YaHei',sans-serif;letter-spacing:4px;white-space:nowrap;--ct-reveal:100%}
+.ct-unlock{position:relative;flex:none;display:inline-block;font:700 26px/28px 'Segoe UI','Microsoft YaHei',sans-serif;letter-spacing:4px;white-space:nowrap;--ct-reveal:100%}
 .ct-progress .ct-unlock>span{display:block;font:inherit;letter-spacing:inherit;color:#d9e3ef}
 .ct-progress .ct-unlock>.ct-unlock-reveal{position:absolute;inset:0;color:var(--ct-blue);clip-path:inset(0 var(--ct-reveal) 0 0)}
 .ct-progress[data-animate=true] .ct-unlock-reveal{transition:clip-path .4s cubic-bezier(.2,.7,.2,1)}
@@ -88,7 +88,6 @@ html[data-course-theme=a] #app.ct-enabled .stage .group-homework .hw-fit{bottom:
 .ct-progress .ct-node-done .ct-node-label{color:#52647d}
 .ct-progress .ct-node-current .ct-node-dot{border:2px solid var(--ct-blue);box-shadow:0 0 0 2px #e7f1ff}
 .ct-progress .ct-node-current .ct-node-label{color:var(--ct-blue);font-weight:600}
-.ct-progress .ct-progress-detail{max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#748297;font-size:10px;line-height:12px;flex:none}
 .ct-task-actions{bottom:calc(var(--ct-footer-height) + 25px)}.ct-toast{bottom:calc(var(--ct-footer-height) + 71px)}
 @media(max-width:950px){.ct-footer{padding:0;gap:0}.ct-progress{padding:4px 10px}.ct-progress .ct-node-label{font-size:10px}.ct-footer>[data-ct-prev],.ct-footer>[data-ct-next]{padding:0 8px}}
 @media(prefers-reduced-motion:reduce){.ct-progress .ct-unlock-reveal{transition:none!important}}
