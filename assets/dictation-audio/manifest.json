@@ -690,135 +690,107 @@
         },
         {
           "number": "10",
-          "text": "have a celebration",
+          "text": "have a celebration / have a party",
           "part_of_speech": "phr.",
-          "clip_key": "fa247bf260e68ac900",
+          "clip_key": "c65a1174471be01248",
           "repeat": 2
         },
         {
           "number": "11",
-          "text": "go to a festival",
-          "part_of_speech": "phr.",
-          "clip_key": "9b327b32157c490120",
-          "repeat": 2
-        },
-        {
-          "number": "12",
           "text": "have a problem",
           "part_of_speech": "phr.",
           "clip_key": "3a141b409b81fe150d",
           "repeat": 2
         },
         {
-          "number": "13",
+          "number": "12",
           "text": "activity",
           "part_of_speech": "n.",
           "clip_key": "c0021238e424e07389",
           "repeat": 2
         },
         {
-          "number": "14",
+          "number": "13",
           "text": "traditional",
           "part_of_speech": "adj.",
           "clip_key": "63e3a98e23dde68b0b",
           "repeat": 2
         },
         {
-          "number": "15",
+          "number": "14",
           "text": "attract",
           "part_of_speech": "v.",
           "clip_key": "2ed7842de0d7f796f6",
           "repeat": 2
         },
         {
+          "number": "15",
+          "text": "firework",
+          "part_of_speech": "n.",
+          "clip_key": "70c22a0ed81442ef16",
+          "repeat": 2
+        },
+        {
           "number": "16",
-          "text": "go to an event",
+          "text": "have fun / have a nice time",
           "part_of_speech": "phr.",
-          "clip_key": "33c71099340510d861",
+          "clip_key": "9cecd6a55af53c931d",
           "repeat": 2
         },
         {
           "number": "17",
-          "text": "fireworks",
-          "part_of_speech": "n.",
-          "clip_key": "7edbf4e4760e20e076",
-          "repeat": 2
-        },
-        {
-          "number": "18",
-          "text": "have fun",
-          "part_of_speech": "phr.",
-          "clip_key": "6d04ab57147a362a19",
-          "repeat": 2
-        },
-        {
-          "number": "19",
           "text": "take part",
           "part_of_speech": "phr.",
           "clip_key": "be7defb542fe3cb474",
           "repeat": 2
         },
         {
-          "number": "20",
-          "text": "take your time",
-          "part_of_speech": "phr.",
-          "clip_key": "df8db956ae0bc34c70",
-          "repeat": 2
-        },
-        {
-          "number": "21",
+          "number": "18",
           "text": "culture",
           "part_of_speech": "n.",
           "clip_key": "0d6e514bab7b55f82a",
           "repeat": 2
         },
         {
-          "number": "22",
+          "number": "19",
           "text": "celebrate",
           "part_of_speech": "v.",
           "clip_key": "b0e6b5f2034c24f639",
           "repeat": 2
         },
         {
-          "number": "23",
+          "number": "20",
           "text": "take place",
           "part_of_speech": "phr.",
           "clip_key": "61fcc0491b17dc26e9",
           "repeat": 2
         },
         {
-          "number": "24",
+          "number": "21",
           "text": "gift",
           "part_of_speech": "n.",
           "clip_key": "4bf40078bbc20616a0",
           "repeat": 2
         },
         {
-          "number": "25",
+          "number": "22",
           "text": "festival",
           "part_of_speech": "n.",
           "clip_key": "d56484df8523bd1e89",
           "repeat": 2
         },
         {
-          "number": "26",
-          "text": "have a nice time",
-          "part_of_speech": "phr.",
-          "clip_key": "168e43e2f71cd1974a",
-          "repeat": 2
-        },
-        {
-          "number": "27",
-          "text": "have a party",
-          "part_of_speech": "phr.",
-          "clip_key": "8eac6d87dab8a51c82",
-          "repeat": 2
-        },
-        {
-          "number": "28",
+          "number": "23",
           "text": "enjoy",
           "part_of_speech": "v.",
           "clip_key": "ba417ac0397f7a52b7",
+          "repeat": 2
+        },
+        {
+          "number": "24",
+          "text": "take care",
+          "part_of_speech": "phr.",
+          "clip_key": "8c6bd98300d3db31eb",
           "repeat": 2
         }
       ]
@@ -843,184 +815,156 @@
         },
         {
           "number": "3",
-          "text": "go to a festival",
-          "part_of_speech": "phr.",
-          "clip_key": "9b327b32157c490120",
-          "repeat": 2
-        },
-        {
-          "number": "4",
           "text": "take place",
           "part_of_speech": "phr.",
           "clip_key": "61fcc0491b17dc26e9",
           "repeat": 2
         },
         {
-          "number": "5",
+          "number": "4",
           "text": "gift",
           "part_of_speech": "n.",
           "clip_key": "4bf40078bbc20616a0",
           "repeat": 2
         },
         {
-          "number": "6",
+          "number": "5",
           "text": "lecture",
           "part_of_speech": "n.",
           "clip_key": "1ea09fc6f7d1189738",
           "repeat": 2
         },
         {
-          "number": "7",
+          "number": "6",
           "text": "attract",
           "part_of_speech": "v.",
           "clip_key": "2ed7842de0d7f796f6",
           "repeat": 2
         },
         {
-          "number": "8",
+          "number": "7",
           "text": "frozen",
           "part_of_speech": "adj.",
           "clip_key": "f37ebfa47a24323a4a",
           "repeat": 2
         },
         {
-          "number": "9",
-          "text": "have fun",
+          "number": "8",
+          "text": "have fun / have a nice time",
           "part_of_speech": "phr.",
-          "clip_key": "6d04ab57147a362a19",
+          "clip_key": "9cecd6a55af53c931d",
           "repeat": 2
         },
         {
-          "number": "10",
+          "number": "9",
           "text": "entertainment",
           "part_of_speech": "n.",
           "clip_key": "1a7fbdefe86c115e48",
           "repeat": 2
         },
         {
-          "number": "11",
+          "number": "10",
           "text": "costume",
           "part_of_speech": "n.",
           "clip_key": "b9c787dd047ee8a90a",
           "repeat": 2
         },
         {
-          "number": "12",
-          "text": "have a celebration",
+          "number": "11",
+          "text": "have a celebration / have a party",
           "part_of_speech": "phr.",
-          "clip_key": "fa247bf260e68ac900",
+          "clip_key": "c65a1174471be01248",
           "repeat": 2
         },
         {
-          "number": "13",
+          "number": "12",
           "text": "take care (of)",
           "part_of_speech": "phr.",
           "clip_key": "0b8a20c66247bf5830",
           "repeat": 2
         },
         {
-          "number": "14",
+          "number": "13",
           "text": "take part",
           "part_of_speech": "phr.",
           "clip_key": "be7defb542fe3cb474",
           "repeat": 2
         },
         {
-          "number": "15",
+          "number": "14",
           "text": "activity",
           "part_of_speech": "n.",
           "clip_key": "c0021238e424e07389",
           "repeat": 2
         },
         {
-          "number": "16",
+          "number": "15",
           "text": "dish",
           "part_of_speech": "n.",
           "clip_key": "208877b524d9f3da2a",
           "repeat": 2
         },
         {
-          "number": "17",
+          "number": "16",
           "text": "traditional",
           "part_of_speech": "adj.",
           "clip_key": "63e3a98e23dde68b0b",
           "repeat": 2
         },
         {
-          "number": "18",
-          "text": "fireworks",
+          "number": "17",
+          "text": "firework",
           "part_of_speech": "n.",
-          "clip_key": "7edbf4e4760e20e076",
+          "clip_key": "70c22a0ed81442ef16",
           "repeat": 2
         },
         {
-          "number": "19",
+          "number": "18",
           "text": "amazing",
           "part_of_speech": "adj.",
           "clip_key": "39dd26f3e180a2e18f",
           "repeat": 2
         },
         {
-          "number": "20",
+          "number": "19",
           "text": "decorate",
           "part_of_speech": "v.",
           "clip_key": "b2ab78a6a1ff49c1f3",
           "repeat": 2
         },
         {
-          "number": "21",
+          "number": "20",
           "text": "parade",
           "part_of_speech": "n.",
           "clip_key": "85d7a87a2a307aefe8",
           "repeat": 2
         },
         {
-          "number": "22",
-          "text": "have a nice time",
-          "part_of_speech": "phr.",
-          "clip_key": "168e43e2f71cd1974a",
-          "repeat": 2
-        },
-        {
-          "number": "23",
-          "text": "take your time",
-          "part_of_speech": "phr.",
-          "clip_key": "df8db956ae0bc34c70",
-          "repeat": 2
-        },
-        {
-          "number": "24",
+          "number": "21",
           "text": "culture",
           "part_of_speech": "n.",
           "clip_key": "0d6e514bab7b55f82a",
           "repeat": 2
         },
         {
-          "number": "25",
+          "number": "22",
           "text": "celebrate",
           "part_of_speech": "v.",
           "clip_key": "b0e6b5f2034c24f639",
           "repeat": 2
         },
         {
-          "number": "26",
-          "text": "have a party",
-          "part_of_speech": "phr.",
-          "clip_key": "8eac6d87dab8a51c82",
-          "repeat": 2
-        },
-        {
-          "number": "27",
-          "text": "go to an event",
-          "part_of_speech": "phr.",
-          "clip_key": "33c71099340510d861",
-          "repeat": 2
-        },
-        {
-          "number": "28",
+          "number": "23",
           "text": "have a problem",
           "part_of_speech": "phr.",
           "clip_key": "3a141b409b81fe150d",
+          "repeat": 2
+        },
+        {
+          "number": "24",
+          "text": "take care",
+          "part_of_speech": "phr.",
+          "clip_key": "8c6bd98300d3db31eb",
           "repeat": 2
         }
       ]
@@ -1094,135 +1038,107 @@
         },
         {
           "number": "10",
-          "text": "have a celebration",
+          "text": "have a celebration / have a party",
           "part_of_speech": "phr.",
-          "clip_key": "fa247bf260e68ac900",
+          "clip_key": "c65a1174471be01248",
           "repeat": 2
         },
         {
           "number": "11",
-          "text": "go to a festival",
-          "part_of_speech": "phr.",
-          "clip_key": "9b327b32157c490120",
-          "repeat": 2
-        },
-        {
-          "number": "12",
           "text": "have a problem",
           "part_of_speech": "phr.",
           "clip_key": "3a141b409b81fe150d",
           "repeat": 2
         },
         {
-          "number": "13",
+          "number": "12",
           "text": "activity",
           "part_of_speech": "n.",
           "clip_key": "c0021238e424e07389",
           "repeat": 2
         },
         {
-          "number": "14",
+          "number": "13",
           "text": "traditional",
           "part_of_speech": "adj.",
           "clip_key": "63e3a98e23dde68b0b",
           "repeat": 2
         },
         {
-          "number": "15",
+          "number": "14",
           "text": "attract",
           "part_of_speech": "v.",
           "clip_key": "2ed7842de0d7f796f6",
           "repeat": 2
         },
         {
+          "number": "15",
+          "text": "firework",
+          "part_of_speech": "n.",
+          "clip_key": "70c22a0ed81442ef16",
+          "repeat": 2
+        },
+        {
           "number": "16",
-          "text": "go to an event",
+          "text": "have fun / have a nice time",
           "part_of_speech": "phr.",
-          "clip_key": "33c71099340510d861",
+          "clip_key": "9cecd6a55af53c931d",
           "repeat": 2
         },
         {
           "number": "17",
-          "text": "fireworks",
-          "part_of_speech": "n.",
-          "clip_key": "7edbf4e4760e20e076",
-          "repeat": 2
-        },
-        {
-          "number": "18",
-          "text": "have fun",
-          "part_of_speech": "phr.",
-          "clip_key": "6d04ab57147a362a19",
-          "repeat": 2
-        },
-        {
-          "number": "19",
           "text": "take part",
           "part_of_speech": "phr.",
           "clip_key": "be7defb542fe3cb474",
           "repeat": 2
         },
         {
-          "number": "20",
-          "text": "take your time",
-          "part_of_speech": "phr.",
-          "clip_key": "df8db956ae0bc34c70",
-          "repeat": 2
-        },
-        {
-          "number": "21",
+          "number": "18",
           "text": "culture",
           "part_of_speech": "n.",
           "clip_key": "0d6e514bab7b55f82a",
           "repeat": 2
         },
         {
-          "number": "22",
+          "number": "19",
           "text": "celebrate",
           "part_of_speech": "v.",
           "clip_key": "b0e6b5f2034c24f639",
           "repeat": 2
         },
         {
-          "number": "23",
+          "number": "20",
           "text": "take place",
           "part_of_speech": "phr.",
           "clip_key": "61fcc0491b17dc26e9",
           "repeat": 2
         },
         {
-          "number": "24",
+          "number": "21",
           "text": "gift",
           "part_of_speech": "n.",
           "clip_key": "4bf40078bbc20616a0",
           "repeat": 2
         },
         {
-          "number": "25",
+          "number": "22",
           "text": "festival",
           "part_of_speech": "n.",
           "clip_key": "d56484df8523bd1e89",
           "repeat": 2
         },
         {
-          "number": "26",
-          "text": "have a nice time",
-          "part_of_speech": "phr.",
-          "clip_key": "168e43e2f71cd1974a",
-          "repeat": 2
-        },
-        {
-          "number": "27",
-          "text": "have a party",
-          "part_of_speech": "phr.",
-          "clip_key": "8eac6d87dab8a51c82",
-          "repeat": 2
-        },
-        {
-          "number": "28",
+          "number": "23",
           "text": "enjoy",
           "part_of_speech": "v.",
           "clip_key": "ba417ac0397f7a52b7",
+          "repeat": 2
+        },
+        {
+          "number": "24",
+          "text": "take care",
+          "part_of_speech": "phr.",
+          "clip_key": "8c6bd98300d3db31eb",
           "repeat": 2
         }
       ]
@@ -1247,184 +1163,156 @@
         },
         {
           "number": "3",
-          "text": "go to a festival",
-          "part_of_speech": "phr.",
-          "clip_key": "9b327b32157c490120",
-          "repeat": 2
-        },
-        {
-          "number": "4",
           "text": "take place",
           "part_of_speech": "phr.",
           "clip_key": "61fcc0491b17dc26e9",
           "repeat": 2
         },
         {
-          "number": "5",
+          "number": "4",
           "text": "gift",
           "part_of_speech": "n.",
           "clip_key": "4bf40078bbc20616a0",
           "repeat": 2
         },
         {
-          "number": "6",
+          "number": "5",
           "text": "lecture",
           "part_of_speech": "n.",
           "clip_key": "1ea09fc6f7d1189738",
           "repeat": 2
         },
         {
-          "number": "7",
+          "number": "6",
           "text": "attract",
           "part_of_speech": "v.",
           "clip_key": "2ed7842de0d7f796f6",
           "repeat": 2
         },
         {
-          "number": "8",
+          "number": "7",
           "text": "frozen",
           "part_of_speech": "adj.",
           "clip_key": "f37ebfa47a24323a4a",
           "repeat": 2
         },
         {
-          "number": "9",
-          "text": "have fun",
+          "number": "8",
+          "text": "have fun / have a nice time",
           "part_of_speech": "phr.",
-          "clip_key": "6d04ab57147a362a19",
+          "clip_key": "9cecd6a55af53c931d",
           "repeat": 2
         },
         {
-          "number": "10",
+          "number": "9",
           "text": "entertainment",
           "part_of_speech": "n.",
           "clip_key": "1a7fbdefe86c115e48",
           "repeat": 2
         },
         {
-          "number": "11",
+          "number": "10",
           "text": "costume",
           "part_of_speech": "n.",
           "clip_key": "b9c787dd047ee8a90a",
           "repeat": 2
         },
         {
-          "number": "12",
-          "text": "have a celebration",
+          "number": "11",
+          "text": "have a celebration / have a party",
           "part_of_speech": "phr.",
-          "clip_key": "fa247bf260e68ac900",
+          "clip_key": "c65a1174471be01248",
           "repeat": 2
         },
         {
-          "number": "13",
+          "number": "12",
           "text": "take care (of)",
           "part_of_speech": "phr.",
           "clip_key": "0b8a20c66247bf5830",
           "repeat": 2
         },
         {
-          "number": "14",
+          "number": "13",
           "text": "take part",
           "part_of_speech": "phr.",
           "clip_key": "be7defb542fe3cb474",
           "repeat": 2
         },
         {
-          "number": "15",
+          "number": "14",
           "text": "activity",
           "part_of_speech": "n.",
           "clip_key": "c0021238e424e07389",
           "repeat": 2
         },
         {
-          "number": "16",
+          "number": "15",
           "text": "dish",
           "part_of_speech": "n.",
           "clip_key": "208877b524d9f3da2a",
           "repeat": 2
         },
         {
-          "number": "17",
+          "number": "16",
           "text": "traditional",
           "part_of_speech": "adj.",
           "clip_key": "63e3a98e23dde68b0b",
           "repeat": 2
         },
         {
-          "number": "18",
-          "text": "fireworks",
+          "number": "17",
+          "text": "firework",
           "part_of_speech": "n.",
-          "clip_key": "7edbf4e4760e20e076",
+          "clip_key": "70c22a0ed81442ef16",
           "repeat": 2
         },
         {
-          "number": "19",
+          "number": "18",
           "text": "amazing",
           "part_of_speech": "adj.",
           "clip_key": "39dd26f3e180a2e18f",
           "repeat": 2
         },
         {
-          "number": "20",
+          "number": "19",
           "text": "decorate",
           "part_of_speech": "v.",
           "clip_key": "b2ab78a6a1ff49c1f3",
           "repeat": 2
         },
         {
-          "number": "21",
+          "number": "20",
           "text": "parade",
           "part_of_speech": "n.",
           "clip_key": "85d7a87a2a307aefe8",
           "repeat": 2
         },
         {
-          "number": "22",
-          "text": "have a nice time",
-          "part_of_speech": "phr.",
-          "clip_key": "168e43e2f71cd1974a",
-          "repeat": 2
-        },
-        {
-          "number": "23",
-          "text": "take your time",
-          "part_of_speech": "phr.",
-          "clip_key": "df8db956ae0bc34c70",
-          "repeat": 2
-        },
-        {
-          "number": "24",
+          "number": "21",
           "text": "culture",
           "part_of_speech": "n.",
           "clip_key": "0d6e514bab7b55f82a",
           "repeat": 2
         },
         {
-          "number": "25",
+          "number": "22",
           "text": "celebrate",
           "part_of_speech": "v.",
           "clip_key": "b0e6b5f2034c24f639",
           "repeat": 2
         },
         {
-          "number": "26",
-          "text": "have a party",
-          "part_of_speech": "phr.",
-          "clip_key": "8eac6d87dab8a51c82",
-          "repeat": 2
-        },
-        {
-          "number": "27",
-          "text": "go to an event",
-          "part_of_speech": "phr.",
-          "clip_key": "33c71099340510d861",
-          "repeat": 2
-        },
-        {
-          "number": "28",
+          "number": "23",
           "text": "have a problem",
           "part_of_speech": "phr.",
           "clip_key": "3a141b409b81fe150d",
+          "repeat": 2
+        },
+        {
+          "number": "24",
+          "text": "take care",
+          "part_of_speech": "phr.",
+          "clip_key": "8c6bd98300d3db31eb",
           "repeat": 2
         }
       ]
@@ -5213,6 +5101,13 @@
           "part_of_speech": "n.",
           "clip_key": "ed014507758d8813be",
           "repeat": 2
+        },
+        {
+          "number": "20",
+          "text": "debris",
+          "part_of_speech": "n.",
+          "clip_key": "0639c78b9f914520b8",
+          "repeat": 2
         }
       ]
     },
@@ -5351,6 +5246,13 @@
           "text": "surface",
           "part_of_speech": "n.",
           "clip_key": "ed014507758d8813be",
+          "repeat": 2
+        },
+        {
+          "number": "20",
+          "text": "debris",
+          "part_of_speech": "n.",
+          "clip_key": "0639c78b9f914520b8",
           "repeat": 2
         }
       ]
@@ -5491,6 +5393,13 @@
           "part_of_speech": "n.",
           "clip_key": "ed014507758d8813be",
           "repeat": 2
+        },
+        {
+          "number": "20",
+          "text": "debris",
+          "part_of_speech": "n.",
+          "clip_key": "0639c78b9f914520b8",
+          "repeat": 2
         }
       ]
     },
@@ -5629,6 +5538,13 @@
           "text": "surface",
           "part_of_speech": "n.",
           "clip_key": "ed014507758d8813be",
+          "repeat": 2
+        },
+        {
+          "number": "20",
+          "text": "debris",
+          "part_of_speech": "n.",
+          "clip_key": "0639c78b9f914520b8",
           "repeat": 2
         }
       ]
@@ -11532,6 +11448,13 @@
           "part_of_speech": "v.",
           "clip_key": "40186b710a895e2c31",
           "repeat": 2
+        },
+        {
+          "number": "25",
+          "text": "method",
+          "part_of_speech": "n.",
+          "clip_key": "bbdf22e56f60dd2b40",
+          "repeat": 2
         }
       ]
     },
@@ -11705,6 +11628,13 @@
           "text": "extreme",
           "part_of_speech": "adj.",
           "clip_key": "3b9272ac3d1a88eb02",
+          "repeat": 2
+        },
+        {
+          "number": "25",
+          "text": "method",
+          "part_of_speech": "n.",
+          "clip_key": "bbdf22e56f60dd2b40",
           "repeat": 2
         }
       ]
@@ -11880,6 +11810,13 @@
           "part_of_speech": "v.",
           "clip_key": "40186b710a895e2c31",
           "repeat": 2
+        },
+        {
+          "number": "25",
+          "text": "method",
+          "part_of_speech": "n.",
+          "clip_key": "bbdf22e56f60dd2b40",
+          "repeat": 2
         }
       ]
     },
@@ -12053,6 +11990,13 @@
           "text": "extreme",
           "part_of_speech": "adj.",
           "clip_key": "3b9272ac3d1a88eb02",
+          "repeat": 2
+        },
+        {
+          "number": "25",
+          "text": "method",
+          "part_of_speech": "n.",
+          "clip_key": "bbdf22e56f60dd2b40",
           "repeat": 2
         }
       ]
@@ -12235,6 +12179,20 @@
           "part_of_speech": "adj.",
           "clip_key": "63e3a98e23dde68b0b",
           "repeat": 2
+        },
+        {
+          "number": "26",
+          "text": "development",
+          "part_of_speech": "n.",
+          "clip_key": "55fa66f3f596a782c4",
+          "repeat": 2
+        },
+        {
+          "number": "27",
+          "text": "useless",
+          "part_of_speech": "adj.",
+          "clip_key": "ae6378686f2f63c8a5",
+          "repeat": 2
         }
       ]
     },
@@ -12415,6 +12373,20 @@
           "text": "endless",
           "part_of_speech": "adj.",
           "clip_key": "92bcbc3a337a802d95",
+          "repeat": 2
+        },
+        {
+          "number": "26",
+          "text": "development",
+          "part_of_speech": "n.",
+          "clip_key": "55fa66f3f596a782c4",
+          "repeat": 2
+        },
+        {
+          "number": "27",
+          "text": "useless",
+          "part_of_speech": "adj.",
+          "clip_key": "ae6378686f2f63c8a5",
           "repeat": 2
         }
       ]
@@ -12597,6 +12569,20 @@
           "part_of_speech": "adj.",
           "clip_key": "63e3a98e23dde68b0b",
           "repeat": 2
+        },
+        {
+          "number": "26",
+          "text": "development",
+          "part_of_speech": "n.",
+          "clip_key": "55fa66f3f596a782c4",
+          "repeat": 2
+        },
+        {
+          "number": "27",
+          "text": "useless",
+          "part_of_speech": "adj.",
+          "clip_key": "ae6378686f2f63c8a5",
+          "repeat": 2
         }
       ]
     },
@@ -12778,6 +12764,20 @@
           "part_of_speech": "adj.",
           "clip_key": "92bcbc3a337a802d95",
           "repeat": 2
+        },
+        {
+          "number": "26",
+          "text": "development",
+          "part_of_speech": "n.",
+          "clip_key": "55fa66f3f596a782c4",
+          "repeat": 2
+        },
+        {
+          "number": "27",
+          "text": "useless",
+          "part_of_speech": "adj.",
+          "clip_key": "ae6378686f2f63c8a5",
+          "repeat": 2
         }
       ]
     },
@@ -12836,9 +12836,9 @@
         },
         {
           "number": "8",
-          "text": "try out for",
+          "text": "try out",
           "part_of_speech": "phr. v.",
-          "clip_key": "bc2eef9a1fddad8a51",
+          "clip_key": "06b9d03cae1060a983",
           "repeat": 2
         },
         {
@@ -12920,9 +12920,9 @@
         },
         {
           "number": "20",
-          "text": "sign up for",
+          "text": "sign up",
           "part_of_speech": "phr. v.",
-          "clip_key": "4dd9e9ade207ae6511",
+          "clip_key": "dd8586e848fcd93bac",
           "repeat": 2
         },
         {
@@ -13136,9 +13136,9 @@
         },
         {
           "number": "19",
-          "text": "try out for",
+          "text": "try out",
           "part_of_speech": "phr. v.",
-          "clip_key": "bc2eef9a1fddad8a51",
+          "clip_key": "06b9d03cae1060a983",
           "repeat": 2
         },
         {
@@ -13164,9 +13164,9 @@
         },
         {
           "number": "23",
-          "text": "sign up for",
+          "text": "sign up",
           "part_of_speech": "phr. v.",
-          "clip_key": "4dd9e9ade207ae6511",
+          "clip_key": "dd8586e848fcd93bac",
           "repeat": 2
         },
         {
@@ -13282,9 +13282,9 @@
         },
         {
           "number": "8",
-          "text": "try out for",
+          "text": "try out",
           "part_of_speech": "phr. v.",
-          "clip_key": "bc2eef9a1fddad8a51",
+          "clip_key": "06b9d03cae1060a983",
           "repeat": 2
         },
         {
@@ -13366,9 +13366,9 @@
         },
         {
           "number": "20",
-          "text": "sign up for",
+          "text": "sign up",
           "part_of_speech": "phr. v.",
-          "clip_key": "4dd9e9ade207ae6511",
+          "clip_key": "dd8586e848fcd93bac",
           "repeat": 2
         },
         {
@@ -13582,9 +13582,9 @@
         },
         {
           "number": "19",
-          "text": "try out for",
+          "text": "try out",
           "part_of_speech": "phr. v.",
-          "clip_key": "bc2eef9a1fddad8a51",
+          "clip_key": "06b9d03cae1060a983",
           "repeat": 2
         },
         {
@@ -13610,9 +13610,9 @@
         },
         {
           "number": "23",
-          "text": "sign up for",
+          "text": "sign up",
           "part_of_speech": "phr. v.",
-          "clip_key": "4dd9e9ade207ae6511",
+          "clip_key": "dd8586e848fcd93bac",
           "repeat": 2
         },
         {
