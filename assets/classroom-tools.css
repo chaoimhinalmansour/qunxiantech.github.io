@@ -1,0 +1,66 @@
+/* Classroom navigation and teacher tools. */
+:root{--ct-blue:#0066cc;--ct-ink:#202124;--ct-line:#dce3ec;--ct-muted:#697586}
+#app.ct-enabled>.workspace{inset:48px 0 60px!important;height:auto!important;width:auto!important;background:#fff}
+.ct-world{position:absolute;inset:0;transform-origin:0 0;pointer-events:none}
+.ct-world>.stage{pointer-events:auto}
+.ct-ink{position:absolute;left:0;top:0;width:1920px;height:1080px;transform-origin:0 0;overflow:visible;pointer-events:none;touch-action:none;z-index:60}
+.ct-ink.ct-capture{pointer-events:auto;cursor:crosshair}
+.ct-ink.ct-select{cursor:default}.ct-ink.ct-pan{cursor:grab}.ct-ink.ct-pan:active{cursor:grabbing}
+.ct-ink [data-note-id]{pointer-events:visiblePainted}.ct-ink:not(.ct-capture) *{pointer-events:none}
+.ct-header,.ct-footer{position:absolute;left:0;right:0;z-index:70;background:#fff;display:flex;align-items:center;gap:12px;padding:0 22px;color:var(--ct-ink);font:14px/1.35 'Segoe UI','Microsoft YaHei',sans-serif}
+.ct-header{top:0;height:48px;border-bottom:1px solid var(--ct-line)}.ct-footer{bottom:0;height:60px;border-top:1px solid var(--ct-line);justify-content:space-between}
+.ct-header button,.ct-footer button,.ct-panel button,.ct-dialog button,.ct-task-actions button,.ct-material-tools button,.ct-material-tools select{font:inherit;color:var(--ct-ink);background:#fff;border:1px solid var(--ct-line);border-radius:9px;padding:8px 12px;cursor:pointer;white-space:nowrap}
+.ct-header button:hover,.ct-footer button:hover,.ct-panel button:hover{background:#f1f6fc}
+.ct-header button[aria-pressed=true],.ct-panel button[aria-pressed=true],.ct-primary{background:#0066cc!important;color:#fff!important;border-color:#0066cc!important}
+.ct-header button:focus-visible,.ct-footer button:focus-visible,.ct-panel button:focus-visible{outline:3px solid #80b6ee;outline-offset:2px}
+.ct-header button:disabled,.ct-footer button:disabled,.ct-panel button:disabled{opacity:.4;cursor:default}
+.ct-unit{color:var(--ct-muted);font-size:13px}.ct-header-space{flex:1}.ct-status{font-size:12px;color:#697586}.ct-status[data-error=true]{color:#b32632}.ct-session{font-weight:600}.ct-progress{display:flex;flex-direction:column;gap:3px;min-width:180px}.ct-progress strong{font-size:15px}.ct-progress span{color:var(--ct-muted);font-size:12px}.ct-footer-next{display:flex;align-items:center;gap:10px}.ct-next-hint{color:var(--ct-muted);font-size:12px}
+.ct-task-actions{position:absolute;right:35px;bottom:85px;z-index:65;display:flex;align-items:center;gap:8px;background:#fffffff5;padding:8px;border-radius:12px;border:1px solid var(--ct-line);font:15px 'Segoe UI','Microsoft YaHei',sans-serif}
+.ct-task-actions:empty{display:none}.ct-task-actions>[hidden]{display:none!important}.ct-task-actions #feedback-controls{display:none!important}.ct-task-actions .media-bar:empty{display:none}.ct-task-actions .audio-slot{display:flex;align-items:center;gap:8px;font-size:12px}.ct-task-actions .media-bar{max-width:40vw}.ct-task-actions audio{height:34px!important;max-width:250px}
+#app.ct-enabled .sidebar-handle{display:none!important}#app.ct-enabled .teacher-sidebar{z-index:110;top:48px;bottom:60px;width:300px;font-size:14px}#app.ct-enabled .sidebar-actions,#app.ct-enabled #sidebar-navigation-buttons,#app.ct-enabled #sidebar-exercises,#app.ct-enabled .sidebar-display,#app.ct-enabled .sidebar-source,#app.ct-enabled .sidebar-material,#app.ct-enabled .unit-home-button{display:none!important}
+#app.ct-enabled .sidebar-navigation>.topbar,#app.ct-enabled #sidebar-course,#app.ct-enabled #lesson-outline{display:none!important}
+.ct-outline{display:flex;flex-direction:column;gap:6px}.ct-outline button{width:100%;text-align:left;display:flex;justify-content:space-between;gap:10px;font-size:14px!important}.ct-outline button.current{background:#eaf3ff!important;color:#0066cc!important;border-color:#9bc7f3!important}.ct-outline small{color:#697586}.ct-nav-bottom{display:flex;flex-direction:column;gap:8px;margin-top:18px}.ct-nav-bottom a,.ct-nav-bottom button{text-align:center}
+.ct-panel{position:absolute;z-index:100;top:57px;right:22px;padding:15px;background:#fff;border:1px solid var(--ct-line);border-radius:16px;box-shadow:0 10px 30px #24364b1a;font:14px/1.45 'Segoe UI','Microsoft YaHei',sans-serif;max-width:calc(100vw - 24px)}
+.ct-panel[hidden]{display:none}.ct-tools{display:flex;align-items:center;gap:7px;flex-wrap:wrap;max-width:660px}.ct-tools button{padding:8px 11px}.ct-tools button[data-color]{width:34px;height:34px;border-radius:50%;padding:0;font-size:0;border:5px solid white;box-shadow:0 0 0 1px #dce3ec}.ct-tools button[data-color][aria-pressed=true]{box-shadow:0 0 0 2px #0066cc;background:var(--swatch)!important}.ct-tools button[data-color]{background:var(--swatch)!important}.ct-tool-sep{width:1px;height:28px;background:var(--ct-line);margin:0 3px}.ct-help{font-size:12px;color:var(--ct-muted);margin:10px 0 0}.ct-note-title{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;gap:30px}.ct-note-title strong{font-size:15px}.ct-note-title button{padding:5px 9px;font-size:12px}.ct-note-more{display:flex;gap:7px;align-items:center;flex-wrap:wrap;margin-top:10px}.ct-note-more label{color:var(--ct-muted);display:flex;align-items:center;gap:5px}.ct-note-more input{width:80px}
+.ct-timer{width:290px}.ct-timer h2{font-size:16px;margin:0 0 10px}.ct-timer-number{font-size:46px;text-align:center;letter-spacing:1px;font-variant-numeric:tabular-nums;margin:12px 0}.ct-timer-presets,.ct-timer-actions{display:flex;gap:6px;flex-wrap:wrap}.ct-timer label{display:flex;align-items:center;gap:6px;margin:12px 0}.ct-timer input{width:65px;padding:6px;border:1px solid var(--ct-line);border-radius:7px;font:inherit}.ct-timer-hint{font-size:12px;color:var(--ct-muted);margin:10px 0 0}.ct-timer-done{color:#b32632!important}
+.ct-zoom-info{position:absolute;left:50%;top:58px;transform:translateX(-50%);z-index:80;border:1px solid var(--ct-line);background:#fff;padding:8px 12px;border-radius:30px;font:13px 'Microsoft YaHei',sans-serif;box-shadow:0 4px 16px #24364b16;display:flex;align-items:center;gap:10px;white-space:nowrap}.ct-zoom-info button{border:0;background:#eaf3ff;color:#0066cc;border-radius:15px;padding:6px 10px;cursor:pointer}.ct-zoom-info[hidden]{display:none}
+.ct-toast{position:absolute;left:50%;bottom:131px;transform:translateX(-50%);z-index:200;background:#263445;color:#fff;border-radius:12px;padding:10px 17px;font:14px/1.5 'Microsoft YaHei',sans-serif;pointer-events:none;max-width:80vw}.ct-toast[hidden]{display:none}
+.ct-dialog{border:1px solid var(--ct-line);border-radius:18px;max-width:440px;padding:25px;font:16px/1.7 'Microsoft YaHei',sans-serif;color:var(--ct-ink)}.ct-dialog::backdrop{background:#182a4140}.ct-dialog h2{font-size:22px;margin:0 0 8px}.ct-dialog p{color:var(--ct-muted)}.ct-dialog div{display:flex;justify-content:flex-end;gap:10px}
+.ct-material-tools{display:flex;align-items:center;gap:6px;flex-wrap:wrap;padding:8px;background:#fff;border-bottom:1px solid var(--ct-line);font:13px 'Microsoft YaHei',sans-serif}.ct-material-tools [hidden]{display:none!important}.ct-material-tools .pane-width-label{display:none!important}.ct-material-tools button{padding:6px 8px}.ct-material-tools select{max-width:240px}
+#app.ct-enabled .reference-pane{position:relative}.ct-end{padding:25px;font:16px/1.7 'Microsoft YaHei',sans-serif}.ct-end button{margin:8px}.ct-shortcuts{width:390px}.ct-shortcuts p{margin:7px 0}
+@media(max-width:950px){.ct-unit,.ct-status,.ct-next-hint{display:none}.ct-header,.ct-footer{padding:0 10px;gap:6px}.ct-header button{padding:7px 9px}.ct-panel{right:10px}.ct-progress{min-width:120px}.ct-task-actions{right:12px}.ct-footer button{padding:8px 10px}}
+
+.ct-nav-row{display:grid;grid-template-columns:1fr auto;gap:5px}.ct-nav-row>.ct-expand{font-size:12px!important;width:auto;padding:6px!important;color:#697586!important}.ct-subroutes{grid-column:1/-1;padding:4px 0 7px 12px;display:flex;flex-direction:column;gap:4px}.ct-subroutes[hidden]{display:none!important}.ct-subroutes button{font-size:12px!important;color:#66717e!important;line-height:1.4;padding:6px 8px!important}.ct-task-actions[hidden]{display:none!important}
+
+html[data-course-theme=a] #app.ct-enabled .ct-outline{gap:3px}
+html[data-course-theme=a] #app.ct-enabled .teacher-sidebar .ct-nav-row{display:grid;grid-template-columns:minmax(0,1fr) 34px;gap:0;background:white;border:0;border-radius:10px;overflow:hidden;align-items:center}
+html[data-course-theme=a] #app.ct-enabled .teacher-sidebar .ct-nav-row:hover{background:#f5f8fc}
+html[data-course-theme=a] #app.ct-enabled .teacher-sidebar .ct-nav-row.ct-current{background:#eaf3ff;box-shadow:inset 3px 0 #0066cc}
+html[data-course-theme=a] #app.ct-enabled .teacher-sidebar .ct-nav-row>button{border:0!important;border-radius:0!important;background:transparent!important;color:#303846!important;box-shadow:none!important;font-size:14px!important;min-height:42px;align-items:center;margin:0;padding:10px 13px!important;text-align:left}
+html[data-course-theme=a] #app.ct-enabled .teacher-sidebar .ct-nav-row.ct-current>button{color:#0066cc!important;font-weight:600}
+html[data-course-theme=a] #app.ct-enabled .teacher-sidebar .ct-nav-row>.ct-expand{width:34px!important;min-width:34px;display:flex;align-items:center;justify-content:center;padding:0!important}
+.ct-chevron{display:block;width:7px;height:7px;border-right:1.6px solid currentColor;border-bottom:1.6px solid currentColor;transform:rotate(-45deg);transition:transform .15s}
+.ct-expanded>.ct-expand>.ct-chevron{transform:rotate(45deg)}
+html[data-course-theme=a] #app.ct-enabled .teacher-sidebar .ct-subroutes{margin:0 10px 8px 16px;padding:3px 0 2px 9px;border-left:1px solid #cddceb;gap:2px;grid-column:1/-1}
+html[data-course-theme=a] #app.ct-enabled .teacher-sidebar .ct-subroutes button{border:0!important;background:transparent!important;min-height:32px;font-size:12px!important;color:#677486!important;padding:6px 9px!important;white-space:normal}
+html[data-course-theme=a] #app.ct-enabled .teacher-sidebar .ct-subroutes button:hover{background:#f0f5fb!important}
+html[data-course-theme=a] #app.ct-enabled .teacher-sidebar .ct-subroutes button[aria-current=page]{color:#0066cc!important;background:#eaf3ff!important;font-weight:600}
+html[data-course-theme=a] #app.ct-enabled .teacher-sidebar .sidebar-heading{padding:8px 0 12px;margin-bottom:8px}
+html[data-course-theme=a] #app.ct-enabled .teacher-sidebar .sidebar-heading strong{font-size:18px}
+html[data-course-theme=a] #app.ct-enabled .teacher-sidebar .sidebar-heading button{border:0!important;background:transparent!important;padding:6px 8px!important;font-size:13px;color:#66717e!important}
+html[data-course-theme=a] #app.ct-enabled .teacher-sidebar section{border-bottom:0!important;padding:4px 0 0}
+html[data-course-theme=a] #app.ct-enabled .teacher-sidebar .ct-nav-bottom{border-top:1px solid #e1e7ef;padding:13px 0 0;margin-top:16px;gap:6px}
+html[data-course-theme=a] #app.ct-enabled .teacher-sidebar .ct-nav-bottom button,html[data-course-theme=a] #app.ct-enabled .teacher-sidebar .ct-nav-bottom a{border:0!important;background:transparent!important;text-decoration:none;font-size:13px!important;padding:7px!important;color:#66717e!important}
+.ct-enabled .vc-footer-label>span:first-child{display:none}
+
+/* Reserve the remaining answer-line descent without cutting off the worksheet. */
+html[data-course-theme=a] #app.ct-enabled .stage .group-homework .hw-fit{bottom:132px!important}
+/* Keep complete tree diagrams intact when revealing inline letters. */
+.ct-enabled .stage.answers-visible .fmt-tree{font-size:28px!important;line-height:1.25!important}
+.ct-enabled .stage.answers-visible .fmt-tree-root{font-size:28px!important;padding:6px 18px!important;margin-bottom:10px!important}
+.ct-enabled .stage.answers-visible .fmt-tree-branch{gap:6px!important}
+.ct-enabled .stage.answers-visible .fmt-tree-branch h4{font-size:28px!important;padding:10px!important}
+.ct-enabled .stage.answers-visible .fmt-tree-leaf{padding:4px 8px!important;line-height:1.25!important;min-height:34px!important}
+.ct-enabled .stage.answers-visible .fmt-tree .inline-answer-text,.ct-enabled .stage.answers-visible .fmt-tree .inline-answer-value{font-size:28px!important;line-height:1.25!important}
+
+.ct-enabled .fmt-section-nav,.ct-enabled .plain-review-pages,.ct-enabled .u-pages{display:none!important}
