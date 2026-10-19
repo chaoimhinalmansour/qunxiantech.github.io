@@ -13,9 +13,12 @@
  const rawCards=new Set(D.rawCards),glossaryPages=new Set(D.glossary.map(c=>c.page));
  for(const c of D.glossary){screens.set(c.page,{type:'card',card:{...c,glossary:true}});const id='page_'+c.page;pageSources.records[id]={...c.source,id};pageSources.byPage[String(c.page)]={record:id};}
  // Keep auxiliary Glossary cards immediately before their actual textbook section.
- const removedAdditional=new Set(D.oldAdditional.filter(n=>{const text=L.pages[n-1].html,entries=D.cards.filter(c=>text.toLowerCase().includes(c.word.toLowerCase()));return entries.length>0&&!D.glossary.some(c=>text.toLowerCase().includes(c.word.toLowerCase()));}));
- S.routes=S.routes.filter(r=>!r.pages.some(n=>rawCards.has(n))&&!removedAdditional.has(r.anchor));
+ const retiredVocabularyPractice=new Set(D.oldAdditional.filter(n=>{const text=L.pages[n-1].html,entries=D.cards.filter(c=>text.toLowerCase().includes(c.word.toLowerCase()));return entries.length>0&&!D.glossary.some(c=>text.toLowerCase().includes(c.word.toLowerCase()));}));
+ const removedAdditional=new Set(D.oldAdditional);
+ S.routes=S.routes.filter(r=>!r.pages.some(n=>rawCards.has(n))&&!retiredVocabularyPractice.has(r.anchor));
  for(const card of D.glossary){const route={anchor:card.page,pages:[card.page],section:card.section,label:'Glossary · '+card.word,kind:'content',number:null,group:null};let at=S.routes.findIndex(r=>r.section===card.section&&r.anchor>card.page);if(at<0)at=S.routes.findIndex(r=>r.anchor>card.page&&r.anchor<=D.sessions[3].dictation);if(at<0)at=S.routes.length;S.routes.splice(at,0,route);window.SCHOOL_EXCLUDED_PAGES.delete(card.page);}
+ S.routes=S.routes.filter(r=>!removedAdditional.has(r.anchor));
+ for(const page of removedAdditional)window.SCHOOL_EXCLUDED_PAGES.add(page);
  const at=S.routes.findIndex(r=>r.anchor===first.plan);S.routes.splice(at+1,0,...core,...matches,...practice);
  function plan(s){const keep=s.tasks.filter(t=>!['词汇讲解','图句匹配','词汇应用'].includes(t.label));for(const t of keep){if(rawCards.has(t.go)||removedAdditional.has(t.go)){const section=L.pages[t.go-1].section,candidate=S.routes.find(r=>r.section===section&&!glossaryPages.has(r.anchor));if(candidate)t.go=candidate.anchor;}}
  s.tasks=s===first?[{label:'词汇讲解',detail:'书后 Vocabulary 全部 '+D.cards.length+' 个词项',go:core[0].anchor},{label:'图句匹配',detail:'读例句，指认图片，每页 5 组',go:matches[0].anchor},{label:'词汇应用',detail:'完成全部核心词汇的 Additional practice',go:practice[0].anchor},...keep]:keep;
