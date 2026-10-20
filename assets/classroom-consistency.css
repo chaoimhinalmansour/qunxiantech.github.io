@@ -1,0 +1,55 @@
+/* Shared projection sizes use the same values on the 1920px lesson canvas. */
+html[data-course-theme=a] .stage{--classroom-body:36px;--classroom-instruction:32px;--classroom-control:26px;--tb-font:36px!important;--plain-review-font:36px!important;--plain-hw-font:36px!important;--u-body-font:36px!important}
+html[data-course-theme=a] .stage :is(.ss-body,.ss-body .text,.ss-body p,.ss-body td,.ss-body th,.ss-body .inline-answer-text,.ss-body .ss-numbered-content,.ss-body .ss-judgement-content,.ss-body .uniform-wordbank,.hw-fit,.group-items,.group-question,.group-summary,.group-aids,.u-question-copy,.u-explanation p,.vc-copy,.vc-practice-copy,.vc-definition p,.vc-example p,.guided-instructions p,.guided-script){font-family:var(--sans)!important;font-size:var(--classroom-body)!important;line-height:1.35!important}
+html[data-course-theme=a] .stage :is(.ss-body .text span,.ss-body .text b,.ss-body .text strong,.ss-body .text i,.ss-body .text em,.ss-body td span,.ss-body th span,.group-question .option,.group-question .question-stem,.group-summary *){font-size:inherit!important;line-height:inherit!important}
+html[data-course-theme=a] .stage :is(.u-task-instruction,.ss-header>.ss-instruction,.ss-header>.ss-instruction *,.vc-match .vc-head>p,.vc-practice .vc-head>p,.lesson-dictation .opening-note){font-size:var(--classroom-instruction)!important;line-height:1.3!important}
+html[data-course-theme=a] .stage :is(.vc-footer button,.guided-actions button,.hw-footer button,.u-controls button,.u-pages button,.plain-review-pages button,.transition-action,.plan-quick-button){font:500 var(--classroom-control)/1.3 var(--sans)!important;min-height:62px!important;height:62px!important;padding:10px 22px!important;box-sizing:border-box!important;white-space:nowrap}
+html[data-course-theme=a] .stage :is(select,option){font-family:var(--sans)!important;font-size:var(--classroom-control)!important;line-height:1.3!important;letter-spacing:0!important}
+html[data-course-theme=a] .stage select{height:62px!important;padding:8px 14px!important;max-width:300px!important;background:#fff;color:var(--ink);border:1px solid var(--line);border-radius:10px}
+html[data-course-theme=a] .stage .vc-workspace{grid-template-columns:minmax(0,.72fr) minmax(0,1.28fr)!important;column-gap:32px!important;top:240px!important;height:704px!important}
+html[data-course-theme=a] .stage .vc-sentences{grid-template-rows:repeat(5,minmax(0,1fr));gap:10px;height:704px}
+html[data-course-theme=a] .stage .vc-sentence{grid-template-columns:36px minmax(0,1fr) 48px;gap:8px;padding:4px}
+html[data-course-theme=a] .stage .vc-pictures{grid-template-rows:repeat(2,minmax(0,1fr));height:704px;gap:20px}
+html[data-course-theme=a] .stage .vc-footer{height:62px;bottom:44px}
+html[data-course-theme=a] .stage .vc-footer [data-vc-progress]{width:250px!important;min-width:250px;font:400 24px/32px var(--sans)!important;white-space:nowrap}
+html[data-course-theme=a] .stage .vc-footer button{min-width:140px!important}
+html[data-course-theme=a] .stage .vc-footer .vc-primary{min-width:140px!important}
+html[data-course-theme=a] .stage .vc-match-help{display:none!important}
+html[data-course-theme=a] .stage .guided-next{display:none!important}
+html[data-course-theme=a] .stage .guided-script{bottom:66px!important;scroll-behavior:smooth;overscroll-behavior:contain;scrollbar-gutter:stable}
+html[data-course-theme=a] .stage .guided-script p{margin:0 0 24px!important}
+html[data-course-theme=a] .stage .u-question-list{--u-body-font:36px!important}
+html[data-course-theme=a] .stage .u-question-copy{max-height:100%;overflow-y:auto;overscroll-behavior:contain}
+html[data-course-theme=a] .stage .u-question{min-height:0;max-height:100%}
+html[data-course-theme=a] .stage .group-homework .hw-fit{overflow-y:auto!important;overscroll-behavior:contain}
+html[data-course-theme=a] .stage .group-homework .group-summary{font-size:36px!important;line-height:1.35!important}
+html[data-course-theme=a] .stage .group-homework .group-aids{font-size:36px!important;overflow-wrap:break-word}
+html[data-course-theme=a] .stage .ss-body{overflow-y:auto;overscroll-behavior:contain;scrollbar-gutter:stable}
+
+/* The option list stays inside the scaled canvas, so opening it cannot enlarge its text. */
+.stage .lesson-select{position:relative;display:inline-flex;vertical-align:middle;min-width:230px;max-width:310px;flex:0 0 auto;z-index:7}
+.stage .lesson-select[hidden]{display:none!important}
+.stage .lesson-select-native{display:none!important}
+html[data-course-theme=a] .stage .lesson-select-trigger,html[data-course-theme=a] .stage .lesson-select-list button{font:400 26px/1.3 var(--sans)!important;box-sizing:border-box!important;min-height:62px!important;height:auto!important;margin:0!important;padding:12px 18px!important;border-radius:10px!important;width:100%;text-align:left;color:var(--ink)!important;background:#fff!important;border:1px solid var(--line)!important}
+html[data-course-theme=a] .stage .lesson-select-trigger{padding-right:40px!important;position:relative;white-space:nowrap}
+.stage .lesson-select-trigger:after{content:'';position:absolute;right:17px;top:24px;width:8px;height:8px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg)}
+.stage .lesson-select-list{position:absolute;left:0;bottom:calc(100% + 8px);min-width:100%;width:max-content;max-width:360px;max-height:310px;overflow-y:auto;padding:6px;background:#fff;border:1px solid var(--line);border-radius:12px;box-shadow:0 8px 28px #182a4120}
+.stage .guided-actions .lesson-select-list{top:calc(100% + 8px);bottom:auto}
+.stage .lesson-select-list[hidden]{display:none!important}
+html[data-course-theme=a] .stage .lesson-select-list button{display:block;min-height:54px!important;border:0!important;white-space:nowrap}
+html[data-course-theme=a] .stage .lesson-select-list button[aria-selected=true]{background:#eaf3ff!important;color:var(--accent)!important}
+.stage .lesson-select-list button:focus-visible{outline:2px solid #0066cc;outline-offset:-2px}
+
+.stage .guided-script::after{content:'';display:block;height:var(--transcript-follow-space,340px)}
+
+/* Dense dictation tables keep one field size instead of shrinking by word count. */
+html[data-course-theme=a] .stage .lesson-dictation[data-session] .dictation-table .dictation-cell[class]{font-family:var(--sans)!important;font-size:28px!important;line-height:1.25!important}
+html[data-course-theme=a] .stage .lesson-dictation .dictation-frame{bottom:124px;overflow-y:auto;overscroll-behavior:contain;align-items:start}
+html[data-course-theme=a] .stage .dictation-audio-controls button{font:500 26px/1.3 var(--sans)!important;min-height:62px!important;height:62px!important}
+html[data-course-theme=a] .stage .dictation-audio-controls button span{font:inherit!important}
+
+/* Long matching sentences take their own natural height; no per-page font changes. */
+html[data-course-theme=a] .stage .vc-sentences{display:flex!important;flex-direction:column;justify-content:space-between;gap:10px}
+html[data-course-theme=a] .stage .vc-sentence{flex:0 0 auto;min-height:80px;height:auto!important}
+
+.stage .lesson-dictation .dictation-frame{scrollbar-gutter:stable;scrollbar-width:thin;scrollbar-color:#aebcd0 #f6f8fb}

@@ -36,14 +36,61 @@ function taskText(node){const value=node.textContent.trim();let next=taskCopy[va
  if(!next&&node.matches('[data-track] option'))next=value.replace(/^教材录音 /,'Recording '); if(!next&&node.matches('[data-group-audio] option')&&!/^Recording /.test(value))next='Recording '+(value.match(/^[A-Z]?\d+/)?.[0]||value.split(/[，,]/)[0]);
  if(next&&next!==value){if(node.tagName==='OPTION'&&!node.hasAttribute('value'))node.setAttribute('value',node.value);node.textContent=next;}
 }
-function studentTasks(){const stage=document.querySelector('.stage');if(!stage)return;
+const controlCopy={
+ '答案':'Answers','解析':'Explanation','返回题目':'Back to questions','查看材料':'View material','播放视频':'Play video','播放音频':'Play audio','停止播放':'Stop','暂停':'Pause','继续':'Resume','重置':'Reset','检查':'Check',
+ '查看原文':'View passage','查看原练习单原文':'View passage','放大材料':'Enlarge passage','并列查看':'Split view','关闭材料':'Close passage','上一部分':'Previous part','下一部分':'Next part','教材来源':'Textbook source','练习单来源':'Worksheet source','本页来源':'Page source',
+ '返回当前题目':'Back to questions','返回课件':'Back to lesson','返回当前页':'Back to lesson','返回':'Back','上一来源页':'Previous source','下一来源页':'Next source','查看练习单':'View worksheet','原文依据':'Evidence','解题依据':'Explanation','原文':'Passage','上一页':'Previous','下一页':'Next',
+ '显示全部':'Show all','隐藏全部':'Hide all','显示答案':'Show answers','隐藏答案':'Hide answers','上一句':'Previous sentence','下一句':'Next sentence','从头播放':'Restart','上一段':'Previous paragraph','下一段':'Next paragraph','关闭':'Close',
+ '音频加载失败，请重试':'Audio could not load. Try again.','重试':'Retry','材料':'Material','听力材料':'Recording','本节课':'This lesson','选择录音':'Choose recording','返回当前题组':'Back to questions','查看补充答案':'More answers','查看参考答案':'View sample answers','查看词义':'Show meaning','播放音视频':'Play media','逐句精听':'Listen closely','全文查看':'Read full passage','按原画面查看':'View source page','上一项':'Previous part','下一项':'Next part','返回任务':'Back to task','返回题页':'Back to questions','题目宽度':'Question width','播放':'Play','本组任务':'Task','补充练习':'Additional practice','参考答案':'Sample answers','本节课材料定位':'Lesson materials','查看当前页的实际来源':'View the source for this page','当前页的实际来源':'Current page source','点击来源图片返回当前页':'Select the source image to return','红框定位当前内容。点击图片或返回按钮，继续本页。':'The red box marks the content used on this page. Select the image or Back to return.','红框定位本节课使用的教材或练习单。点击图片或返回按钮，回到课计划。':'The red box marks the materials used in this lesson. Select the image or Back to return.','红框：教材词汇依据；练习为校本补充。点击图片或返回按钮，继续练习。':'The red box marks the source Vocabulary list. Select the image or Back to return to the activity.','点击查看中文释义':'Show Chinese meaning','精听':'Listen closely','回到题面':'Back to questions'
+};
+function studentControls(){
+ const roots=[document.querySelector('.stage'),document.querySelector('.ct-task-actions'),document.querySelector('.reference-tools'),...document.querySelectorAll('.group-analysis,.textbook-source-dialog,.handout-dialog,.fmt-detail-dialog')].filter(Boolean);
+ for(const root of roots){
+  const nodes=[...root.querySelectorAll('button,select,option,label,[role="status"],.hw-footer span,.u-pages span,.page-source-button,.vc-source,.reference-tools span,.handout-heading strong,.handout-heading p,.source-heading h2,.intro-note,.vc-cn-hint,.vocabulary-mosaic,.source-intro-actions span,.lesson-source-intro header strong,.lesson-source-intro header span,.a-classroom-meta,.a-classroom-meta>span,.audio-slot>span')];
+  for(const node of nodes){
+   for(const attr of ['aria-label','title'])if(node.hasAttribute(attr)){const before=node.getAttribute(attr),after=controlCopy[before]||before.replace(/^句子\s*/,'Sentence ').replace(/^图片\s*/,'Picture ').replace(/^选项\s*/,'Option ').replace('，已配第 ',' paired with sentence ').replace(/句$/,'').replace('配对正确','Correct match').replace('配对需调整','Try again').replace('匹配题全部录音','Choose recording').replace('切换教材录音','Choose recording');if(after!==before)node.setAttribute(attr,after);}if(node.matches('select'))continue;
+   for(const text of [...node.childNodes])if(text.nodeType===3){const before=text.nodeValue.trim();let after=controlCopy[before];
+    if(!after)after=before.replace(/^教材来源\s*[,，·]?\s*p\.\s*/,'Textbook p. ').replace(/^教材\s*p\.\s*/,'Textbook p. ').replace(/原练习单第\s*(\d+)\s*页/,'Worksheet p. $1').replace(/^第\s*(\d+)\s*页，共\s*(\d+)\s*页$/,'Page $1 of $2').replace(/^解析第\s*(\d+)\s*页，共\s*(\d+)\s*页$/,'Page $1 of $2').replace(/^已配对\s*(\d+)\s*组[，,]共\s*(\d+)\s*组$/,'$1 of $2 matched').replace(/^已配对\s*(\d+)\s*\/\s*(\d+)$/,'$1 of $2 matched').replace(/^已配对\s*(\d+)\s*组，共\s*(\d+)\s*组$/,'$1 of $2 matched').replace(/^教材录音\s*/,'Recording ').replace(/^音频\s*(\d+)$/,'Audio $1').replace(/^原练习单原文[，,]\s*(\d+)\s*\/\s*(\d+)$/,'Passage $1 of $2').replace(/^课件第\s*(\d+)\s*页[，,]\s*共\s*(\d+)\s*页$/,'Page $1 of $2').replace(/^第\s*(\d+)\s*周[，,\s]*(听力|口语|阅读|写作)$/,(_,n,k)=>'Week '+n+' '+({'听力':'Listening','口语':'Speaking','阅读':'Reading','写作':'Writing'}[k])).replace(/LS\s*听说/g,'Listening and Speaking').replace(/RW\s*读写/g,'Reading and Writing');
+    if(after!==before)text.nodeValue=after;
+   }
+  }
+ }
+}
+
+const selectViews=new WeakMap();
+function stableSelects(){
+ for(const select of document.querySelectorAll('.stage select')){
+  let view=selectViews.get(select);
+  if(!view){
+   if(select.hidden||select.options.length<2)continue;
+   const box=document.createElement('div'),trigger=document.createElement('button'),list=document.createElement('div');
+   box.className='lesson-select';trigger.type='button';trigger.className='lesson-select-trigger';trigger.setAttribute('role','combobox');trigger.setAttribute('aria-haspopup','listbox');trigger.setAttribute('aria-expanded','false');
+   list.className='lesson-select-list';list.id='lesson-options-'+Math.random().toString(36).slice(2);list.setAttribute('role','listbox');list.hidden=true;trigger.setAttribute('aria-controls',list.id);
+   select.before(box);box.append(select,trigger,list);select.classList.add('lesson-select-native');
+   const close=()=>{list.hidden=true;trigger.setAttribute('aria-expanded','false');box.dataset.open='false';};
+   const open=()=>{if(trigger.disabled)return;list.hidden=false;trigger.setAttribute('aria-expanded','true');box.dataset.open='true';list.querySelector('[aria-selected="true"]')?.focus();};
+   trigger.onclick=()=>list.hidden?open():close();trigger.onkeydown=e=>{if(e.key==='ArrowDown'||e.key==='ArrowUp'){e.preventDefault();open();}};
+   list.onkeydown=e=>{const rows=[...list.children],at=rows.indexOf(document.activeElement);if(e.key==='Escape'){e.preventDefault();e.stopPropagation();close();trigger.focus();}else if(['ArrowDown','ArrowUp','Home','End'].includes(e.key)){e.preventDefault();const next=e.key==='Home'?0:e.key==='End'?rows.length-1:(at+(e.key==='ArrowDown'?1:-1)+rows.length)%rows.length;rows[next]?.focus();}};
+   select.addEventListener('change',()=>{close();});
+   view={box,trigger,list,close,signature:''};selectViews.set(select,view);
+  }
+  const {box,trigger,list,close}=view;box.hidden=select.hidden;trigger.disabled=select.disabled;
+  const label=select.getAttribute('aria-label')||'Choose recording';if(trigger.getAttribute('aria-label')!==label)trigger.setAttribute('aria-label',label);
+  const signature=JSON.stringify([...select.options].map(o=>[o.value,o.text,o.disabled]));
+  if(signature!==view.signature){view.signature=signature;list.replaceChildren(...[...select.options].map(option=>{const row=document.createElement('button');row.type='button';row.setAttribute('role','option');row.textContent=option.text;row.dataset.value=option.value;row.disabled=option.disabled;row.onclick=()=>{select.value=option.value;select.dispatchEvent(new Event('change',{bubbles:true}));close();trigger.focus();};return row;}));}
+  const text=select.selectedOptions[0]?.text||label;if(trigger.textContent!==text)trigger.textContent=text;
+  for(const row of list.children){const selected=String(row.dataset.value===select.value);if(row.getAttribute('aria-selected')!==selected)row.setAttribute('aria-selected',selected);}
+ }
+}
+document.addEventListener('pointerdown',e=>{for(const box of document.querySelectorAll('.lesson-select[data-open="true"]'))if(!box.contains(e.target)){const select=box.querySelector('select');selectViews.get(select)?.close();}});
+function studentTasks(){const stage=document.querySelector('.stage');if(!stage)return;for(const title of document.querySelectorAll('.hw-material h1')){const text=title.textContent.replace(/[,，·]?\s*原文$/,' Passage');if(title.textContent!==text)title.textContent=text;}
  const dictation=stage.querySelector('.lesson-dictation');if(dictation){dictation.querySelectorAll('h1,.opening-note,thead th,[data-dictation-play]>span,[data-dictation-restart],[data-dictation-status]').forEach(taskText);const context=dictation.querySelector('.opening-context>span');if(context){const s=SCHOOL_LESSON_OPENING.data.sessions.find(s=>s.id===dictation.dataset.session),skills={'听力':'Listening','口语':'Speaking','阅读':'Reading','写作':'Writing'};const text='Week '+s.week+' '+(skills[s.skill]||s.skill);if(context.textContent!==text)context.textContent=text;}}
  const guided=stage.querySelector('.guided-screen');if(guided)guided.querySelectorAll('h1,.guided-instructions p,.guided-status,.guided-actions button,.guided-page-number,[data-track] option').forEach(taskText);
  const hw=stage.querySelector('.full-homework');if(!hw)return;
  hw.querySelectorAll('[data-group-material],[data-hw-material],[data-group-next],[data-group-progress],.group-choice-bank>span:first-child,[data-group-audio] option').forEach(taskText);
  if(hw.classList.contains('group-homework')&&!hw.dataset.plainHomework){hw.dataset.plainHomework='true';const group=window.SCHOOL_LESSON_DESIGN?.groups.get(window.UNLOCK_PLAYER?.state().current);if(group){const first=group.questions[0],last=group.questions.at(-1),types={fill:'Sentence completion',heading:'Matching headings',match:'Matching',multi:'Multiple answers',single:'Multiple choice',summary:'Summary completion',tfng:'True, false or not given'};hw.querySelector('.hw-group').textContent='Questions '+first.number+(first.number===last.number?'':' to '+last.number)+'    '+types[first.type];}const button=hw.querySelector('[data-group-next]'),original=button?.onclick;if(button&&original)button.onclick=()=>{for(let i=0;i<25&&!button.disabled;i++)original();flush();};
   for(const table of hw.querySelectorAll('.group-aids table'))if([...table.rows].every(r=>r.cells.length===2&&r.cells[0].textContent.trim().length<7))table.classList.add('plain-heading-list');
-  const panel=hw.querySelector('.hw-fit');if(panel){for(let size=34;size>=26;size--){panel.style.setProperty('--plain-hw-font',size+'px');if(panel.scrollHeight<=panel.clientHeight+1&&panel.scrollWidth<=panel.clientWidth+1)break;}}
+  const panel=hw.querySelector('.hw-fit');if(panel){for(let size=36;size>=36;size--){panel.style.setProperty('--plain-hw-font',size+'px');if(panel.scrollHeight<=panel.clientHeight+1&&panel.scrollWidth<=panel.clientWidth+1)break;}}
  }
 }
 const prose={
@@ -117,7 +164,7 @@ function fitReview(){const U=window.UNLOCK_PLAYER,stage=document.querySelector('
  const previous=reviewFits.get(area);if(!U?.questionView.isReview()){stage.classList.remove('plain-fit-review');if(previous){area.style.cssText=previous.style;area.replaceChildren(...previous.columns.map(c=>c.node));for(const c of previous.columns)c.node.replaceChildren(...c.children);reviewFits.delete(area);}return;}if(previous)return;
  const sr=stage.getBoundingClientRect(),scale=sr.width/1920,children=[...area.querySelectorAll(':scope>.ss-column>.ss-item,:scope>.ss-item')];if(!children.length)return;const end=()=>Math.max(...children.map(n=>(n.getBoundingClientRect().bottom-sr.top)/scale));if(end()<=1034)return;
  const old={style:area.style.cssText,columns:[...area.children].map(node=>({node,children:[...node.children]}))};reviewFits.set(area,old);const header=stage.querySelector(':scope>.ss-header'),items=header?[...header.children].filter(n=>n.textContent.trim()&&n.getClientRects().length):[],top=items.length?Math.ceil(Math.max(...items.map(n=>(n.getBoundingClientRect().bottom-sr.top)/scale)))+28:48;
- area.style.top=top+'px';area.style.height=(1032-top)+'px';stage.classList.add('plain-fit-review');for(const font of [36,34,32]){area.style.setProperty('--plain-review-font',font+'px');SCHOOL_SINGLE_SCREEN.layout(area,children);if(end()<=1034)return;}
+ area.style.top=top+'px';area.style.height=(1032-top)+'px';stage.classList.add('plain-fit-review');for(const font of [36]){area.style.setProperty('--plain-review-font',font+'px');SCHOOL_SINGLE_SCREEN.layout(area,children);if(end()<=1034)return;}
  // Long reference panels keep a readable size and expose every part through local pages.
  area.style.height=(970-top)+'px';area.style.gridTemplateColumns='repeat(2,minmax(0,1fr))';area.replaceChildren();const measuring=document.createElement('div');measuring.className='ss-column';area.append(measuring);const groups=[];
  for(const child of children){const tables=[...child.querySelectorAll('table')];if(tables.length===1&&child.querySelector('.ss-node')?.textContent.trim()===tables[0].textContent.trim()&&tables[0].rows.length>2){const rows=[...tables[0].rows],header=rows.shift();for(const row of rows){const g=document.createElement('div'),n=document.createElement('div'),table=tables[0].cloneNode(false);g.className='ss-item';n.className='ss-node';table.append(header.cloneNode(true),row.cloneNode(true));n.append(table);g.append(n);groups.push(g);}}else groups.push(child);}
@@ -126,7 +173,7 @@ function fitReview(){const U=window.UNLOCK_PLAYER,stage=document.querySelector('
  const pages=Array.from({length:Math.ceil(columns.length/2)},(_,i)=>columns.slice(i*2,i*2+2));let page=0;const nav=document.createElement('div');nav.className='plain-review-pages';const prev=document.createElement('button'),label=document.createElement('span'),next=document.createElement('button');prev.type=next.type='button';prev.textContent='上一页';next.textContent='下一页';nav.append(prev,label,next);stage.append(nav);old.nav=nav;
  const show=()=>{area.replaceChildren(...pages[page].map(groups=>{const column=document.createElement('div');column.className='ss-column';column.append(...groups);return column;}));label.textContent='解析第 '+(page+1)+' 页，共 '+pages.length+' 页';prev.disabled=page===0;next.disabled=page===pages.length-1;};prev.onclick=()=>{page--;show();};next.onclick=()=>{page++;show();};show();
 }
-function flush(root=document.documentElement){if(working)return;working=true;try{studentTasks();window.SCHOOL_AUTHORED_A?.polish(document.querySelector('.stage'));polish(root);fitReview();}finally{working=false;}}
+function flush(root=document.documentElement){if(working)return;working=true;try{studentTasks();studentControls();stableSelects();window.SCHOOL_AUTHORED_A?.polish(document.querySelector('.stage'));polish(root);fitReview();}finally{working=false;}}
 const observer=new MutationObserver(records=>{for(const r of records){if(r.type==='characterData')pending.add(r.target);else if(r.type==='attributes')pending.add(r.target);else for(const n of r.addedNodes)if(n.nodeType===1||n.nodeType===3)pending.add(n);}const roots=[...pending];pending.clear();for(const root of roots)if(root.isConnected)flush(root);});
 observer.observe(document.documentElement,{subtree:true,childList:true,characterData:true,attributes:true,attributeFilter:['title','aria-label','placeholder']});flush();
 window.PLAIN_PRESENTATION_TEXT={clean,flush,stats:()=>({changes}),version:'20261019'};
