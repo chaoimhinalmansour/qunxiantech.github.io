@@ -1,13 +1,13 @@
 {
-  "status": "complete; all 625 clips decoded successfully",
+  "status": "627 clips, including two retained legacy clips; slash alternatives use new or recordings.",
   "voice_proposal": "en-GB-SoniaNeural",
   "accent": "en-GB",
   "order": "exact current displayed order; no runtime reshuffle",
   "spoken_content": "English terms only, no item numbers, Chinese meanings or POS labels",
   "repeat": 2,
-  "repeat_gap_ms": 1000,
-  "next_item_gap_ms": 1500,
-  "delivery": "Local audio clips assembled in the player, fixed table order, two identical readings; repeat gap 1000ms, next-item gap 1500ms.",
+  "repeat_gap_ms": 1500,
+  "next_item_gap_ms": 4500,
+  "delivery": "Exact table order, each word twice. Repeat gap 1500ms, next-item gap 4500ms. Slash alternatives spoken as or.",
   "sessions": [
     {
       "session": "B2_LS_U01_W1_L",
@@ -692,7 +692,7 @@
           "number": "10",
           "text": "have a celebration / have a party",
           "part_of_speech": "phr.",
-          "clip_key": "c65a1174471be01248",
+          "clip_key": "60cd3a09cd387cf7c6",
           "repeat": 2
         },
         {
@@ -734,7 +734,7 @@
           "number": "16",
           "text": "have fun / have a nice time",
           "part_of_speech": "phr.",
-          "clip_key": "9cecd6a55af53c931d",
+          "clip_key": "a178e776808e8ce424",
           "repeat": 2
         },
         {
@@ -852,7 +852,7 @@
           "number": "8",
           "text": "have fun / have a nice time",
           "part_of_speech": "phr.",
-          "clip_key": "9cecd6a55af53c931d",
+          "clip_key": "a178e776808e8ce424",
           "repeat": 2
         },
         {
@@ -873,7 +873,7 @@
           "number": "11",
           "text": "have a celebration / have a party",
           "part_of_speech": "phr.",
-          "clip_key": "c65a1174471be01248",
+          "clip_key": "60cd3a09cd387cf7c6",
           "repeat": 2
         },
         {
@@ -1040,7 +1040,7 @@
           "number": "10",
           "text": "have a celebration / have a party",
           "part_of_speech": "phr.",
-          "clip_key": "c65a1174471be01248",
+          "clip_key": "60cd3a09cd387cf7c6",
           "repeat": 2
         },
         {
@@ -1082,7 +1082,7 @@
           "number": "16",
           "text": "have fun / have a nice time",
           "part_of_speech": "phr.",
-          "clip_key": "9cecd6a55af53c931d",
+          "clip_key": "a178e776808e8ce424",
           "repeat": 2
         },
         {
@@ -1200,7 +1200,7 @@
           "number": "8",
           "text": "have fun / have a nice time",
           "part_of_speech": "phr.",
-          "clip_key": "9cecd6a55af53c931d",
+          "clip_key": "a178e776808e8ce424",
           "repeat": 2
         },
         {
@@ -1221,7 +1221,7 @@
           "number": "11",
           "text": "have a celebration / have a party",
           "part_of_speech": "phr.",
-          "clip_key": "c65a1174471be01248",
+          "clip_key": "60cd3a09cd387cf7c6",
           "repeat": 2
         },
         {
@@ -25208,6 +25208,22 @@
       "voice": "en-GB-SoniaNeural",
       "needs_pronunciation_review": false,
       "file": "assets/dictation-audio/clips/4dd9e9ade207ae6511.mp3"
+    },
+    "60cd3a09cd387cf7c6": {
+      "text": "have a celebration or have a party",
+      "part_of_speech": "phr.",
+      "voice": "en-GB-SoniaNeural",
+      "needs_pronunciation_review": false,
+      "file": "assets/dictation-audio/clips/60cd3a09cd387cf7c6.mp3",
+      "slash_spoken_as": "or"
+    },
+    "a178e776808e8ce424": {
+      "text": "have fun or have a nice time",
+      "part_of_speech": "phr.",
+      "voice": "en-GB-SoniaNeural",
+      "needs_pronunciation_review": false,
+      "file": "assets/dictation-audio/clips/a178e776808e8ce424.mp3",
+      "slash_spoken_as": "or"
     }
   },
   "provider": "Edge online TTS via edge-tts 7.3.1, no API key",

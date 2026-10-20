@@ -1,0 +1,17 @@
+html[data-course-theme=a] .stage .ref-numbered-bank{display:flex!important;flex-wrap:wrap;align-items:baseline;gap:18px 28px!important;width:100%!important;max-width:100%;padding:20px 24px!important;font:36px/1.35 var(--sans),Arial,sans-serif!important;box-sizing:border-box}
+html[data-course-theme=a] .stage .ref-numbered-bank .ref-bank-item{display:inline-flex!important;align-items:baseline;gap:12px;white-space:normal!important;max-width:100%;margin:0!important;font:inherit!important}
+html[data-course-theme=a] .stage .ref-numbered-bank .ref-bank-index{display:inline-grid!important;place-items:center;flex:0 0 36px;width:36px;height:36px;margin:0!important;border:1.7px solid var(--accent);border-radius:50%;color:var(--accent);font:400 25px/1 var(--sans),Arial,sans-serif!important;position:relative;top:-1px}
+html[data-course-theme=a] .stage .ref-numbered-bank .ref-bank-copy{display:inline!important;white-space:normal!important;margin:0!important;font:inherit!important}
+html[data-course-theme=a] .stage .ref-numbered-bank .ref-bank-title{flex-basis:100%;font:600 30px/1.2 var(--sans),Arial,sans-serif!important;margin:0!important;color:var(--accent)}
+html[data-course-theme=a] .stage .ref-bank-given .ref-bank-copy{text-decoration:line-through;color:var(--muted)}
+html[data-course-theme=a] .stage .ref-sentence-bank{display:flex!important;flex-direction:column;align-items:stretch;gap:20px!important;max-height:420px;overflow-y:auto;padding-right:35px!important}
+html[data-course-theme=a] .stage .ref-original-labels{font-size:36px!important;line-height:1.35!important}
+html[data-course-theme=a] .stage .ref-label-table{table-layout:fixed;width:100%!important}
+html[data-course-theme=a] .stage .ref-label-table td,html[data-course-theme=a] .stage .ref-label-table th{vertical-align:top;overflow-wrap:break-word}
+html[data-course-theme=a] .stage .ref-label-table td:first-child,html[data-course-theme=a] .stage .ref-label-table th:first-child{text-align:center}
+html[data-course-theme=a] .stage .ref-scroll-cue{position:absolute;z-index:8;pointer-events:none;padding:5px 12px;min-width:150px;background:#eef4fcf5;border-radius:5px;color:#58708f;font:22px/1.2 var(--sans),Arial,sans-serif;text-align:center}
+html[data-course-theme=a] .stage .ref-scroll-cue[hidden]{display:none!important}
+
+html[data-course-theme=a] .stage .ref-sentence-bank{flex-wrap:nowrap!important;overflow-x:hidden}html[data-course-theme=a] .stage .ref-sentence-bank .ref-bank-item{flex-shrink:0;width:100%;min-width:0}html[data-course-theme=a] .stage .ref-sentence-bank .ref-bank-copy{min-width:0}
+
+.stage .ref-task-context{border:1px solid #b7cce2;border-left:4px solid #0066cc;padding:20px 26px;background:#f5f9fd;border-radius:8px;line-height:1.35!important;font-size:36px!important;margin-bottom:24px}.stage .ref-task-context>strong{display:block;color:#0066cc;font-size:26px;line-height:1.25;margin-bottom:10px}.stage .ref-task-context>p{font-size:36px!important;line-height:1.35!important;margin:0!important}
