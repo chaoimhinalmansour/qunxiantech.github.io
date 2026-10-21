@@ -138,3 +138,27 @@
 .scene-stage .scene-proof-paragraph{border-left:4px solid #93acc7;padding:20px 28px;background:#f8fafc;font-size:36px;line-height:1.4}.scene-stage .scene-proof-paragraph p{margin:0}.scene-stage .scene-proof-answer{border-top:1px solid #dbe3ed;margin-top:22px;padding-top:20px;font-size:36px;line-height:1.35}
 
 .scene-stage .scene-food-poster img{height:140px}.scene-stage .scene-food-poster{padding-top:18px;padding-bottom:18px}
+
+/* One discussion task: keep its photo, questions and textbook model together. */
+.scene-stage .scene-discussion-combined{display:flex;flex-direction:column;gap:26px}
+.scene-stage .scene-discussion-main{display:grid;grid-template-columns:400px minmax(0,1fr);gap:40px}
+.scene-stage .scene-discussion-main>img{width:400px;height:340px;object-fit:cover;border-radius:10px}
+.scene-stage .scene-discussion-main ol{margin:0;padding-left:50px;font-size:36px;line-height:1.32}
+.scene-stage .scene-discussion-main li{margin:0 0 18px;padding-left:8px}
+.scene-stage .scene-discussion-model{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:28px}
+.scene-stage .scene-discussion-model .scene-speech{margin:0;padding:22px 26px;font-size:36px;line-height:1.32}
+/* Reuse existing word-card data and controls at the point of need. */
+html[data-course-theme=a] .stage .scene-input-card.vcycle{position:relative;inset:auto;width:1704px;height:600px;padding:0;background:transparent}
+html[data-course-theme=a] .stage .scene-input-card .vc-card-word{left:0!important;top:0;width:950px;font-size:82px!important}
+html[data-course-theme=a] .stage .scene-input-card .vc-pos{left:0!important;top:108px;font-size:32px}
+html[data-course-theme=a] .stage .scene-input-card .vc-cn{left:0!important;top:165px;width:950px!important;height:65px}
+html[data-course-theme=a] .stage .scene-input-card .vc-definition{left:0!important;top:265px;width:950px!important;height:auto}
+html[data-course-theme=a] .stage .scene-input-card .vc-example{left:0!important;top:445px;width:950px!important;height:auto}
+html[data-course-theme=a] .stage .scene-input-card :is(.vc-definition,.vc-example) h2{font-size:26px;line-height:32px;margin-bottom:12px;color:#657386}
+html[data-course-theme=a] .stage .scene-input-card :is(.vc-definition,.vc-example) p{font-size:36px!important;line-height:1.35!important}
+html[data-course-theme=a] .stage .scene-input-card .vc-card-photo{left:auto;right:0;top:0;width:660px;height:580px;object-fit:cover;border-radius:16px}
+
+html[data-course-theme=a] .stage .scene-head{top:36px!important}
+html[data-course-theme=a] .stage .scene-head small{font:600 26px/32px var(--sans)!important;color:var(--accent)!important;margin:0 0 10px}
+html[data-course-theme=a] .stage .scene-head h1{font:700 48px/58px var(--sans)!important;letter-spacing:-.8px!important;max-width:1400px!important;margin:0 0 10px!important}
+html[data-course-theme=a] .stage :is(.page-source-button,.vc-source){width:174px!important;min-width:174px!important;max-width:174px!important;height:52px!important;right:52px!important;top:36px!important;box-sizing:border-box!important;padding:8px 18px!important;font:400 24px/32px var(--sans)!important;white-space:nowrap!important;border-radius:28px!important}

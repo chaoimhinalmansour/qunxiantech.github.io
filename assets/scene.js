@@ -6,7 +6,7 @@ const blank=(n,a)=>`<span class="scene-blank"><sup>${n}</sup><span class="scene-
 const fill=s=>s.replace(/\{(\d+)\|([^}]+)\}/g,(_,n,a)=>blank(n,a));
 const configList=[window.CLASSROOM_SCENES[window.LESSON.id],...Object.values(window.CLASSROOM_CONTEXT_SCENES?.[window.LESSON.id]||{})].filter(Boolean);
 const filesFor=c=>c.kind==='festival'?c.festivals.map(f=>f.photo):({business:['business.webp'],news:['scale.webp'],quiz:['worker.webp'],map:['weather-map-art.webp'],poster:['esports-original.webp'],email:['diwali-original.webp'],discussion:['phone-original.webp'],foodposter:['food-original.webp']}[c.kind]||(c.contextMode==='homes'?['home-a.webp','home-b.webp','home-c.webp','home-d.webp']:c.contextMode==='social'?['storm-original.webp']:[]));
-window.CLASSROOM_SCENE_RESOURCES=configList.map(c=>({anchor:c.anchor,images:filesFor(c).map(f=>new URL(f,assetRoot).href)}));
+window.CLASSROOM_SCENE_RESOURCES=configList.map(c=>({anchor:c.anchor,images:[...filesFor(c).map(f=>new URL(f,assetRoot).href),...(c.kind==='email'?c.words.map(([word])=>{const key={activities:'activity',visitors:'visitor'}[word]||word,card=window.VOCABULARY_CYCLE_MODEL.data.cards.find(v=>v.word===key);return new URL(card.image,document.baseURI).href;}):[])]}));
 const original=window.createSchoolQuestionView;
 window.createSchoolQuestionView=ctx=>{
  const base=original(ctx),stage=ctx.stage,app=ctx.app,records=[window.CLASSROOM_SCENES[window.LESSON.id],...Object.values(window.CLASSROOM_CONTEXT_SCENES?.[window.LESSON.id]||{})].filter(Boolean);let config=records[0];
@@ -14,7 +14,7 @@ window.createSchoolQuestionView=ctx=>{
  let initialRender=true;const requestedPart=Math.max(0,Number(new URLSearchParams(location.search).get('part')||1)-1);
  let mode='question',part=0,choices=[null,null,null,null],survey={},nav,body;
  const get=()=>{config=!ctx.state().raw?records.find(r=>r.anchor===ctx.state().current):null;return config;};
- const answerable=()=>get()&&(config.kind==='festival'||config.kind==='map'||config.kind==='ideas'&&!config.complete||config.kind==='writingproof'||config.kind==='foodposter'||config.kind==='email'&&part>0||config.kind==='vocabulary'&&part>=(config.contextParts||2));
+ const answerable=()=>get()&&(config.kind==='festival'||config.kind==='map'||config.kind==='ideas'&&!config.complete||config.kind==='writingproof'||config.kind==='foodposter'||config.kind==='email'&&part>=config.words.length||config.kind==='vocabulary'&&part>=(config.contextParts||2));
  function chrome(){
   for(const id of ['review-mode','question-return','feedback-view-label','feedback-controls','part-select','material-open']){const el=app.querySelector('#'+id);if(el)el.hidden=true;}
   for(const n of app.querySelectorAll('.function-buttons button:not([id])'))n.hidden=true;
@@ -29,7 +29,7 @@ window.createSchoolQuestionView=ctx=>{
   if(!V.records.has(id))V.records.set(id,{id,kind:'textbook',number:config.number,section:config.module,instruction:config.instruction,html_pages:[config.anchor],pages:config.pages.map(page=>({book,page,width:555.6,height:748.32,boxes:[{rect:[25,35,530,715],kind:'material',label:'Original textbook context'}]}))});
   V.open(id);
  }
- function heading(){return `<header class="scene-head"><small>${esc(config.module)}</small><h1>${esc(config.title)}</h1><p class="scene-task">${esc(config.instruction)}</p></header><button class="page-source-button scene-source">Textbook p. ${config.pages.join(', ')}</button>`;}
+ function heading(){const input=config.kind==='email'&&part<config.words.length;return `<header class="scene-head"><small>${esc(config.module)}</small><h1>${esc(input?'Words for Meera’s email':config.title)}</h1>${input?'':`<p class="scene-task">${esc(config.instruction)}</p>`}</header><button class="page-source-button scene-source">Textbook</button>`;}
  function draw(){
   stage.classList.remove('ss-layout','ss-explanation','ot-layout','vc-stage','u-stage','plain-fit-review');stage.classList.add('scene-stage');stage.dataset.screenTemplate='scene-'+config.kind;stage.style.height='1080px';stage.dataset.questionHeight='1080';
   stage.innerHTML=heading()+`<main class="scene-body scene-${config.kind}"></main><div class="u-pages scene-local-pages"><button data-u-prev>Previous part</button><span data-u-page></span><button data-u-next>Next part</button></div>`;
@@ -39,6 +39,8 @@ window.createSchoolQuestionView=ctx=>{
  }
  function change(n){part=Math.max(0,Math.min(config.parts-1,n));mode='question';paint();}
  function paint(){
+  if(config.kind==='email')stage.dataset.notePart=part<config.words.length?'email-word-'+config.words[part][0]:String(part-config.words.length+2);else if(config.kind==='discussion')stage.dataset.notePart='discussion-combined';else delete stage.dataset.notePart;
+  if(config.kind==='email'){const template=document.createElement('div');template.innerHTML=heading();const head=stage.querySelector('.scene-head'),next=template.querySelector('.scene-head');if(head.innerHTML!==next.innerHTML)head.innerHTML=next.innerHTML;body.style.top=Math.max(245,head.offsetTop+head.offsetHeight+28)+'px';}
   body.dataset.part=part;body.dataset.revealed=mode==='answer';stage.dataset.feedbackView=mode;
   body.innerHTML=views[config.kind]();nav.hidden=config.parts<2;
   nav.querySelector('[data-u-page]').textContent=`Part ${part+1} of ${config.parts}`;
@@ -46,6 +48,7 @@ window.createSchoolQuestionView=ctx=>{
   body.querySelectorAll('[data-scene-part]').forEach(b=>b.onclick=()=>change(Number(b.dataset.scenePart)));
   body.querySelectorAll('[data-quiz-choice]').forEach(b=>b.onclick=()=>{choices[Number(b.dataset.q)]=Number(b.dataset.quizChoice);paint();});
   body.querySelectorAll('[data-survey-choice]').forEach(b=>b.onclick=()=>{survey[Number(b.dataset.q)]=Number(b.dataset.surveyChoice);paint();});
+  body.querySelector('[data-vc-cn]')?.addEventListener('click',e=>e.currentTarget.classList.toggle('vc-shown'));
   body.querySelector('[data-quiz-reset]')?.addEventListener('click',()=>{choices=[null,null,null,null];paint();});
   sync();
  }
@@ -63,9 +66,21 @@ window.createSchoolQuestionView=ctx=>{
 
  poster(){return `<article class="scene-poster"><header><h2>ESPORTS SCHOOL TEAM LOOKING FOR PLAYERS</h2><span>Posted 12:35 am</span></header><div class="scene-poster-columns"><section>${part===0?`<p>Do you want to <b>compete</b> against other schools in your favourite games? Join our esports team! You could win games and medals and become a <b>champion</b>.</p><p>In esports, you don’t need to <b>hit</b> a ball like a cricket player or to <b>kick</b> a ball like in football. But esports athletes don’t just sit. They keep their bodies <b>strong</b> so they can play long games without stress. You will go outside and stay active as part of training.</p>`:`<p>Esports players are often <b>intelligent</b> people who think a lot as they play and plan their moves. People who play esports often study Science, Technology, Maths and Engineering in college.</p><p>Are you interested? Contact Coach Hwang at<br><span class="scene-address">coach.hwang@gamers.net</span></p><p><b>Time:</b> Tuesday afternoons, 4:30–6:30 pm<br><b>Location:</b> Media Centre</p>`}</section>${img('esports-original.webp','Students playing together on an esports school team')}</div><footer>♡ 23</footer></article>`;},
  email(){const words=`<div class="scene-email-bank">${config.words.map(([w],i)=>`<span><i>${i+1}</i>${esc(w)}</span>`).join('')}</div>`;
- if(part===0)return `<section class="scene-email-words"><h2>Words for Meera’s email</h2>${config.words.map(([w,pos,t],i)=>`<div><span class="scene-email-word"><i>${i+1}</i><b>${w}</b></span><p><span class="scene-pos">(${pos})</span> ${t}</p></div>`).join('')}</section>`;
- return words+`<article class="scene-email-message"><section>${part===1?`<p>Hi,</p><p>I promised I’d write and tell you about how my family celebrated Diwali this year. As you know, the ${blank(1,'history')} of Diwali goes back hundreds of years. This year there was a big celebration in the park. Lots of people came, including local people and ${blank(2,'visitors')}.</p>`:`<p>At the event, there was traditional music and food. The food was ${blank(3,'popular')} because it was delicious and cheap. There were some ${blank(4,'activities')} for children, like making coloured lanterns. There was a race in the afternoon, and I decided to ${blank(5,'take part')}. I’m glad I did because I won!</p><p>For me, the fireworks at night were the ${blank(6,'highlight')} of the event. They were amazing!</p><p>Love, Meera</p>`}</section>${img('diwali-original.webp','Fireworks along the waterfront during Diwali')}</article>`;},
- discussion(){return `<article class="scene-discussion-layout">${img('phone-original.webp','A person considering a question while using a phone and laptop')}<section>${part===0?`<ol>${config.questions.map(q=>`<li>${esc(q)}</li>`).join('')}</ol>`:`<div class="scene-speech scene-speech-question">What is the first thing you do when somebody asks you a question? Do you use your phone to find an answer?</div><div class="scene-speech scene-speech-reply">When someone asks me a question, I like to try and think of an answer. Anybody can use a phone to find an answer, so maybe they want my opinion.</div>`}</section></article>`;},
+ if(part<config.words.length){
+  const [word,pos,definition]=config.words[part],model=window.VOCABULARY_CYCLE_MODEL;
+  const sourceWord={activities:'activity',visitors:'visitor'}[word]||word;
+  const card=model.data.cards.find(c=>c.word===sourceWord),index=model.data.cards.indexOf(card),node=document.createElement('div');
+  node.innerHTML=LESSON.pages[model.core[index]-1].html;
+  node.querySelector('.vc-card-word').textContent=word;
+  node.querySelector('.vc-pos').textContent=pos;
+  node.querySelector('.vc-definition p').textContent=definition;
+  const meaning=node.querySelector('.vc-cn-hint');if(meaning)meaning.textContent='Show meaning';
+  return `<section class="scene-input-card vcycle">${['.vc-card-word','.vc-pos','.vc-cn','.vc-definition','.vc-example','.vc-card-photo'].map(sel=>node.querySelector(sel)?.outerHTML||'').join('')}</section>`;
+ }
+ const emailPart=part-config.words.length;
+
+ return words+`<article class="scene-email-message"><section>${emailPart===0?`<p>Hi,</p><p>I promised I’d write and tell you about how my family celebrated Diwali this year. As you know, the ${blank(1,'history')} of Diwali goes back hundreds of years. This year there was a big celebration in the park. Lots of people came, including local people and ${blank(2,'visitors')}.</p>`:`<p>At the event, there was traditional music and food. The food was ${blank(3,'popular')} because it was delicious and cheap. There were some ${blank(4,'activities')} for children, like making coloured lanterns. There was a race in the afternoon, and I decided to ${blank(5,'take part')}. I’m glad I did because I won!</p><p>For me, the fireworks at night were the ${blank(6,'highlight')} of the event. They were amazing!</p><p>Love, Meera</p>`}</section>${img('diwali-original.webp','Fireworks along the waterfront during Diwali')}</article>`;},
+ discussion(){return `<article class="scene-discussion-combined"><div class="scene-discussion-main">${img('phone-original.webp','A person considering a question while using a phone and laptop')}<ol>${config.questions.map(q=>`<li>${esc(q)}</li>`).join('')}</ol></div><section class="scene-discussion-model"><div class="scene-speech scene-speech-question">What is the first thing you do when somebody asks you a question? Do you use your phone to find an answer?</div><div class="scene-speech scene-speech-reply">When someone asks me a question, I like to try and think of an answer. Anybody can use a phone to find an answer, so maybe they want my opinion.</div></section></article>`;},
 
  business(){return websiteNav(['Support','Contact','Home'])+`<article class="scene-business-page">${img('business.webp','Two people discussing business advice')}<div><p>Are you under a lot of <b>stress</b> about losing money? Are you worried about your business <b>goals</b>? Contact us today.</p><p>We know that in business one <b>careless</b> mistake could lose you a lot of money. It can be a <b>messy</b> website or unhappy <b>customers</b>. Do you have the <b>skills</b> to do everything in your business yourself or should you hire professional help? We will help you identify your company’s <b>strengths</b> and <b>weaknesses</b>.</p></div></article>`;},
  festival(){const f=config.festivals[part];return `<div class="scene-festival-tabs">${config.festivals.map((f,i)=>`<button data-scene-part="${i}" aria-pressed="${i===part}">${esc(f.name)}</button>`).join('')}</div><article class="scene-festival-card">${img(f.photo,f.name)}<section><h2>${esc(f.name)}</h2><dl>${f.fields.map(([k,v])=>`<div><dt>${k}</dt><dd>${fill(v)}</dd></div>`).join('')}</dl><h3>Activities</h3><ul>${f.activities.map(a=>`<li>${fill(a)}</li>`).join('')}</ul></section></article>`;},
@@ -91,6 +106,6 @@ window.createSchoolQuestionView=ctx=>{
  function refresh(){requestAnimationFrame(positionTray);if(!get()){const tray=app.querySelector('.ct-task-actions');if(tray)tray.style.bottom='';if(nativeAnswer)nativeAnswer.onclick=nativeAnswerHandler;return base.refresh();}chrome();}
  function openReview(kind){if(!get())return base.openReview(kind);if(!answerable())return;mode=mode==='answer'?'question':'answer';paint();ctx.fit();}
  function closeReview(){if(!get())return base.closeReview();mode='question';paint();ctx.fit();}
- return {...base,renderQuestion(e){const first=initialRender;initialRender=false;stage.classList.remove('scene-stage');if(nativeAnswer)nativeAnswer.onclick=nativeAnswerHandler;if(get()){part=first?Math.min(config.parts-1,requestedPart):0;mode='question';draw();return true;}return base.renderQuestion(e);},prepareInline(){if(get()){chrome();return{answer:!!answerable(),explanation:false};}return base.prepareInline();},refresh,openReview,closeReview,isReview:()=>get()?false:base.isReview(),availability:()=>get()?{answer:!!answerable(),explanation:false}:base.availability(),stats:()=>get()?{height:1080,kind:mode,reviewing:false,parts:config.parts,questions:[config.number]}:base.stats()};
+ return {...base,renderQuestion(e){const first=initialRender;initialRender=false;stage.classList.remove('scene-stage');delete stage.dataset.notePart;if(nativeAnswer)nativeAnswer.onclick=nativeAnswerHandler;if(get()){part=first?Math.min(config.parts-1,requestedPart):0;mode='question';draw();return true;}return base.renderQuestion(e);},prepareInline(){if(get()){chrome();return{answer:!!answerable(),explanation:false};}return base.prepareInline();},refresh,openReview,closeReview,isReview:()=>get()?false:base.isReview(),availability:()=>get()?{answer:!!answerable(),explanation:false}:base.availability(),stats:()=>get()?{height:1080,kind:mode,reviewing:false,parts:config.parts,questions:[config.number]}:base.stats()};
 };
 })();

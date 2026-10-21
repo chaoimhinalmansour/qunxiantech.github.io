@@ -15,3 +15,8 @@ html[data-course-theme=a] .stage .ref-scroll-cue[hidden]{display:none!important}
 html[data-course-theme=a] .stage .ref-sentence-bank{flex-wrap:nowrap!important;overflow-x:hidden}html[data-course-theme=a] .stage .ref-sentence-bank .ref-bank-item{flex-shrink:0;width:100%;min-width:0}html[data-course-theme=a] .stage .ref-sentence-bank .ref-bank-copy{min-width:0}
 
 .stage .ref-task-context{border:1px solid #b7cce2;border-left:4px solid #0066cc;padding:20px 26px;background:#f5f9fd;border-radius:8px;line-height:1.35!important;font-size:36px!important;margin-bottom:24px}.stage .ref-task-context>strong{display:block;color:#0066cc;font-size:26px;line-height:1.25;margin-bottom:10px}.stage .ref-task-context>p{font-size:36px!important;line-height:1.35!important;margin:0!important}
+
+.stage .ref-argument-context{gap:24px}
+.stage .ref-argument-topic{margin:0!important;padding:18px 22px;background:#f4f7fb;border-left:4px solid #0066cc;border-radius:6px;font:400 36px/1.35 var(--sans)!important}
+.stage .ref-argument-list{display:grid;grid-auto-flow:column;grid-template-rows:repeat(5,auto);grid-template-columns:1fr 1fr;gap:20px 65px;list-style-position:outside;margin:0;padding-left:52px;font:400 36px/1.35 var(--sans)!important}
+.stage .ref-argument-list li{padding-left:8px}

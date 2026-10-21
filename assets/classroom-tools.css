@@ -56,12 +56,12 @@ html[data-course-theme=a] #app.ct-enabled .teacher-sidebar .ct-nav-bottom button
 /* Reserve the remaining answer-line descent without cutting off the worksheet. */
 html[data-course-theme=a] #app.ct-enabled .stage .group-homework .hw-fit{bottom:132px!important}
 /* Keep complete tree diagrams intact when revealing inline letters. */
-.ct-enabled .stage.answers-visible .fmt-tree{font-size:28px!important;line-height:1.25!important}
-.ct-enabled .stage.answers-visible .fmt-tree-root{font-size:28px!important;padding:6px 18px!important;margin-bottom:10px!important}
-.ct-enabled .stage.answers-visible .fmt-tree-branch{gap:6px!important}
-.ct-enabled .stage.answers-visible .fmt-tree-branch h4{font-size:28px!important;padding:10px!important}
-.ct-enabled .stage.answers-visible .fmt-tree-leaf{padding:4px 8px!important;line-height:1.25!important;min-height:34px!important}
-.ct-enabled .stage.answers-visible .fmt-tree .inline-answer-text,.ct-enabled .stage.answers-visible .fmt-tree .inline-answer-value{font-size:28px!important;line-height:1.25!important}
+.ct-enabled .stage .fmt-tree{font-size:36px!important;line-height:1.35!important}
+.ct-enabled .stage .fmt-tree-root{font-size:36px!important;padding:10px 22px!important;margin-bottom:12px!important}
+.ct-enabled .stage .fmt-tree-branch{gap:8px!important}
+.ct-enabled .stage .fmt-tree-branch h4{font-size:36px!important;padding:15px 12px!important}
+.ct-enabled .stage .fmt-tree-leaf{padding:6px 10px!important;line-height:1.35!important;min-height:36px!important}
+.ct-enabled .stage .fmt-tree .inline-answer-text,.ct-enabled .stage .fmt-tree .inline-answer-value{font-size:36px!important;line-height:1.35!important}
 
 .ct-enabled .fmt-section-nav,.ct-enabled .plain-review-pages,.ct-enabled .u-pages{display:none!important}
 

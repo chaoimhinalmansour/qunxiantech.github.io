@@ -31,6 +31,12 @@ function polish(){if(working||!window.UNLOCK_PLAYER)return;working=true;try{
  'B3_LS_U04:115':['DEBATE STATEMENT','Special occasions have become too commercial.']
  }[key];
  if(contextCopy&&!stage.querySelector('.ref-task-context')){const col=stage.querySelector('.ss-body .ss-column');if(col){const item=make('div','ss-item ref-task-context'),label=make('strong','',contextCopy[0]),copy=make('p','',contextCopy[1]);item.append(label,copy);col.prepend(item);}}
+ // This discussion refers to the ten original arguments, which must stay visible.
+ if(key==='B3_RW_U07:153'&&area&&!area.querySelector('.ref-argument-context')){
+  const col=area.querySelector('.ss-column');if(col){const item=make('section','ss-item ref-argument-context'),topic=make('p','ref-argument-topic','The fashion industry is harmful to society and the environment. Do you agree or disagree?'),list=make('ol','ref-argument-list');
+  for(const phrase of ['creates new jobs','causes too much waste','encourages child labour','pays overseas workers badly','lets people show their personality','is important to the economy','allows people to change their look','harms the environment','makes children worry about their appearance','brings investment to developing countries'])list.append(make('li','',phrase));
+  item.append(topic,list);col.prepend(item);}
+ }
  const materialButton=document.querySelector('#material-open');
  if(LESSON.id==='B3_RW_U03'&&[160,166].includes(UNLOCK_PLAYER.state().current)){
   if(!materialRestore)materialRestore=materialButton.onclick;materialButton.hidden=false;materialButton.onclick=()=>UNLOCK_PLAYER.openMaterial([161,162,152]);

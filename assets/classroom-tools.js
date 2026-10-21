@@ -34,7 +34,7 @@ function boot(){
  function persist(immediate=false){dirty=true;clearTimeout(saveJob);const fn=()=>{try{localStorage.setItem(storageKey,JSON.stringify(store));dirty=false;saveError=false;head.querySelector('.ct-status').textContent='已保存到本机';head.querySelector('.ct-status').dataset.error='false';}catch(e){saveError=true;head.querySelector('.ct-status').textContent='保存失败，请保留当前页面';head.querySelector('.ct-status').dataset.error='true';}};if(immediate)fn();else saveJob=setTimeout(fn,350);}
  function pageKey(){const st=U.state();return st.current+':'+(st.exercise??'');}
  function localNav(){return stage.querySelector('.u-pages:not([hidden])')||stage.querySelector('.plain-review-pages')||(U.questionView.isReview()&&!stage.dataset.refSampleNavigation?null:[...stage.querySelectorAll('.fmt-section-nav:not([hidden])')].at(-1));}
- function noteKey(){const nav=localNav(),part=nav?':part'+((nav.querySelector('[data-u-page],span')?.textContent.match(/\d+/)||['1'])[0]):'';return pageKey()+':'+(U.questionView.isReview()?U.questionView.stats().kind||stage.dataset.feedbackView||'answer':'question')+part;}
+ function noteKey(){const nav=localNav(),part=stage.dataset.notePart?':part'+stage.dataset.notePart:nav?':part'+((nav.querySelector('[data-u-page],span')?.textContent.match(/\d+/)||['1'])[0]):'';return pageKey()+':'+(U.questionView.isReview()?U.questionView.stats().kind||stage.dataset.feedbackView||'answer':'question')+part;}
  function saveNotes(){if(!activeNoteKey)return;store.notes[activeNoteKey]=clone(notes);persist();}
  function checkpoint(){undo.push(clone(notes));if(undo.length>35)undo.shift();redo=[];}
  function changed(){saveNotes();render();buttons();}
