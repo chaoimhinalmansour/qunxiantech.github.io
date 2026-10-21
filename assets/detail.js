@@ -44,6 +44,12 @@ function polish(){if(working||!window.UNLOCK_PLAYER)return;working=true;try{
  // A presentation prompt has one question view; hidden sample paragraphs must not create empty steps.
  const promptOnly=new Set(['B3_LS_U03:154','B3_LS_U05:148','B3_LS_U07:146','B3_LS_U08:166']);
  if(promptOnly.has(key)){stage.dataset.refSampleNavigation='true';const nav=stage.querySelector('.fmt-section-nav');if(nav){nav.dataset.refPromptNav='true';nav.hidden=!stage.classList.contains('answers-visible')&&!document.querySelector('#app.review-open');for(const button of nav.querySelectorAll('button'))if(!button.dataset.refSampleClick){button.dataset.refSampleClick='true';const handler=button.onclick;button.onclick=()=>{const revealed=stage.classList.contains('answers-visible');if(revealed)stage.classList.remove('answers-visible');handler?.();if(revealed)stage.classList.add('answers-visible');polish();window.CLASSROOM_TOOLS?.sync?.();};}}}else if(stage.dataset.refSampleNavigation)delete stage.dataset.refSampleNavigation;
+ // Final typography and word-bank wrapping can change the available task height after initial layout.
+ const header=stage.querySelector('.ss-header');
+ if(area&&header&&!stage.classList.contains('answers-visible')&&!UNLOCK_PLAYER.questionView.isReview()&&!area.dataset.formatType){
+  const style=getComputedStyle(area),signature=[header.offsetHeight,area.clientWidth,area.clientHeight,style.fontSize,style.lineHeight,stage.querySelectorAll('.ref-choice-option').length].join(':');
+  if(area.dataset.refFinalLayout!==signature){area.dataset.refFinalLayout=signature;if(area.scrollHeight>area.clientHeight+4&&!area.querySelector('table,img,svg')&&area.querySelectorAll('.ss-numbered-row').length>1&&area.querySelectorAll('.ss-item').length>1)UNLOCK_PLAYER.questionView.refitLayout?.();}
+ }
  updateCues(stage);
 }finally{working=false;}}
 function updateCues(stage){

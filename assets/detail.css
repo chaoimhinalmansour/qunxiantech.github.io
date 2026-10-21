@@ -20,3 +20,8 @@ html[data-course-theme=a] .stage .ref-sentence-bank{flex-wrap:nowrap!important;o
 .stage .ref-argument-topic{margin:0!important;padding:18px 22px;background:#f4f7fb;border-left:4px solid #0066cc;border-radius:6px;font:400 36px/1.35 var(--sans)!important}
 .stage .ref-argument-list{display:grid;grid-auto-flow:column;grid-template-rows:repeat(5,auto);grid-template-columns:1fr 1fr;gap:20px 65px;list-style-position:outside;margin:0;padding-left:52px;font:400 36px/1.35 var(--sans)!important}
 .stage .ref-argument-list li{padding-left:8px}
+
+/* Choice labels sit inside their question; wrapped lines align with option text. */
+html[data-course-theme=a] .stage .ss-body .ref-choice-option{margin-left:1.75em!important;grid-template-columns:1.2em minmax(0,1fr);column-gap:.35em}
+html[data-course-theme=a] .stage .ss-body .ss-explanation-question{font:600 36px/1.35 var(--sans)!important;color:var(--ink);margin-bottom:16px}
+html[data-course-theme=a] .stage.ss-explanation .ss-item{gap:12px;padding:22px 0}
