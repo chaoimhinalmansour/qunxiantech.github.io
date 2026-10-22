@@ -21,7 +21,16 @@ html[data-course-theme=a] .stage .guided-script p{margin:0 0 24px!important}
 html[data-course-theme=a] .stage .u-question-list{--u-body-font:36px!important}
 html[data-course-theme=a] .stage .u-question-copy{max-height:100%;overflow-y:auto;overscroll-behavior:contain}
 html[data-course-theme=a] .stage .u-question{min-height:0;max-height:100%}
-html[data-course-theme=a] .stage .group-homework .hw-fit{overflow-y:auto!important;overscroll-behavior:contain}
+/* Two independent homework questions are one classroom task.  Put the two
+   complete question groups beside one another before allowing a scroll area:
+   each stem, its A-E choices and its answer stay together. */
+html[data-course-theme=a] .stage .group-homework .hw-fit{overflow-y:visible!important;overscroll-behavior:contain}
+html[data-course-theme=a] .stage .group-homework .hw-fit .group-items:has(> .group-question:nth-child(2):last-child){display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:40px;align-items:start}
+html[data-course-theme=a] .stage .group-homework .hw-fit .group-items:has(> .group-question:nth-child(2):last-child)>.group-question{min-width:0;margin:0!important}
+/* Two independent multiple-choice questions now occupy their own columns.
+   Remove only the former vertical-stack margin and redundant left gutter; the
+   task text and shared 36px classroom type remain unchanged. */
+html[data-course-theme=a] .stage .group-homework .hw-fit .group-items:has(> .group-question:nth-child(2):last-child)>.group-question{padding-left:42px!important}
 html[data-course-theme=a] .stage .group-homework .group-summary{font-size:36px!important;line-height:1.35!important}
 html[data-course-theme=a] .stage .group-homework .group-aids{font-size:36px!important;overflow-wrap:break-word}
 html[data-course-theme=a] .stage .ss-body{overflow-y:auto;overscroll-behavior:contain;scrollbar-gutter:stable}
@@ -53,3 +62,19 @@ html[data-course-theme=a] .stage .vc-sentences{display:flex!important;flex-direc
 html[data-course-theme=a] .stage .vc-sentence{flex:0 0 auto;min-height:80px;height:auto!important}
 
 .stage .lesson-dictation .dictation-frame{scrollbar-gutter:stable;scrollbar-width:thin;scrollbar-color:#aebcd0 #f6f8fb}
+/* Two complete multi-choice groups share a screen; reduce only option gutters. */
+html[data-course-theme=a] .stage .group-homework .group-items:has(> .group-question:nth-child(2):last-child) .options{row-gap:6px!important}
+html[data-course-theme=a] .stage .group-homework .group-items:has(> .group-question:nth-child(2):last-child) .options{row-gap:3px!important}
+
+/* Shared spacing corrections preserve classroom type and all task content. */
+html[data-course-theme=a] #app.ct-enabled .stage .ss-body .ss-column{gap:16px!important}
+html[data-course-theme=a] #app.ct-enabled .stage .fmt-collocation-diagrams section{padding:8px}
+html[data-course-theme=a] #app.ct-enabled .stage .fmt-collocation-diagrams p{margin:12px 0!important}
+html[data-course-theme=a] #app.ct-enabled .stage .fmt-material-card .fmt-dialogue{margin:0!important}
+html[data-course-theme=a] #app.ct-enabled .stage .ss-body .ss-column:has(.fmt-dialogue){gap:12px!important}
+html[data-course-theme=a] #app.ct-enabled .stage .group-aids .heading-number,
+html[data-course-theme=a] #app.ct-enabled .stage .group-aids .heading-text{padding-top:8px!important;padding-bottom:8px!important}
+html[data-course-theme=a] #app.ct-enabled .stage .ss-body.fmt-script-reading{grid-template-columns:minmax(0,1.25fr) minmax(0,.75fr)!important;gap:40px!important}
+html[data-course-theme=a] #app.ct-enabled .stage .fmt-script-reading .fmt-reading-material h3{margin-bottom:12px!important}
+html[data-course-theme=a] #app.ct-enabled .stage .fmt-script-reading .fmt-reading-material p{margin-bottom:12px!important}
+html[data-course-theme=a] #app.ct-enabled .stage .ss-body .fmt-argument-sort-table :is(td,th){padding-top:4px!important;padding-bottom:4px!important}

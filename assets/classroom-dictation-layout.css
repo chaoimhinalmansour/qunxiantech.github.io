@@ -1,0 +1,30 @@
+/* Dictation sheets remain a single, complete classroom view: no inner scrolling. */
+html[data-course-theme=a] .stage .lesson-dictation .dictation-frame{
+  top:360px;
+  bottom:48px;
+  overflow:visible;
+  scrollbar-width:auto;
+}
+
+html[data-course-theme=a] .stage .lesson-dictation .dictation-table tr{height:32px!important}
+html[data-course-theme=a] .stage .lesson-dictation .dictation-table th,
+html[data-course-theme=a] .stage .lesson-dictation .dictation-table td{padding-top:1px!important;padding-bottom:1px!important}
+html[data-course-theme=a] .stage .lesson-dictation .dictation-cell{min-height:0!important;line-height:1.1!important}
+
+/* The few 22-plus-row sheets need the same content in the space above the footer. */
+html[data-course-theme=a] .stage .lesson-dictation .dictation-frame:has(.dictation-table tr:nth-child(22)){
+  top:340px;
+}
+html[data-course-theme=a] .stage .lesson-dictation .dictation-frame:has(.dictation-table tr:nth-child(22)) .dictation-table tr{height:28px!important}
+html[data-course-theme=a] .stage .lesson-dictation .dictation-frame:has(.dictation-table tr:nth-child(22)) .dictation-table th,
+html[data-course-theme=a] .stage .lesson-dictation .dictation-frame:has(.dictation-table tr:nth-child(22)) .dictation-table td{padding-top:0!important;padding-bottom:0!important}
+html[data-course-theme=a] .stage .lesson-dictation .dictation-frame:has(.dictation-table tr:nth-child(22)) .dictation-cell{line-height:1!important}
+
+/* Keep the 28px classroom type but reclaim only its excess leading and cell padding. */
+html[data-course-theme=a] .stage .lesson-dictation[data-session] .dictation-table .dictation-cell[class]{
+  min-height:0!important;
+  line-height:1.05!important;
+}
+html[data-course-theme=a] .stage .lesson-dictation[data-session] .dictation-table tr{height:31px!important}
+html[data-course-theme=a] .stage .lesson-dictation[data-session] .dictation-table th,
+html[data-course-theme=a] .stage .lesson-dictation[data-session] .dictation-table td{padding-top:0!important;padding-bottom:0!important}

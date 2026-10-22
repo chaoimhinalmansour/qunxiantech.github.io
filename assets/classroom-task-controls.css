@@ -1,0 +1,48 @@
+/* One compact row when the current task fits; no reserved cells for absent tools. */
+#app.ct-enabled.ct-adaptive-controls{--ct-header-height:48px}
+#app.ct-enabled.ct-adaptive-controls>.workspace{inset:var(--ct-header-height) 0 var(--ct-footer-height,60px)!important}
+#app.ct-enabled.ct-adaptive-controls .ct-header{height:var(--ct-header-height);display:grid;grid-template-columns:max-content minmax(0,1fr) max-content;gap:12px;padding:0 14px}
+.task-header-course,.task-header-teacher{display:flex;align-items:center;gap:8px;width:max-content;white-space:nowrap}
+.task-header-teacher{justify-self:end}.task-header-current{min-width:0;display:flex;align-items:center;justify-content:flex-start;height:48px}
+#app.ct-adaptive-controls .ct-header .ct-status{display:none}
+#app.ct-adaptive-controls .ct-header button{height:34px;min-height:34px;padding:6px 10px;font:14px/1.3 'Segoe UI','Microsoft YaHei',Arial,sans-serif}
+#app.ct-enabled.ct-adaptive-controls .ct-task-actions{position:static!important;display:block;inset:auto!important;width:auto;max-width:100%;height:36px;padding:0;border:0;border-radius:0;background:transparent;font:15px/1.3 'Segoe UI','Microsoft YaHei',Arial,sans-serif}
+#app.ct-adaptive-controls .ct-task-actions::before{content:none!important;display:none!important}
+#app.ct-adaptive-controls .function-buttons{display:flex!important;align-items:center;gap:6px;width:max-content;max-width:none;height:36px;flex-wrap:nowrap;overflow:visible}
+#app.ct-adaptive-controls .ct-task-actions button{flex:none;width:auto;min-width:0;max-width:none;height:34px;min-height:34px;margin:0;padding:6px 10px;font:15px/1.3 'Segoe UI','Microsoft YaHei',Arial,sans-serif!important}
+#app.ct-adaptive-controls .ct-task-actions :is(#answer-mode,#question-return){width:126px}
+#app.ct-adaptive-controls.task-review-open .ct-task-actions :is(#answer-mode,#review-mode){display:none!important}
+#app.ct-adaptive-controls .ct-task-actions .media-bar{display:flex;align-items:center;gap:6px;flex:none;max-width:none;width:auto;min-width:0;flex-wrap:nowrap;overflow:visible}
+#app.ct-adaptive-controls .ct-task-actions .audio-slot{display:flex;align-items:center;gap:0;flex:none;min-width:0;width:auto}
+#app.ct-adaptive-controls .ct-task-actions .audio-slot>span{display:none}
+#app.ct-adaptive-controls .ct-task-actions audio{display:block;width:230px!important;min-width:230px!important;max-width:230px!important;height:32px!important;margin:0}
+#app.ct-adaptive-controls .task-recording-select{flex:none;width:110px;min-width:0;max-width:110px;height:34px;padding:4px 6px;border:1px solid #dce3ec;border-radius:7px;background:#fff;color:#243b53;font:15px/1.3 'Segoe UI',Arial,sans-serif!important}
+#app.ct-adaptive-controls .task-recording-select option{font:15px 'Segoe UI',Arial,sans-serif!important}
+#app.ct-adaptive-controls .task-extra{position:relative;flex:none;height:34px}
+#app.ct-adaptive-controls .task-extra-toggle{width:92px}
+#app.ct-adaptive-controls .task-extra-menu{position:absolute;top:40px;right:0;min-width:180px;display:flex;flex-direction:column;gap:5px;padding:7px;border:1px solid #dce3ec;border-radius:9px;background:#fff;box-shadow:0 8px 24px #243b5326;z-index:90}
+#app.ct-adaptive-controls .task-extra-menu button{width:100%;text-align:left}
+#app.ct-adaptive-controls .teacher-sidebar{top:var(--ct-header-height)}
+#app.ct-adaptive-controls .ct-panel{top:calc(var(--ct-header-height) + 9px)}
+#app.ct-adaptive-controls .ct-zoom-info{top:calc(var(--ct-header-height) + 10px)}
+#app.ct-enabled.ct-adaptive-controls.task-two-rows{--ct-header-height:88px}
+#app.ct-enabled.ct-adaptive-controls.task-two-rows .ct-header{grid-template-columns:minmax(0,1fr) max-content;grid-template-rows:44px 44px;gap:0 12px}
+#app.ct-adaptive-controls.task-two-rows .task-header-current{grid-column:1/3;grid-row:2;height:40px;align-self:start}
+#app.ct-adaptive-controls.task-two-rows .task-header-course{grid-row:1;grid-column:1}
+#app.ct-adaptive-controls.task-two-rows .task-header-teacher{grid-row:1;grid-column:2}
+#app.ct-adaptive-controls [hidden]{display:none!important}
+@media(min-width:1800px){#app.ct-adaptive-controls .ct-header .ct-status{display:inline}}
+@media(max-width:1000px){#app.ct-adaptive-controls .ct-unit{display:none}}
+
+#app.ct-adaptive-controls .ct-task-actions .media-load-status{display:flex!important;align-items:center;flex:none;gap:0;margin:0!important;padding:0!important;border:0!important;font-size:0!important;line-height:0!important;width:64px;height:34px;overflow:hidden;background:transparent!important}
+#app.ct-adaptive-controls .ct-task-actions .media-load-status[hidden]{display:none!important}
+#app.ct-adaptive-controls .ct-task-actions .media-load-status button{font-size:15px!important;width:64px;height:34px;margin:0!important;padding:6px 8px!important}
+#app.ct-adaptive-controls .ct-task-actions .audio-slot{gap:6px}
+
+.stage .ss-explanation-parts{display:flex;align-items:center;gap:20px;height:48px;margin-top:8px;font:22px/1.3 Arial,sans-serif;color:#536981}
+.stage .ss-explanation-parts button{font:22px/1.3 Arial,sans-serif;border:1px solid #c8d5e4;border-radius:6px;background:white;color:#293e62;padding:4px 15px;cursor:pointer}
+.stage .ss-explanation-parts button:disabled{opacity:.4;cursor:default}
+
+#app.ct-adaptive-controls .ct-task-actions .media-load-status:not(:has(button))::before{content:"Loading";font:12px/1.2 Arial,sans-serif;color:#6b7786}
+
+.stage.ss-explanation :is(.ss-column,.ss-item,.ss-node){min-width:0;overflow-wrap:anywhere}

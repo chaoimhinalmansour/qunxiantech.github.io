@@ -1,6 +1,6 @@
 /* Offline classroom resources. Existing caches are preserved across updates. */
 'use strict';
-const CACHE='unlock-classroom-shell-20261021-choice-1',ROOT=new URL('./',self.location.href);
+const CACHE='unlock-classroom-shell-20261022-visual-4',ROOT=new URL('./',self.location.href);
 const same=u=>u.origin===ROOT.origin&&u.pathname.startsWith(ROOT.pathname);
 function key(request){const u=new URL(typeof request==='string'?request:request.url);u.hash='';if(u.pathname===ROOT.pathname)u.pathname+='index.html';if(u.pathname.endsWith('.html'))u.search='';return u.href;}
 self.addEventListener('install',event=>event.waitUntil(self.skipWaiting()));

@@ -84,7 +84,7 @@
    const remaining=[...head.querySelectorAll(':scope>.ss-subtitle')].filter(n=>n.textContent.trim());
    if(remaining.length===1)remaining[0].classList.replace('ss-subtitle','ss-title');
   }
-  const area=stage.querySelector('.ss-body');if(area){const top=Math.max(220,head.offsetTop+head.offsetHeight+28);area.style.top=top+'px';area.style.height=(1010-top)+'px';}
+  const area=stage.querySelector('.ss-body');if(area&&area.dataset.layoutOwner!=='textbook-context'){const top=Math.max(220,head.offsetTop+head.offsetHeight+28);if(area.style.top!==top+'px')area.style.top=top+'px';if(area.style.height!==(1010-top)+'px')area.style.height=(1010-top)+'px';}
   const scale=stage.getBoundingClientRect().width/1920;
   if(scale>0)for(const graphic of stage.querySelectorAll('.ss-item.ss-graphic-item'))if(!graphic.dataset.stableGraphicHeight){const height=graphic.getBoundingClientRect().height/scale;if(height>0){graphic.style.minHeight=height+'px';graphic.dataset.stableGraphicHeight='true';}}
 
@@ -144,7 +144,7 @@
   const sidebar=document.querySelector('.teacher-sidebar'),group=document.createElement('section'),button=document.createElement('button');button.className='unit-home-button';button.type='button';button.textContent='本单元课次';button.onclick=unitHome;group.append(button);sidebar?.append(group);
   document.addEventListener('keydown',e=>{if(entry&&!entry.hidden&&(['ArrowLeft','ArrowRight','PageUp','PageDown'].includes(e.key)||e.key===' '&&!e.target.closest('button,a,input'))){e.preventDefault();e.stopImmediatePropagation();}},true);
   if(initialEntry)unitHome();else skin(document.querySelector('.stage'));
-  window.SCHOOL_STYLE_A={skin,header:standardHeader,unitHome,openLesson,version:'20261018-a',unit};
+  window.SCHOOL_STYLE_A={skin,header:standardHeader,unitHome,openLesson,version:'20261022-stability-1',unit};
  }
  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',launch);else launch();
 })();

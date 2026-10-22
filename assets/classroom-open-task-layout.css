@@ -1,0 +1,52 @@
+/* Open tasks keep every prompt and model response in the same classroom view. */
+html[data-course-theme=a] .stage.ot-layout .ot-body{
+  height:auto!important;
+  bottom:auto!important;
+  gap:12px!important;
+}
+html[data-course-theme=a] .stage.ot-layout .ot-aid{
+  min-height:0!important;
+  height:auto!important;
+}
+html[data-course-theme=a] .stage.ot-layout .ot-rows{
+  grid-template-columns:minmax(0,1fr)!important;
+  gap:4px!important;
+}
+html[data-course-theme=a] .stage.ot-layout .ot-row{
+  min-height:0!important;
+  height:auto!important;
+  gap:4px!important;
+}
+html[data-course-theme=a] .stage.ot-layout .ot-answer{margin-top:2px!important}
+html[data-course-theme=a] .stage.ot-layout .ot-body{overflow:visible!important}
+
+/* Keep a visual prompt and its discussion questions in one balanced teaching view. */
+html[data-course-theme=a] .stage.ot-layout .ot-body:has(.ot-gallery){
+  display:grid!important;
+  grid-template-columns:minmax(0,1fr) 640px!important;
+  grid-template-areas:'aid gallery' 'rows rows'!important;
+  column-gap:20px!important;
+  row-gap:8px!important;
+}
+html[data-course-theme=a] .stage.ot-layout .ot-body:has(.ot-gallery) .ot-aid{grid-area:aid!important}
+html[data-course-theme=a] .stage.ot-layout .ot-body:has(.ot-gallery) .ot-gallery{
+  grid-area:gallery!important;
+  align-self:start!important;
+  margin:0!important;
+}
+html[data-course-theme=a] .stage.ot-layout .ot-body:has(.ot-gallery) .ot-rows{grid-area:rows!important}
+
+/* Five compact prompts read naturally as a two-column classroom checklist. */
+html[data-course-theme=a] .stage.ot-layout .ot-rows:has(.ot-row:nth-child(5)){
+  grid-template-columns:repeat(2,minmax(0,1fr))!important;
+  column-gap:32px!important;
+  row-gap:4px!important;
+}
+
+/* Same type size, with the leading and paragraph gaps brought back to a compact workbook rhythm. */
+html[data-course-theme=a] .stage.ot-layout .ot-body .ot-aid p,
+html[data-course-theme=a] .stage.ot-layout .ot-body .ot-content > p,
+html[data-course-theme=a] .stage.ot-layout .ot-body .ot-answer > p{
+  line-height:1.15!important;
+  margin-bottom:4px!important;
+}

@@ -59,3 +59,61 @@
 .stage.textbook-complete .ss-body,.stage.textbook-complete .ss-item .inline-answer-text,.stage.textbook-complete .ss-gallery-tail .inline-answer-text,.stage.textbook-complete .ss-node td,.stage.textbook-complete .ss-node th,.stage.textbook-complete .ss-node td .text{font-size:var(--tb-font,28px)!important;line-height:1.16!important}.textbook-definition-input strong{font-weight:700}.textbook-word-bank{color:#7030a0;font-weight:700}.textbook-complete .ss-column{gap:14px}
 
 .stage.textbook-complete .inline-word-correction{display:inline-grid!important;width:auto!important;max-width:100%}.stage.textbook-complete .inline-word-correction>.inline-correction-placeholder,.stage.textbook-complete .inline-word-correction>.inline-correction-value{grid-area:1/1;white-space:nowrap!important}.stage.textbook-complete table{overflow-wrap:normal}.stage.textbook-complete .inline-table-answer{overflow-wrap:normal;word-break:normal}.answers-visible .textbook-inactive .inline-answer-value{visibility:hidden!important}.answers-visible .textbook-inactive .inline-answer-placeholder{visibility:visible!important}
+
+/* Textbook-context tasks: all evidence needed for the task is projected at
+   once. These are real layouts, never a concealed overflow region. */
+.stage.ss-textbook-task .ss-body{overflow:visible!important;scrollbar-gutter:auto!important}
+.stage.ss-textbook-task table{width:100%;border-collapse:collapse;table-layout:fixed;background:#fff}
+.stage.ss-textbook-task th,.stage.ss-textbook-task td{border:1px solid #b9c5d7;padding:8px 12px;font-size:30px!important;line-height:1.13!important;vertical-align:top;overflow-wrap:anywhere}
+.stage.ss-textbook-task .ss-header{height:auto!important}
+.stage.ss-textbook-task .ss-body{top:var(--textbook-body-top,242px)!important;height:calc(1010px - var(--textbook-body-top,242px))!important}
+
+/* B3 LS U6 p137: preserve the reading-to-ordering sequence, while using the
+   horizontal classroom canvas for two balanced reading columns and two prompt
+   columns.  This replaces the former right-side wheel region. */
+.stage.ss-textbook-postit .textbook-postit-layout{display:grid!important;grid-template-rows:minmax(0,1fr) auto;gap:18px}
+.textbook-postit-article{column-count:2;column-gap:46px;column-fill:balance;min-width:0}
+.textbook-postit-article .ss-node{break-inside:avoid;display:block!important;margin:0 0 12px!important}
+.textbook-postit-article .ss-node,.textbook-postit-article .ss-node .text{font-size:36px!important;line-height:1.22!important}
+.textbook-postit-questions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-flow:column;grid-template-rows:repeat(4,auto);column-gap:46px;row-gap:6px;min-width:0}
+.textbook-postit-questions .ss-node{min-width:0}.textbook-postit-questions .ss-node,.textbook-postit-questions .ss-node .text{font-size:36px!important;line-height:1.18!important}
+
+/* B2 LS U8 p159: restore the textbook's orange phrase bank and its purple
+   three-column sorting table. Candidates remain unclassified until Answers. */
+.stage.ss-textbook-task .textbook-turn-taking{display:grid!important;grid-template-columns:700px minmax(0,1fr);gap:30px;align-items:stretch}
+.textbook-turn-bank{background:#f9c09f;border:2px solid #df8d61;border-radius:4px;padding:17px 22px;display:grid;grid-template-columns:1fr;grid-auto-rows:minmax(0,1fr);gap:1px}
+.textbook-turn-option{display:grid;grid-template-columns:34px minmax(0,1fr);column-gap:8px;align-items:baseline;font-size:32px;line-height:1.13;color:#202c3b}
+.textbook-turn-letter{font-weight:700;color:#9e4d25;text-transform:lowercase}.textbook-turn-copy{min-width:0}
+.textbook-turn-table{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border:2px solid #8d3e95;border-radius:4px;overflow:visible;background:#fff}
+.textbook-turn-column{display:grid;grid-template-rows:82px auto minmax(0,1fr);min-width:0;border-right:2px solid #8d3e95}.textbook-turn-column:last-child{border-right:0}
+.textbook-turn-heading{display:flex;align-items:center;justify-content:center;padding:10px 14px;background:#8d3e95;color:#fff;text-align:center;font-size:32px;line-height:1.1;font-weight:700}
+.textbook-turn-sample{padding:16px 16px 10px;color:#455a75;font:italic 32px/1.18 Georgia,serif;min-height:126px;white-space:pre-line}
+.textbook-turn-workspace{display:flex;flex-direction:column;gap:15px;padding:8px 16px 16px;min-height:0}.textbook-turn-workspace .inline-answer-slot{display:grid!important;grid-template-areas:'slot';width:100%!important;min-width:0!important;line-height:1.1}
+.textbook-turn-workspace .inline-answer-placeholder,.textbook-turn-workspace .inline-answer-value{grid-area:slot;min-width:0;font-size:32px!important;line-height:1.16!important;white-space:normal!important}.textbook-turn-workspace .inline-answer-placeholder{color:#8090a4;border-bottom:1px solid #9ba9bb;height:39px;color:transparent}.textbook-turn-workspace .inline-answer-value{visibility:hidden;color:#b3261e;font-weight:700}.stage.answers-visible .textbook-turn-workspace .inline-answer-value{visibility:visible}
+
+/* B2 RW U1 p82: the full shared A/B/C record table stays on this page. */
+.textbook-reading-grid{height:100%;display:block}.textbook-reading-table{height:100%}.textbook-reading-table th{background:#eaf1fb;color:#294f88;font-weight:700;text-align:left}.textbook-reading-table th:first-child,.textbook-reading-table td:first-child{width:37%}.textbook-reading-table th:not(:first-child),.textbook-reading-table td:not(:first-child){width:21%;text-align:left}.textbook-reading-table tr{height:20%}.textbook-reading-table td{padding:13px 14px}.textbook-reading-table .inline-answer-slot{display:grid!important;grid-template-areas:'slot';width:100%!important;min-width:0!important}.textbook-reading-table .inline-answer-placeholder,.textbook-reading-table .inline-answer-value{grid-area:slot;min-width:0;white-space:normal!important}.textbook-reading-table .inline-answer-placeholder{color:transparent;border-bottom:1px solid #8999ad}.textbook-reading-table .inline-answer-value{visibility:hidden;color:#b3261e;font-weight:700}.stage.answers-visible .textbook-reading-table .inline-answer-value{visibility:visible}
+
+/* B3 RW U1 p166: retain every feature and all six questions in one bounded
+   comparison view. Table type follows the shared projection table standard. */
+.stage.ss-textbook-shark .textbook-shark-layout{display:grid!important;grid-template-columns:minmax(0,1.5fr) minmax(0,.5fr);gap:18px;align-items:stretch;max-width:100%;box-sizing:border-box}.textbook-shark-comparison,.textbook-shark-questions{min-width:0;min-height:0;max-width:100%;box-sizing:border-box}.textbook-shark-table{min-width:0;max-width:100%;box-sizing:border-box}.textbook-shark-table th{background:#eaf1fb;color:#294f88;font-weight:700;text-align:left}.textbook-shark-table th:first-child,.textbook-shark-table td:first-child{width:25%}.textbook-shark-table th:not(:first-child),.textbook-shark-table td:not(:first-child){width:37.5%}.stage.ss-textbook-shark .textbook-shark-table td,.stage.ss-textbook-shark .textbook-shark-table th{box-sizing:border-box;padding:2px 6px;font-size:32px!important;line-height:1.06!important;word-break:normal!important;overflow-wrap:anywhere}.textbook-shark-table p{margin:0!important}.textbook-shark-questions{display:flex;flex-direction:column;gap:4px}.stage.ss-textbook-shark .textbook-shark-question{display:grid;grid-template-columns:28px minmax(0,1fr) 48px;align-items:start;border:1px solid #c9d5e5;border-left:4px solid #4072c7;border-radius:0;padding:5px 6px;font-size:32px!important;line-height:1.1!important;color:#202c3b;overflow-wrap:anywhere;box-sizing:border-box}.textbook-shark-number{font-weight:700;color:#4072c7}.textbook-shark-copy{min-width:0}.textbook-shark-question .inline-answer-slot{display:grid!important;grid-template-areas:'slot';min-width:0!important;width:44px!important}.stage.ss-textbook-shark .textbook-shark-question .inline-answer-placeholder,.stage.ss-textbook-shark .textbook-shark-question .inline-answer-value{grid-area:slot;font-size:32px!important;line-height:1.06!important}.textbook-shark-question .inline-answer-placeholder{color:transparent;border-bottom:1px solid #8999ad}.textbook-shark-question .inline-answer-value{visibility:hidden;color:#b3261e;font-weight:700}.stage.answers-visible .textbook-shark-question .inline-answer-value{visibility:visible}
+
+/* The generic projection grid must expose over-capacity to its audit. It may
+   not turn a dense task into a mouse-wheel region after a screen fit pass. */
+.stage.ss-layout:not(.ss-textbook-task)[data-screen-overflow="0"] .ss-body{overflow:visible!important;scrollbar-gutter:auto!important}
+/* W/T is a one-letter response, so reserve one answer cell rather than a phrase slot. */
+html[data-course-theme=a] #app.ct-enabled .stage.ss-textbook-shark .textbook-shark-question .inline-answer-slot{min-width:0!important;width:48px!important;max-width:52px!important}
+/* Comparison prompts use the same classroom body size as the evidence table. */
+html[data-course-theme=a] #app.ct-enabled .stage.ss-textbook-shark .textbook-shark-layout{grid-template-columns:minmax(0,1.4fr) minmax(0,.6fr)!important;gap:24px!important}
+html[data-course-theme=a] #app.ct-enabled .stage.ss-textbook-shark .textbook-shark-question{font-size:var(--classroom-body)!important;line-height:1.35!important;padding:4px 8px}
+html[data-course-theme=a] #app.ct-enabled .stage.ss-textbook-shark .textbook-shark-copy,
+html[data-course-theme=a] #app.ct-enabled .stage.ss-textbook-shark .textbook-shark-question .inline-answer-value{font-size:var(--classroom-body)!important;line-height:1.35!important}
+
+/* Constrain the classification row itself, then distribute natural phrase heights. */
+.stage.ss-textbook-task .textbook-turn-taking{grid-template-rows:minmax(0,1fr)}
+.textbook-turn-bank,.textbook-turn-table{min-height:0;box-sizing:border-box}
+.textbook-turn-bank{grid-auto-rows:min-content;align-content:space-between;gap:6px}
+.textbook-turn-option{min-height:0}
+
+/* The map supplies its real height; discard the former placeholder reserve. */
+.stage.ss-layout .ss-graphic-item:has(.inline-image-map){min-height:0!important}
