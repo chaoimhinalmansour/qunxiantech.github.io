@@ -1,0 +1,119 @@
+/* Route-scoped spacing and reflow. Font sizes and fixed region bounds remain unchanged. */
+html[data-course-theme=a] #app.ct-enabled .stage[data-fixed-exception="b2-ls-u02-141-7"] .context-dialogue{
+  padding-top:10px!important;
+  padding-bottom:10px!important;
+}
+html[data-course-theme=a] #app.ct-enabled .stage[data-fixed-exception="b2-ls-u02-141-7"] .context-dialogue-column{
+  gap:8px!important;
+}
+
+html[data-course-theme=a] #app.ct-enabled .stage[data-fixed-exception="b2-rw-u06-185-6"] .fmt-material-card :is(p,h3){
+  margin-bottom:8px!important;
+}
+
+html[data-course-theme=a] #app.ct-enabled .stage[data-fixed-exception="b3-ls-u06-137-3"] .textbook-postit-layout{
+  grid-template-rows:486px 200px!important;
+  row-gap:12px!important;
+}
+html[data-course-theme=a] #app.ct-enabled .stage[data-fixed-exception="b3-ls-u06-137-3"] .textbook-postit-article{
+  display:grid!important;
+  grid-template-columns:minmax(0,.44fr) minmax(0,.56fr)!important;
+  grid-template-rows:auto auto!important;
+  column-gap:34px!important;
+  row-gap:8px!important;
+  column-count:auto!important;
+  column-fill:auto!important;
+  height:486px!important;
+}
+html[data-course-theme=a] #app.ct-enabled .stage[data-fixed-exception="b3-ls-u06-137-3"] .textbook-postit-article>.ss-node{
+  width:auto!important;
+  height:auto!important;
+  margin:0!important;
+  break-inside:auto!important;
+}
+html[data-course-theme=a] #app.ct-enabled .stage[data-fixed-exception="b3-ls-u06-137-3"] .textbook-postit-article>.ss-node:first-child{
+  grid-column:1;
+  grid-row:1 / span 2;
+}
+html[data-course-theme=a] #app.ct-enabled .stage[data-fixed-exception="b3-ls-u06-137-3"] .textbook-postit-article>.ss-node:nth-child(2){grid-column:2;grid-row:1}
+html[data-course-theme=a] #app.ct-enabled .stage[data-fixed-exception="b3-ls-u06-137-3"] .textbook-postit-article>.ss-node:nth-child(3){grid-column:2;grid-row:2}
+html[data-course-theme=a] #app.ct-enabled .stage[data-fixed-exception="b3-ls-u06-137-3"] .textbook-postit-questions{
+  grid-template-columns:repeat(4,minmax(0,1fr))!important;
+  grid-auto-flow:row!important;
+  grid-auto-rows:auto!important;
+  column-gap:24px!important;
+  row-gap:6px!important;
+  height:200px!important;
+}
+html[data-course-theme=a] #app.ct-enabled .stage[data-fixed-exception="b3-ls-u06-137-3"] .textbook-postit-questions>.ss-item:nth-child(6){
+  grid-column:2 / span 2!important;
+}
+
+html[data-course-theme=a] #app.ct-enabled .stage[data-fixed-exception="b3-rw-u01-166-4"] .textbook-shark-table :is(th,td){
+  line-height:1.2!important;
+  padding-top:2px!important;
+  padding-bottom:2px!important;
+}
+
+html[data-course-theme=a] #app.ct-enabled .stage[data-fixed-exception="b3-rw-u01-173"] .fixed-word-order-stash{
+  display:none!important;
+}
+html[data-course-theme=a] #app.ct-enabled .stage[data-fixed-exception="b3-rw-u01-173"]>.ss-header>[data-fixed-word-order-role="section"]{
+  left:0!important;
+  right:0!important;
+  top:0!important;
+  height:32px!important;
+}
+html[data-course-theme=a] #app.ct-enabled .stage[data-fixed-exception="b3-rw-u01-173"]>.ss-header>[data-fixed-word-order-role="title"]{
+  left:0!important;
+  right:0!important;
+  top:36px!important;
+  height:96px!important;
+}
+html[data-course-theme=a] #app.ct-enabled .stage[data-fixed-exception="b3-rw-u01-173"]>.ss-body[data-fixed-word-order-body="true"]{
+  display:block!important;
+}
+html[data-course-theme=a] #app.ct-enabled .stage[data-fixed-exception="b3-rw-u01-173"] .fixed-word-order-canvas{
+  position:relative!important;
+  width:1704px!important;
+  height:316.24px!important;
+}
+html[data-course-theme=a] #app.ct-enabled .stage[data-fixed-exception="b3-rw-u01-173"] .fixed-word-order-canvas>.obj{
+  position:absolute!important;
+}
+html[data-course-theme=a] #app.ct-enabled .stage[data-fixed-exception="b3-rw-u01-173"] .fixed-word-order-table table{
+  width:100%!important;
+  height:100%!important;
+  table-layout:fixed!important;
+  border-collapse:collapse!important;
+}
+html[data-course-theme=a] #app.ct-enabled .stage[data-fixed-exception="b3-rw-u01-173"] .fixed-word-order-table tr:first-child{height:45.1612903%!important}
+html[data-course-theme=a] #app.ct-enabled .stage[data-fixed-exception="b3-rw-u01-173"] .fixed-word-order-table tr:last-child{height:54.8387097%!important}
+html[data-course-theme=a] #app.ct-enabled .stage[data-fixed-exception="b3-rw-u01-173"] .fixed-word-order-table td{
+  width:33.333333%!important;
+  border:1px solid #CBD5E1!important;
+  padding:6px 10.5px!important;
+  vertical-align:middle!important;
+  background:#fff!important;
+  color:#192B3B!important;
+  font-size:39px!important;
+  line-height:1.2!important;
+}
+html[data-course-theme=a] #app.ct-enabled .stage[data-fixed-exception="b3-rw-u01-173"] .fixed-word-order-table tr:first-child td{
+  background:#7E398A!important;
+  color:#fff!important;
+  font-weight:700!important;
+}
+html[data-course-theme=a] #app.ct-enabled .stage[data-fixed-exception="b3-rw-u01-173"] .fixed-word-order-table td span{
+  color:inherit!important;
+  font-size:inherit!important;
+  font-weight:inherit!important;
+}
+
+html[data-course-theme=a] #app.ct-enabled .stage[data-fixed-exception="b3-rw-u01-173"] .fixed-word-order-table tr:first-child :is(th,td,span,p,.text){color:#fff!important}
+
+html[data-course-theme=a] #app.ct-enabled .stage[data-fixed-exception="b3-ls-u06-137-3"] .textbook-postit-questions .ss-given-key{display:inline!important;min-width:0!important;width:auto!important;height:auto!important;margin-left:.35em!important}
+
+html[data-course-theme=a] #app.ct-enabled .stage[data-fixed-exception="b3-ls-u06-137-3"] .textbook-postit-questions .ss-key-content{display:block!important}
+html[data-course-theme=a] #app.ct-enabled .stage[data-fixed-exception="b3-ls-u06-137-3"] .textbook-postit-questions .ss-key-sentence{display:inline!important}
+html[data-course-theme=a] #app.ct-enabled .stage[data-fixed-exception="b3-ls-u06-137-3"] .textbook-postit-questions .ss-key-content>.inline-answer-slot{display:inline-grid!important;width:84px!important;min-width:84px!important;margin-left:.25em!important}
