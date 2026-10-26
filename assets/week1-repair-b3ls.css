@@ -1,0 +1,498 @@
+/* B3 Listening & Speaking · week 1 textbook-context repairs (U01-U08). */
+html[data-course-theme=a] #app.ct-enabled .stage[data-b3ls-repair-unit]{--b3ls-blue:#0a789b;--b3ls-blue-soft:#d7eff8;--b3ls-ink:#192b3b;--b3ls-purple:#7e398a}
+
+/* Word-bank positioning is handled by the shared week-one repair layer. This file
+   only numbers the B3 LS choices and restores route-specific teaching carriers. */
+html[data-course-theme=a] #app.ct-enabled .stage>.b3ls-repair-custom-bank{position:absolute;z-index:3;box-sizing:border-box;left:108px;top:348px;width:1704px;min-height:76px;padding:10px 16px;border:1px solid #dfb58e;border-radius:12px;background:#fbf1e7;color:#1f2e3a}
+html[data-course-theme=a] #app.ct-enabled .stage>.b3ls-repair-custom-bank .b3ls-repair-custom-bank-inner{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px 26px}
+html[data-course-theme=a] #app.ct-enabled .stage>.b3ls-repair-custom-bank span{display:inline-flex;align-items:center;gap:7px;white-space:nowrap;font-size:22px;line-height:1.2}
+html[data-course-theme=a] #app.ct-enabled .stage>.b3ls-repair-custom-bank b{color:#2d68c4;font-size:0}
+html[data-course-theme=a] #app.ct-enabled .stage>.b3ls-repair-custom-bank b::before{content:attr(data-circle);font-size:24px}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-wordbank:has(>.b3ls-repair-custom-bank)>.ss-body{top:436px!important;height:566px!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-wordbank:has(>.b3ls-repair-custom-bank)>.ss-body{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;column-gap:28px!important;align-items:start!important;align-content:start!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-wordbank:has(>.b3ls-repair-custom-bank)>.ss-body>.ss-column{margin:0!important;padding:0!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-wordbank:has(>.b3ls-repair-custom-bank)>.ss-body .ss-node,
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-wordbank:has(>.b3ls-repair-custom-bank)>.ss-body .ss-node p{font-size:24px!important;line-height:1.13!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-wordbank:has(>.b3ls-repair-custom-bank)>.ss-body .ss-item{margin:0!important;padding:2px 0!important}
+/* U04 has four two-column rows. Keep its first row completely below the restored bank. */
+html[data-course-theme=a] #app.ct-enabled .stage[data-b3ls-repair-unit=U04][data-b3ls-repair-route="51"].b3ls-repair-wordbank:has(>.b3ls-repair-custom-bank)>.ss-body{top:436px!important;height:566px!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;grid-template-rows:repeat(4,minmax(0,1fr))!important;grid-auto-flow:column!important;gap:8px 34px!important;align-content:stretch!important}
+html[data-course-theme=a] #app.ct-enabled .stage[data-b3ls-repair-unit=U04][data-b3ls-repair-route="51"].b3ls-repair-wordbank:has(>.b3ls-repair-custom-bank)>.ss-body .ss-node,
+html[data-course-theme=a] #app.ct-enabled .stage[data-b3ls-repair-unit=U04][data-b3ls-repair-route="51"].b3ls-repair-wordbank:has(>.b3ls-repair-custom-bank)>.ss-body .ss-node p{font-size:26px!important;line-height:1.18!important}
+
+/* U03 p67 Exercise 2 is one task: seven target words plus all nine definition
+   choices (two unused). Keep the source rows below the complete choice carrier. */
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-problem-definitions>.b3ls-repair-problem-wrap{position:absolute;z-index:4;box-sizing:border-box;left:108px;top:324px;width:1704px;height:286px}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-problem-card{box-sizing:border-box;width:100%;height:100%;padding:13px 16px 14px;border:2px solid #1686a9;border-radius:16px;background:#eef8fb;color:#1d3040;box-shadow:0 7px 20px rgba(33,89,111,.11)}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-problem-heading{display:flex;align-items:baseline;gap:16px;margin:0 0 9px}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-problem-heading h2{margin:0!important;color:#08728f!important;font-size:25px!important;line-height:1.1!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-problem-heading p{margin:0!important;color:#526575!important;font-size:19px!important;line-height:1.1!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-problem-words{display:flex;flex-wrap:wrap;gap:6px 11px;margin:0 0 9px}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-problem-words span{display:inline-flex;align-items:center;gap:5px;padding:4px 9px;border:1px solid #8cbfd1;border-radius:999px;background:#fff;font-size:18px;line-height:1.05;white-space:nowrap}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-problem-words b{color:#2d68c4;font-size:20px}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-problem-choice-set{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:5px 9px;margin:0;padding:0;list-style:none}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-problem-choice-set li{display:grid;grid-template-columns:24px minmax(0,1fr);gap:4px;align-items:start;min-width:0;padding:4px 7px;border-radius:8px;background:rgba(255,255,255,.86)}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-problem-choice-set li>span{color:#2d68c4;font-size:20px;line-height:1.08}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-problem-choice-set p{margin:0!important;font-size:17px!important;line-height:1.12!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-problem-definitions>.ss-body{top:626px!important;height:376px!important;overflow:visible!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-problem-definitions>.ss-body .fmt-header-banks,
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-problem-definitions>.ss-body>.w1-choice-zone{display:none!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-problem-definitions>.ss-body .ss-item{margin:0!important;padding:2px 0!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-problem-definitions>.ss-body .ss-node,
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-problem-definitions>.ss-body .ss-node p{font-size:23px!important;line-height:1.1!important}
+
+/* These textbook exercises are already merged into one visible task. Their
+   obsolete source-slice buttons must not offer a second step that leaves it. */
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-merged-task .w1-native-parts{display:none!important}
+html[data-course-theme=a] body:has(.stage.b3ls-repair-merged-task) #part-select{display:none!important}
+
+/* Routes that need the missing definition or skills carrier share a left reference card. */
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-side>.b3ls-repair-sidecard{position:absolute;z-index:2;box-sizing:border-box;left:108px;top:324px;width:610px;height:682px;margin:0;padding:0;overflow:visible}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-side>.ss-body{left:800px!important;top:324px!important;width:1012px!important;height:682px!important;overflow:visible!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-side>.ss-body .ss-node,
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-side>.ss-body .ss-node p,
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-side>.ss-body .fmt-material-card,
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-side>.ss-body .fmt-material-card p{font-size:25px!important;line-height:1.14!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-side>.ss-body .ss-item{margin:0!important;padding:2px 0!important}
+html[data-course-theme=a] #app.ct-enabled .stage[data-b3ls-repair-unit=U04][data-b3ls-repair-route="55"]>.ss-body .ss-node,
+html[data-course-theme=a] #app.ct-enabled .stage[data-b3ls-repair-unit=U04][data-b3ls-repair-route="55"]>.ss-body .ss-node p,
+html[data-course-theme=a] #app.ct-enabled .stage[data-b3ls-repair-unit=U04][data-b3ls-repair-route="55"]>.ss-body.ot-body p{font-size:28px!important;line-height:1.08!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-card{position:relative;box-sizing:border-box;width:100%;height:100%;padding:20px 22px;border:2px solid #1686a9;border-radius:16px;background:#d9f0f8;color:var(--b3ls-ink);box-shadow:0 8px 24px rgba(33,89,111,.13)}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-card h2{margin:0 0 5px!important;color:#08728f!important;font-size:30px!important;line-height:1.15!important;letter-spacing:.01em}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-card .b3ls-repair-note{margin:0 0 12px!important;color:#526575!important;font-size:22px!important;line-height:1.2!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-card ol{display:grid;grid-template-columns:1fr;margin:0;padding:0;list-style:none;gap:7px}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-card li{display:grid;grid-template-columns:34px minmax(0,1fr);gap:7px;align-items:start;min-width:0}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-card li p{margin:0!important;font-size:23px!important;line-height:1.18!important;min-width:0}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-card li strong{color:#7e398a!important;font-size:24px!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-circle{color:#2d68c4;font-size:26px;line-height:1.05}
+html[data-course-theme=a] #app.ct-enabled .stage[data-b3ls-repair-unit=U08][data-b3ls-repair-route="76"] .b3ls-repair-card{padding-top:16px}
+html[data-course-theme=a] #app.ct-enabled .stage[data-b3ls-repair-unit=U08][data-b3ls-repair-route="76"] .b3ls-repair-card li{gap:4px}
+html[data-course-theme=a] #app.ct-enabled .stage[data-b3ls-repair-unit=U08][data-b3ls-repair-route="76"] .b3ls-repair-card li p{font-size:21px!important;line-height:1.12!important}
+html[data-course-theme=a] #app.ct-enabled .stage[data-b3ls-repair-unit=U08][data-b3ls-repair-route="76"] .b3ls-repair-card li strong{font-size:22px!important}
+html[data-course-theme=a] #app.ct-enabled .stage[data-b3ls-repair-unit=U05][data-b3ls-repair-route="84"]>.ss-body .ss-node,
+html[data-course-theme=a] #app.ct-enabled .stage[data-b3ls-repair-unit=U05][data-b3ls-repair-route="84"]>.ss-body .ss-node p,
+html[data-course-theme=a] #app.ct-enabled .stage[data-b3ls-repair-unit=U05][data-b3ls-repair-route="84"]>.ss-body.ot-body p{font-size:28px!important;line-height:1.08!important;white-space:normal!important;overflow:visible!important}
+
+/* Textbook skills cards. */
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-skill{position:relative;box-sizing:border-box;width:100%;height:100%;padding:22px 28px 20px;border:1px solid #d8dde4;border-right:9px solid #1678b5;background:#fff;box-shadow:0 8px 24px rgba(25,43,59,.17);color:var(--b3ls-ink)}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-skill h2{margin:0 0 13px!important;color:#0c6f9a!important;font-size:31px!important;line-height:1.15!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-skill p{margin:0 0 12px!important;font-size:24px!important;line-height:1.28!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-skill .b3ls-repair-example{box-sizing:border-box;margin:9px 0 0;padding:10px 13px;border-radius:10px;background:#edf6fb}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-skill .b3ls-repair-example strong{display:block;margin-bottom:4px;color:#385b75;font-size:22px}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-skill .b3ls-repair-example p{margin:3px 0!important;font-size:22px!important;line-height:1.22!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-skill .b3ls-repair-ribbon{position:absolute;right:-9px;top:12px;padding:10px 6px;background:#1678b5;color:#fff;font-size:17px;font-weight:800;letter-spacing:.12em;writing-mode:vertical-rl}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-skill--cause p{font-size:23px!important;line-height:1.24!important}
+
+/* Wind-power blog: restores carrier, highlighted terms and a generated contextual image. */
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-blog-page>.ss-body{display:none!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-blog-page>.fmt-section-nav{display:none!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-blog-page>.b3ls-repair-blog-wrap{position:absolute;z-index:2;box-sizing:border-box;left:108px;top:344px;width:1704px;height:666px}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-blog{box-sizing:border-box;width:100%;height:100%;padding:18px 24px 22px;border:2px solid #b9d1da;border-radius:20px;background:linear-gradient(180deg,#f9fbfc 0,#e8f2f5 100%);box-shadow:0 8px 24px rgba(35,79,94,.13)}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-blog-heading{height:108px;display:flex;align-items:center;justify-content:center;gap:12px;border:4px solid #177787;border-radius:16px;background:#fff;font-size:33px;line-height:1;color:#162d37}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-blog-heading strong{font-size:58px;color:#087582;line-height:.95}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-blog-grid{display:grid;grid-template-columns:minmax(0,1.12fr) minmax(0,.88fr);gap:24px;height:calc(100% - 128px);padding-top:18px}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-blog-copy{min-width:0;padding:10px 14px 8px;background:rgba(255,255,255,.72);border-radius:12px}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-blog-copy p{margin:0 0 12px!important;font-size:27px!important;line-height:1.31!important;color:#1b2e39!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-blog-copy b{color:#913d91!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-windfarm{min-width:0;height:100%;border-radius:14px;background-color:#bfd3dd;background-image:linear-gradient(180deg,rgba(13,51,72,.04),rgba(13,51,72,.16)),url("week1-repair-b3ls-u02-windfarm.webp");background-repeat:no-repeat;background-position:center;background-size:cover;box-shadow:inset 0 0 0 1px rgba(20,66,85,.16)}
+
+/* U03 p71: the original eight sentences and a-h definitions stay on one fixed screen. */
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-full-page>.ss-body,
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-full-page>.fmt-section-nav{display:none!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-full-page>.b3ls-repair-full-wrap{position:absolute;z-index:2;box-sizing:border-box;left:108px;top:344px;width:1704px;height:666px}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-fulltask{box-sizing:border-box;display:grid;grid-template-columns:1.18fr .82fr;gap:16px;width:100%;height:100%;padding:14px 16px;border:2px solid #bcd8e4;border-radius:16px;background:#f7fbfd}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-fulltask>div{box-sizing:border-box;min-width:0;padding:10px 13px;border-radius:12px;background:#fff}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-fulltask h2{margin:0 0 10px!important;color:#116f91!important;font-size:26px!important;line-height:1.15!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-fulltask p{display:grid;grid-template-columns:26px minmax(0,1fr);gap:5px;margin:0 0 4px!important;color:#1d3040!important;font-size:18px!important;line-height:1.12!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-sentences{display:grid;grid-template-columns:1fr 1fr;gap:4px 12px;align-content:start}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-sentences h2{grid-column:1/-1}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-sentences p strong{color:#7e398a!important;font-size:18px!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-definitions p{grid-template-columns:22px 135px minmax(0,1fr);align-items:start;font-size:17px!important;line-height:1.12!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-slot{display:inline-grid!important;grid-template-areas:"slot";min-width:145px!important;width:145px!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-slot>*{grid-area:slot}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-slot .inline-answer-placeholder{border-bottom:2px solid #718198;color:transparent}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-slot .inline-answer-value{visibility:hidden;color:#b3261e;font-weight:800}
+html[data-course-theme=a] #app.ct-enabled .stage.answers-visible .b3ls-repair-slot .inline-answer-value{visibility:visible}
+html[data-course-theme=a] #app.ct-enabled .stage.answers-visible .b3ls-repair-slot .inline-answer-placeholder{visibility:hidden}
+
+/* Existing p112 definition rows stay visible; the carrier and bank are visually separated. */
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-definition-task>.ss-body{box-sizing:border-box!important;padding:14px 18px!important;border:2px solid #8ec2d8!important;border-radius:16px!important;background:#e4f3f9!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-definition-task>.ss-body .ss-item{margin:0 0 4px!important;padding:4px 8px!important;background:rgba(255,255,255,.76)!important;border-radius:8px!important}
+
+/* Answers title no longer participates in normal flow above the section label. */
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-answer-title .ss-header>.ot-answer-label{position:absolute!important;z-index:3;top:136px!important;right:0!important;left:auto!important;width:260px!important;height:32px!important;padding:0!important;margin:0!important;text-align:right!important;font-size:24px!important;line-height:32px!important;color:#8a2e2e!important;background:transparent!important}
+
+/* Present perfect structure labels. */
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-grammar-label{position:absolute!important;z-index:3;left:0!important;right:0!important;top:132px!important;height:38px!important;display:flex!important;align-items:center!important;gap:20px!important;color:#166f91!important;font-size:25px!important;line-height:1!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-grammar-label strong{font-size:26px!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-grammar-label span{padding:5px 12px;border-radius:999px;background:#e1f2f8;color:#315a6d;font-size:21px}
+
+/* Nuclear-note headers survive all task and answer states. */
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-nuclear table tr:first-child td{background:#7e398a!important;color:#fff!important;text-align:center!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-nuclear table tr:first-child td p{margin:0!important;color:#fff!important;font-weight:800!important;text-align:center!important}
+
+/* Repaired material pane. */
+html[data-course-theme=a] #app.ct-enabled .reference-pane[data-b3ls-custom-material]>.reader-document{visibility:hidden!important}
+html[data-course-theme=a] body:has(.reference-pane[data-b3ls-custom-material]) .reference-tools>.b3ls-repair-material-titlebar{display:block!important;box-sizing:border-box;flex:1;min-width:0;grid-column:1/-1;padding:7px 10px;border-left:5px solid #1686a9;border-radius:7px;background:#edf7fa;color:#116f91;font-size:17px;line-height:1.15}
+html[data-course-theme=a] body:has(.reference-pane[data-b3ls-custom-material]) .reference-tools>#material-select,
+html[data-course-theme=a] body:has(.reference-pane[data-b3ls-custom-material]) .reference-tools>#material-prev,
+html[data-course-theme=a] body:has(.reference-pane[data-b3ls-custom-material]) .reference-tools>#material-next,
+html[data-course-theme=a] body:has(.reference-pane[data-b3ls-custom-material]) .reference-tools>#read-full,
+html[data-course-theme=a] body:has(.reference-pane[data-b3ls-custom-material]) .reference-tools>#split-view,
+html[data-course-theme=a] body:has(.reference-pane[data-b3ls-custom-material]) .reference-tools>.pane-width-label{display:none!important}
+html[data-course-theme=a] #app.ct-enabled .reference-pane>.b3ls-repair-material-overlay{position:absolute;z-index:12;box-sizing:border-box;left:0;right:0;top:58px;bottom:0;overflow:hidden;background:#fff}
+html[data-course-theme=a] #app.ct-enabled .reference-stage .b3ls-repair-material{box-sizing:border-box;width:100%;min-height:100%;padding:26px 30px;background:#fff;color:#1d3040}
+html[data-course-theme=a] #app.ct-enabled .reference-pane>.b3ls-repair-material-overlay>.b3ls-repair-material{box-sizing:border-box;width:100%;height:100%;padding:26px 30px;background:#fff;color:#1d3040}
+html[data-course-theme=a] #app.ct-enabled .reference-stage .b3ls-repair-material h2{margin:0 0 10px!important;color:#116f91!important;font-size:31px!important;line-height:1.15!important}
+html[data-course-theme=a] #app.ct-enabled .reference-pane>.b3ls-repair-material-overlay h2{margin:0 0 10px!important;color:#116f91!important;font-size:31px!important;line-height:1.15!important}
+html[data-course-theme=a] #app.ct-enabled .reference-stage .b3ls-repair-material-lead{margin:0 0 18px!important;font-size:22px!important;line-height:1.3!important;color:#526575!important}
+html[data-course-theme=a] #app.ct-enabled .reference-pane>.b3ls-repair-material-overlay .b3ls-repair-material-lead{margin:0 0 18px!important;font-size:22px!important;line-height:1.3!important;color:#526575!important}
+html[data-course-theme=a] #app.ct-enabled .reference-stage .b3ls-repair-material table{width:100%;border-collapse:collapse;font-size:24px;line-height:1.25}
+html[data-course-theme=a] #app.ct-enabled .reference-pane>.b3ls-repair-material-overlay table{width:100%;border-collapse:collapse;font-size:24px;line-height:1.25}
+html[data-course-theme=a] #app.ct-enabled .reference-stage .b3ls-repair-material th{padding:10px 12px;background:#7e398a;color:#fff;text-align:left}
+html[data-course-theme=a] #app.ct-enabled .reference-pane>.b3ls-repair-material-overlay th{padding:10px 12px;background:#7e398a;color:#fff;text-align:left}
+html[data-course-theme=a] #app.ct-enabled .reference-stage .b3ls-repair-material td{padding:11px 12px;border:1px solid #b9cfdb;vertical-align:top}
+html[data-course-theme=a] #app.ct-enabled .reference-pane>.b3ls-repair-material-overlay td{padding:11px 12px;border:1px solid #b9cfdb;vertical-align:top}
+html[data-course-theme=a] #app.ct-enabled .reference-stage .b3ls-repair-material td:first-child{width:105px;color:#7e398a;font-weight:800;background:#eef7fa}
+html[data-course-theme=a] #app.ct-enabled .reference-pane>.b3ls-repair-material-overlay td:first-child{width:105px;color:#7e398a;font-weight:800;background:#eef7fa}
+html[data-course-theme=a] #app.ct-enabled .reference-stage .b3ls-repair-material-bank{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:14px 0 20px}
+html[data-course-theme=a] #app.ct-enabled .reference-pane>.b3ls-repair-material-overlay .b3ls-repair-material-bank{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:14px 0 20px}
+html[data-course-theme=a] #app.ct-enabled .reference-stage .b3ls-repair-material-bank span{display:flex;align-items:center;gap:9px;padding:9px 13px;border:1px solid #8cbfd1;border-radius:10px;background:#e3f3f8;font-size:23px}
+html[data-course-theme=a] #app.ct-enabled .reference-pane>.b3ls-repair-material-overlay .b3ls-repair-material-bank span{display:flex;align-items:center;gap:9px;padding:9px 13px;border:1px solid #8cbfd1;border-radius:10px;background:#e3f3f8;font-size:23px}
+html[data-course-theme=a] #app.ct-enabled .reference-stage .b3ls-repair-material-bank b{color:#2d68c4;font-size:26px}
+html[data-course-theme=a] #app.ct-enabled .reference-pane>.b3ls-repair-material-overlay .b3ls-repair-material-bank b{color:#2d68c4;font-size:26px}
+html[data-course-theme=a] #app.ct-enabled .reference-stage .b3ls-repair-material-defs{display:grid;grid-template-columns:1fr;gap:7px}
+html[data-course-theme=a] #app.ct-enabled .reference-pane>.b3ls-repair-material-overlay .b3ls-repair-material-defs{display:grid;grid-template-columns:1fr;gap:7px}
+html[data-course-theme=a] #app.ct-enabled .reference-stage .b3ls-repair-material-defs p{margin:0!important;padding:7px 10px;border-left:4px solid #1686a9;background:#f5fafc;font-size:21px!important;line-height:1.2!important}
+html[data-course-theme=a] #app.ct-enabled .reference-pane>.b3ls-repair-material-overlay .b3ls-repair-material-defs p{margin:0!important;padding:7px 10px;border-left:4px solid #1686a9;background:#f5fafc;font-size:21px!important;line-height:1.2!important}
+
+/* Split-view material must fit its fixed pane without an inner scrollbar. */
+html[data-course-theme=a] #app.ct-enabled .reference-pane>.b3ls-repair-material-overlay>.b3ls-repair-material{padding:18px 22px}
+html[data-course-theme=a] #app.ct-enabled .reference-pane>.b3ls-repair-material-overlay h2{margin-bottom:6px!important;font-size:26px!important;line-height:1.08!important}
+html[data-course-theme=a] #app.ct-enabled .reference-pane>.b3ls-repair-material-overlay .b3ls-repair-material-lead{margin-bottom:10px!important;font-size:18px!important;line-height:1.18!important}
+html[data-course-theme=a] #app.ct-enabled .reference-pane>.b3ls-repair-material-overlay .b3ls-repair-material-bank{gap:6px 8px;margin:8px 0 10px}
+html[data-course-theme=a] #app.ct-enabled .reference-pane>.b3ls-repair-material-overlay .b3ls-repair-material-bank span{gap:6px;padding:5px 9px;font-size:18px}
+html[data-course-theme=a] #app.ct-enabled .reference-pane>.b3ls-repair-material-overlay .b3ls-repair-material-bank b{font-size:21px}
+html[data-course-theme=a] #app.ct-enabled .reference-pane>.b3ls-repair-material-overlay .b3ls-repair-material-bank b[data-circle]{font-size:0}
+html[data-course-theme=a] #app.ct-enabled .reference-pane>.b3ls-repair-material-overlay .b3ls-repair-material-bank b[data-circle]::before{content:attr(data-circle);font-size:21px}
+html[data-course-theme=a] #app.ct-enabled .reference-pane>.b3ls-repair-material-overlay .b3ls-repair-material-defs{gap:4px}
+html[data-course-theme=a] #app.ct-enabled .reference-pane>.b3ls-repair-material-overlay .b3ls-repair-material-defs p{padding:4px 7px;font-size:17px!important;line-height:1.12!important}
+html[data-course-theme=a] #app.ct-enabled .reference-stage .b3ls-repair-material-defs strong{display:inline-block;min-width:120px;color:#7e398a}
+html[data-course-theme=a] #app.ct-enabled .reference-pane>.b3ls-repair-material-overlay .b3ls-repair-material-defs strong{display:inline-block;min-width:120px;color:#7e398a}
+
+/* The task copy cloned into split view sits outside .stage. Keep all seven
+   U03 items visible beside the restored material without a wheel or scrollbar. */
+html[data-course-theme=a] body:has(.stage[data-b3ls-repair-unit=U03][data-b3ls-repair-route="76"]) .split-question-reading>.ss-body{top:330px!important;height:650px!important;overflow:visible!important}
+html[data-course-theme=a] body:has(.stage[data-b3ls-repair-unit=U03][data-b3ls-repair-route="76"]) .split-question-reading>.ss-body .w1-choice-zone{margin:0 0 5px!important;padding:0!important}
+html[data-course-theme=a] body:has(.stage[data-b3ls-repair-unit=U03][data-b3ls-repair-route="76"]) .split-question-reading>.ss-body .w1-choice-content,
+html[data-course-theme=a] #app.ct-enabled .stage[data-b3ls-repair-unit=U03][data-b3ls-repair-route="76"]>.ss-body .w1-choice-content{display:grid!important;grid-template-columns:1fr!important;gap:0!important}
+html[data-course-theme=a] body:has(.stage[data-b3ls-repair-unit=U03][data-b3ls-repair-route="76"]) .split-question-reading>.ss-body .fmt-header-banks{margin:0!important;padding:6px 10px!important}
+html[data-course-theme=a] body:has(.stage[data-b3ls-repair-unit=U03][data-b3ls-repair-route="76"]) .split-question-reading>.ss-body .uniform-wordbank{gap:4px 12px!important}
+html[data-course-theme=a] body:has(.stage[data-b3ls-repair-unit=U03][data-b3ls-repair-route="76"]) .split-question-reading>.ss-body .ref-bank-item{font-size:20px!important;line-height:1.08!important}
+html[data-course-theme=a] body:has(.stage[data-b3ls-repair-unit=U03][data-b3ls-repair-route="76"]) .split-question-reading>.ss-body .ref-bank-index[data-w1-choice]{font-size:0!important}
+html[data-course-theme=a] body:has(.stage[data-b3ls-repair-unit=U03][data-b3ls-repair-route="76"]) .split-question-reading>.ss-body .ref-bank-index[data-w1-choice]::before{content:attr(data-w1-choice);font-size:21px}
+html[data-course-theme=a] body:has(.stage[data-b3ls-repair-unit=U03][data-b3ls-repair-route="76"]) .split-question-reading>.ss-body .ss-item{margin:0!important;padding:1px 0!important}
+html[data-course-theme=a] body:has(.stage[data-b3ls-repair-unit=U03][data-b3ls-repair-route="76"]) .split-question-reading>.ss-body .ss-node,
+html[data-course-theme=a] body:has(.stage[data-b3ls-repair-unit=U03][data-b3ls-repair-route="76"]) .split-question-reading>.ss-body .ss-node p{font-size:20px!important;line-height:1.08!important}
+
+/* The footer owns navigation; none of the repaired regions creates an inner scroller. */
+html[data-course-theme=a] #app.ct-enabled .stage [data-b3ls-repair],
+html[data-course-theme=a] #app.ct-enabled .stage [data-b3ls-repair] *{scrollbar-width:none}
+html[data-course-theme=a] #app.ct-enabled .stage [data-b3ls-repair]{overflow:visible}
+
+/* B3LS-LAST4-VISUAL-20261025: U03 source 93/94, Exercise 2 is one
+   textbook carrier. Keep all seven source rows and all nine definitions in
+   one fixed, readable frame; it must not cover the native task underneath. */
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-problem-definitions>.b3ls-repair-problem-wrap{left:108px!important;top:324px!important;width:1704px!important;height:682px!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-problem-definitions .b3ls-repair-problem-card{display:grid!important;grid-template-columns:600px minmax(0,1072px)!important;gap:32px!important;box-sizing:border-box!important;width:100%!important;height:100%!important;margin:0!important;padding:0!important;border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-problem-definitions .b3ls-repair-problem-rows,
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-problem-definitions .b3ls-repair-problem-choice-set{box-sizing:border-box!important;display:grid!important;margin:0!important;padding:20px!important;list-style:none!important;border:2px solid #1686a9!important;border-radius:16px!important;background:#eef8fb!important;color:#1d3040!important;box-shadow:0 7px 20px rgba(33,89,111,.11)!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-problem-definitions .b3ls-repair-problem-rows{grid-template-rows:repeat(7,minmax(0,1fr))!important;gap:8px!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-problem-definitions .b3ls-repair-problem-rows li{display:grid!important;grid-template-columns:42px minmax(0,215px) minmax(0,1fr)!important;gap:10px!important;align-items:center!important;min-width:0!important;padding:0 10px!important;border-radius:10px!important;background:#fff!important;font-size:26px!important;line-height:1.16!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-problem-definitions .b3ls-repair-row-number{color:#2d68c4!important;font-weight:800!important;font-size:27px!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-problem-definitions .b3ls-repair-problem-rows strong{font-size:27px!important;line-height:1.16!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-problem-definitions .b3ls-repair-problem-rows .answer-slot{min-width:0!important;width:100%!important;margin:0!important;font-size:23px!important;line-height:1.1!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-problem-definitions .b3ls-repair-problem-rows .b3ls-repair-main-answer,
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-problem-definitions .b3ls-repair-problem-example{display:block!important;min-width:0!important;width:100%!important;min-height:30px!important;border-bottom:2px solid #7d8b95!important;color:#1d3040!important;font-size:25px!important;font-weight:700!important;line-height:1.12!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-problem-definitions .b3ls-repair-problem-choice-set{grid-template-columns:repeat(3,minmax(0,1fr))!important;grid-template-rows:repeat(3,minmax(0,1fr))!important;gap:12px!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-problem-definitions .b3ls-repair-problem-choice-set li{display:grid!important;grid-template-columns:38px minmax(0,1fr)!important;gap:8px!important;align-items:start!important;min-width:0!important;padding:10px!important;border-radius:10px!important;background:#fff!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-problem-definitions .b3ls-repair-problem-choice-set li>span{color:#2d68c4!important;font-size:0!important;line-height:1!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-problem-definitions .b3ls-repair-problem-choice-set li>span::before{content:attr(data-circle)!important;font-size:27px!important;line-height:1.05!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-problem-definitions .b3ls-repair-problem-choice-set p{margin:0!important;font-size:26px!important;line-height:1.16!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-problem-definitions>.ss-body{display:none!important}
+
+/* U05 route 84: the definitions and the original questions remain readable
+   together. The source card is deliberately narrower than the native task. */
+html[data-course-theme=a] #app.ct-enabled .stage[data-b3ls-repair-unit=U05][data-b3ls-repair-route="84"].b3ls-repair-side>.b3ls-repair-sidecard{left:108px!important;top:324px!important;width:600px!important;height:682px!important}
+html[data-course-theme=a] #app.ct-enabled .stage[data-b3ls-repair-unit=U05][data-b3ls-repair-route="84"].b3ls-repair-side>.ss-body{left:740px!important;top:324px!important;width:1072px!important;height:682px!important}
+html[data-course-theme=a] #app.ct-enabled .stage[data-b3ls-repair-unit=U05][data-b3ls-repair-route="84"] .b3ls-repair-card h2{font-size:32px!important;line-height:1.12!important}
+html[data-course-theme=a] #app.ct-enabled .stage[data-b3ls-repair-unit=U05][data-b3ls-repair-route="84"] .b3ls-repair-card li p{font-size:26px!important;line-height:1.14!important}
+html[data-course-theme=a] #app.ct-enabled .stage[data-b3ls-repair-unit=U05][data-b3ls-repair-route="84"] .b3ls-repair-card li strong{font-size:27px!important}
+html[data-course-theme=a] #app.ct-enabled .stage[data-b3ls-repair-unit=U05][data-b3ls-repair-route="84"]>.ss-body .ss-node,
+html[data-course-theme=a] #app.ct-enabled .stage[data-b3ls-repair-unit=U05][data-b3ls-repair-route="84"]>.ss-body .ss-node p{font-size:26px!important;line-height:1.18!important}
+
+/* Grid children default to min-content sizing. Without explicit minmax(0,1fr)
+   the U03 two-panel carrier can silently grow to twice the fixed stage height
+   and clip source rows 1-5. These constraints make the 682px frame real. */
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-problem-definitions .b3ls-repair-problem-card{grid-template-rows:minmax(0,1fr)!important;min-height:0!important;overflow:visible!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-problem-definitions .b3ls-repair-problem-card>ol{min-width:0!important;min-height:0!important;height:100%!important;align-self:stretch!important;box-sizing:border-box!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-problem-definitions .b3ls-repair-problem-rows,
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-problem-definitions .b3ls-repair-problem-choice-set{grid-auto-rows:minmax(0,1fr)!important;min-height:0!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-problem-definitions .b3ls-repair-problem-rows li,
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-problem-definitions .b3ls-repair-problem-choice-set li{min-height:0!important}
+
+/* Static safeguards for the other two repaired layouts: native grid columns
+   are allowed to contract within their fixed teaching frames instead of
+   forcing a hidden implicit row. */
+html[data-course-theme=a] #app.ct-enabled .stage[data-b3ls-repair-unit=U04][data-b3ls-repair-route="51"].b3ls-repair-wordbank:has(>.b3ls-repair-custom-bank)>.ss-body,
+html[data-course-theme=a] #app.ct-enabled .stage[data-b3ls-repair-unit=U04][data-b3ls-repair-route="51"].b3ls-repair-wordbank:has(>.b3ls-repair-custom-bank)>.ss-body>*{min-height:0!important;box-sizing:border-box!important}
+html[data-course-theme=a] #app.ct-enabled .stage[data-b3ls-repair-unit=U05][data-b3ls-repair-route="84"].b3ls-repair-side>.b3ls-repair-sidecard,
+html[data-course-theme=a] #app.ct-enabled .stage[data-b3ls-repair-unit=U05][data-b3ls-repair-route="84"].b3ls-repair-side>.b3ls-repair-sidecard .b3ls-repair-card,
+html[data-course-theme=a] #app.ct-enabled .stage[data-b3ls-repair-unit=U05][data-b3ls-repair-route="84"].b3ls-repair-side>.b3ls-repair-sidecard ol,
+html[data-course-theme=a] #app.ct-enabled .stage[data-b3ls-repair-unit=U05][data-b3ls-repair-route="84"].b3ls-repair-side>.ss-body{min-height:0!important;box-sizing:border-box!important}
+
+/* U05 source94/95 Exercise 6 is one seven-question task. Build it as one
+   real fixed carrier instead of hiding the native page slices and leaving the
+   last three questions inaccessible. */
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-wellbeing>.b3ls-repair-u05-wellbeing-wrap{position:absolute!important;z-index:4!important;box-sizing:border-box!important;left:108px!important;top:324px!important;width:1704px!important;height:682px!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-wellbeing .b3ls-repair-u05-wellbeing-card{display:grid!important;grid-template-columns:660px minmax(0,1fr)!important;gap:28px!important;box-sizing:border-box!important;width:100%!important;height:100%!important;padding:18px!important;border:2px solid #1686a9!important;border-radius:16px!important;background:#eef8fb!important;color:#1d3040!important;box-shadow:0 7px 20px rgba(33,89,111,.11)!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-wellbeing .b3ls-repair-u05-wellbeing-definitions{min-width:0!important;min-height:0!important;padding:0 18px 0 0!important;border-right:2px solid #b8d7e3!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-wellbeing h2{margin:0 0 13px!important;color:#08728f!important;font-size:31px!important;line-height:1.08!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-wellbeing .b3ls-repair-u05-wellbeing-definitions ol{display:grid!important;grid-template-rows:repeat(3,minmax(0,1fr)) minmax(100px,1.3fr) repeat(3,minmax(0,1fr))!important;gap:6px!important;height:calc(100% - 48px)!important;margin:0!important;padding:0!important;list-style:none!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-wellbeing .b3ls-repair-u05-wellbeing-definitions li{display:grid!important;grid-template-columns:32px minmax(0,1fr)!important;gap:7px!important;align-items:center!important;min-width:0!important;min-height:0!important;padding:5px 9px!important;border-radius:9px!important;background:#fff!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-wellbeing .b3ls-repair-u05-wellbeing-definitions li>span{color:#2d68c4!important;font-size:25px!important;font-weight:800!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-wellbeing .b3ls-repair-u05-wellbeing-definitions p{margin:0!important;font-size:26px!important;line-height:1.1!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-wellbeing .b3ls-repair-u05-wellbeing-definitions strong{color:#7e398a!important;font-size:26px!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-wellbeing .b3ls-repair-u05-wellbeing-task{display:grid!important;grid-template-rows:74px minmax(0,1fr)!important;gap:12px!important;min-width:0!important;min-height:0!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-wellbeing .b3ls-repair-u05-wellbeing-bank{display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr))!important;grid-template-rows:repeat(2,minmax(0,1fr))!important;gap:7px 10px!important;min-width:0!important;min-height:0!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-wellbeing .b3ls-repair-u05-wellbeing-bank span{display:flex!important;align-items:center!important;gap:6px!important;min-width:0!important;padding:3px 7px!important;border:1px solid #8cbfd1!important;border-radius:8px!important;background:#fff!important;font-size:26px!important;line-height:1.08!important;white-space:nowrap!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-wellbeing .b3ls-repair-u05-wellbeing-bank b{color:#2d68c4!important;font-size:0!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-wellbeing .b3ls-repair-u05-wellbeing-bank b::before{content:attr(data-circle)!important;font-size:25px!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-wellbeing .b3ls-repair-u05-wellbeing-task ol{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;grid-template-rows:repeat(4,minmax(0,1fr))!important;grid-auto-flow:column!important;gap:8px 18px!important;min-width:0!important;min-height:0!important;margin:0!important;padding:0!important;list-style:none!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-wellbeing .b3ls-repair-u05-wellbeing-task li{display:grid!important;grid-template-columns:32px minmax(0,1fr)!important;gap:7px!important;align-items:center!important;min-width:0!important;min-height:0!important;padding:6px 9px!important;border-radius:9px!important;background:#fff!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-wellbeing .b3ls-repair-u05-wellbeing-task li>span{color:#2d68c4!important;font-size:25px!important;font-weight:800!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-wellbeing .b3ls-repair-u05-wellbeing-task p{margin:0!important;font-size:26px!important;line-height:1.12!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-wellbeing .b3ls-repair-main-answer{display:inline-block!important;min-width:112px!important;height:30px!important;vertical-align:middle!important;border-bottom:2px solid #7d8b95!important;color:#1d3040!important;font-size:26px!important;font-weight:700!important;line-height:1.1!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-wellbeing>.ss-body{display:none!important}
+
+/* U01 source88 Exercise 6 is a group advice task, not the preceding
+   O/P/A classification exercise. The grammar box and writable zoo list stay
+   together so every modal category can be used in context. */
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u01-zoo-advice>.b3ls-repair-u01-zoo-wrap{position:absolute!important;z-index:4!important;box-sizing:border-box!important;left:108px!important;top:324px!important;width:1704px!important;height:682px!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u01-zoo-advice .b3ls-repair-u01-zoo-card{display:grid!important;grid-template-columns:minmax(0,1000px) minmax(0,1fr)!important;gap:24px!important;box-sizing:border-box!important;width:100%!important;height:100%!important;padding:16px!important;border:2px solid #1686a9!important;border-radius:16px!important;background:#eef8fb!important;color:#1d3040!important;box-shadow:0 7px 20px rgba(33,89,111,.11)!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u01-zoo-advice .b3ls-repair-u01-zoo-reference{min-width:0!important;min-height:0!important;padding-right:16px!important;border-right:2px solid #b8d7e3!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u01-zoo-advice h2{margin:0 0 10px!important;color:#08728f!important;font-size:30px!important;line-height:1.1!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u01-zoo-advice .b3ls-repair-u01-zoo-reference ol{display:grid!important;grid-template-rows:repeat(5,minmax(0,1fr))!important;gap:5px!important;height:calc(100% - 44px)!important;margin:0!important;padding:0!important;list-style:none!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u01-zoo-advice .b3ls-repair-u01-zoo-reference li{display:grid!important;grid-template-columns:36px minmax(0,1fr)!important;gap:9px!important;align-items:center!important;min-width:0!important;min-height:0!important;padding:5px 9px!important;border-radius:9px!important;background:#fff!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u01-zoo-advice .b3ls-repair-u01-zoo-reference li>span{color:#2d68c4!important;font-size:26px!important;font-weight:800!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u01-zoo-advice .b3ls-repair-u01-zoo-reference p{margin:0!important;font-size:26px!important;line-height:1.12!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u01-zoo-advice .b3ls-repair-u01-zoo-reference strong{color:#7e398a!important;font-size:26px!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u01-zoo-advice .b3ls-repair-u01-zoo-task{display:grid!important;grid-template-rows:46px minmax(0,1fr)!important;gap:8px!important;min-width:0!important;min-height:0!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u01-zoo-advice .b3ls-repair-u01-zoo-task>h2{font-size:32px!important;line-height:1.1!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u01-zoo-advice .b3ls-repair-u01-zoo-task ol{display:grid!important;grid-template-rows:repeat(7,minmax(0,1fr))!important;gap:8px!important;min-width:0!important;min-height:0!important;margin:0!important;padding:0!important;list-style:none!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u01-zoo-advice .b3ls-repair-u01-zoo-task li{display:grid!important;grid-template-columns:36px minmax(0,1fr)!important;gap:9px!important;align-items:center!important;min-width:0!important;min-height:0!important;padding:5px 9px!important;border-radius:9px!important;background:#fff!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u01-zoo-advice .b3ls-repair-u01-zoo-task li>span{color:#2d68c4!important;font-size:26px!important;font-weight:800!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u01-zoo-advice .b3ls-repair-u01-zoo-line{display:block!important;width:100%!important;min-width:0!important;height:32px!important;border-bottom:2px solid #7d8b95!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u01-zoo-advice>.ss-body{display:none!important}
+
+/* B3LS-LAST4-GRID-FINAL2: the left answers need their own stable line
+   layout. Do not inherit the legacy inline-answer grid or its narrow 144px
+   answer cell; the full textbook answer remains readable on every row. */
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-problem-definitions .b3ls-repair-problem-card{grid-template-columns:930px minmax(0,742px)!important;gap:32px!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-problem-definitions .b3ls-repair-problem-rows li{grid-template-columns:40px 190px minmax(0,1fr)!important;gap:10px!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-problem-definitions .b3ls-repair-problem-answer{display:block!important;position:relative!important;min-width:0!important;width:100%!important;min-height:0!important;color:#1d3040!important;font-size:25px!important;line-height:1.12!important;overflow:visible!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-problem-definitions .b3ls-repair-problem-underline{display:block!important;width:100%!important;height:0!important;margin:0 0 4px!important;border-bottom:2px solid #7d8b95!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-problem-definitions .b3ls-repair-problem-choice-set{grid-template-columns:minmax(0,1fr)!important;grid-template-rows:repeat(9,minmax(0,1fr))!important;gap:6px!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-problem-definitions .b3ls-repair-problem-choice-set li{grid-template-columns:38px minmax(0,1fr)!important;gap:8px!important;padding:3px 8px!important;align-items:center!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-problem-definitions .b3ls-repair-problem-choice-set p{font-size:26px!important;line-height:1.06!important}
+
+/* U04 route 51 is a single eight-definition teaching task. Its own carrier
+   prevents absolute-positioned legacy columns from stacking every sentence in
+   the first column, while retaining the full circled choice set and eight
+   answer blanks. */
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u04-definitions>.b3ls-repair-u04-definition-wrap{position:absolute;z-index:4;box-sizing:border-box;left:108px;top:324px;width:1704px;height:682px}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u04-definitions .b3ls-repair-u04-definition-card{box-sizing:border-box;display:grid;grid-template-rows:96px minmax(0,1fr);gap:14px;width:100%;height:100%;padding:16px 20px;border:2px solid #1686a9;border-radius:16px;background:#eef8fb;color:#1d3040;box-shadow:0 7px 20px rgba(33,89,111,.11)}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u04-definitions .b3ls-repair-u04-bank{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));grid-template-rows:repeat(2,minmax(0,1fr));gap:7px 18px;min-width:0;min-height:0}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u04-definitions .b3ls-repair-u04-bank span{display:flex;align-items:center;gap:8px;min-width:0;padding:5px 10px;border:1px solid #8cbfd1;border-radius:9px;background:#fff;font-size:24px!important;line-height:1.1!important;white-space:nowrap}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u04-definitions .b3ls-repair-u04-bank b{color:#2d68c4;font-size:0!important;line-height:1!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u04-definitions .b3ls-repair-u04-bank b::before{content:attr(data-circle);font-size:26px!important;line-height:1!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u04-definitions .b3ls-repair-u04-definition-rows{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(4,minmax(0,1fr));grid-auto-flow:column;gap:9px 34px;min-width:0;min-height:0;margin:0;padding:0;list-style:none}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u04-definitions .b3ls-repair-u04-definition-rows li{display:grid;grid-template-columns:38px minmax(0,1fr) 190px;gap:10px;align-items:center;min-width:0;min-height:0;padding:7px 10px;border-radius:10px;background:#fff}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u04-definitions .b3ls-repair-u04-row-number{color:#2d68c4;font-size:26px!important;font-weight:800}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u04-definitions .b3ls-repair-u04-definition-rows p{margin:0!important;font-size:26px!important;line-height:1.12!important;min-width:0}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u04-definitions .b3ls-repair-u04-blank{display:block;width:100%;min-height:30px;border-bottom:2px solid #7d8b95;color:#1d3040;font-size:24px!important;font-weight:700;line-height:1.1!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u04-definitions .b3ls-repair-u04-blank.b3ls-repair-u04-answer-visible{padding-bottom:3px}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u04-definitions>.ss-body{display:none!important}
+
+/* U03 source95/96 Exercise 3 is one seven-sentence task. The original first
+   source slice is only a partial duplicate, so present the complete carrier
+   immediately after Next and remove the false 1/2, 2/2 navigation. */
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u03-sentences>.b3ls-repair-u03-sentence-wrap{position:absolute;z-index:4;box-sizing:border-box;left:108px;top:324px;width:1704px;height:682px}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u03-sentences .b3ls-repair-u03-sentence-card{box-sizing:border-box;display:grid;grid-template-rows:92px minmax(0,1fr);gap:14px;width:100%;height:100%;padding:16px 20px;border:2px solid #1686a9;border-radius:16px;background:#eef8fb;color:#1d3040;box-shadow:0 7px 20px rgba(33,89,111,.11)}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u03-sentences .b3ls-repair-u03-bank{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));grid-template-rows:repeat(2,minmax(0,1fr));gap:7px 18px;min-width:0;min-height:0}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u03-sentences .b3ls-repair-u03-bank span{display:flex;align-items:center;gap:8px;min-width:0;padding:5px 10px;border:1px solid #8cbfd1;border-radius:9px;background:#fff;font-size:24px!important;line-height:1.1!important;white-space:nowrap}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u03-sentences .b3ls-repair-u03-bank b{color:#2d68c4;font-size:0!important;line-height:1!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u03-sentences .b3ls-repair-u03-bank b::before{content:attr(data-circle);font-size:26px!important;line-height:1!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u03-sentences .b3ls-repair-u03-sentence-rows{display:grid;grid-template-rows:repeat(7,minmax(0,1fr));gap:7px;min-width:0;min-height:0;margin:0;padding:0;list-style:none}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u03-sentences .b3ls-repair-u03-sentence-rows li{display:grid;grid-template-columns:42px minmax(0,1fr);gap:10px;align-items:center;min-width:0;min-height:0;padding:4px 12px;border-radius:10px;background:#fff}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u03-sentences .b3ls-repair-u03-row-number{color:#2d68c4;font-size:26px!important;font-weight:800}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u03-sentences .b3ls-repair-u03-sentence-rows p{margin:0!important;font-size:27px!important;line-height:1.14!important;min-width:0}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u03-sentences .b3ls-repair-u03-blank{display:inline-block;width:180px;height:0;margin:0 5px 4px;border-bottom:2px solid #7d8b95;vertical-align:middle}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u03-sentences>.ss-body{display:none!important}
+
+/* Ordinary reference material belongs in the lesson's own teaching canvas.
+   These route-specific carriers keep the reference, full choice set and task
+   together instead of requiring students to open a side Material pane. */
+html[data-course-theme=a] body:has(.stage[data-b3ls-repair-unit=U01][data-b3ls-repair-route="83"]),
+html[data-course-theme=a] body:has(.stage[data-b3ls-repair-unit=U02][data-b3ls-repair-route="58"]),
+html[data-course-theme=a] body:has(.stage[data-b3ls-repair-unit=U03][data-b3ls-repair-route="76"]){--b3ls-ordinary-material-hidden:1}
+html[data-course-theme=a] body:has(.stage[data-b3ls-repair-unit=U01][data-b3ls-repair-route="83"]) #material-open,
+html[data-course-theme=a] body:has(.stage[data-b3ls-repair-unit=U02][data-b3ls-repair-route="58"]) #material-open,
+html[data-course-theme=a] body:has(.stage[data-b3ls-repair-unit=U03][data-b3ls-repair-route="76"]) #material-open,
+html[data-course-theme=a] body:has(.stage[data-b3ls-repair-unit=U05][data-b3ls-repair-route="82"]) #material-open{display:none!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-main-answer{display:inline-block;min-width:58px;min-height:28px;margin:0 5px 3px;border-bottom:2px solid #7d8b95;vertical-align:middle;color:#1d3040;font-size:24px!important;font-weight:700;line-height:1.08!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-main-answer.b3ls-repair-u04-answer-visible{padding-bottom:3px}
+
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u01-modals>.b3ls-repair-u01-modal-wrap,
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u02-prefixes>.b3ls-repair-u02-prefix-wrap{position:absolute;z-index:4;box-sizing:border-box;left:108px;top:324px;width:1704px;height:682px}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u01-modals .b3ls-repair-u01-modal-card,
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u02-prefixes .b3ls-repair-u02-prefix-card{box-sizing:border-box;display:grid;grid-template-columns:590px minmax(0,1fr);gap:28px;width:100%;height:100%;padding:18px 20px;border:2px solid #1686a9;border-radius:16px;background:#eef8fb;color:#1d3040;box-shadow:0 7px 20px rgba(33,89,111,.11)}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u01-modals h2,
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u02-prefixes h2{margin:0!important;color:#08728f!important;font-size:29px!important;line-height:1.08!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u01-modals .b3ls-repair-u01-modal-reference{display:grid;grid-template-rows:auto minmax(0,1fr);gap:13px;min-width:0;min-height:0}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u01-modals .b3ls-repair-u01-modal-reference ol{display:grid;grid-template-rows:repeat(5,minmax(0,1fr));gap:9px;margin:0;padding:0;list-style:none;min-height:0}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u01-modals .b3ls-repair-u01-modal-reference li{display:grid;grid-template-columns:35px minmax(0,1fr);gap:8px;align-items:center;min-height:0;padding:8px 10px;border-radius:10px;background:#fff}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u01-modals .b3ls-repair-u01-modal-reference li>span{color:#2d68c4;font-size:24px!important;font-weight:800}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u01-modals .b3ls-repair-u01-modal-reference p{margin:0!important;font-size:22px!important;line-height:1.14!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u01-modals .b3ls-repair-u01-modal-reference strong{font-size:24px!important;color:#7e398a!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u01-modals .b3ls-repair-u01-modal-task{display:grid;grid-template-rows:42px minmax(0,1fr);gap:12px;min-width:0;min-height:0}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u01-modals .b3ls-repair-u01-modal-bank{display:flex;gap:14px;align-items:center;padding:6px 12px;border-radius:10px;background:#fff;color:#253a48;font-size:24px!important;line-height:1.1!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u01-modals .b3ls-repair-u01-modal-bank b{display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;border-radius:50%;background:#2d68c4;color:#fff;font-size:19px!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u01-modals .b3ls-repair-u01-modal-task ol{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(4,minmax(0,1fr));grid-auto-flow:column;gap:9px 22px;margin:0;padding:0;list-style:none;min-height:0}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u01-modals .b3ls-repair-u01-modal-task li{display:grid;grid-template-columns:35px minmax(0,1fr);gap:8px;align-items:center;min-height:0;padding:7px 10px;border-radius:10px;background:#fff}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u01-modals .b3ls-repair-u01-modal-task li>span{color:#2d68c4;font-size:24px!important;font-weight:800}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u01-modals .b3ls-repair-u01-modal-task p{margin:0!important;font-size:23px!important;line-height:1.16!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u01-modals>.ss-body{display:none!important}
+
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u02-prefixes .b3ls-repair-u02-prefix-reference{display:grid;grid-template-rows:auto minmax(0,1fr);gap:16px;min-height:0}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u02-prefixes .b3ls-repair-u02-prefix-reference table{width:100%;height:100%;border-collapse:separate;border-spacing:0;overflow:hidden;border:1px solid #8cbfd1;border-radius:12px;background:#fff;font-size:25px!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u02-prefixes .b3ls-repair-u02-prefix-reference th,
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u02-prefixes .b3ls-repair-u02-prefix-reference td{padding:10px 13px;border-bottom:1px solid #c8dfe8;text-align:left;font-size:24px!important;line-height:1.13!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u02-prefixes .b3ls-repair-u02-prefix-reference th{background:#d9f0f8;color:#08728f;font-size:25px!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u02-prefixes .b3ls-repair-u02-prefix-task{display:grid;grid-template-rows:44px minmax(0,1fr);gap:8px;min-width:0;min-height:0}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u02-prefixes .b3ls-repair-u02-prefix-bank{display:flex;align-items:center;justify-content:space-between;gap:9px;padding:6px 12px;border-radius:10px;background:#fff}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u02-prefixes .b3ls-repair-u02-prefix-bank span{display:inline-flex;align-items:center;gap:5px;font-size:24px!important;line-height:1!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u02-prefixes .b3ls-repair-u02-prefix-bank b{color:#2d68c4;font-size:0!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u02-prefixes .b3ls-repair-u02-prefix-bank b::before{content:attr(data-circle);font-size:25px!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u02-prefixes .b3ls-repair-u02-prefix-task ol{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(5,minmax(0,1fr));grid-auto-flow:column;gap:5px 18px;margin:0;padding:0;list-style:none;min-height:0}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u02-prefixes .b3ls-repair-u02-prefix-task li{display:grid;grid-template-columns:35px minmax(0,1fr);gap:7px;align-items:center;min-height:0;padding:5px 8px;border-radius:10px;background:#fff}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u02-prefixes .b3ls-repair-u02-prefix-task li>span{color:#2d68c4;font-size:23px!important;font-weight:800}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u02-prefixes .b3ls-repair-u02-prefix-task p{margin:0!important;font-size:23px!important;line-height:1.12!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u02-prefixes>.ss-body{display:none!important}
+
+/* U05 source87 / Exercise 2: the original phrasal-verb reference, examples,
+   complete choice collection and all eight matching rows are together on the
+   teaching canvas. No ordinary material pane is required. */
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-phrasal>.b3ls-repair-u05-phrasal-wrap{position:absolute;z-index:4;box-sizing:border-box;left:108px;top:324px;width:1704px;height:682px}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-phrasal .b3ls-repair-u05-phrasal-card{box-sizing:border-box;display:grid;grid-template-rows:94px minmax(0,1fr);gap:12px;width:100%;height:100%;padding:16px 18px;border:2px solid #1686a9;border-radius:16px;background:#eef8fb;color:#1d3040;box-shadow:0 7px 20px rgba(33,89,111,.11);overflow:hidden}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-phrasal .b3ls-repair-u05-phrasal-card>header{display:grid;grid-template-columns:minmax(0,1fr) 154px;gap:18px;align-items:start;min-width:0}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-phrasal h2{margin:0!important;color:#08728f!important;font-size:32px!important;line-height:1.05!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-phrasal .b3ls-repair-u05-phrasal-card>header p{margin:5px 0 0!important;font-size:23px!important;line-height:1.18!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-phrasal .b3ls-repair-u05-phrasal-card>header nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;padding-top:7px}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-phrasal .b3ls-repair-u05-phrasal-card>header button{min-height:48px;padding:4px 8px;border:2px solid #1686a9;border-radius:10px;background:#fff;color:#185e7a;font-size:25px!important;font-weight:800;line-height:1!important;cursor:pointer}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-phrasal .b3ls-repair-u05-phrasal-card>header button[aria-pressed=true]{background:#08728f;color:#fff}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-phrasal .b3ls-repair-u05-phrasal-grid{display:grid;grid-template-columns:900px minmax(0,1fr);gap:26px;min-width:0;min-height:0}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-phrasal .b3ls-repair-u05-phrasal-reference{display:grid;grid-template-rows:auto auto minmax(0,1fr);gap:8px;min-width:0;min-height:0}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-phrasal h3{margin:0!important;color:#236886!important;font-size:28px!important;line-height:1.1!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-phrasal .b3ls-repair-u05-context-rule{margin:0!important;padding:7px 10px;border-left:5px solid #6a9fc1;border-radius:7px;background:#fff;font-size:26px!important;line-height:1.14!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-phrasal .b3ls-repair-u05-phrasal-reference ol{display:grid;grid-template-rows:repeat(4,minmax(0,1fr));gap:8px;min-width:0;min-height:0;margin:0;padding:0;list-style:none}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-phrasal .b3ls-repair-u05-phrasal-reference li{display:grid;grid-template-columns:36px minmax(0,1fr);gap:8px;align-items:center;min-width:0;min-height:0;padding:7px 10px;border-radius:9px;background:#fff}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-phrasal .b3ls-repair-u05-phrasal-reference li>span{color:#2d68c4;font-size:28px!important;font-weight:800}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-phrasal .b3ls-repair-u05-phrasal-reference li p{margin:0!important;font-size:26px!important;line-height:1.17!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-phrasal .b3ls-repair-u05-phrasal-reference li strong{color:#7e398a!important;font-size:26px!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-phrasal .b3ls-repair-u05-phrasal-task{display:grid;grid-template-rows:auto 140px minmax(0,1fr);gap:9px;min-width:0;min-height:0}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-phrasal .b3ls-repair-u05-phrasal-bank{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(4,minmax(0,1fr));gap:6px 10px;min-width:0;min-height:0}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-phrasal .b3ls-repair-u05-phrasal-bank span{display:flex;align-items:center;gap:6px;min-width:0;padding:3px 8px;border:1px solid #8cbfd1;border-radius:8px;background:#fff;font-size:26px!important;line-height:1.08!important;white-space:nowrap}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-phrasal .b3ls-repair-u05-phrasal-bank b{color:#2d68c4;font-size:0!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-phrasal .b3ls-repair-u05-phrasal-bank b::before{content:attr(data-circle);font-size:24px!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-phrasal .b3ls-repair-u05-phrasal-task ol{display:grid;grid-template-rows:repeat(4,minmax(0,1fr));gap:8px;min-width:0;min-height:0;margin:0;padding:0;list-style:none}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-phrasal .b3ls-repair-u05-phrasal-task li{display:grid;grid-template-columns:36px minmax(0,1fr);gap:8px;align-items:center;min-width:0;min-height:0;padding:7px 9px;border-radius:9px;background:#fff}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-phrasal .b3ls-repair-u05-phrasal-task li>span{color:#2d68c4;font-size:27px!important;font-weight:800}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-phrasal .b3ls-repair-u05-phrasal-task p{margin:0!important;font-size:26px!important;line-height:1.14!important}
+html[data-course-theme=a] #app.ct-enabled .stage.b3ls-repair-u05-phrasal>.ss-body{display:none!important}
+
+/* Exact-source Fast Fashion and money tasks: full definitions, deliberate two-step tasks. */
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-fast-fashion-wrap{position:absolute!important;left:108px!important;top:324px!important;width:1704px!important;height:682px!important;box-sizing:border-box!important;z-index:4!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-fast-fashion-card{box-sizing:border-box!important;width:100%!important;height:100%!important;display:grid!important;grid-template-rows:42px minmax(0,1fr)!important;gap:10px!important;padding:14px 16px!important;border:2px solid #2b7a92!important;border-radius:14px!important;background:#eef7fa!important;min-height:0!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-fast-fashion-card>header{display:flex!important;align-items:center!important;justify-content:space-between!important;gap:20px!important;min-width:0!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-fast-fashion-card>header h2{font-size:30px!important;line-height:1.08!important;margin:0!important;color:#21647a!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-fast-fashion-card>header p{display:none!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-fast-fashion-card>header nav{display:flex!important;gap:8px!important;flex:none!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-fast-fashion-card>header button{font-size:22px!important;line-height:1.1!important;min-height:38px!important;padding:5px 12px!important;border:1px solid #2b7a92!important;border-radius:7px!important;background:#fff!important;color:#215b70!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-fast-fashion-card>header button[aria-pressed=true]{background:#216b82!important;color:#fff!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-fast-fashion-grid{display:grid!important;grid-template-columns:650px minmax(0,1fr)!important;gap:24px!important;min-height:0!important;min-width:0!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-fast-fashion-definitions{padding:10px 14px!important;background:#fff!important;border:1px solid #bcd8e2!important;border-radius:8px!important;min-height:0!important;min-width:0!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-fast-fashion-definitions h3{font-size:28px!important;line-height:1.1!important;margin:0 0 8px!important;color:#21647a!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-fast-fashion-definitions ol{list-style:none!important;margin:0!important;padding:0!important;display:grid!important;gap:7px!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-fast-fashion-definitions li{display:grid!important;grid-template-columns:28px minmax(0,1fr)!important;gap:9px!important;min-height:0!important;align-items:start!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-fast-fashion-definitions li>span{font-size:23px!important;line-height:28px!important;text-align:center!important;color:#21647a!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-fast-fashion-definitions p{font-size:26px!important;line-height:1.2!important;margin:0!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-money-wrap{position:absolute!important;left:108px!important;top:324px!important;width:1704px!important;height:682px!important;box-sizing:border-box!important;z-index:4!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-money-card{box-sizing:border-box!important;width:100%!important;height:100%!important;display:grid!important;grid-template-rows:42px minmax(0,1fr)!important;gap:10px!important;padding:14px 16px!important;border:2px solid #2b7a92!important;border-radius:14px!important;background:#eef7fa!important;min-height:0!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-money-card>header{display:flex!important;align-items:center!important;justify-content:space-between!important;gap:20px!important;min-width:0!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-money-card>header h2{font-size:30px!important;line-height:1.08!important;margin:0!important;color:#21647a!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-money-card>header p{display:none!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-money-card>header nav{display:flex!important;gap:8px!important;flex:none!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-money-card>header button{font-size:22px!important;line-height:1.1!important;min-height:38px!important;padding:5px 12px!important;border:1px solid #2b7a92!important;border-radius:7px!important;background:#fff!important;color:#215b70!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-money-card>header button[aria-pressed=true]{background:#216b82!important;color:#fff!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-money-grid{display:grid!important;grid-template-columns:760px minmax(0,1fr)!important;gap:24px!important;min-height:0!important;min-width:0!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-money-definitions{padding:10px 14px!important;background:#fff!important;border:1px solid #bcd8e2!important;border-radius:8px!important;min-height:0!important;min-width:0!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-money-definitions h3{font-size:28px!important;line-height:1.1!important;margin:0 0 8px!important;color:#21647a!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-money-definitions ol{list-style:none!important;margin:0!important;padding:0!important;display:grid!important;gap:7px!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-money-definitions li{display:grid!important;grid-template-columns:28px minmax(0,1fr)!important;gap:9px!important;min-height:0!important;align-items:start!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-money-definitions li>span{font-size:23px!important;line-height:28px!important;text-align:center!important;color:#21647a!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-money-definitions p{font-size:26px!important;line-height:1.2!important;margin:0!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-fast-fashion-article{display:grid!important;grid-template-rows:auto minmax(0,1fr)!important;gap:16px!important;min-height:0!important;min-width:0!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-fast-fashion-bank{display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:7px!important;padding:8px 10px!important;background:#fff4e6!important;border:1px solid #ddbd91!important;border-radius:8px!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-fast-fashion-bank span{font-size:26px!important;line-height:1.15!important;white-space:nowrap!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-fast-fashion-bank b{font-size:0!important;color:#2e65a6!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-fast-fashion-bank b::before{content:attr(data-circle);font-size:26px!important;margin-right:5px}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-fast-fashion-article article{padding:16px 20px!important;background:#fff!important;border:1px solid #bcd8e2!important;border-radius:8px!important;min-height:0!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-fast-fashion-article p{font-size:28px!important;line-height:1.3!important;margin:0 0 20px!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-money-task{padding:12px 16px!important;border:1px solid #bcd8e2!important;border-radius:8px!important;background:#fff!important;min-height:0!important;min-width:0!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-money-task h3{font-size:28px!important;line-height:1.1!important;margin:0 0 16px!important;color:#21647a!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-money-task ol{margin:0!important;padding:0!important;list-style:none!important;display:grid!important;gap:20px!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-money-task li{display:grid!important;grid-template-columns:28px minmax(0,1fr)!important;gap:8px!important;align-items:start!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-money-task li>span{font-size:26px!important;line-height:1.25!important;color:#21647a!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-money-task p{font-size:28px!important;line-height:1.25!important;margin:0!important}
+
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-money-grid{grid-template-columns:1050px minmax(0,1fr)!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-fast-fashion-article article h3{display:none!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-fast-fashion-article p{font-size:26px!important;line-height:1.25!important}
+html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-money-card .b3ls-repair-main-answer,html[data-course-theme=a] #app.ct-enabled .stage .b3ls-repair-fast-fashion-card .b3ls-repair-main-answer{font-size:26px!important;min-width:150px!important}
+
+/* Exercise10 keeps the discussed positions and complete contrast-language support on one teaching canvas. */
+html[data-course-theme="a"] #app.ct-enabled .stage .b3ls-discussion-wrap{position:absolute!important;left:108px!important;top:324px!important;width:1704px!important;height:682px!important;box-sizing:border-box!important}
+html[data-course-theme="a"] #app.ct-enabled .stage .b3ls-discussion-wrap *{box-sizing:border-box!important}
+html[data-course-theme="a"] #app.ct-enabled .stage .b3ls-discussion-card{width:100%!important;height:100%!important;color:#20344c!important;font-size:26px!important;line-height:1.2!important}
+html[data-course-theme="a"] #app.ct-enabled .stage .b3ls-discussion-header{display:none!important}
+html[data-course-theme="a"] #app.ct-enabled .stage .b3ls-discussion-grid{display:grid!important;grid-template-columns:650px minmax(0,1fr)!important;gap:24px!important;height:100%!important}
+html[data-course-theme="a"] #app.ct-enabled .stage .b3ls-discussion-topics,.b3ls-discussion-skills{padding:18px 20px!important;border:1px solid #c2d6df!important;border-radius:12px!important;min-width:0!important;min-height:0!important;background:#f2f8fb!important}
+html[data-course-theme="a"] #app.ct-enabled .stage .b3ls-discussion-topics{background:#fff!important}
+html[data-course-theme="a"] #app.ct-enabled .stage .b3ls-discussion-card h3{font-size:28px!important;line-height:1.15!important;margin:0 0 12px!important;color:#35677b!important}
+html[data-course-theme="a"] #app.ct-enabled .stage .b3ls-discussion-card p,.b3ls-discussion-card li{font-size:26px!important;line-height:1.2!important}
+html[data-course-theme="a"] #app.ct-enabled .stage .b3ls-discussion-topics>ol{margin:0!important;padding:0!important;list-style:none!important}
+html[data-course-theme="a"] #app.ct-enabled .stage .b3ls-discussion-topics>ol>li{display:grid!important;grid-template-columns:36px minmax(0,1fr)!important;gap:10px!important;margin:0 0 20px!important}
+html[data-course-theme="a"] #app.ct-enabled .stage .b3ls-discussion-topics>ol>li>b{color:#4d70b8!important;font-weight:500!important}
+html[data-course-theme="a"] #app.ct-enabled .stage .b3ls-discussion-topics p{margin:0!important}
+html[data-course-theme="a"] #app.ct-enabled .stage .b3ls-discussion-speech{display:grid!important;gap:22px!important;margin-top:30px!important}
+html[data-course-theme="a"] #app.ct-enabled .stage .b3ls-discussion-speech>p{position:relative!important;padding:20px!important;background:#fff2e9!important;border:2px solid #d4aa8e!important;border-radius:20px!important}
+html[data-course-theme="a"] #app.ct-enabled .stage .b3ls-discussion-speech>p::after{content:""!important;position:absolute!important;left:30px!important;bottom:-16px!important;border-width:16px 16px 0 0!important;border-style:solid!important;border-color:#d4aa8e transparent transparent transparent!important}
+html[data-course-theme="a"] #app.ct-enabled .stage .b3ls-discussion-skills>p{margin:0 0 12px!important}
+html[data-course-theme="a"] #app.ct-enabled .stage .b3ls-discussion-examples{margin:0 0 10px!important;padding:0!important;list-style:none!important}
+html[data-course-theme="a"] #app.ct-enabled .stage .b3ls-discussion-examples>li{display:grid!important;grid-template-columns:24px minmax(0,1fr)!important;gap:8px!important;margin:0 0 10px!important}
+html[data-course-theme="a"] #app.ct-enabled .stage .b3ls-discussion-examples p{margin:0!important}
+html[data-course-theme="a"] #app.ct-enabled .stage .b3ls-discussion-rules{margin:0!important;padding:12px 0 0 24px!important;border-top:1px solid #c2d6df!important}
+html[data-course-theme="a"] #app.ct-enabled .stage .b3ls-discussion-rules>li{margin:0 0 8px!important}
+
+/* Open discussion already contains its complete source support. */
+html[data-course-theme="a"] #app.ct-enabled:has(.stage .b3ls-discussion-wrap) #answer-mode,html[data-course-theme="a"] #app.ct-enabled:has(.stage .b3ls-discussion-wrap) #material-open,html[data-course-theme="a"] #app.ct-enabled:has(.stage .b3ls-discussion-wrap) #review-mode{display:none!important}

@@ -1,0 +1,397 @@
+.cr-restored-body.b3rw-source-context-layout{padding:0!important;overflow:hidden!important;background:#fff}.b3rw-repair{height:100%;display:grid;grid-template-columns:minmax(0,1.05fr) minmax(380px,.95fr);gap:22px;padding:18px 26px 20px;box-sizing:border-box;align-items:stretch;color:#172b3a}.b3rw-source-card,.b3rw-live-task{min-width:0;border:1px solid #d5dfeb;border-radius:14px;box-sizing:border-box;overflow:hidden;background:#fff}.b3rw-source-card{padding:20px 22px;background:linear-gradient(135deg,#f5f8fc,#fff);display:flex;flex-direction:column;gap:10px}.b3rw-source-kicker,.b3rw-live-task-label{font:700 13px/1.2 Arial,sans-serif;letter-spacing:.08em;color:#3767bf}.b3rw-source-card h2{margin:0;font:700 clamp(22px,2vw,34px)/1.08 Arial,sans-serif;color:#172b3a}.b3rw-source-card p{margin:0;font:400 clamp(15px,1.18vw,20px)/1.42 Arial,sans-serif}.b3rw-definitions ol{display:grid;grid-template-columns:1fr 1fr;gap:9px 18px;margin:2px 0;padding:0;list-style:none}.b3rw-definitions li{display:flex;gap:9px;align-items:flex-start;font:400 clamp(14px,1.05vw,18px)/1.32 Arial,sans-serif}.b3rw-circle{display:inline-grid;place-items:center;flex:0 0 28px;width:28px;height:28px;border:1.5px solid #4775ca;border-radius:50%;color:#285bb5;font-weight:700}.b3rw-context-note{margin-top:auto!important;padding-top:10px;border-top:1px solid #dce5f1;color:#526577;font-size:14px!important}.b3rw-reader header{padding-bottom:8px;border-bottom:1px solid #dce5f1}.b3rw-reader-grid{display:grid;gap:10px;overflow:auto;padding-right:4px}.b3rw-paragraph{display:grid;grid-template-columns:34px 1fr;gap:10px;padding:10px 0;border-bottom:1px solid #e4eaf2}.b3rw-paragraph-number{display:grid;place-items:center;align-self:start;width:28px;height:28px;border-radius:50%;background:#e7efff;color:#1e57aa;font:bold 15px Arial}.b3rw-paragraph h3{margin:0 0 3px;font:700 clamp(15px,1.1vw,19px)/1.2 Arial}.b3rw-paragraph p{font-size:15px;line-height:1.35}.b3rw-live-task{padding:18px 20px;overflow:auto;background:#fff}.b3rw-live-task-label{margin-bottom:12px;color:#65758a}.b3rw-live-task .word-bank,.b3rw-live-task .bank,.b3rw-live-task [class*="word-bank"]{position:static!important;inset:auto!important;transform:none!important;max-width:100%!important;margin:0 0 14px!important}@media(max-width:1200px){.b3rw-repair{grid-template-columns:1fr;padding:14px 18px;overflow:auto}.b3rw-source-card{min-height:300px}.b3rw-live-task{min-height:360px}.b3rw-definitions ol{grid-template-columns:1fr}}
+
+/* Exact-source panels use the authored slide text. One source segment is shown
+   per visible task part; the repair never adds a nested scroll area. */
+.cr-restored-body.b3rw-exact-layout{padding:0!important;overflow:hidden!important;background:#fff}.b3rw-exact{height:100%;box-sizing:border-box;padding:18px 26px;color:#172b3a;display:grid;grid-template-columns:minmax(0,1.18fr) minmax(360px,.82fr);gap:22px}.b3rw-exact-source,.b3rw-exact-task{min-width:0;min-height:0;overflow:hidden;border:1px solid #d5dfeb;border-radius:14px;background:#fff}.b3rw-exact-source{padding:20px 24px;background:linear-gradient(135deg,#f4f7fc,#fff)}.b3rw-exact-label{font:700 13px/1.2 Arial,sans-serif;letter-spacing:.08em;color:#3767bf;margin-bottom:9px}.b3rw-exact-text{font:400 clamp(18px,1.45vw,25px)/1.42 Arial,sans-serif}.b3rw-exact-text p{margin:0}.b3rw-exact-text strong{font-weight:700;color:#243f73}.b3rw-exact-task{padding:18px 20px}.b3rw-exact-task-label{font:700 13px/1.2 Arial,sans-serif;letter-spacing:.08em;color:#65758a;margin-bottom:12px}.b3rw-exact-task .word-bank,.b3rw-exact-task .bank,.b3rw-exact-task [class*="word-bank"]{position:static!important;inset:auto!important;transform:none!important;max-width:100%!important;margin:0 0 14px!important}
+
+/* Red and grey squirrels are compared through their photographs. Keep both
+   source images large and adjacent rather than reducing them to thumbnails. */
+.b3rw-photo-pair{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:start;margin-top:18px}.b3rw-photo-pair figure{margin:0;text-align:center;font:700 clamp(16px,1.2vw,21px)/1.25 Arial,sans-serif;color:#263b68}.b3rw-photo-pair img{display:block;width:100%;height:205px;object-fit:cover;border-radius:12px;margin-bottom:10px;border:1px solid #d5dfeb}
+
+/* Feedback is a separate Answers view. Keeping its invisible blocks in the
+   question view consumed the space needed for questions 3–4. */
+.b3rw-exact-task .inline-feedback{display:none!important}.stage.answers-visible .b3rw-exact-task .inline-feedback{display:block!important}
+
+/* A legacy inactive draft may still be present in restored lesson state.
+   It must not create an independently scrollable reading or task pane. */
+.b3rw-repair,.b3rw-reader-grid,.b3rw-live-task{overflow:hidden!important}
+
+/* Book 3 p.23 presents Exercise 7 as one social-information post.  The
+   carrier is restored as a bounded card, not as loose lines below the task. */
+.b3rw-summary-source{display:flex;flex-direction:column}.b3rw-social-card{margin:auto 0 0;border:2px solid #bfd2ea;border-radius:22px;background:#fff;overflow:hidden}.b3rw-social-body{padding:24px 28px 18px;font:400 clamp(16px,1.18vw,22px)/1.37 Arial,sans-serif}.b3rw-social-body .b3rw-authored-fragment{margin:0}.b3rw-social-body p{margin:.3em 0}.b3rw-social-footer{display:flex;align-items:center;gap:20px;padding:13px 24px;border-top:1px solid #cbdced;color:#4f83bb;font:400 17px Arial,sans-serif}.b3rw-social-placeholder{margin-left:5px;flex:1;color:#9aa9b8}
+.b3rw-source-title{margin:0 0 12px;color:#172b3a;font:700 clamp(22px,1.6vw,32px)/1.12 Arial,sans-serif}.b3rw-authored-fragment strong{font-weight:700;color:#243f73}
+.cr-restored-body.b3rw-exact-layout .b3rw-article-carrier{display:grid!important;grid-template-columns:minmax(0,1fr)!important;gap:14px!important;overflow:hidden!important}.cr-restored-body.b3rw-exact-layout .b3rw-article-carrier:has(.b3rw-inline-figures){grid-template-columns:minmax(0,1.2fr) minmax(250px,.8fr)!important;align-items:start!important}.cr-restored-body.b3rw-exact-layout .b3rw-inline-figures{display:grid!important;grid-template-columns:repeat(auto-fit,minmax(120px,1fr))!important;gap:10px!important;align-items:start!important;margin:0!important}.cr-restored-body.b3rw-exact-layout .b3rw-inline-figure{margin:0!important;min-width:0!important;border:1px solid #cbd8e7!important;border-radius:10px!important;background:#fff!important;overflow:hidden!important}.cr-restored-body.b3rw-exact-layout .b3rw-inline-figure img{display:block!important;width:100%!important;height:138px!important;object-fit:cover!important}.cr-restored-body.b3rw-exact-layout .b3rw-inline-figure figcaption{padding:8px 10px!important;color:#243f73!important;font:400 clamp(13px,.86vw,17px)/1.28 Arial,sans-serif!important}.cr-restored-body.b3rw-exact-layout .b3rw-inline-notes{margin:2px 0 0!important;padding:8px 12px!important;border:1px solid #d3dfec!important;background:#f8fbff!important;color:#243f73!important;font:400 clamp(13px,.86vw,17px)/1.28 Arial,sans-serif!important}.cr-restored-body.b3rw-exact-layout .b3rw-inline-notes p{margin:2px 0!important}.cr-restored-body.b3rw-exact-layout .b3rw-inline-notes sup{font-weight:700!important;color:#2d62c4!important}
+
+/* Same-screen vocabulary carriers: each sentence group retains the complete
+   definitions and the circled textbook word set.  There is no inner scroller. */
+.b3rw-exact:has(.b3rw-definition-pair){grid-template-columns:1fr;grid-template-rows:minmax(0,.72fr) minmax(0,.28fr)}.b3rw-definition-pair{display:grid;grid-template-columns:minmax(0,1.18fr) minmax(0,1fr);gap:22px;align-items:start}.b3rw-definition-sentences{font:400 clamp(18px,1.18vw,25px)/1.35 Arial,sans-serif;color:#192b3b}.b3rw-definition-sentences strong{color:#183975;font-weight:700}.b3rw-definition-right{border:2px solid #bed0e8;border-radius:14px;background:#f7fbff;padding:14px 18px;color:#192b3b}.b3rw-definition-right h3{margin:0 0 8px;color:#183975;font:700 clamp(18px,1.18vw,25px)/1.1 Arial,sans-serif}.b3rw-definition-right ol{columns:2;column-gap:24px;margin:0;padding-left:24px;font:400 clamp(15px,1vw,21px)/1.27 Arial,sans-serif}.b3rw-definition-right li{break-inside:avoid;margin:0 0 8px}.b3rw-definition-bank{display:flex;flex-wrap:wrap;gap:7px 11px;margin-top:10px;padding-top:10px;border-top:1px solid #bed0e8;font:600 clamp(15px,.96vw,20px)/1.2 Arial,sans-serif}.b3rw-definition-bank span{white-space:nowrap}.b3rw-definition-bank b{color:#2d62c4}@media(max-width:1150px){.b3rw-definition-pair{gap:14px}.b3rw-definition-right{padding:10px 12px}.b3rw-definition-right ol{column-gap:12px}}
+
+/* Fixed projected carriers (1920 × 1080 baseline).  These rules never use an
+   inner scrollbar or hidden overflow to make a carrier appear to fit.  Long
+   source texts are divided only by their real paragraph/task boundaries. */
+#app .stage .b3rw-v3-layout{overflow:visible!important}
+#app .stage .b3rw-v3-layout .cr-restored-content{height:100%!important;min-height:0!important;overflow:visible!important}
+#app .stage .b3rw-v3{height:100%;min-height:0;box-sizing:border-box;display:grid;grid-template-columns:minmax(0,1.16fr) minmax(560px,.84fr);gap:24px;padding:10px 18px 14px;color:#172b3a;overflow:visible}
+#app .stage .b3rw-v3-source,#app .stage .b3rw-v3-task{min-width:0;min-height:0;box-sizing:border-box;border:2px solid #cbd8e7;border-radius:16px;background:#fff;padding:20px 24px;overflow:visible!important}
+#app .stage .b3rw-v3-source{background:linear-gradient(135deg,#f5f8fc,#fff)}
+#app .stage .b3rw-v3 h2{margin:0 0 14px!important;color:#2585a5!important;font:700 34px/1.16 Arial,sans-serif!important}
+#app .stage .b3rw-v3 p,#app .stage .b3rw-v3 li,#app .stage .b3rw-v3 dd,#app .stage .b3rw-v3 dt,#app .stage .b3rw-v3-task{font-size:26px!important;line-height:1.25!important}
+#app .stage .b3rw-v3 strong{font-weight:700;color:#183975}
+#app .stage .b3rw-v3-paragraph{display:grid;grid-template-columns:44px minmax(0,1fr);gap:14px;align-items:start}
+#app .stage .b3rw-v3-paragraph>p{margin:0!important}
+#app .stage .b3rw-v3-paragraph-unnumbered{display:block}
+#app .stage .b3rw-v3-paragraph-unnumbered>p{display:block;width:100%}
+#app .stage .b3rw-v3-number{display:grid;place-items:center;width:40px;height:40px;border-radius:50%;background:#e4eefb;color:#1e57aa;font:700 24px/1 Arial,sans-serif}
+#app .stage .b3rw-v3-copy{display:block}
+#app .stage .b3rw-v3-copy-with-figure{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(260px,.75fr);gap:20px;align-items:start}
+#app .stage .b3rw-v3-figures{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px}
+#app .stage .b3rw-v3-figure{margin:0;border:1px solid #bdcde0;border-radius:12px;background:#fff;padding:8px}
+#app .stage .b3rw-v3-figure img{display:block;width:100%;height:230px;object-fit:contain}
+#app .stage .b3rw-v3-figure figcaption{font:22px/1.22 Arial,sans-serif;color:#526174;margin-top:6px}
+#app .stage .b3rw-v3-climate-hero{height:520px;min-height:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(52%,800px);gap:22px;align-items:stretch}
+#app .stage .b3rw-v3-climate-text{min-width:0;min-height:0;display:flex;flex-direction:column;gap:16px;justify-content:flex-start}
+#app .stage .b3rw-v3-climate-text .b3rw-v3-paragraph{flex:0 0 auto}
+#app .stage .b3rw-v3-climate-photo{min-width:0;min-height:0;height:520px;margin:0;padding:8px;border:1px solid #bdcde0;border-radius:12px;background:#fff;box-sizing:border-box}
+#app .stage .b3rw-v3-climate-photo img{display:block;width:100%;height:100%;object-fit:contain;border-radius:8px}
+#app .stage .b3rw-v3-climate-bubble{position:relative;margin:0;padding:18px 20px;border:2px solid #9cc3d8;border-radius:18px;background:#edf8fb;color:#172b3a;font:400 26px/1.25 Arial,sans-serif}
+#app .stage .b3rw-v3-climate-bubble::before{content:"";position:absolute;right:-14px;top:50%;width:24px;height:24px;border-right:2px solid #9cc3d8;border-top:2px solid #9cc3d8;background:#edf8fb;transform:translateY(-50%) rotate(45deg)}
+#app .stage .b3rw-v3-climate-bubble strong{position:relative;color:#183975;font-weight:700}
+#app .stage .b3rw-v3-climate-callout-only{margin-top:16px}
+#app .stage .b3rw-v3-climate-callout-only::before{display:none}
+#app .stage .b3rw-v3-notes{margin:14px 0 0!important;padding:10px 14px;border:1px solid #d4e0ec;border-radius:10px;background:#f8fbff}
+#app .stage .b3rw-v3-notes p{font-size:22px!important;line-height:1.22!important;margin:3px 0!important;color:#526174}
+#app .stage .b3rw-v3-task .inline-feedback{display:none!important}
+#app .stage.answers-visible .b3rw-v3-task .inline-feedback{display:block!important}
+#app .stage .b3rw-v3-task .ss-item,#app .stage .b3rw-v3-task .ss-row{margin-bottom:12px!important}
+#app .stage .b3rw-v3-task table{width:100%;border-collapse:collapse;font-size:26px!important;line-height:1.2!important}
+#app .stage .b3rw-v3-task th,#app .stage .b3rw-v3-task td{padding:8px 10px!important}
+#app .stage .b3rw-task-empty{display:none}
+#app .stage .b3rw-v3:has(>.b3rw-task-empty){grid-template-columns:1fr}
+#app .stage .b3rw-v3-fragment{margin:0 0 12px}
+#app .stage .b3rw-v3-fragment p{margin:0 0 8px!important}
+#app .stage .b3rw-v3-fragment img{display:block;max-width:100%;max-height:430px;object-fit:contain;margin:auto}
+
+/* Whole textbook tasks which already contain the complete source relationship
+   do not repeat api.originalHTML in a second editorial column. */
+#app .stage .b3rw-v3-self-contained{grid-template-columns:1fr}
+#app .stage .b3rw-v3-self-contained>.b3rw-v3-source{padding:18px 24px}
+#app .stage .b3rw-v3-self-list{display:grid;grid-template-columns:1fr 1fr;gap:14px 18px;margin:0;padding:0;list-style:none}
+#app .stage .b3rw-v3-self-list>li{display:grid;grid-template-columns:44px minmax(0,1fr);gap:12px;align-items:start;margin:0;padding:14px 16px;border:2px solid #d1deec;border-radius:12px;background:#fff;font-size:26px!important;line-height:1.22!important}
+#app .stage .b3rw-v3-self-prompt{min-width:0}
+#app .stage .b3rw-v3-model-answer{display:none;margin:8px 0 0!important;padding-top:8px;border-top:1px solid #d6e1ed;color:#a92f38;font-size:23px!important;line-height:1.2!important}
+#app .stage.answers-visible .b3rw-v3-model-answer{display:block}
+#app .stage .b3rw-v3-self-detail .b3rw-v3-self-list>li{min-height:114px;align-items:center}
+#app .stage .b3rw-v3-self-detail .b3rw-v3-answer-slot{display:inline-block;min-width:130px;text-align:center}
+
+/* Book 3 p.62 keeps each city-transport photograph with its own discussion
+   question.  The three original photographs remain large enough to compare;
+   no ordinary Material panel is needed to understand the prompts. */
+#app .stage .b3rw-v3-transport-discussion{grid-template-columns:1fr}
+#app .stage .b3rw-v3-transport-discussion>.b3rw-v3-source{padding:18px 22px}
+#app .stage .b3rw-v3-transport-discussion ol{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:0;padding:0;list-style:none}
+#app .stage .b3rw-v3-transport-discussion li{min-width:0;margin:0;padding:12px;border:2px solid #cbd8e7;border-radius:14px;background:#fff}
+#app .stage .b3rw-v3-transport-discussion figure{margin:0 0 10px}
+#app .stage .b3rw-v3-transport-discussion img{display:block;width:100%;height:220px;object-fit:contain;border-radius:10px;background:#eef3f7}
+#app .stage .b3rw-v3-transport-discussion figcaption{text-align:center;margin-top:6px;color:#183975;font:700 26px/1.15 Arial,sans-serif}
+#app .stage .b3rw-v3-transport-discussion li>div{display:grid;grid-template-columns:42px minmax(0,1fr);gap:8px;align-items:start}
+#app .stage .b3rw-v3-transport-discussion li>div>p{margin:0!important}
+#app .stage .b3rw-v3-transport-discussion .b3rw-v3-model-answer{grid-column:2}
+#app .stage .b3rw-v3-city-hero img{height:300px;object-fit:contain;background:#eef3f7}
+
+/* U01 group reading is exactly four Student A–D text parts.  The native task
+   header supplies the group instruction; each part keeps its assigned source
+   paragraph beside usable notebook lines instead of a duplicate instruction. */
+#app .stage .b3rw-v3-roles h3{margin:0 0 12px;color:#183975;font:700 30px/1.18 Arial,sans-serif}
+#app .stage .b3rw-v3-role-notes>p{margin:0 0 18px!important}
+#app .stage .b3rw-v3-note-lines{display:grid;gap:18px;margin-top:16px}
+#app .stage .b3rw-v3-note-lines>span{display:block;height:30px;border-bottom:2px solid #8ba1b8}
+
+/* R094/R095 primary-canvas carriers: the source and task each appear once.
+   All body text keeps the 26px projection baseline inside the fixed frame. */
+#app .stage .b3rw-r094{display:block;padding:10px 18px 14px}
+#app .stage .b3rw-r094>.b3rw-v3-source{height:100%;padding:16px 22px}
+#app .stage .b3rw-r094-bank{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px 14px;margin:0 0 14px}
+#app .stage .b3rw-r094-bank span{min-width:0;white-space:normal;font-size:26px!important;line-height:1.18!important}
+#app .stage .b3rw-r094-sentences{display:grid;grid-template-columns:1fr 1fr;gap:10px 22px;margin:0;padding:0;list-style:none;counter-reset:none}
+#app .stage .b3rw-r094-sentences>li{display:grid;grid-template-columns:36px minmax(0,1fr);gap:8px;align-items:start;margin:0;padding:8px 10px;border:1px solid #cbd8e7;border-radius:10px;background:#fff;font-size:26px!important;line-height:1.18!important}
+#app .stage .b3rw-r094-sentences>li>p{margin:0!important;font-size:26px!important;line-height:1.18!important}
+#app .stage .b3rw-r094-sentences>li>b{color:#2d62c4}
+#app .stage .b3rw-r094-answer{display:inline-flex;align-items:baseline;min-width:130px;margin-left:8px;color:#a92f38;font-weight:700}
+#app .stage .b3rw-r094-answer strong{display:none}
+#app .stage.answers-visible .b3rw-r094-answer i{display:none}
+#app .stage.answers-visible .b3rw-r094-answer strong{display:inline;color:#a92f38}
+#app .stage .b3rw-r094-wordboxes{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+#app .stage .b3rw-r094-wordboxes>section{border:2px solid #cbd8e7;border-radius:12px;padding:12px 14px;background:#fff}
+#app .stage .b3rw-r094-wordboxes h3{margin:0 0 8px;color:#183975;font:700 28px/1.15 Arial,sans-serif}
+#app .stage .b3rw-r094-wordboxes .b3rw-r094-bank{grid-template-columns:repeat(2,minmax(0,1fr));margin:0;border:0;padding:0;background:transparent}
+#app .stage .b3rw-r094-matches{display:none;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px 12px;margin-top:16px}
+#app .stage.answers-visible .b3rw-r094-matches{display:grid}
+#app .stage .b3rw-r094-matches>span{padding:8px 10px;border:1px solid #bad4c0;border-radius:9px;background:#f2fbf4;font-size:26px!important;line-height:1.18!important}
+#app .stage .b3rw-r094-matches>span>b{margin-right:8px;color:#2d62c4}
+
+#app .stage .b3rw-r095{grid-template-columns:minmax(0,1.25fr) minmax(620px,.75fr);gap:22px;padding:10px 18px 14px}
+#app .stage .b3rw-r095>.b3rw-v3-source,#app .stage .b3rw-r095>.b3rw-v3-task{height:100%;padding:16px 20px}
+#app .stage .b3rw-r095-forest>p,#app .stage .b3rw-r095-plastic>p{margin:0!important;font-size:26px!important;line-height:1.22!important}
+#app .stage .b3rw-r095-cause-bank{display:grid;grid-template-columns:1fr 1fr;gap:6px 10px;margin:0 0 10px;padding:0;list-style:none}
+#app .stage .b3rw-r095-cause-bank>li{margin:0;padding:5px 8px;border:1px solid #cbd8e7;border-radius:8px;background:#fff;font-size:24px!important;line-height:1.14!important}
+#app .stage .b3rw-r095-cause-bank>li>b{color:#2d62c4;margin-right:5px}
+#app .stage .b3rw-r095-chain{display:grid;grid-template-columns:1fr;gap:2px}
+#app .stage .b3rw-r095-node{display:grid;grid-template-columns:96px minmax(0,1fr);align-items:center;gap:8px;padding:3px 10px;border:2px solid #9cc3d8;border-radius:9px;background:#edf8fb;font-size:24px!important;line-height:1.12!important}
+#app .stage .b3rw-r095-node .b3rw-r094-answer{min-width:80px;margin:0}
+#app .stage .b3rw-r095-node em{font-style:normal}
+#app .stage .b3rw-r095-arrow{text-align:center;color:#2585a5;font:700 20px/1 Arial,sans-serif}
+#app .stage .b3rw-r095-loop{text-align:center;color:#526174;font-size:22px!important;line-height:1.1!important}
+#app .stage .b3rw-r095-supporting-questions{display:grid;gap:12px;margin:0;padding-left:32px}
+#app .stage .b3rw-r095-supporting-questions>li{margin:0;padding:0 0 10px;border-bottom:1px solid #d5e0eb;font-size:26px!important;line-height:1.18!important}
+#app .stage .b3rw-r095-supporting-questions p{margin:0!important;font-size:26px!important;line-height:1.18!important}
+#app .stage .b3rw-r095-model{display:none;margin-top:6px;color:#a92f38;font-size:23px!important;line-height:1.16!important}
+#app .stage.answers-visible .b3rw-r095-model{display:block}
+#app .stage.answers-visible .b3rw-r095-supporting{text-decoration:underline;text-decoration-thickness:3px;text-underline-offset:4px}
+
+/* R095 final-fit: preserve the complete 26px task content while reclaiming
+   only the surplus vertical spacing measured in the two U02 case layouts. */
+#app .stage .b3rw-r095-chain-shell>.b3rw-v3-task{padding:10px 18px!important}
+#app .stage .b3rw-r095-chain-shell>.b3rw-v3-task>h2{margin:0 0 4px!important}
+#app .stage .b3rw-r095-chain-shell .b3rw-r095-cause-bank{gap:3px 8px;margin-bottom:4px!important}
+#app .stage .b3rw-r095-chain-shell .b3rw-r095-cause-bank>li{padding:2px 7px!important;font-size:26px!important;line-height:1.05!important}
+#app .stage .b3rw-r095-chain-shell .b3rw-r095-chain{gap:0!important}
+#app .stage .b3rw-r095-chain-shell .b3rw-r095-node{padding:1px 8px!important;font-size:26px!important;line-height:1.04!important}
+#app .stage .b3rw-r095-chain-shell .b3rw-r095-arrow{font-size:18px!important;line-height:.72!important}
+#app .stage .b3rw-r095-chain-shell .b3rw-r095-loop{margin-top:1px;font-size:22px!important;line-height:1!important}
+#app .stage .b3rw-r095-plastic-shell>.b3rw-v3-task{padding:12px 20px!important}
+#app .stage .b3rw-r095-plastic-shell .b3rw-r095-supporting-questions{gap:8px!important}
+#app .stage .b3rw-r095-plastic-shell .b3rw-r095-supporting-questions>li{padding-bottom:6px!important;font-size:26px!important;line-height:1.14!important}
+#app .stage .b3rw-r095-plastic-shell .b3rw-r095-supporting-questions p,#app .stage .b3rw-r095-plastic-shell .b3rw-r095-model{font-size:26px!important;line-height:1.14!important}
+#app .stage .b3rw-r095-plastic-shell .b3rw-r095-model{margin-top:4px!important}
+
+/* Reading 1 Exercises 5–6 are ordinary reading tasks, so every genuine part
+   carries the exact paragraph needed for its questions in the main canvas. */
+#app .stage .b3rw-v3-reading-detail{grid-template-columns:minmax(0,1.16fr) minmax(560px,.84fr)}
+#app .stage .b3rw-v3-detail-source{display:grid;gap:14px}
+#app .stage .b3rw-v3-reading-questions,#app .stage .b3rw-v3-meaning-questions{margin:0;padding-left:38px}
+#app .stage .b3rw-v3-reading-questions li{margin:0 0 22px;padding-left:6px}
+#app .stage .b3rw-v3-reading-questions p,#app .stage .b3rw-v3-meaning-questions p{margin:0!important}
+#app .stage .b3rw-v3-reading-meaning{grid-template-columns:minmax(0,1.12fr) minmax(620px,.88fr)}
+#app .stage .b3rw-v3-meaning-questions li{margin:0 0 12px;padding-left:6px;border-bottom:1px solid #d6e1ed;padding-bottom:9px}
+#app .stage .b3rw-v3-meaning-questions li:last-child{border-bottom:0}
+#app .stage .b3rw-v3-source-answer{text-decoration:none;text-decoration-thickness:4px;text-underline-offset:5px;text-decoration-color:#a92f38}
+#app .stage.answers-visible .b3rw-v3-source-answer{text-decoration-line:underline;font-weight:700;color:#a92f38}
+
+/* Book 3 p.114 is one ten-item collocation relationship.  Two real table
+   parts repeat the complete set and the source paragraph, rather than using
+   a tiny screenshot or an unrelated route. */
+#app .stage .b3rw-v3-collocations{grid-template-columns:740px minmax(0,1fr);gap:24px;padding:0}
+#app .stage .b3rw-v3-collocations>.b3rw-v3-source,#app .stage .b3rw-v3-collocations>.b3rw-v3-task{padding:18px 20px}
+#app .stage .b3rw-v3-collocations>.b3rw-v3-source>p{margin:0 0 16px!important}
+#app .stage .b3rw-v3-collocations .b3rw-v3-bank{display:grid;grid-template-columns:1fr 1fr;gap:8px 14px;margin:0;padding:12px 14px}
+#app .stage .b3rw-v3-collocations .b3rw-v3-bank span{display:flex;align-items:flex-start;white-space:normal;min-width:0;font-size:26px!important;line-height:1.18!important}
+#app .stage .b3rw-v3-collocations .b3rw-v3-bank b{flex:0 0 32px}
+#app .stage .b3rw-v3-collocations-task{display:flex;align-items:flex-start}
+#app .stage .b3rw-v3-collocations table{width:100%;table-layout:fixed;border-collapse:collapse;font-size:26px!important;line-height:1.18!important}
+#app .stage .b3rw-v3-collocations th,#app .stage .b3rw-v3-collocations td{border:2px solid #91619b;padding:8px 10px;text-align:left;vertical-align:top;font-size:26px!important;line-height:1.2!important;box-sizing:border-box}
+#app .stage .b3rw-v3-collocations th{background:#833b91;color:#fff}
+#app .stage .b3rw-v3-collocations th:first-child,#app .stage .b3rw-v3-collocations td:first-child{width:64px;min-width:64px;text-align:center;white-space:nowrap}
+#app .stage .b3rw-v3-collocations th:last-child,#app .stage .b3rw-v3-collocations td:last-child{width:270px}
+#app .stage .b3rw-v3-collocations td:nth-child(2){line-height:1.16!important}
+#app .stage .b3rw-v3-collocations .b3rw-v3-answer-slot{white-space:normal}
+
+/* The p.23 summary is one complete social-information post.  The question
+   side keeps only its seven correction blanks; the article is not repeated. */
+#app .stage .b3rw-v3-summary{grid-template-columns:minmax(0,1.28fr) minmax(480px,.72fr)}
+#app .stage .b3rw-v3-social{border:3px solid #b9cee7;border-radius:22px;background:#fff;margin:0;padding:22px 26px 0}
+#app .stage .b3rw-v3-summary-copy p{margin:0 0 16px!important;font-size:26px!important;line-height:1.25!important}
+#app .stage .b3rw-v3-summary-copy p:last-child{margin-bottom:0!important}
+#app .stage .b3rw-v3-social footer{display:flex;align-items:center;gap:22px;border-top:1px solid #cbd8e7;margin:18px -26px 0;padding:12px 22px;color:#4f83bb;font:22px/1 Arial,sans-serif}
+#app .stage .b3rw-v3-social footer span:nth-child(3){flex:1;color:#8799aa}
+#app .stage .b3rw-v3-summary-task{display:grid;align-content:center}
+#app .stage .b3rw-v3-summary-task ol{display:grid;grid-template-columns:1fr 1fr;gap:18px 22px;margin:0;padding:0;list-style:none;counter-reset:summary-slot}
+#app .stage .b3rw-v3-summary-task li{counter-increment:summary-slot;display:grid;grid-template-columns:38px minmax(0,1fr);align-items:center;gap:10px;margin:0;padding:14px 16px;border:2px solid #cbd8e7;border-radius:12px;background:#f8fbff;font-size:26px!important;line-height:1.2!important}
+#app .stage .b3rw-v3-summary-task li::before{content:counter(summary-slot);display:grid;place-items:center;width:36px;height:36px;border-radius:50%;background:#e4eefb;color:#1e57aa;font:700 22px/1 Arial,sans-serif}
+#app .stage .b3rw-v3-summary-task .b3rw-v3-answer-slot{display:block;min-width:0}
+
+/* Complete vocabulary relationships.  Both genuine task parts retain the
+   full choice set and definitions, so moving between sentences cannot split
+   the learning context. */
+#app .stage .b3rw-v3-vocabulary,#app .stage .b3rw-v3-economics{grid-template-columns:1fr}
+#app .stage .b3rw-v3-bank{display:flex;flex-wrap:wrap;gap:8px 18px;margin:0 0 14px;padding:10px 14px;border:2px solid #b9cee7;border-radius:12px;background:#f8fbff;font:700 26px/1.2 Arial,sans-serif}
+#app .stage .b3rw-v3-bank span{white-space:nowrap}
+#app .stage .b3rw-v3-bank b{color:#2d62c4;margin-right:4px}
+#app .stage .b3rw-v3-bank b[data-w1-choice]{font-size:0!important;line-height:1.2!important}
+#app .stage .b3rw-v3-bank b[data-w1-choice]::before{content:attr(data-w1-choice);font:700 26px/1.2 Arial,sans-serif!important}
+#app .stage .b3rw-v3-definition-grid{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr);gap:26px;align-items:start}
+#app .stage .b3rw-v3-sentences,#app .stage .b3rw-v3-definitions{margin:0;padding-left:36px}
+#app .stage .b3rw-v3-sentences li,#app .stage .b3rw-v3-definitions li{margin:0 0 10px;padding-left:5px}
+#app .stage .b3rw-v3-definitions{list-style:none;padding-left:0}
+#app .stage .b3rw-v3-definitions li>b{display:inline-block;width:28px;color:#2d62c4}
+#app .stage .b3rw-v3-vocab-context .b3rw-v3-definition-grid{grid-template-columns:minmax(0,.94fr) minmax(0,1.06fr);gap:18px}
+#app .stage .b3rw-v3-vocab-context>.b3rw-v3-source{padding:14px 20px}
+#app .stage .b3rw-v3-vocab-context .b3rw-v3-bank{margin-bottom:8px;padding:8px 12px}
+#app .stage .b3rw-v3-vocab-context .b3rw-v3-circled-index{display:inline-grid;place-items:center;min-width:30px;color:#2d62c4}
+#app .stage .b3rw-v3-vocab-context .b3rw-v3-sentences li{margin-bottom:7px;line-height:1.18!important}
+#app .stage .b3rw-v3-context-definitions{display:grid;grid-template-columns:1fr 1fr;gap:5px 12px;margin:0;padding:0;list-style:none}
+#app .stage .b3rw-v3-context-definitions li{break-inside:avoid;margin:0;padding:4px 7px;border:1px solid #d4e0ec;border-radius:9px;background:#fff;font-size:26px!important;line-height:1.15!important}
+#app .stage .b3rw-v3-given-definitions{display:grid;grid-template-columns:1fr 1fr;gap:5px 12px;margin:0}
+#app .stage .b3rw-v3-given-definitions>div{break-inside:avoid;padding:4px 7px;border:1px solid #d4e0ec;border-radius:9px;background:#fff}
+#app .stage .b3rw-v3-given-definitions dt{font-size:26px!important;line-height:1.15!important;font-weight:700;color:#183975}
+#app .stage .b3rw-v3-given-definitions dd{margin:2px 0 0;font-size:26px!important;line-height:1.15!important}
+#app .stage .b3rw-v3-answer-slot{white-space:nowrap;color:#526174}
+#app .stage .b3rw-v3-answer-slot strong,#app .stage .b3rw-v3-answer-key{display:none;color:#a92f38}
+#app .stage.answers-visible .b3rw-v3-answer-slot i{display:none}
+#app .stage.answers-visible .b3rw-v3-answer-slot strong,#app .stage.answers-visible .b3rw-v3-answer-key{display:inline;font-weight:700}
+#app .stage .b3rw-v3-economics-grid{display:grid;grid-template-columns:minmax(0,1.02fr) minmax(0,.98fr);gap:28px}
+#app .stage .b3rw-v3-economics-grid dl,#app .stage .b3rw-v3-economics-grid ol{margin:0;padding:0}
+#app .stage .b3rw-v3-economics-grid dl>div{display:grid;grid-template-columns:150px minmax(0,1fr);gap:8px;margin-bottom:8px}
+#app .stage .b3rw-v3-economics-grid dt{font-weight:700;color:#183975}
+#app .stage .b3rw-v3-economics-grid dd{margin:0}
+#app .stage .b3rw-v3-economics-grid ol{padding-left:34px}
+#app .stage .b3rw-v3-economics-grid li{margin-bottom:9px;padding-left:4px}
+
+/* Reading 2 Exercise 6 uses five genuine question parts.  Each part includes
+   the exact paragraph or printed graph needed to answer it; the charts are
+   clipped from the original p.177 carrier so axes, values, titles and legend
+   cannot drift from the textbook data. */
+#app .stage .b3rw-v3-income{grid-template-columns:minmax(0,1.17fr) minmax(520px,.83fr)}
+#app .stage .b3rw-v3-income-context>p{margin:0!important;font-size:26px!important;line-height:1.25!important}
+#app .stage .b3rw-v3-chart{margin:0;border:2px solid #cbd8e7;border-radius:12px;background:#fff;padding:8px}
+#app .stage .b3rw-v3-chart svg{display:block;width:100%;height:500px}
+#app .stage .b3rw-v3-income-context:has(>p+.b3rw-v3-chart){display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:start}
+#app .stage .b3rw-v3-income-context p+.b3rw-v3-chart{margin:0}
+#app .stage .b3rw-v3-income-context p+.b3rw-v3-chart svg{height:440px}
+#app .stage .b3rw-v3-choice-pairs{margin:0;padding-left:38px}
+#app .stage .b3rw-v3-choice-pairs li{margin:0 0 14px;padding-left:6px}
+#app .stage .b3rw-v3-choice-pairs p{margin:2px 0!important}
+#app .stage .b3rw-v3-answer-key{font-size:24px!important;margin-left:30px}
+
+#app .stage .b3rw-v3-statements{margin:0;padding-left:38px}
+#app .stage .b3rw-v3-statements li{margin:0 0 12px;padding-left:5px}
+
+/* Book 3 p.21 keeps the complete six-question discussion beside one balanced
+   two-species photograph.  The answer state reveals compact model responses
+   without adding a second article or an inner scrolling pane. */
+#app .stage .b3rw-v3-squirrel{grid-template-columns:620px minmax(0,1fr);align-items:stretch}
+#app .stage .b3rw-v3-squirrel .b3rw-v3-source{display:grid;align-content:center;padding:18px}
+#app .stage .b3rw-v3-squirrel figure{margin:0}
+#app .stage .b3rw-v3-squirrel img{display:block;width:100%;height:auto;max-height:520px;object-fit:contain;border-radius:14px}
+#app .stage .b3rw-v3-squirrel figcaption{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:10px;text-align:center;color:#183975;font:700 26px/1.15 Arial,sans-serif}
+#app .stage .b3rw-v3-squirrel-task{padding:12px 18px}
+#app .stage .b3rw-v3-squirrel-task ol{margin:0;padding:0;list-style:none;counter-reset:squirrel-question}
+#app .stage .b3rw-v3-squirrel-task li{counter-increment:squirrel-question;display:grid;grid-template-columns:38px minmax(0,1fr);gap:10px;align-items:start;margin:0;padding:7px 0;border-bottom:1px solid #d4e0ec;font-size:26px!important;line-height:1.18!important}
+#app .stage .b3rw-v3-squirrel-task li:last-child{border-bottom:0}
+#app .stage .b3rw-v3-squirrel-task li::before{content:counter(squirrel-question);display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:#e4eefb;color:#1e57aa;font:700 21px/1 Arial,sans-serif}
+#app .stage .b3rw-v3-squirrel-task p{margin:0!important;font-size:26px!important;line-height:1.18!important}
+#app .stage .b3rw-v3-squirrel-answer{display:none;margin-top:4px!important;color:#a92f38!important;font-weight:700}
+#app .stage.answers-visible .b3rw-v3-squirrel-answer{display:block}
+
+/* B3RW-U03-LAYOUT-CLOSURE-20261026-02 — case-scoped fixed-canvas layouts. */
+#app .stage .b3rw-u03-r098{grid-template-columns:minmax(0,1.34fr) minmax(620px,.66fr);gap:14px;padding:4px 10px 8px}
+#app .stage .b3rw-u03-r098>.b3rw-v3-source,#app .stage .b3rw-u03-r098>.b3rw-v3-task{padding:10px 14px}
+#app .stage .b3rw-u03-r098 .b3rw-v3-task .ss-item,#app .stage .b3rw-u03-r098 .b3rw-v3-task .ss-row{margin-bottom:7px!important}
+#app .stage .b3rw-u03-r098 .b3rw-v3-task p{margin-top:0!important;margin-bottom:7px!important}
+#app .stage .b3rw-u03-reading-card>.b3rw-v3-source,#app .stage .b3rw-u03-reading-card>.b3rw-v3-task{align-self:start;height:auto!important;max-height:620px}
+#app .stage .b3rw-u03-reading-card .b3rw-v3-source{padding-bottom:18px}
+#app .stage .b3rw-u03-r101 .b3rw-v3-copy-with-figure{display:grid;grid-template-columns:1fr;gap:10px}
+#app .stage .b3rw-u03-r101 .b3rw-v3-figures{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+#app .stage .b3rw-u03-r101 .b3rw-v3-figure img{height:170px!important;object-fit:contain!important;background:#eef3f7}
+#app .stage .b3rw-u03-r101 .b3rw-v3-figure figcaption{font-size:22px!important;line-height:1.15!important}
+#app .stage .b3rw-u03-r100{display:block;padding:8px 12px 10px}
+#app .stage .b3rw-u03-r100>.b3rw-v3-source{height:100%;padding:14px 18px}
+#app .stage .b3rw-u03-bank{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px 12px;margin:0 0 14px;padding:10px 12px;border:2px solid #b9cee7;border-radius:12px;background:#f8fbff}
+#app .stage .b3rw-u03-bank>span{min-width:0;font-size:26px!important;line-height:1.18!important}
+#app .stage .b3rw-u03-bank b{color:#2d62c4;margin-right:5px}
+#app .stage .b3rw-u03-bank b[data-w1-choice]{font-size:0!important}
+#app .stage .b3rw-u03-bank b[data-w1-choice]::before{content:attr(data-w1-choice);font:700 26px/1.18 Arial,sans-serif!important}
+#app .stage .b3rw-u03-exercise-list{display:grid;grid-template-columns:1fr 1fr;gap:12px 18px;margin:0;padding:0;list-style:none}
+#app .stage .b3rw-u03-exercise-list>li{display:grid;grid-template-columns:36px minmax(0,1fr);gap:8px;margin:0;padding:12px 14px;border:1px solid #cbd8e7;border-radius:10px;background:#fff;font-size:26px!important;line-height:1.2!important}
+#app .stage .b3rw-u03-exercise-list p{margin:0!important;font-size:26px!important;line-height:1.2!important}
+#app .stage .b3rw-u03-answer{display:inline-flex;min-width:var(--answer-width,150px);align-items:baseline;justify-content:center;margin-left:7px;color:#a92f38;font-weight:700}
+#app .stage .b3rw-u03-answer strong{display:none}
+#app .stage.answers-visible .b3rw-u03-answer i{display:none}
+#app .stage.answers-visible .b3rw-u03-answer strong{display:inline;color:#a92f38}
+#app .stage .b3rw-u03-r102{grid-template-columns:610px minmax(0,1fr);gap:18px;padding:6px 10px 10px}
+#app .stage .b3rw-u03-r102>.b3rw-v3-source,#app .stage .b3rw-u03-r102>.b3rw-v3-task{padding:12px 14px}
+#app .stage .b3rw-u03-source-paragraph{display:grid;grid-template-columns:38px minmax(0,1fr);gap:9px;margin:0 0 12px}
+#app .stage .b3rw-u03-source-paragraph>b{display:grid;place-items:center;width:36px;height:36px;border-radius:50%;background:#e4eefb;color:#1e57aa;font:700 22px/1 Arial,sans-serif}
+#app .stage .b3rw-u03-source-paragraph>p{margin:0!important;font-size:26px!important;line-height:1.2!important}
+#app .stage .b3rw-u03-solutions-table{width:100%;height:auto;table-layout:fixed;border-collapse:collapse}
+#app .stage .b3rw-u03-solutions-table th,#app .stage .b3rw-u03-solutions-table td{border:2px solid #91619b;padding:9px 10px!important;vertical-align:top;font-size:26px!important;line-height:1.18!important;white-space:normal!important}
+#app .stage .b3rw-u03-solutions-table th{background:#833b91;color:#fff}
+#app .stage .b3rw-u03-solutions-table th:first-child,#app .stage .b3rw-u03-solutions-table td:first-child{width:150px}
+#app .stage .b3rw-u06-r119{display:block;padding:8px 12px 10px}
+#app .stage .b3rw-u06-r119>.b3rw-v3-source{height:100%;padding:16px 20px}
+#app .stage .b3rw-u06-knowledge-grid{display:grid;grid-template-columns:minmax(0,1fr) 520px;gap:30px;align-items:center;height:500px}
+#app .stage .b3rw-u06-knowledge-grid>p{margin:0!important;font-size:30px!important;line-height:1.32!important}
+#app .stage .b3rw-u06-window{position:relative;height:430px;margin:0;border:18px solid #c3d1de;border-radius:16px;background:linear-gradient(150deg,#dff2fb,#f8fcff);overflow:hidden;box-sizing:border-box}
+#app .stage .b3rw-u06-window .pane{position:absolute;background:#8da2b5}
+#app .stage .b3rw-u06-window .p1{left:50%;top:0;width:8px;height:100%;transform:translateX(-50%)}
+#app .stage .b3rw-u06-window .p2{left:0;top:50%;width:100%;height:8px;transform:translateY(-50%)}
+#app .stage .b3rw-u06-window .web{position:absolute;left:50%;top:50%;width:360px;height:3px;background:#eef7fb;transform-origin:left center;filter:drop-shadow(0 0 2px #7f9bad)}
+#app .stage .b3rw-u06-window .w1{transform:rotate(0deg)}#app .stage .b3rw-u06-window .w2{transform:rotate(45deg)}#app .stage .b3rw-u06-window .w3{transform:rotate(90deg)}#app .stage .b3rw-u06-window .w4{transform:rotate(135deg)}
+#app .stage .b3rw-u07-r121{grid-template-columns:830px minmax(0,1fr);gap:18px;padding:6px 10px 10px}
+#app .stage .b3rw-u07-r121>.b3rw-v3-source,#app .stage .b3rw-u07-r121>.b3rw-v3-task{padding:12px 14px}
+#app .stage .b3rw-u07-r121 .b3rw-u03-bank{grid-template-columns:1fr 1fr;gap:8px 12px;margin:0}
+#app .stage .b3rw-u07-outsourcing-table{width:100%;table-layout:fixed;border-collapse:collapse}
+#app .stage .b3rw-u07-outsourcing-table th,#app .stage .b3rw-u07-outsourcing-table td{border:2px solid #91619b;padding:9px 10px!important;vertical-align:top;font-size:26px!important;line-height:1.18!important;white-space:normal!important}
+#app .stage .b3rw-u07-outsourcing-table th{background:#833b91;color:#fff}
+#app .stage .b3rw-u07-classified{display:block;min-height:34px}
+#app .stage .b3rw-u07-classified strong{display:none;color:#a92f38}
+#app .stage.answers-visible .b3rw-u07-classified i{display:none}
+#app .stage.answers-visible .b3rw-u07-classified strong{display:block}
+#app .stage .b3rw-u08-r122 .b3rw-v3-chart{padding:4px}
+#app .stage .b3rw-u08-r122 .b3rw-v3-chart svg{height:476px}
+#app .stage .b3rw-u08-r122 .b3rw-v3-income-context p+.b3rw-v3-chart svg{height:416px}
+#app .stage .b3rw-u08-r122>.b3rw-v3-source,#app .stage .b3rw-u08-r122>.b3rw-v3-task{padding-top:14px;padding-bottom:14px}
+
+/* B3RW-U03-LAYOUT-CLOSURE-20261026-02 — corrected source anchors and
+   real task parts.  These rules are intentionally limited to the repaired
+   primary-canvas carriers below. */
+#app .stage .b3rw-u03-r098-table{grid-template-columns:minmax(0,1.42fr) minmax(620px,.58fr);gap:18px;padding:6px 10px 10px}
+#app .stage .b3rw-u03-r098-table>.b3rw-v3-source,#app .stage .b3rw-u03-r098-table>.b3rw-v3-task{padding:12px 14px}
+#app .stage .b3rw-u03-transport-table{width:100%;table-layout:fixed;border-collapse:collapse}
+#app .stage .b3rw-u03-transport-table th,#app .stage .b3rw-u03-transport-table td{border:2px solid #91619b;padding:10px!important;vertical-align:top;white-space:normal!important;font-size:26px!important;line-height:1.18!important}
+#app .stage .b3rw-u03-transport-table th{background:#833b91;color:#fff}
+#app .stage .b3rw-u03-transport-table th:first-child{width:150px}
+#app .stage .b3rw-u03-table-answer{display:block;min-height:58px;color:#a92f38}
+#app .stage .b3rw-u03-table-answer strong{display:none}
+#app .stage.answers-visible .b3rw-u03-table-answer i{display:none}
+#app .stage.answers-visible .b3rw-u03-table-answer strong{display:block;color:#a92f38;font-weight:700}
+
+#app .stage .b3rw-u03-r102{grid-template-columns:780px minmax(0,1fr);gap:18px;padding:6px 10px 10px}
+#app .stage .b3rw-u03-r102>.b3rw-v3-source,#app .stage .b3rw-u03-r102>.b3rw-v3-task{padding:12px 14px}
+#app .stage .b3rw-u03-r102 .b3rw-u03-solutions-table th:first-child,#app .stage .b3rw-u03-r102 .b3rw-u03-solutions-table td:first-child{width:135px}
+
+#app .stage .b3rw-u06-r119-deepfake{display:block;padding:6px 10px 10px}
+#app .stage .b3rw-u06-r119-deepfake>.b3rw-v3-source{height:100%;padding:12px 18px}
+#app .stage .b3rw-u06-deepfake-instruction{margin:0 0 10px!important;font-size:26px!important;line-height:1.18!important}
+#app .stage .b3rw-u06-deepfake-list{display:grid;grid-template-columns:1fr 1fr;gap:10px 20px;margin:0;padding:0;list-style:none;counter-reset:deepfake-question}
+#app .stage .b3rw-u06-deepfake-list>li{counter-increment:deepfake-question;position:relative;margin:0;padding:9px 12px 9px 50px;border:1px solid #cbd8e7;border-radius:10px;background:#fff;font-size:26px!important;line-height:1.16!important}
+#app .stage .b3rw-u06-deepfake-list>li::before{content:counter(deepfake-question);position:absolute;left:12px;top:10px;display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:#e4eefb;color:#1e57aa;font:700 20px/1 Arial,sans-serif}
+#app .stage .b3rw-u06-deepfake-list[start="5"]{counter-reset:deepfake-question 4}
+#app .stage .b3rw-u06-deepfake-list p{margin:0 0 5px!important;font-size:26px!important;line-height:1.16!important}
+#app .stage .b3rw-u06-deepfake-list>li>div{display:grid;grid-template-columns:1fr 1fr;gap:8px 16px}
+#app .stage .b3rw-u06-deepfake-list>li>div span{font-size:26px!important;line-height:1.14!important}
+
+#app .stage .b3rw-u07-given-bank{text-decoration:line-through;text-decoration-thickness:3px;color:#667789}
+#app .stage .b3rw-u07-given-row td{background:#fff8d7;font-weight:700}
+#app .stage .b3rw-u07-given-row td:first-child::before{content:'Given example: ';color:#7b5b00}
+#app .stage .b3rw-u07-empty-line{display:block;min-height:34px;color:#8a9aab;font-style:normal}
+
+#app .stage .b3rw-u08-r122-detail{display:grid;grid-template-columns:minmax(0,1.42fr) minmax(600px,.58fr);grid-template-rows:auto minmax(0,1fr);gap:10px 20px;height:100%;padding:10px 18px 14px;box-sizing:border-box}
+#app .stage .b3rw-u08-r122-detail>h2{grid-column:1/-1;margin:0!important;color:#183975;font:700 32px/1.12 Arial,sans-serif}
+#app .stage .b3rw-u08-r122-copy,#app .stage .b3rw-u08-r122-figure{min-width:0;min-height:0;border:2px solid #cbd8e7;border-radius:12px;background:#fff;padding:12px 16px;box-sizing:border-box;overflow:hidden}
+#app .stage .b3rw-u08-r122-copy p{margin:0!important;font-size:26px!important;line-height:1.19!important}
+#app .stage .b3rw-u08-r122-figure{display:grid;grid-template-rows:minmax(0,1fr) auto;gap:8px}
+#app .stage .b3rw-u08-r122-figure .b3rw-v3-chart{min-height:0;margin:0;padding:2px;overflow:hidden}
+#app .stage .b3rw-u08-r122-figure .b3rw-v3-chart svg{display:block;width:100%;height:100%;max-height:430px;overflow:hidden}
+#app .stage .b3rw-u08-r122-figure .b3rw-v3-choice-pairs{margin:0;padding-left:34px}
+#app .stage .b3rw-u08-r122-figure .b3rw-v3-choice-pairs li{margin:0;padding:0}
+#app .stage .b3rw-u08-r122-figure .b3rw-v3-choice-pairs p{margin:2px 0!important;font-size:26px!important;line-height:1.15!important}
+
+/* Figure 1 retains its complete axes, title and legend within its reading task. */
+#app .stage .b3rw-v3-income .b3rw-v3-chart-one svg{height:460px!important;max-height:460px!important;overflow:hidden}
+
+/* Explanation paging occupies its own reserved header row. */
+html[data-course-theme="a"] #app.ct-enabled .stage.fixed-classroom-regions.ss-explanation>.ss-header>.ss-explanation-parts{position:absolute!important;left:0!important;right:0!important;top:184px!important;height:48px!important;margin:0!important;z-index:5!important;pointer-events:auto!important;display:flex!important;align-items:center!important;gap:12px!important}
+
+/* Preserve the textbook purple header behind its white table labels. */
+html[data-course-theme="a"] #app.ct-enabled .stage.ss-explanation table tr:first-child>td[style*="126, 57, 138"]{background-color:#7e398a!important;color:#fff!important}
+html[data-course-theme="a"] #app.ct-enabled .stage.ss-explanation table tr:first-child>td[style*="126, 57, 138"] *{color:#fff!important}

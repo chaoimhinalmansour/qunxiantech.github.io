@@ -7,4 +7,6 @@ html[data-course-theme=a] #app.ct-enabled .stage .cr-restored-content .cr-block-
 html[data-course-theme=a] #app.ct-enabled .stage.answers-visible .cr-restored-content .cr-block-answer{visibility:visible}
 .cr-part-nav{height:46px;display:flex;gap:12px;margin-bottom:14px;align-items:center}.cr-part-nav button{font:24px/1.25 "Segoe UI",sans-serif;padding:7px 13px;border:1px solid #becddd;border-radius:5px;background:white;color:#41617f;cursor:pointer}.cr-part-nav button[aria-current=step]{background:#e7f1f7;color:#264f70;border-color:#7b9fb9}.cr-part-nav+.cr-restored-content{height:calc(100% - 60px)!important}
 
-html[data-course-theme=a] #app.ct-enabled:has(.cr-restored-stage) #material-open{display:none!important}
+html[data-course-theme=a] #app.ct-enabled:has(.cr-restored-stage:not([data-keep-material="true"])) #material-open{display:none!important}
+
+.cr-part-nav{flex-wrap:nowrap;min-width:0}.cr-part-nav button{flex:none}.cr-part-nav .cr-current-part-title{font:22px/1.2 Arial;color:#476b8a;min-width:0}.cr-part-nav button:disabled{opacity:.45;cursor:default}

@@ -1,0 +1,47 @@
+/* Stable classroom frame: retained content is paged, never wheel-scrolled. */
+html[data-course-theme=a] #app.ct-enabled .stage.w1-has-native-parts>.ss-body{top:362px!important;height:648px!important}
+#app.ct-enabled .stage>.w1-native-parts{position:absolute;left:108px;top:312px;width:1704px;height:42px;display:flex;gap:8px;align-items:center;flex-wrap:nowrap;box-sizing:border-box;z-index:3}
+#app.ct-enabled .stage>.w1-native-parts[hidden]{display:none}
+#app .w1-native-parts button{font:22px/1.15 Arial,sans-serif;padding:6px 10px;background:#fff;color:#41617f;border:1px solid #bfccd8;border-radius:5px;white-space:nowrap;cursor:pointer}
+#app .w1-native-parts button[aria-current=step]{background:#e7f1f7;border-color:#7b9fb9;color:#264f70}
+html[data-course-theme=a] #app.ct-enabled .stage>.ss-body.w1-choices-with-content{display:grid!important;grid-template-rows:max-content minmax(0,1fr)!important;grid-template-columns:minmax(0,1fr)!important;gap:16px!important;overflow:visible!important}
+#app .stage .w1-choice-zone{min-width:0;align-self:start}
+#app .stage .w1-choice-zone .fmt-header-banks{position:static!important;inset:auto!important;height:auto!important;width:100%!important;min-height:0!important;max-height:none!important;margin:0!important;padding:0!important;transform:none!important;display:block!important}
+#app .stage .w1-choice-zone .uniform-wordbank{position:static!important;inset:auto!important;display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:9px 24px!important;margin:0!important;padding:14px 18px!important;box-sizing:border-box!important;background:#fff2e7!important;border:1.5px solid #d9ae88!important;border-radius:4px!important;height:auto!important;max-height:none!important;font:28px/1.2 Arial,sans-serif!important;transform:none!important}
+#app .stage .w1-choice-zone .ref-bank-item{display:flex!important;align-items:flex-start;gap:8px;min-width:0!important;white-space:normal!important;overflow:visible!important;font:inherit!important}
+#app .stage .w1-choice-zone .ref-bank-index{display:inline-block!important;min-width:28px!important;flex:0 0 auto!important;font:28px/1.2 Arial,sans-serif!important;border:0!important;padding:0!important;margin:0!important;color:#4775c7!important}
+#app .stage .w1-choice-zone .ref-bank-copy{min-width:0!important;font:inherit!important;white-space:normal!important}
+#app .stage .w1-choice-content{width:100%;height:100%;min-height:0;min-width:0;align-content:start;overflow:visible!important}
+#app .stage .w1-choice-content>.ss-column{min-height:0}
+#app .reader-document.w1-paged-reader{display:flex!important;flex-direction:column!important;gap:14px!important;padding:18px 26px!important;overflow:visible!important;min-height:0!important;box-sizing:border-box}
+#app .reader-document.w1-paged-reader[hidden]{display:none!important}
+#app .w1-reader-pages{display:flex;flex:0 0 36px;gap:8px;align-items:center;flex-wrap:wrap;align-content:start}
+#app .w1-reader-pages button{font:18px/1.2 Arial,sans-serif;padding:5px 10px;color:#335f91;border:1px solid #b5c7db;background:#fff;border-radius:5px;cursor:pointer}
+#app .w1-reader-pages button[aria-current=page]{background:#e7f0fa}
+#app .w1-reader-page{display:block!important;flex:1;min-height:0!important;overflow:visible!important;box-sizing:border-box}
+#app .w1-reader-unit{display:block!important;margin:0 0 12px!important}
+#app .w1-reader-unit h2{font:700 20px/1.2 Arial,sans-serif!important;margin:0 0 10px!important;color:#476b8a}
+#app .w1-reader-unit :is(.reader-text-block,.text,p,span){font-size:clamp(19px,1.5vw,26px)!important;line-height:1.35!important}
+#app .w1-reader-unit p{margin:0 0 12px!important}
+#app .w1-reader-unit .reader-graphic{height:auto!important;max-width:100%!important;transform:none!important;min-height:0!important}
+
+#app .stage .w1-choice-zone .ref-bank-index[data-w1-choice]{font-size:0!important}#app .stage .w1-choice-zone .ref-bank-index[data-w1-choice]::before{content:attr(data-w1-choice);font:28px/1.2 Arial,sans-serif!important}#app .w1-choice-content>.uniform-bank-host:empty{display:none!important}
+
+#app .stage.cr-restored-stage>.ss-header>.fmt-header-banks{display:none!important}
+#app .w1ls-bank b[data-w1-choice]{font-size:0!important}#app .w1ls-bank b[data-w1-choice]::before{content:attr(data-w1-choice);font:26px/1.2 Arial,sans-serif;color:#4775c7}
+
+#app .stage>.guided-screen.w1-replaced-guided{display:none!important}#app .stage.cr-restored-stage>.fmt-detail-button{display:none!important}
+
+#app .stage .w1-choice-zone .uniform-wordbank[data-ref-kind=box-options]{grid-template-columns:repeat(5,minmax(0,1fr))!important}#app .stage .w1-choice-zone .ref-bank-title{grid-column:1/-1!important;font:700 24px/1.2 Arial!important;margin:0!important}
+
+/* The live question retains its fixed canvas beside materials. */
+#app[data-w1-fixed-split=true] .split-question-reading{display:none!important}
+#app[data-w1-fixed-split=true] .viewport .stage{visibility:visible!important}
+#app[data-w1-fixed-split=true] .native-material.photos-pane{min-height:0!important;overflow:hidden!important;box-sizing:border-box!important;padding:14px!important}
+#app[data-w1-fixed-split=true] .original-photo-gallery{height:100%!important;min-height:0!important;display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;grid-template-rows:repeat(2,minmax(0,1fr))!important;gap:12px!important;overflow:visible!important;box-sizing:border-box!important}
+#app[data-w1-fixed-split=true] .original-photo-gallery[data-count="8"]{grid-template-columns:repeat(4,minmax(0,1fr))!important}
+#app[data-w1-fixed-split=true] .original-photo-gallery[data-count="6"]{grid-template-columns:repeat(3,minmax(0,1fr))!important}
+#app[data-w1-fixed-split=true] .original-photo-gallery .original-photo{min-width:0!important;min-height:0!important;height:100%!important;display:flex!important;flex-direction:column!important;margin:0!important;overflow:visible!important}
+#app[data-w1-fixed-split=true] .original-photo-gallery .original-photo>div{aspect-ratio:auto!important;min-height:0!important;flex:1 1 0%!important;height:auto!important}
+#app[data-w1-fixed-split=true] .original-photo-gallery img{width:100%!important;height:100%!important;object-fit:contain!important}
+#app[data-w1-fixed-split=true] .original-photo-gallery figcaption{flex:0 0 auto!important;font:16px/1.2 Arial,sans-serif!important;margin-top:4px!important}
