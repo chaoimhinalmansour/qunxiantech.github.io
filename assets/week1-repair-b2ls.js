@@ -69,5 +69,20 @@ window.CLASSROOM_RESTORE_CASES['B2_LS_U06:84:5'].html=()=>businessTask(5);
 function debatePoster(){return '<article class="w1ls-debate-poster"><h2>UNIVERSITY DEBATE CLUB</h2><dl><dt>WHEN?</dt><dd>10th May at 11:30 am</dd><dt>WHERE?</dt><dd>Main Lecture Hall</dd></dl><div><p>Discussion topic: Should we spend money on space exploration?<br>We will look at how to pay for Mars exploration. We will also <b>evaluate</b> the benefits of space exploration and whether the time we spend is worth it.<br>Should <b>public</b> money be used to pay for it or should <b>private</b> companies pay? We will look at the different options for paying for space exploration.</p><p><b>Expert</b> speakers:<br>Dorota Loy – a scientist from the Space Development Project<br>Raj Padow – a researcher in economics<br>Dr Jun Wu – a lecturer of astrophysics<br>If you want to develop your <b>talent</b> for public speaking, join us next week!</p></div></article>'}
 reg('B2_LS_U08',[71,72,73],1,{answer:true,layoutClass:'w1ls-restored',html:()=>'<div class="w1ls-debate-task">'+debatePoster()+'<section>'+bank(['evaluate','public','private','expert','talent'])+'<ol type="a" class="w1ls-debate-defs">'+[['controlled by a person or a company and not by the government','private'],['open to everybody to see or use','public'],['a person who has a lot of knowledge about something','expert'],['a natural ability to do something','talent'],['to consider or study something carefully to decide how good or bad it is','evaluate']].map(([t,a])=>'<li>'+esc(t)+'<br>'+slot(a)+'</li>').join('')+'</ol></section></div>'});
 window.CLASSROOM_RESTORE_CASES['B2_LS_U02:11:1'].section='WATCH AND LISTEN';window.CLASSROOM_RESTORE_CASES['B2_LS_U02:11:1'].title='PREPARING TO WATCH';
+
+/* manual-review-u01-v1: one complete seven-item task, then the original predicting task. */
+const manualTf=[
+ ['There are a lot of canals and bridges.','T',''],
+ ['Most of the islands between the canals are big.','F','The islands are little.'],
+ ['Today, Venice is important for art and businesses.','F','Venice was important for art and businesses in the past.'],
+ ['People know Venice as a popular tourist centre.','T',''],
+ ['The Grand Canal is the smallest canal in Venice.','F','The Grand Canal is the largest canal in Venice.'],
+ ['The Grand Canal is a man-made river.','T',''],
+ ['Another name for Venice is “The City of Boats”.','F','Another name for Venice is “The City of Bridges”.']
+];
+reg('B2_LS_U01',[15,17],3,{answer:true,explanation:false,keepMaterial:true,layoutClass:'manual-u01-task',section:'WATCH AND LISTEN',title:'WHILE WATCHING',instruction:'3 Watch the video. Write T (true) or F (false) next to the statements below. Then correct the false statements.',html:api=>'<ol class="manual-u01-tf">'+manualTf.map(([text,key,correction],i)=>'<li><span class="manual-tf-number">'+(i+1)+'</span><span class="manual-tf-statement">'+esc(text)+'</span><span class="manual-tf-response">'+api.slot(key)+(correction?'<span class="manual-tf-correction">'+api.value(correction)+'</span>':'')+'</span></li>').join('')+'</ol>'});
+const manualPrediction={answer:false,explanation:false,layoutClass:'manual-u01-task',section:'LISTENING 1',title:'PREPARING TO LISTEN',instruction:'2 You are going to listen to a podcast about homes around the world. Look at the photos. What do you think you will learn about homes?',html:()=>'<div class="manual-u01-homes">'+['a','b','c','d'].map(letter=>'<figure><span>'+letter+'</span><img src="../assets/scene-assets/home-'+letter+'.webp" alt="Home '+letter+'"></figure>').join('')+'</div>'};
+for(const number of [1,2])reg('B2_LS_U01',[35,36,37,38],number,manualPrediction);
+
 window.WEEK1_REPAIR_B2LS={version:'20261025-b2ls-1',cases:()=>Object.keys(window.CLASSROOM_RESTORE_CASES).filter(k=>k.startsWith('B2_LS'))};
 })();

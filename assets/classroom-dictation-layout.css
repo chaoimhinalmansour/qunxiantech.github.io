@@ -1,30 +1,55 @@
-/* Dictation sheets remain a single, complete classroom view: no inner scrolling. */
-html[data-course-theme=a] .stage .lesson-dictation .dictation-frame{
-  top:360px;
-  bottom:48px;
-  overflow:visible;
-  scrollbar-width:auto;
+/* Fixed dictation canvas: both sheets keep their bounds in question, answer and playback states. */
+html[data-course-theme=a] .stage .lesson-dictation[data-session] .dictation-frame{
+  position:absolute!important;left:108px!important;right:108px!important;
+  top:344px!important;bottom:auto!important;height:620px!important;
+  display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;
+  gap:36px!important;align-items:start!important;overflow:visible!important;scrollbar-gutter:auto!important;
 }
-
-html[data-course-theme=a] .stage .lesson-dictation .dictation-table tr{height:32px!important}
-html[data-course-theme=a] .stage .lesson-dictation .dictation-table th,
-html[data-course-theme=a] .stage .lesson-dictation .dictation-table td{padding-top:1px!important;padding-bottom:1px!important}
-html[data-course-theme=a] .stage .lesson-dictation .dictation-cell{min-height:0!important;line-height:1.1!important}
-
-/* The few 22-plus-row sheets need the same content in the space above the footer. */
-html[data-course-theme=a] .stage .lesson-dictation .dictation-frame:has(.dictation-table tr:nth-child(22)){
-  top:340px;
+html[data-course-theme=a] .stage .lesson-dictation[data-session] .dictation-table{
+  table-layout:fixed!important;width:100%!important;height:620px!important;
+  border-collapse:separate!important;border-spacing:0!important;
+  border:1px solid #c8d4e3!important;border-radius:10px!important;
+  box-shadow:none!important;overflow:hidden!important;background:white!important;
 }
-html[data-course-theme=a] .stage .lesson-dictation .dictation-frame:has(.dictation-table tr:nth-child(22)) .dictation-table tr{height:28px!important}
-html[data-course-theme=a] .stage .lesson-dictation .dictation-frame:has(.dictation-table tr:nth-child(22)) .dictation-table th,
-html[data-course-theme=a] .stage .lesson-dictation .dictation-frame:has(.dictation-table tr:nth-child(22)) .dictation-table td{padding-top:0!important;padding-bottom:0!important}
-html[data-course-theme=a] .stage .lesson-dictation .dictation-frame:has(.dictation-table tr:nth-child(22)) .dictation-cell{line-height:1!important}
-
-/* Keep the 28px classroom type but reclaim only its excess leading and cell padding. */
-html[data-course-theme=a] .stage .lesson-dictation[data-session] .dictation-table .dictation-cell[class]{
-  min-height:0!important;
-  line-height:1.05!important;
-}
-html[data-course-theme=a] .stage .lesson-dictation[data-session] .dictation-table tr{height:31px!important}
+html[data-course-theme=a] .stage .lesson-dictation[data-session] .dictation-table .dict-no{width:8%!important}
+html[data-course-theme=a] .stage .lesson-dictation[data-session] .dictation-table .dict-en{width:37%!important}
+html[data-course-theme=a] .stage .lesson-dictation[data-session] .dictation-table .dict-cn{width:37%!important}
+html[data-course-theme=a] .stage .lesson-dictation[data-session] .dictation-table .dict-pos{width:18%!important}
+html[data-course-theme=a] .stage .lesson-dictation[data-session] .dictation-table tr{height:var(--dictation-row)!important}
+html[data-course-theme=a] .stage .lesson-dictation[data-session] .dictation-table thead tr{height:56px!important}
 html[data-course-theme=a] .stage .lesson-dictation[data-session] .dictation-table th,
-html[data-course-theme=a] .stage .lesson-dictation[data-session] .dictation-table td{padding-top:0!important;padding-bottom:0!important}
+html[data-course-theme=a] .stage .lesson-dictation[data-session] .dictation-table td{
+  box-sizing:border-box!important;height:auto!important;padding:0 12px!important;
+  border:0!important;border-right:1px solid #e0e7f0!important;border-bottom:1px solid #dce4ee!important;
+  background:white!important;vertical-align:middle!important;
+  white-space:normal!important;overflow:visible!important;
+}
+html[data-course-theme=a] .stage .lesson-dictation[data-session] .dictation-table tr>*:last-child{border-right:0!important}
+html[data-course-theme=a] .stage .lesson-dictation[data-session] .dictation-table tbody tr:last-child>*{border-bottom:0!important}
+html[data-course-theme=a] .stage .lesson-dictation[data-session] .dictation-table thead th{
+  background:#eef3fa!important;color:#53647a!important;font:600 21px/1.2 var(--sans)!important;text-align:left!important;
+}
+html[data-course-theme=a] .stage .lesson-dictation[data-session] .dictation-table th:first-child{
+  text-align:center!important;padding-left:0!important;padding-right:0!important;
+}
+html[data-course-theme=a] .stage .lesson-dictation[data-session] .dictation-table tbody th{
+  font:400 24px/1.1 var(--sans)!important;color:#68788c!important;font-variant-numeric:tabular-nums;
+}
+html[data-course-theme=a] .stage .lesson-dictation[data-session] .dictation-table .dictation-cell[class]{
+  min-height:0!important;font:400 28px/1.1 var(--sans)!important;align-items:center!important;
+}
+html[data-course-theme=a] .stage .lesson-dictation[data-session] .dictation-table .field-1[class]{font-size:25px!important;line-height:1.15!important}
+html[data-course-theme=a] .stage .lesson-dictation[data-session] .dictation-table .field-2[class]{font-size:23px!important}
+html[data-course-theme=a] .stage .lesson-dictation[data-session][data-density=dense] .dictation-table .dictation-cell[class]{font-size:24px!important;line-height:1.05!important}
+html[data-course-theme=a] .stage .lesson-dictation[data-session][data-density=dense] .dictation-table .field-2[class]{font-size:22px!important}
+html[data-course-theme=a] .stage .lesson-dictation[data-session] .dictation-table .dictation-cell.dictation-multiword[class]{font-size:22px!important;line-height:1.05!important}
+html[data-course-theme=a] .stage .lesson-dictation[data-session] .dictation-table .dictation-blank{
+  width:100%!important;height:24px!important;border-bottom:1px solid #bfcada!important;justify-self:start!important;
+}
+html[data-course-theme=a] .stage .lesson-dictation[data-session] .dictation-table .dictation-value{white-space:normal!important;word-break:normal!important;overflow-wrap:normal!important}
+html[data-course-theme=a] .stage .lesson-dictation[data-session] .dictation-audio-controls{
+  left:108px!important;right:108px!important;top:254px!important;height:64px!important;gap:14px!important;justify-content:flex-start!important;
+}
+html[data-course-theme=a] .stage .lesson-dictation[data-session] .dictation-audio-controls [data-dictation-status]{
+  width:900px!important;max-width:none!important;margin-left:auto!important;font:400 22px/1.3 var(--sans)!important;
+}
