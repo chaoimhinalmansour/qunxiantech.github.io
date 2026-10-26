@@ -18,6 +18,7 @@ function anchorStage(){
  if(body&&!body.classList.contains('cr-restored-body')){const side=stage.classList.contains('b3ls-repair-side'),steps=stage.classList.contains('w1-has-native-parts');put(body,'left',body.dataset.week1Left||(side?'800px':'108px'));put(body,'top',body.dataset.week1Top||(side?'324px':steps?'362px':'312px'));put(body,'width',body.dataset.week1Width||(side?'1012px':'1704px'));put(body,'height',body.dataset.week1Height||(side?'682px':steps?'648px':'698px'))}
 }
 function reserveHeader(){
+ if(app.classList.contains('ct-persistent-controls'))return;
  head=app.querySelector(':scope>.ct-header');if(!head)return;
  const course=direct(head,'.task-header-course'),current=direct(head,'.task-header-current'),teacher=direct(head,'.task-header-teacher'),brand=head.querySelector('[data-ct-brand]');
  if(!course||!current||!teacher||!brand)return;

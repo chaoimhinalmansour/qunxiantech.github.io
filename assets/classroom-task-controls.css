@@ -1,48 +1,53 @@
-/* One compact row when the current task fits; no reserved cells for absent tools. */
-#app.ct-enabled.ct-adaptive-controls{--ct-header-height:48px}
-#app.ct-enabled.ct-adaptive-controls>.workspace{inset:var(--ct-header-height) 0 var(--ct-footer-height,60px)!important}
-#app.ct-enabled.ct-adaptive-controls .ct-header{height:var(--ct-header-height);display:grid;grid-template-columns:max-content minmax(0,1fr) max-content;gap:12px;padding:0 14px}
-.task-header-course,.task-header-teacher{display:flex;align-items:center;gap:8px;width:max-content;white-space:nowrap}
-.task-header-teacher{justify-self:end}.task-header-current{min-width:0;display:flex;align-items:center;justify-content:flex-start;height:48px}
-#app.ct-adaptive-controls .ct-header .ct-status{display:none}
-#app.ct-adaptive-controls .ct-header button{height:34px;min-height:34px;padding:6px 10px;font:14px/1.3 'Segoe UI','Microsoft YaHei',Arial,sans-serif}
-#app.ct-enabled.ct-adaptive-controls .ct-task-actions{position:static!important;display:block;inset:auto!important;width:auto;max-width:100%;height:36px;padding:0;border:0;border-radius:0;background:transparent;font:15px/1.3 'Segoe UI','Microsoft YaHei',Arial,sans-serif}
-#app.ct-adaptive-controls .ct-task-actions::before{content:none!important;display:none!important}
-#app.ct-adaptive-controls .function-buttons{display:flex!important;align-items:center;gap:6px;width:max-content;max-width:none;height:36px;flex-wrap:nowrap;overflow:visible}
-#app.ct-adaptive-controls .ct-task-actions button{flex:none;width:auto;min-width:0;max-width:none;height:34px;min-height:34px;margin:0;padding:6px 10px;font:15px/1.3 'Segoe UI','Microsoft YaHei',Arial,sans-serif!important}
-#app.ct-adaptive-controls .ct-task-actions :is(#answer-mode,#question-return){width:126px}
-#app.ct-adaptive-controls.task-review-open .ct-task-actions :is(#answer-mode,#review-mode){display:none!important}
-#app.ct-adaptive-controls .ct-task-actions .media-bar{display:flex;align-items:center;gap:6px;flex:none;max-width:none;width:auto;min-width:0;flex-wrap:nowrap;overflow:visible}
-#app.ct-adaptive-controls .ct-task-actions .audio-slot{display:flex;align-items:center;gap:0;flex:none;min-width:0;width:auto}
-#app.ct-adaptive-controls .ct-task-actions .audio-slot>span{display:none}
-#app.ct-adaptive-controls .ct-task-actions audio{display:block;width:230px!important;min-width:230px!important;max-width:230px!important;height:32px!important;margin:0}
-#app.ct-adaptive-controls .task-recording-select{flex:none;width:110px;min-width:0;max-width:110px;height:34px;padding:4px 6px;border:1px solid #dce3ec;border-radius:7px;background:#fff;color:#243b53;font:15px/1.3 'Segoe UI',Arial,sans-serif!important}
-#app.ct-adaptive-controls .task-recording-select option{font:15px 'Segoe UI',Arial,sans-serif!important}
-#app.ct-adaptive-controls .task-extra{position:relative;flex:none;height:34px}
-#app.ct-adaptive-controls .task-extra-toggle{width:92px}
-#app.ct-adaptive-controls .task-extra-menu{position:absolute;top:40px;right:0;min-width:180px;display:flex;flex-direction:column;gap:5px;padding:7px;border:1px solid #dce3ec;border-radius:9px;background:#fff;box-shadow:0 8px 24px #243b5326;z-index:90}
-#app.ct-adaptive-controls .task-extra-menu button{width:100%;text-align:left}
-#app.ct-adaptive-controls .teacher-sidebar{top:var(--ct-header-height)}
-#app.ct-adaptive-controls .ct-panel{top:calc(var(--ct-header-height) + 9px)}
-#app.ct-adaptive-controls .ct-zoom-info{top:calc(var(--ct-header-height) + 10px)}
-#app.ct-enabled.ct-adaptive-controls.task-two-rows{--ct-header-height:88px}
-#app.ct-enabled.ct-adaptive-controls.task-two-rows .ct-header{grid-template-columns:minmax(0,1fr) max-content;grid-template-rows:44px 44px;gap:0 12px}
-#app.ct-adaptive-controls.task-two-rows .task-header-current{grid-column:1/3;grid-row:2;height:40px;align-self:start}
-#app.ct-adaptive-controls.task-two-rows .task-header-course{grid-row:1;grid-column:1}
-#app.ct-adaptive-controls.task-two-rows .task-header-teacher{grid-row:1;grid-column:2}
-#app.ct-adaptive-controls [hidden]{display:none!important}
-@media(min-width:1800px){#app.ct-adaptive-controls .ct-header .ct-status{display:inline}}
-@media(max-width:1000px){#app.ct-adaptive-controls .ct-unit{display:none}}
-
-#app.ct-adaptive-controls .ct-task-actions .media-load-status{display:flex!important;align-items:center;flex:none;gap:0;margin:0!important;padding:0!important;border:0!important;font-size:0!important;line-height:0!important;width:64px;height:34px;overflow:hidden;background:transparent!important}
-#app.ct-adaptive-controls .ct-task-actions .media-load-status[hidden]{display:none!important}
-#app.ct-adaptive-controls .ct-task-actions .media-load-status button{font-size:15px!important;width:64px;height:34px;margin:0!important;padding:6px 8px!important}
-#app.ct-adaptive-controls .ct-task-actions .audio-slot{gap:6px}
+/* Persistent two-row classroom toolbar, shared across all lessons. */
+#app.ct-enabled.ct-adaptive-controls.ct-fixed-regions.ct-persistent-controls{--ct-header-height:88px;--toolbar-blue:#386ac8;--toolbar-line:#cbd8ec;--toolbar-disabled:#adb7c6;--toolbar-bg:#f5f7fa}
+#app.ct-enabled.ct-adaptive-controls.ct-fixed-regions.ct-persistent-controls>.workspace{inset:var(--ct-header-height) 0 var(--ct-footer-height,48px)!important}
+#app.ct-enabled.ct-adaptive-controls.ct-fixed-regions.ct-persistent-controls .ct-header{display:block!important;top:0!important;left:0!important;right:0!important;height:var(--ct-header-height)!important;padding:0!important;overflow:visible!important;border-bottom:1px solid #dce4ef!important;background:#fff!important}
+#app.ct-persistent-controls .ct-toolbar-canvas{position:absolute;left:0;top:0;display:grid;grid-template-columns:minmax(0,1fr) 132px max-content;grid-template-rows:44px 44px;column-gap:12px;padding:0 14px;box-sizing:border-box;transform-origin:0 0;background:#fff;font:14px/1.3 'Segoe UI','Microsoft YaHei',Arial,sans-serif;color:#202124}
+#app.ct-enabled.ct-adaptive-controls.ct-fixed-regions.ct-persistent-controls .task-header-course{grid-column:1;grid-row:1;display:flex;align-items:center;gap:8px;white-space:nowrap;min-width:0}
+#app.ct-enabled.ct-adaptive-controls.ct-fixed-regions.ct-persistent-controls .task-header-course .ct-unit{display:inline!important}
+#app.ct-enabled.ct-adaptive-controls.ct-fixed-regions.ct-persistent-controls .ct-header-brand{grid-column:2;grid-row:1;align-self:center;justify-self:center}
+#app.ct-enabled.ct-adaptive-controls.ct-fixed-regions.ct-persistent-controls .task-header-teacher{grid-column:3;grid-row:1;display:flex;align-items:center;justify-self:end;gap:8px;width:max-content;white-space:nowrap}
+#app.ct-enabled.ct-adaptive-controls.ct-fixed-regions.ct-persistent-controls .task-header-current{grid-column:1/4;grid-row:2;min-width:0;width:100%;height:44px;display:flex;align-items:center;box-sizing:border-box;border-top:1px solid #edf0f5}
+#app.ct-enabled.ct-adaptive-controls.ct-fixed-regions.ct-persistent-controls .ct-task-actions{display:block!important;position:static!important;inset:auto!important;transform:none!important;max-width:none!important;width:100%!important;height:44px!important;margin:0!important;padding:0!important;border:0!important;border-radius:0!important;background:transparent!important;font:14px/1.3 'Segoe UI','Microsoft YaHei',Arial,sans-serif!important;box-shadow:none!important}
+#app.ct-persistent-controls .ct-task-actions::before{display:none!important;content:none!important}
+#app.ct-persistent-controls .persistent-function-buttons{display:grid;grid-template-columns:126px 126px 104px 128px 136px 108px minmax(0,1fr);column-gap:8px;align-items:center;width:100%;height:44px}
+#app.ct-enabled.ct-adaptive-controls.ct-fixed-regions.ct-persistent-controls .ct-header button{box-sizing:border-box;min-height:34px!important;height:34px!important;margin:0!important;padding:6px 10px!important;font:400 14px/20px 'Segoe UI','Microsoft YaHei',Arial,sans-serif!important;color:var(--toolbar-blue)!important;border:1px solid var(--toolbar-line)!important;border-radius:9px!important;background:#fff!important;box-shadow:none!important;white-space:nowrap!important;cursor:pointer}
+#app.ct-enabled.ct-adaptive-controls.ct-fixed-regions.ct-persistent-controls .toolbar-page-action{display:block!important;width:100%!important;min-width:0!important;max-width:none!important}
+#app.ct-enabled.ct-adaptive-controls.ct-fixed-regions.ct-persistent-controls .ct-header button:disabled{color:var(--toolbar-disabled)!important;border-color:#e4e9f0!important;background:var(--toolbar-bg)!important;cursor:default!important;opacity:1!important;pointer-events:none}
+#app.ct-enabled.ct-adaptive-controls.ct-fixed-regions.ct-persistent-controls .ct-header button:enabled:hover{background:#f4f7fe!important;border-color:#9cb6e3!important}
+#app.ct-enabled.ct-adaptive-controls.ct-fixed-regions.ct-persistent-controls .ct-header button[aria-pressed=true]{background:#edf3ff!important;border-color:#a7bfe7!important;color:var(--toolbar-blue)!important}
+#app.ct-persistent-controls .ct-header :is(button,select):focus-visible{outline:2px solid #82a8e8;outline-offset:2px}
+#app.ct-persistent-controls .ct-note-switch{display:inline-flex;align-items:center;flex:none;gap:0}
+#app.ct-enabled.ct-adaptive-controls.ct-fixed-regions.ct-persistent-controls .ct-note-switch [data-ct-note]{border-radius:9px 0 0 9px!important;border-right:0!important}
+#app.ct-enabled.ct-adaptive-controls.ct-fixed-regions.ct-persistent-controls .ct-note-switch [data-ct-note-settings]{width:27px!important;min-width:27px!important;padding:6px 0!important;border-radius:0 9px 9px 0!important}
+#app.ct-persistent-controls .toolbar-audio-zone{display:grid;grid-template-columns:var(--toolbar-recording-width,200px) minmax(0,1fr);gap:8px;align-items:center;min-width:0;height:34px;padding-left:14px;border-left:1px solid #e1e7f1;box-sizing:border-box}
+#app.ct-enabled.ct-adaptive-controls.ct-fixed-regions.ct-persistent-controls .toolbar-recording-select{display:block!important;box-sizing:border-box;width:100%!important;max-width:none!important;min-width:0!important;height:34px!important;padding:5px 24px 5px 10px!important;font:400 13px/20px 'Segoe UI','Microsoft YaHei',Arial,sans-serif!important;border:1px solid var(--toolbar-line)!important;border-radius:8px!important;background:#fff!important;color:var(--toolbar-blue)!important;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#app.ct-enabled.ct-adaptive-controls.ct-fixed-regions.ct-persistent-controls .toolbar-recording-select[data-available=false]{color:var(--toolbar-disabled)!important;border-color:#e4e9f0!important;background:var(--toolbar-bg)!important;opacity:1!important}
+#app.ct-persistent-controls .toolbar-recording-select[data-single=true]{appearance:none;padding-right:10px!important}
+#app.ct-persistent-controls .toolbar-audio-transport{position:relative;min-width:0;height:34px}
+#app.ct-enabled.ct-adaptive-controls.ct-fixed-regions.ct-persistent-controls .toolbar-audio-transport .media-bar{display:flex!important;align-items:center;gap:6px;height:34px!important;min-width:0!important;max-width:none!important;width:100%!important;flex-wrap:nowrap!important;overflow:visible!important}
+#app.ct-enabled.ct-adaptive-controls.ct-fixed-regions.ct-persistent-controls .toolbar-audio-transport .media-bar[hidden]{display:none!important}
+#app.ct-persistent-controls .toolbar-audio-transport .audio-slot{display:flex;align-items:center;min-width:0;width:100%;flex:1}
+#app.ct-persistent-controls .toolbar-audio-transport .audio-slot[hidden]{display:none!important}
+#app.ct-enabled.ct-adaptive-controls.ct-fixed-regions.ct-persistent-controls .ct-task-actions .toolbar-audio-transport .audio-slot>span{display:none!important}
+#app.ct-enabled.ct-adaptive-controls.ct-fixed-regions.ct-persistent-controls .toolbar-audio-transport audio{display:block!important;height:34px!important;width:100%!important;min-width:0!important;max-width:none!important;margin:0!important;flex:1}
+#app.ct-persistent-controls .toolbar-audio-placeholder{position:absolute;inset:0;display:flex;gap:10px;align-items:center;padding:0 12px;border-radius:18px;background:#f5f7fa;color:#b8c2d0;box-sizing:border-box;pointer-events:none;user-select:none;font:12px/18px 'Segoe UI',Arial,sans-serif}
+#app.ct-persistent-controls .toolbar-audio-placeholder[hidden]{display:none!important}
+#app.ct-persistent-controls .toolbar-play-symbol{display:grid;place-items:center;border-radius:50%;width:22px;height:22px;flex:none;background:#dce3ed;color:#fff;font-size:12px}
+#app.ct-persistent-controls .toolbar-empty-time{white-space:nowrap}
+#app.ct-persistent-controls .toolbar-empty-progress{height:3px;min-width:12px;flex:1;border-radius:2px;background:#e1e7ef}
+#app.ct-persistent-controls .toolbar-empty-volume{font-size:22px;line-height:22px}
+#app.ct-persistent-controls .media-load-status{min-width:0;max-width:64px;flex:none;margin:0!important;padding:0!important;font-size:12px;white-space:nowrap;overflow:hidden}
+#app.ct-enabled.ct-adaptive-controls.ct-fixed-regions.ct-persistent-controls .media-load-status button{width:60px!important;padding:6px 8px!important}
+#app.ct-enabled.ct-adaptive-controls.ct-fixed-regions.ct-persistent-controls :is(.toolbar-legacy-controls,.task-control-backend,.ct-header .ct-status,.stage .page-source-button,.stage .vc-source,[data-ct-fullscreen],#fullscreen){display:none!important}
+#app.ct-enabled.ct-adaptive-controls.ct-fixed-regions.ct-persistent-controls .teacher-sidebar{top:var(--ct-header-height)!important}
+#app.ct-enabled.ct-adaptive-controls.ct-fixed-regions.ct-persistent-controls .ct-panel{top:calc(var(--ct-header-height) + 9px)}
+#app.ct-enabled.ct-adaptive-controls.ct-fixed-regions.ct-persistent-controls .ct-zoom-info{top:calc(var(--ct-header-height) + 10px)}
 
 .stage .ss-explanation-parts{display:flex;align-items:center;gap:20px;height:48px;margin-top:8px;font:22px/1.3 Arial,sans-serif;color:#536981}
-.stage .ss-explanation-parts button{font:22px/1.3 Arial,sans-serif;border:1px solid #c8d5e4;border-radius:6px;background:white;color:#293e62;padding:4px 15px;cursor:pointer}
-.stage .ss-explanation-parts button:disabled{opacity:.4;cursor:default}
 
-#app.ct-adaptive-controls .ct-task-actions .media-load-status:not(:has(button))::before{content:"Loading";font:12px/1.2 Arial,sans-serif;color:#6b7786}
+.stage .ss-explanation-parts button{font:22px/1.3 Arial,sans-serif;border:1px solid #c8d5e4;border-radius:6px;background:white;color:#293e62;padding:4px 15px;cursor:pointer}
+
+.stage .ss-explanation-parts button:disabled{opacity:.4;cursor:default}
 
 .stage.ss-explanation :is(.ss-column,.ss-item,.ss-node){min-width:0;overflow-wrap:anywhere}
