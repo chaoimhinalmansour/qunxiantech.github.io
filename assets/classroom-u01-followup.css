@@ -1,0 +1,52 @@
+/* Geometry is fixed; source-specific materials own their readable presentation. */
+#app[data-u01-followup=notes] #part-select{display:none!important}
+html[data-course-theme=a] #app.ct-enabled .stage .u01-followup-task .cr-restored-content{font-family:Arial,sans-serif;font-size:34px;line-height:1.35}
+html[data-course-theme=a] #app.ct-enabled .stage .u01-student-notes{box-sizing:border-box;width:1536px;height:688px;margin:0 auto;padding:21px 66px 18px;color:#29475e;background:#fffbdf url('u01-followup-media/student-notes-imagegen-v1.png') 0 0/1536px auto no-repeat;border:1px solid #eee6c9;font:400 33px/58px 'Segoe Print','Comic Sans MS',Arial,sans-serif}
+html[data-course-theme=a] #app.ct-enabled .stage .u01-student-notes :is(p,span,sup){font-family:inherit}
+html[data-course-theme=a] #app.ct-enabled .stage .u01-note-group{margin:0;padding:0}
+html[data-course-theme=a] #app.ct-enabled .stage .u01-note-group p{height:58px;line-height:58px!important;margin:0!important;white-space:nowrap}
+html[data-course-theme=a] #app.ct-enabled .stage .u01-note-place{position:relative;padding-left:0}
+html[data-course-theme=a] #app.ct-enabled .stage .u01-note-bullet{position:absolute;left:-30px}
+html[data-course-theme=a] #app.ct-enabled .stage .u01-note-fact{padding-left:22px}
+html[data-course-theme=a] #app.ct-enabled .stage .u01-note-gap{display:inline-flex;align-items:baseline;gap:8px;vertical-align:baseline;line-height:1.15}
+html[data-course-theme=a] #app.ct-enabled .stage .u01-note-gap>sup{font:400 20px/1 Arial,sans-serif;align-self:flex-start;margin-top:7px;color:#536477}
+html[data-course-theme=a] #app.ct-enabled .stage .u01-note-gap .cr-slot{box-sizing:border-box;min-width:var(--note-width)!important;max-width:var(--note-width)!important;width:var(--note-width)!important;font:inherit!important;line-height:1.2!important}
+html[data-course-theme=a] #app.ct-enabled .stage .u01-note-gap .inline-answer-placeholder{display:block!important;overflow:hidden;color:transparent!important;border-bottom:1px solid #4c6476;line-height:1.2}
+html[data-course-theme=a] #app.ct-enabled .stage .u01-note-gap .inline-answer-value{font-family:Arial,sans-serif!important;font-size:31px!important;white-space:nowrap!important}
+html[data-course-theme=a] #app.ct-enabled .stage .u01-note-given{min-width:145px;border-bottom:1px solid #5d7385;line-height:1.1}
+html[data-course-theme=a] #app.ct-enabled .stage .u01-discussion{height:688px;display:grid;grid-template-rows:398px 266px;gap:24px}
+html[data-course-theme=a] #app.ct-enabled .stage .u01-discussion-photos{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px;height:398px}
+html[data-course-theme=a] #app.ct-enabled .stage .u01-discussion-photos figure{position:relative;height:398px;margin:0;padding:0;background:#fafbfc}
+html[data-course-theme=a] #app.ct-enabled .stage .u01-discussion-photos img{display:block;object-fit:contain;width:100%;height:100%}
+html[data-course-theme=a] #app.ct-enabled .stage .u01-discussion-photos figcaption{position:absolute;top:0;left:0;background:#bd471f;color:white;width:36px;height:36px;text-align:center;font:600 29px/36px Arial,sans-serif}
+html[data-course-theme=a] #app.ct-enabled .stage .u01-comparison-notes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:30px}
+html[data-course-theme=a] #app.ct-enabled .stage .u01-comparison-notes section{min-width:0;padding:16px 22px;background:#fbfcff;border-top:3px solid #c9d7e9}
+html[data-course-theme=a] #app.ct-enabled .stage .u01-comparison-notes h2{margin:0 0 9px;font:600 32px/1.2 Arial,sans-serif;color:#303f54}
+html[data-course-theme=a] #app.ct-enabled .stage .u01-source-example{font:400 28px/1.35 'Segoe Print','Comic Sans MS',Arial,sans-serif;color:#52698a;margin:0 0 16px!important}
+html[data-course-theme=a] #app.ct-enabled .stage .u01-response-space{height:120px;border-bottom:1px solid #cbd5e3;line-height:1.28}
+html[data-course-theme=a] #app.ct-enabled .stage .u01-answer-caption{display:block;font:400 22px/1.3 Arial,sans-serif;color:#8c5b42;visibility:hidden}
+html[data-course-theme=a] #app.ct-enabled .stage.answers-visible .u01-answer-caption{visibility:visible}
+html[data-course-theme=a] #app.ct-enabled .stage .u01-response-space .cr-block-answer{font:400 28px/1.3 Arial,sans-serif}
+html[data-course-theme=a] #app.ct-enabled .stage .u01-writing-sheet{position:relative;width:1660px;height:688px;margin:0 auto;background:#fffdf6 url('u01-followup-media/writing-sheet-imagegen-v1.png') center/100% 100% no-repeat;border:1px solid #e9e6dd;color:#29475e}
+html[data-course-theme=a] #app.ct-enabled .stage .u01-writing-context{position:absolute;top:19px;left:48px;right:48px;display:flex;align-items:center;justify-content:space-between;font:400 25px/1.3 Arial,sans-serif;color:#65758c}
+html[data-course-theme=a] #app.ct-enabled .stage .u01-writing-context button{font:400 24px/1.2 Arial,sans-serif;color:#3b64a2;padding:8px 14px;border:1px solid #ccdae9;border-radius:6px;background:#ffffffb3;cursor:pointer}
+html[data-course-theme=a] #app.ct-enabled .stage .u01-writing-band{position:absolute;left:48px;right:48px;height:154px}
+html[data-course-theme=a] #app.ct-enabled .stage .u01-writing-band-0{top:108px}
+html[data-course-theme=a] #app.ct-enabled .stage .u01-writing-band-1{top:296px}
+html[data-course-theme=a] #app.ct-enabled .stage .u01-writing-band-2{top:482px}
+html[data-course-theme=a] #app.ct-enabled .stage .u01-sentence-starter{font:400 36px/1.3 'Segoe Print','Comic Sans MS',Arial,sans-serif;margin:0!important}
+html[data-course-theme=a] #app.ct-enabled .stage .u01-writing-response{height:84px;padding:12px 0 0 18px}
+html[data-course-theme=a] #app.ct-enabled .stage .u01-writing-response .cr-block-answer{font:400 32px/1.4 Arial,sans-serif}
+html[data-course-theme=a] #app.ct-enabled .stage .u01-writing-answer-label{position:absolute;bottom:8px;right:44px;font:400 21px/1.2 Arial,sans-serif;color:#8c5b42;visibility:hidden}
+html[data-course-theme=a] #app.ct-enabled .stage.answers-visible .u01-writing-answer-label{visibility:visible}
+
+/* Printed grouping bullets survive presentation text cleanup. */
+html[data-course-theme=a] #app.ct-enabled .stage .u01-note-bullet::before{content:"";display:block;position:absolute;width:8px;height:8px;border-radius:50%;background:#29475e;top:27px;left:0}
+#app.ct-adaptive-controls[data-u01-followup=audio] .ct-task-actions .audio-slot>span,
+#app.ct-adaptive-controls[data-u01-followup=notes] .ct-task-actions .audio-slot>span{display:inline-block!important;font:500 15px/1.2 Arial,sans-serif;color:#53657b;margin:0 10px;max-width:230px;white-space:nowrap}
+html[data-course-theme=a] #app.ct-enabled .stage .u01-source-example{font-style:italic!important}
+
+/* These restored tasks own their answer labels and do not inherit an absolute legacy label. */
+#app:is([data-u01-followup=discussion],[data-u01-followup=writing]) .stage .ot-answer-label{display:none!important}
+html[data-course-theme=a] #app.ct-enabled .stage .u01-writing-answer-label{position:absolute!important;bottom:8px!important;right:44px!important;top:auto!important;left:auto!important}
+html[data-course-theme=a] #app.ct-enabled .stage :is(.u01-response-space,.u01-writing-response) .cr-block-answer{text-align:left!important}
