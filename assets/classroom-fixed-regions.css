@@ -76,6 +76,17 @@ html[data-course-theme=a] #app.ct-enabled .stage.fixed-classroom-regions .vc-car
 html[data-course-theme=a] #app.ct-enabled .stage.fixed-classroom-regions .lesson-plan>.opening-header{height:132px!important}
 html[data-course-theme=a] #app.ct-enabled .stage.fixed-classroom-regions .lesson-plan .plan-list{position:absolute!important;left:108px!important;right:108px!important;top:238px!important;margin:0!important}
 
+/* Approved display-only lesson plan: two groups, fixed origins, no navigation cards. */
+#app.ct-enabled .stage.fixed-classroom-regions .lesson-plan>.plan-overview{position:absolute;left:108px;top:238px;width:1704px;height:772px;display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:108px;color:#202124;font-family:Arial,"Microsoft YaHei",sans-serif;text-align:left}
+#app.ct-enabled .plan-overview-group{min-width:0;align-self:start}
+#app.ct-enabled .plan-overview-group-title{margin:0 0 36px;padding:0 0 20px;border-bottom:1px solid #dfe6ef;font:400 28px/36px Arial,"Microsoft YaHei",sans-serif;color:#386ac8;letter-spacing:0}
+#app.ct-enabled .plan-overview-list{list-style:none;margin:0;padding:0;display:grid;gap:36px;align-content:start}
+#app.ct-enabled .plan-overview-item{display:grid;grid-template-columns:44px minmax(0,1fr);gap:24px;align-items:start;margin:0;padding:0;border:0;background:transparent;box-shadow:none;min-width:0}
+#app.ct-enabled .plan-overview-number{font:400 27px/40px Arial,sans-serif;color:#386ac8;font-variant-numeric:tabular-nums}
+#app.ct-enabled .plan-overview-copy{min-width:0}
+#app.ct-enabled .plan-overview-name{margin:0 0 10px;padding:0;font:600 33px/40px Arial,"Microsoft YaHei",sans-serif;color:#202124;letter-spacing:0}
+#app.ct-enabled .plan-overview-detail{margin:0;padding:0;font:400 27px/36px Arial,"Microsoft YaHei",sans-serif;color:#6d7887;word-break:normal;overflow-wrap:normal}
+
 /* Older multi-card vocabulary screens reserve their tabs and body below the common heading. */
 html[data-course-theme=a] #app.ct-enabled .stage.fixed-classroom-regions .vocab-scope-screen>.vocab-scope-tabs{position:absolute!important;left:108px!important;right:108px!important;top:218px!important;height:64px!important;margin:0!important}
 html[data-course-theme=a] #app.ct-enabled .stage.fixed-classroom-regions .vocab-scope-screen>.vocab-scope-body{position:absolute!important;left:108px!important;right:108px!important;top:312px!important;height:680px!important;margin:0!important}

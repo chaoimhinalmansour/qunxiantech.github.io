@@ -1,8 +1,37 @@
 /* Fixed classroom regions and non-reflowing progress chrome. */
 (()=>{'use strict';
-const VERSION='20261023-fixed-1';const assetBase=new URL('.',document.currentScript.src);let app,stage,head,pending=false,working=false;
+const VERSION='20261027-grouped-plan-1';const assetBase=new URL('.',document.currentScript.src);let app,stage,head,pending=false,working=false;
 const direct=(root,selector)=>[...root.children].find(n=>n.matches?.(selector));
 const put=(node,prop,value)=>{if(node&&node.style.getPropertyValue(prop)!==value)node.style.setProperty(prop,value,'important')};
+function planOverview(){
+ const plan=stage?.querySelector(':scope>.lesson-plan'),list=plan?.querySelector(':scope>.plan-list');if(!list)return;
+ const session=window.SCHOOL_LESSON_OPENINGS?.sessions.find(s=>s.id===plan.dataset.session);if(!session)return;
+ const english=value=>window.SCHOOL_AUTHORED_A?.english(String(value||''))??String(value||''),same=value=>value.toLowerCase().replace(/[\s.,:;!?]+/g,'');
+ const rows=[...list.children].map((li,i)=>{const item=li.querySelector('.plan-item');return{number:i+1,label:session.tasks[i]?.label||'',name:english(item?.querySelector('.plan-text>strong')?.textContent||session.tasks[i]?.label),detail:english(item?.querySelector('.plan-text>span')?.textContent||session.tasks[i]?.detail)}});
+ if(!rows.length)return;
+ let prefix=0;while(prefix<rows.length&&['词汇讲解','图句匹配','词汇应用','单词听写'].includes(rows[prefix].label))prefix++;
+ const skill={听力:'Listening',阅读:'Reading',口语:'Speaking',写作:'Writing'}[session.skill]||'Classroom practice';
+ let split=Math.ceil(rows.length/2),titles=['First','Then'];
+ if(prefix>=2&&prefix<rows.length){split=prefix;titles=['Vocabulary',skill+' & review'];}
+ else if(session.week===1&&rows.length===4&&rows[0].label==='单词听写'&&rows[2].label==='语言练习'){split=2;titles=['Vocabulary & '+(window.LESSON.course==='LS'?'listening':'reading'),'Language & review'];}
+ else if(session.week===2&&rows[0].label==='单词听写'){
+  const training=rows.findIndex(row=>/^(口语|写作)训练$/.test(row.label));split=training>0?training:2;
+  titles=['Vocabulary & review',training>0?skill+' & review':'H3 practice & review'];
+ }
+ if(split<1||split>=rows.length)split=Math.ceil(rows.length/2);
+ const overview=document.createElement('div');overview.className='plan-overview';overview.setAttribute('aria-label','Lesson activities');
+ const parts=rows.length===1?[rows]:[rows.slice(0,split),rows.slice(split)];
+ parts.forEach((items,part)=>{
+  const section=document.createElement('section'),title=document.createElement('h2'),agenda=document.createElement('ol');section.className='plan-overview-group';title.className='plan-overview-group-title';title.textContent=parts.length===1?'Lesson activities':titles[part];agenda.className='plan-overview-list';agenda.start=items[0].number;
+  for(const row of items){
+   const li=document.createElement('li'),number=document.createElement('span'),copy=document.createElement('div'),name=document.createElement('h3');li.className='plan-overview-item';li.dataset.planSequence=String(row.number);number.className='plan-overview-number';number.textContent=String(row.number).padStart(2,'0');number.setAttribute('aria-hidden','true');copy.className='plan-overview-copy';name.className='plan-overview-name';name.textContent=row.name;copy.append(name);
+   if(row.detail&&same(row.detail)!==same(row.name)){const detail=document.createElement('p');detail.className='plan-overview-detail';detail.textContent=row.detail;copy.append(detail);}
+   li.append(number,copy);agenda.append(li);
+  }
+  section.append(title,agenda);overview.append(section);
+ });
+ list.replaceWith(overview);plan.dataset.planOverview='grouped';
+}
 function anchorStage(){
  if(!stage)return;const header=direct(stage,'.ss-header,.scene-head'),body=direct(stage,'.ss-body,.scene-body');
  if(header){
@@ -33,7 +62,7 @@ function audit(){
  if(failures.length)stage.dataset.fixedRegionOverflow=failures.join(',');else delete stage.dataset.fixedRegionOverflow;
  window.dispatchEvent(new CustomEvent('classroom-fixed-regions-audit',{detail:{lesson:window.LESSON?.id||'',page:window.UNLOCK_PLAYER?.state?.().current||'',failures}}));
 }
-function apply(){if(working||!app)return;working=true;try{stage=app.querySelector('.stage');if(stage){if(!stage.classList.contains('fixed-classroom-regions'))stage.classList.add('fixed-classroom-regions');stage.dataset.fixedRegions=VERSION;anchorStage()}if(!app.classList.contains('ct-fixed-regions'))app.classList.add('ct-fixed-regions');reserveHeader();requestAnimationFrame(audit)}finally{working=false}}
+function apply(){if(working||!app)return;working=true;try{stage=app.querySelector('.stage');if(stage){if(!stage.classList.contains('fixed-classroom-regions'))stage.classList.add('fixed-classroom-regions');stage.dataset.fixedRegions=VERSION;planOverview();anchorStage()}if(!app.classList.contains('ct-fixed-regions'))app.classList.add('ct-fixed-regions');reserveHeader();requestAnimationFrame(audit)}finally{working=false}}
 function schedule(){if(pending)return;pending=true;requestAnimationFrame(()=>{pending=false;apply()})}
 function loadExceptions(){
  const units=new Set(['B2_LS_U01','B2_LS_U02','B2_LS_U04','B2_RW_U03','B2_RW_U06','B3_LS_U06','B3_RW_U01','B3_RW_U04']);
