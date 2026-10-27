@@ -32,7 +32,7 @@
  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',syncSources,{once:true});else syncSources();
  window.addEventListener('load',syncSources,{once:true});
  const photoFocus={"38886eb675a19fd94521b16ad116da94869a2e530234548289918b8f7f86fcd9.webp":65,"479b974cefbf9a608ecbf249827aeb703942be4cb75889b110731111bd2b18c2.webp":65,"35dd6ea788b3996b921613daabc83d69ac89cbdd5e48f04af0c13557a3f5f342.webp":65,"1b9e9beb2384a8f2f8e7eb58c95da3aaaa31c181cc7754c15b16017cf7d29745.webp":65};
- function photoStyle(c){return '--vc-photo-x:'+(photoFocus[c.image.split('/').pop()]||50)+'%';}
+ function photoStyle(c){const x=Number.isFinite(c.photoX)?c.photoX:(photoFocus[c.image.split('/').pop()]||50);return '--vc-photo-x:'+Math.max(0,Math.min(100,x))+'%';}
  const sourceButton='<button type="button" class="vc-source" data-vc-source>教材来源</button>';
  function mark(c){let html=esc(c.example);for(const target of c.answerParts||[c.answer]){const token=esc(target),i=html.toLowerCase().indexOf(token.toLowerCase());if(i>=0)html=html.slice(0,i)+'<b>'+html.slice(i,i+token.length)+'</b>'+html.slice(i+token.length);}return html;}
  function sectionName(section){return String(section||'Reading').toLowerCase().replace(/^\w/,c=>c.toUpperCase());}
